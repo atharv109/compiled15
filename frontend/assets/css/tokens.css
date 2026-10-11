@@ -1,0 +1,90 @@
+/* ============================================================
+   Customer Swarm — shared design tokens
+   Two faces: "landing" (black, Inter) and "console" (white lab,
+   Space Grotesk + JetBrains Mono). Amber/ink bee palette — our own.
+   ============================================================ */
+
+:root {
+  /* Landing (dark face) */
+  --ink-0: #000000;
+  --ink-soft: #0A0A0B;
+  --text-hi: #FFFFFF;
+  --text-4: #9CA3AF;   /* gray-400 — passes on black */
+  --text-5: #6B7280;   /* gray-500 — large text only */
+  --text-6: #4B5563;   /* gray-600 — dashes, dividers */
+  --glass-02: rgba(255, 255, 255, 0.02);
+  --glass-04: rgba(255, 255, 255, 0.04);
+  --glass-06: rgba(255, 255, 255, 0.06);
+  --glass-07: rgba(255, 255, 255, 0.07);
+  --glass-10: rgba(255, 255, 255, 0.10);
+  --line-08: rgba(255, 255, 255, 0.08);
+  --line-10: rgba(255, 255, 255, 0.10);
+  --line-12: rgba(255, 255, 255, 0.12);
+  --line-20: rgba(255, 255, 255, 0.20);
+
+  /* Brand — amber swarm */
+  --accent:        #FFB224;   /* landing accent */
+  --accent-deep:   #B45309;   /* console accent (readable on white) */
+  --accent-tint:   #FEF3C7;   /* console accent wash */
+  --accent-glow:   rgba(255, 178, 36, 0.14);
+
+  /* Status (console) */
+  --ok:     #15803D;
+  --ok-bg:  #ECFDF5;
+  --warn:   #A16207;
+  --warn-bg:#FEFCE8;
+  --err:    #DC2626;
+  --err-bg: #FEF2F2;
+  --proc:   #D97706;
+
+  /* Console neutrals */
+  --c-bg:      #FFFFFF;
+  --c-canvas:  #FAFAFA;
+  --c-grid:    #D4D4D4;
+  --c-ink:     #111111;
+  --c-body:    #333333;
+  --c-sec:     #666666;
+  --c-ter:     #999999;
+  --c-faint:   #AAAAAA;
+  --c-line:    #E5E5E5;
+  --c-line-2:  #D6D6D6;
+  --c-line-3:  #CCCCCC;
+
+  /* Type */
+  --font-landing: "Inter", system-ui, -apple-system, sans-serif;
+  --font-console: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Mono", Consolas, monospace;
+  --font-hand: "Caveat", cursive;
+
+  /* Motion */
+  --ease-std: cubic-bezier(0.4, 0, 0.2, 1);      /* hovers, 350ms */
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);        /* reveals, 600ms */
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Radii */
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --r-xl: 16px;
+}
+
+/* Container shared by both faces */
+.container-main {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@media (min-width: 640px)  { .container-main { padding-inline: 1.5rem; } }
+@media (min-width: 1024px) { .container-main { padding-inline: 2rem; } }
+
+/* Scroll-margin for the fixed 80px header */
+section[id] { scroll-margin-top: 80px; }
+
+/* Reduced motion: global guard (motion effects should check this too) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
