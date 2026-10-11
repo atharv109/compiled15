@@ -259,6 +259,10 @@
       /* owner-pasted listing/website (optional): helps the scouts anchor the
          right business — sent as anchor_url (contract v2); backend accepts it */
       if (opts.anchorUrl) body.anchor_url = opts.anchorUrl;
+      /* login-lite: stamp the owner's email (localStorage cc.email or the
+         intake field) so paid-account + re-find flows resolve server-side */
+      const ownerEmail = (opts.email || localStorage.getItem("cc.email") || "").trim();
+      if (ownerEmail) body.owner_email = ownerEmail;
       const created = await apiPost("/api/sessions", body);
       const sid = created.session_id;
       apply["session:start"]({ business, town, question, sid, mock: !!opts.mock });

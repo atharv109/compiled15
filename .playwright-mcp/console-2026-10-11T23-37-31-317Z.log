@@ -1,0 +1,2 @@
+[       2ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/favicon.ico:0
+[     -11ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/api/sessions/s_9e99e8/flyer.pdf?draft=d2:0

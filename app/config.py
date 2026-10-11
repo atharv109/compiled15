@@ -3,6 +3,10 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
+# AWS Monetization connection (Phase 5 §1b): endpoint + region resolve from
+# .env.monetization; the app identity + stage live in .env.
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(
+    os.path.abspath(__file__))), ".env.monetization"))
 
 class cfg:
     # strong lane: judge (and nothing else)

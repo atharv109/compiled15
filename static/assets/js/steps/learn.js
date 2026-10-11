@@ -959,12 +959,22 @@
         (eids ? '<div class="flyer-eids">' + eids + "</div>" : "") +
         '<div class="flyer-actions">' +
           '<button class="flyer-btn flyer-copybtn" type="button">Copy flyer text</button>' +
+          (!stub ? '<button class="flyer-btn flyer-pdfbtn" type="button">&#10515; Flyer (PDF)</button>' : "") +
           '<button class="flyer-btn flyer-print" type="button">Print / save PDF</button>' +
         "</div>" +
       "</div>"
     );
     card.querySelector(".flyer-copybtn").addEventListener("click", (e) => {
       copyText(e.currentTarget, flyerText(d), "copied ✓");
+    });
+    const pdfBtn = card.querySelector(".flyer-pdfbtn");
+    if (pdfBtn) pdfBtn.addEventListener("click", () => {
+      /* real print-ready PDF from the backend: GET .../flyer.pdf?draft=<id> */
+      const base = window.CS && CS.API_BASE || "";
+      const sid = window.CS && CS.session && CS.session.sid || "";
+      if (!sid) return;
+      window.open(base + "/api/sessions/" + encodeURIComponent(sid) +
+        "/flyer.pdf?draft=" + encodeURIComponent(d.id || ""), "_blank");
     });
     card.querySelector(".flyer-print").addEventListener("click", () => window.print());
     return card;

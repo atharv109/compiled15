@@ -57,9 +57,12 @@ class Storage:
             except Exception as e:  # noqa: BLE001
                 log.warning("storage: Mongo unavailable (%s); falling back to in-memory", e)
                 self._col = None
-        if self._col is None:
-            self._init_dynamo()
-        log.info("storage: backend engaged: %s (durable floor: %s)", self.backend, self._file)
+        # AWS: when Mongo is primary, DynamoDB engages as the session-state
+        # MIRROR (dual-write); when Mongo is absent it becomes the primary.
+        self._init_dynamo()
+        log.info("storage: backend engaged: %s; dynamo mode=%s (durable floor: %s)",
+                 self.backend,
+                 "primary" if self._col is None else "mirror", self._file)
 
     def _init_dynamo(self) -> None:
         """Tier 2: DynamoDB if AWS credentials resolve. Best-effort create +
@@ -197,12 +200,12 @@ class Storage:
                     lambda: self._col.replace_one({"_id": session_id}, doc, upsert=True))  # noqa: B023
             except Exception as e:  # noqa: BLE001
                 log.warning("storage: mongo put failed (%s); kept in memory", e)
-        elif self._table:
+        if self._table is not None:
             try:
                 await asyncio.to_thread(
                     lambda: self._table.put_item(Item=self._dynamo_item(session_id, doc)))  # noqa: B023
             except Exception as e:  # noqa: BLE001
-                log.warning("storage: dynamo put failed (%s); kept in memory", e)
+                log.warning("storage: dynamo dual-write failed (%s); kept in memory", e)
 
     async def update(self, session_id: str, patch: dict) -> None:
         # read-modify-write the persistent copy (L1 starts from the file's

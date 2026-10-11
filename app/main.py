@@ -14,12 +14,13 @@ import time
 from contextlib import asynccontextmanager
 
 import uvicorn
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sse_starlette.sse import EventSourceResponse
 
 import app.business_class as business_class
+import app.billing as billing
 import app.mock_debate as mock_debate
 from app.adapters import run_adapters
 from app.models import BusinessClass
@@ -75,6 +76,66 @@ storage = Storage()
 
 def _plain(x):
     return json.loads(json.dumps(x, default=str))
+
+
+# ---------------------------------------------------------------- billing glue
+# AWS Monetization (Phase 6): meters, entitlement gates and hosted checkout
+# live in app.billing; everything here degrades silently to the Stripe/demo
+# flow when billing is unconfigured or down.
+
+
+def _billing_user(doc: dict) -> str | None:
+    """Stable billing identity: owner_email when the session carries one, else
+    the session id (session-scoped usage attribution until the owner logs in)."""
+    email = (doc.get("owner_email") or "").strip().lower()
+    return email or doc.get("session_id")
+
+
+def _fire_meter(user: str | None, event_type: str) -> None:
+    """Fire-and-forget metering: never blocks the route, never raises."""
+    if not user or not billing.configured():
+        return
+
+    async def _run() -> None:
+        try:
+            await billing.put_event(user, event_type, "1")
+        except Exception:  # noqa: BLE001
+            log.exception("metering %s failed (swallowed)", event_type)
+
+    try:
+        asyncio.get_running_loop().create_task(_run())
+    except Exception:  # noqa: BLE001
+        log.exception("meter dispatch failed (swallowed)")
+
+
+def _billing_uid(doc: dict, session_id: str) -> str:
+    """AWS identity for this session: owner email when present, else a stable
+    session-derived uid (regex-safe for the service). Sandbox-demo safe."""
+    email = (doc.get("owner_email") or "").strip().lower()
+    return email if email else f"sess-{session_id}"
+
+
+def _paid_accounts() -> set[str]:
+    import re as _re
+    raw = os.getenv("PAID_ACCOUNTS", "")
+    return {a.strip().lower() for a in _re.split(r"[,; ]+", raw) if a.strip()}
+
+
+async def _unlocked(doc: dict) -> bool:
+    """Entitlement-aware unlock: demo paid flag OR a paid-account email OR an
+    AWS entitlement keyed on the billing uid (owner email, else sess-<id>)."""
+    if doc.get("paid") or os.getenv("UNLOCK_FREE", "") == "1":
+        return True
+    email = (doc.get("owner_email") or "").strip().lower()
+    if email and email in _paid_accounts():
+        return True
+    if not billing.configured():
+        return False
+    try:
+        return await billing.is_entitled(_billing_uid(doc, doc.get("session_id") or ""))
+    except Exception:  # noqa: BLE001
+        log.exception("entitlement check failed; gating on the paid flag (swallowed)")
+        return False
 
 
 # ---------------------------------------------------------------- debate registry
@@ -352,7 +413,7 @@ def _session_summaries(docs: dict[str, dict], email: str) -> list[dict]:
     return rows
 
 
-def _snapshot(doc: dict) -> dict:
+def _snapshot(doc: dict, paid: bool | None = None) -> dict:
     if not doc:
         return {}
     b = dict(doc.get("business") or {})
@@ -371,7 +432,7 @@ def _snapshot(doc: dict) -> dict:
         "segments": doc.get("segments") or [],
         "question": doc.get("question"),
         "verdict": doc.get("verdict"),
-        "paid": bool(doc.get("paid")),
+        "paid": bool(doc.get("paid") if paid is None else paid),
         "status": doc.get("status", "ingesting"),
     }
     if doc.get("owner_email"):
@@ -461,7 +522,17 @@ async def create_session(req: CreateReq):
 
 @app.get("/api/sessions/{session_id}")
 async def get_session(session_id: str):
-    return _snapshot(await _get_doc_or_404(session_id))
+    doc = await _get_doc_or_404(session_id)
+    snap = _snapshot(doc)
+    if not snap["paid"] and doc.get("owner_email") and billing.configured():
+        # an AWS entitlement counts as paid for the verdict-teaser gate too
+        try:
+            if not await _unlocked(doc):
+                return snap
+            snap = _snapshot(doc, True)
+        except Exception:  # noqa: BLE001 — teaser stays the safe fallback
+            log.warning("entitlement re-snapshot failed; keeping teaser", exc_info=True)
+    return snap
 
 
 @app.post("/api/login")
@@ -506,16 +577,40 @@ async def ask_question(session_id: str, req: QuestionReq):
         raise HTTPException(status_code=409,
                             detail=f"session still {status}; wait for ready")
     asyncio.get_running_loop().create_task(_dispatch_debate(session_id, text))
+    # meter the decision run (fire-and-forget; failures swallowed)
+    _fire_meter(_billing_user(doc), billing.EVENT_RUN_DECISION)
     return {"ok": True}
 
 
 @app.get("/api/sessions/{session_id}/pay")
 async def get_pay(session_id: str):
-    """Checkout handoff. The REAL payment link comes from env (STRIPE_LINK,
-    or PAY_LINK alias); when no real link is configured the frontend must run
-    the demo mark-paid flow — the backend returns a 409-shaped payload with a
-    demo marker, never a fabricated external domain."""
-    await _get_doc_or_404(session_id)
+    """Checkout handoff. Real AWS Monetization checkout (hosted page) is
+    attempted first for logged-in owners: it returns {payment_url,
+    provider: "aws", price} when minted. On ANY billing failure (or no login
+    identity) the flow falls through unchanged to the env real-link branch
+    (STRIPE_LINK / PAY_LINK) and then the demo mark-paid flow; the backend
+    returns a demo marker, never a fabricated external domain. Billing
+    failures never 500."""
+    doc = await _get_doc_or_404(session_id)
+    if os.getenv("UNLOCK_FREE", "") == "1":
+        return {"payment_url": None, "price": PRICE, "provider": "demo",
+                "demo": True, "note": "paywall disabled for this demo — everything unlocks"}
+    # AWS checkout first for any billed identity: owner email, else the
+    # session uid (demo-safe, still regex-valid for the service).
+    uid = _billing_uid(doc, session_id)
+    if uid and billing.configured():
+        try:
+            # return/refresh URLs must NOT be localhost (payments WAF 403):
+            # PUBLIC_BASE_URL when set, else billing's default host.
+            back = os.getenv("PUBLIC_BASE_URL") or None
+            if back:
+                back = f"{back.rstrip('/')}/api/sessions/{session_id}/pay"
+            aws = await billing.create_checkout_session(
+                session_id, uid, return_url=back, refresh_url=back)
+            if aws:
+                return {"price": PRICE, **aws}
+        except Exception:  # noqa: BLE001 — degrade to the legacy branches
+            log.exception("aws checkout failed for %s; falling back", session_id)
     provider = "stripe"
     link = STRIPE_LINK
     if not link or link.startswith("https://buy.stripe.com/test_placeholder"):
@@ -531,8 +626,11 @@ async def get_pay(session_id: str):
 
 @app.post("/api/sessions/{session_id}/pay/mark-paid")
 async def mark_paid(session_id: str):
-    await _get_doc_or_404(session_id)
+    """Sandbox/demo unlock — unchanged behavior; also meters the unlock event
+    to AWS Monetization (fire-and-forget, swallowed on failure)."""
+    doc = await _get_doc_or_404(session_id)
     await storage.update(session_id, {"paid": True})
+    _fire_meter(_billing_user(doc), billing.EVENT_UNLOCK)
     return {"ok": True, "paid": True}
 
 
@@ -548,7 +646,8 @@ async def agent_chat(session_id: str, persona_id: str, body: _ChatBody):
     from app.llm.chat import chat_with_agent
     doc = await _get_doc_or_404(session_id)
     used = int(doc.get("chat_free_used") or 0)
-    if not doc.get("paid") and used >= FREE_CROSS_QUESTIONS:
+    paid = await _unlocked(doc)  # demo paid flag OR AWS entitlement (owner_email)
+    if not paid and used >= FREE_CROSS_QUESTIONS:
         raise HTTPException(status_code=402,
                             detail="free cross-questions used — unlock for unlimited chat")
     persona = next((p for p in doc.get("personas") or [] if p.get("id") == persona_id), None)
@@ -558,7 +657,7 @@ async def agent_chat(session_id: str, persona_id: str, body: _ChatBody):
     result = await chat_with_agent(persona, (body.message or "").strip(),
                                    doc.get("evidence") or [], None,
                                    events, question=doc.get("question") or "")
-    if not doc.get("paid"):
+    if not paid:
         await storage.update(session_id, {"chat_free_used": used + 1})
         result = {**result,
                   "free_remaining": FREE_CROSS_QUESTIONS - (used + 1),
@@ -589,7 +688,7 @@ class _ActBody(BaseModel):
 async def act_route(session_id: str):
     from app.llm.act import run_act
     doc = await _get_doc_or_404(session_id)
-    if not doc.get("paid"):
+    if not await _unlocked(doc):  # demo paid flag OR AWS entitlement
         raise HTTPException(status_code=402, detail="payment required for Act")
     try:
         result = await run_act(
@@ -604,3 +703,32 @@ async def act_route(session_id: str):
         raise HTTPException(status_code=409, detail=str(e)) from e
     await storage.update(session_id, {"act": result})
     return result
+
+
+# ---------------------------------------------------------------- flyer (P3)
+
+@app.get("/api/sessions/{session_id}/flyer.pdf")
+async def flyer_pdf(session_id: str, draft: str | None = None):
+    """The Act tab's winning draft -> one-page, print-ready PDF (app.flyer).
+    `?draft=<id>` picks a specific draft; anything unknown falls back to
+    best_id, then the first draft. 404 unknown session; 409 when Act hasn't
+    run ("the drafts make the flyer")."""
+    from app.flyer import render_flyer
+    doc = await _get_doc_or_404(session_id)
+    act = doc.get("act") or {}
+    drafts = act.get("drafts") or []
+    if not drafts:
+        raise HTTPException(status_code=409,
+                            detail="Run Act first — the drafts make the flyer")
+    chosen = next((d for d in drafts if str(d.get("id")) == str(draft)), None) \
+        if draft else None
+    if chosen is None:
+        chosen = next((d for d in drafts
+                       if str(d.get("id")) == str(act.get("best_id"))),
+                      None) or drafts[0]
+    pdf = render_flyer(doc, chosen)
+    biz = (doc.get("business") or {})
+    slug = re.sub(r"[^a-z0-9]+", "-", str(biz.get("name") or "callcrowd").lower())
+    fname = "callcrowd-flyer-" + (slug.strip("-") or "callcrowd") + ".pdf"
+    return Response(content=pdf, media_type="application/pdf",
+                    headers={"Content-Disposition": f"inline; filename=\"{fname}\""})

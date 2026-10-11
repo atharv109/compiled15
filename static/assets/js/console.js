@@ -1158,10 +1158,14 @@
          (the "is that us?" ask lands in the chat pane when the
          scouts produce the listing) */
       intakeViaLink = !!plan.link;
-      launch(plan, question);
+      /* login-lite: remember the owner email for re-finding sessions */
+      const emailEl = $("#biz-email");
+      const email = (emailEl && emailEl.value.trim()) || "";
+      if (email) { try { localStorage.setItem("cc.email", email); } catch (e) {} }
+      launch(plan, question, email);
     };
 
-    function launch(plan, question) {
+    function launch(plan, question, email) {
       const launcher = $("#launcher"), run = $("#runview");
       if (launcher) launcher.hidden = true;
       if (run) run.hidden = false;
@@ -1191,7 +1195,8 @@
           setTimeout(() => tryStart(tries + 1), 100);
           return;
         }
-        CS.start(plan.name, plan.town, question, opts);
+        opts.email = email || undefined;
+      CS.start(plan.name, plan.town, question, opts);
       };
       tryStart(0);
     }

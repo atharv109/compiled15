@@ -1,4 +1,5 @@
 .env
+.env.monetization
 __pycache__/
 *.db
 venv/
@@ -7,3 +8,8 @@ services/
 node_modules/
 logs/
 .claude/
+docs/screenshots/
+static/mock-data.js
+.monetize/
+data/sessions.json
+*.png

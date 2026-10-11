@@ -778,6 +778,17 @@
 .flyer-btn:focus-visible { outline: 2px solid var(--accent-deep); outline-offset: 2px; }
 .flyer-btn:disabled { opacity: 0.55; cursor: default; }
 .flyer-print { margin-left: auto; }
+/* backend-rendered PDF: emphasized CTA in the same glass family */
+.flyer-pdfbtn {
+  background: var(--accent-tint);
+  border-color: var(--accent-deep);
+  color: var(--accent-deep);
+}
+.console-app .flyer-pdfbtn {
+  background: rgba(255, 178, 36, 0.14);
+  border-color: rgba(255, 178, 36, 0.55);
+  color: #FFB224;
+}
 
 /* copy button on every draft card (small, right of the score) */
 .dr-copy {

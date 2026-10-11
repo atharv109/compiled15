@@ -274,6 +274,32 @@
         jy: (rand01(key + "|jy") - 0.5) * 36,
       };
     }
+    /* ============================================================
+       layered reveal — nodes pop in one beat at a time (evidence
+       layer -> persona layer) instead of all 50 at once.
+       ============================================================ */
+    const revealQueue = [];
+    let revealTimer = null;
+    function revealNode(g, big) {
+      g.style.opacity = "0";
+      g.style.transformBox = "fill-box";
+      g.style.transformOrigin = "center";
+      g.style.transform = "scale(0.3)";
+      revealQueue.push({ el: g, big: !!big });
+      if (!revealTimer) revealTimer = setInterval(flushReveal, 90);
+    }
+    function flushReveal() {
+      const beat = revealQueue.splice(0, 2);
+      if (!revealQueue.length && !beat.length) {
+        clearInterval(revealTimer); revealTimer = null; return;
+      }
+      for (const it of beat) {
+        it.el.style.transition = "opacity .28s ease-out, transform .34s cubic-bezier(.34,1.56,.64,1)";
+        it.el.style.opacity = String(it.big ? 1 : 0.96);
+        it.el.style.transform = "scale(" + (it.big ? 1 : 0.92) + ")";
+      }
+    }
+
     function addSegNode(seg) {
       const col = CS.PAL[segColor.size % CS.PAL.length];
       segColor.set(seg.id, col);
@@ -291,6 +317,7 @@
       };
       g.__node = a;
       nodesG.appendChild(g);
+      revealNode(g, true);
       nodes.push(a); byKey.set(a.key, a);
       bindNode(a);
       return a;
@@ -313,6 +340,7 @@
       };
       g.__node = a;
       nodesG.appendChild(g);
+      revealNode(g, false);
       nodes.push(a); byKey.set(a.key, a);
       bindNode(a);
       return a;
@@ -333,6 +361,7 @@
       };
       g.__node = a;
       nodesG.appendChild(g);
+      revealNode(g, false);
       nodes.push(a); byKey.set(a.key, a);
       bindNode(a);
       return a;

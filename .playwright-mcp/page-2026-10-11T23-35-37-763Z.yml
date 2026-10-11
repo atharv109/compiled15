@@ -1,0 +1,61 @@
+- generic [ref=f15e3]:
+  - navigation [ref=f15e4]:
+    - link [ref=f15e5] [cursor=pointer]:
+      - /url: index.html
+      - img "CallCrowd" [ref=f15e6]
+    - generic [ref=f15e7]: no signup · the swarm debates in real time
+  - generic [ref=f15e8]:
+    - generic [ref=f15e9]:
+      - generic [ref=f15e10]: System Status
+      - heading "Swarm Ready" [level=1] [ref=f15e12]
+      - paragraph [ref=f15e13]: Paste your business link, or give the name and town. Scouts read what the internet already says about you; fifty customer agents are built from it and debate your decision.
+      - generic [ref=f15e14]:
+        - generic [ref=f15e15]: ◇ Workflow Steps
+        - list [ref=f15e16]:
+          - listitem [ref=f15e17]:
+            - generic [ref=f15e18]: "01"
+            - generic [ref=f15e19]:
+              - generic [ref=f15e20]: Scout
+              - generic [ref=f15e21]: Link or name+town intake — you confirm the business we find. Reviews, menu, hours, competitors, news.CAPTCHA in the live browser? A human solves it — that's the product.
+          - listitem [ref=f15e22]:
+            - generic [ref=f15e23]: "02"
+            - generic [ref=f15e24]:
+              - generic [ref=f15e25]: Swarm
+              - generic [ref=f15e26]: Evidence cards + customer personas emerge from your own segments.
+          - listitem [ref=f15e27]:
+            - generic [ref=f15e28]: "03"
+            - generic [ref=f15e29]:
+              - generic [ref=f15e30]: Debate
+              - generic [ref=f15e31]: Two rounds. Camps cluster; round 2 reads the other camp's strongest points.
+          - listitem [ref=f15e32]:
+            - generic [ref=f15e33]: "04"
+            - generic [ref=f15e34]:
+              - generic [ref=f15e35]: Verdict
+              - generic [ref=f15e36]: Aggregated by a stronger judge model. Recommendation + confidence, free.
+          - listitem [ref=f15e37]:
+            - generic [ref=f15e38]: "05"
+            - generic [ref=f15e39]:
+              - generic [ref=f15e40]: Learn
+              - generic [ref=f15e41]: A calibrated mock market tests the swarm; the loop rewrites beliefs. Then chat with any agent.
+    - generic [ref=f15e42]:
+      - generic [ref=f15e43]:
+        - generic [ref=f15e44]:
+          - generic [ref=f15e45]: 01 / your business
+          - generic [ref=f15e46]: LINK OR NAME
+        - textbox "Paste your business link — Google Maps, Yelp, or your website" [ref=f15e47]
+        - generic [ref=f15e48]: — or —
+        - textbox "e.g. Cafe 210 West" [ref=f15e49]
+        - textbox "e.g. State College — or \"Online\" for online-only" [ref=f15e50]
+        - textbox "Your email — re-finds your sessions (optional)" [ref=f15e51]
+        - generic [ref=f15e52]: we confirm the business we find with you before scouting · manual paste sharpens results
+      - generic [ref=f15e53]: decision under test
+      - generic [ref=f15e56]:
+        - generic [ref=f15e57]:
+          - generic [ref=f15e58]: 02 / the real question
+          - generic [ref=f15e59]: OWNERS ONLY
+        - textbox "e.g. Should we stay open until 2 AM on weekends and spend $400/month on a blanket delivery promo?" [ref=f15e60]
+        - generic [ref=f15e61]: strong judge model · 50 customer agents · live debate
+      - button "Convene the Swarm →" [ref=f15e63] [cursor=pointer]:
+        - generic [ref=f15e64]: Convene the Swarm
+        - generic [ref=f15e65]: →
+      - generic [ref=f15e66]: Everything runs live on this page — scouts read the web, fifty customer agents debate in real time. Want a rehearsal without a live scrape? Add ?mock=1 to this page's address.
