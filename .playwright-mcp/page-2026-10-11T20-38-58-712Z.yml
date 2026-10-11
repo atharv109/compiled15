@@ -1,0 +1,24 @@
+- generic [active] [ref=f7e1]:
+  - generic:
+    - text: stage
+    - generic: debate
+    - text: · nodes
+    - generic: "37"
+    - text: · pairs
+    - generic: "62"
+    - text: · edges
+    - generic: "72"
+    - text: · alpha
+    - generic: "0.300"
+    - text: · dec
+    - generic: "0.03"
+    - text: · sim
+    - generic: "on"
+    - text: · arcs
+    - generic: "0"
+    - text: · pend 0/0 · phase
+    - generic: debate
+    - text: · toast
+    - generic: live
+  - generic: "<- debate:stance {\"round\":1,\"persona_id\":\"p5\",\"persona_name\":\"Sam\",\"segment\":\"families\" · <- debate:stance {\"round\":1,\"persona_id\":\"p6\",\"persona_name\":\"Ivy\",\"segment\":\"staff\",\"s · <- debate:stance {\"round\":1,\"persona_id\":\"p7\",\"persona_name\":\"Noor\",\"segment\":\"regulars · <- debate:stance {\"round\":1,\"persona_id\":\"p8\",\"persona_name\":\"Kit\",\"segment\":\"students\""
+  - generic [ref=f7e2]: memory updating in real-time

@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - text: stage
+    - generic: build
+    - text: · nodes
+    - generic: "37"
+    - text: · pairs
+    - generic: "55"
+    - text: · edges
+    - generic: "64"
+    - text: · alpha
+    - generic: "0.000"
+    - text: · dec
+    - generic: "0.03"
+    - text: · sim off · arcs
+    - generic: "0"
+    - text: · pend 0/0 · phase
+    - generic: debate
+    - text: · toast
+    - generic: live
+  - generic: "<- persona {\"id\":\"p9\",\"segment\":\"families\",\"name\":\"Rex\",\"profile\":\"\"} · <- persona {\"id\":\"p10\",\"segment\":\"regulars\",\"name\":\"Ada\",\"profile\":\"\"} · <- debate:round {\"n\":1} · — replay held (build) —"
+  - generic [ref=e3]:
+    - generic [ref=e5]: memory updating in real-time
+    - generic [ref=e13]:
+      - generic [ref=e20]: still processing some content…
+      - button "Dismiss" [ref=e21] [cursor=pointer]: ×
+    - generic: ROUND 1 — THE SWARM IS DEBATING…

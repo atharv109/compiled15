@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic: loading…
+  - generic: "<- session:start {\"business\":\"Cafe Aurora\",\"town\":\"State College\",\"mock\":true}"
+  - generic [ref=e3]:
+    - generic [aria-hidden]:
+      - generic: ❖
+      - generic: waiting for the swarm to convene
+    - generic [ref=e5]: real-time updating
+    - generic [ref=e13]:
+      - generic [ref=e20]: still processing some content…
+      - button "Dismiss" [ref=e21] [cursor=pointer]: ×

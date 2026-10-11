@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CallCrowd</title>
+<link rel="icon" href="assets/logo.png">
+<style>
+:root{
+  --bg:#0d1117; --bg2:#151b24; --card:#1a2230; --card2:#202a3a; --line:#2c3a4e;
+  --txt:#e8eef6; --dim:#9aa8bb; --faint:#6b7a90;
+  --acc:#4f9cf7; --acc2:#2563eb;
+  --green:#3ecf8e; --red:#f1707b; --gray:#8a97a8; --amber:#f5b95f; --chip:#233043;
+  --teal:#45d6c8;
+}
+@media (prefers-color-scheme: dark){ :root{ /* dark is the default; kept for clarity */ } }
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--txt);
+  font:16px/1.5 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+body{padding:0 14px 80px;min-height:100vh}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3{margin:0 0 8px;line-height:1.25}
+h1{font-size:26px} h2{font-size:20px} h3{font-size:16px}
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:18px 2px 6px}
+.top .t{font-size:26px;font-weight:700;letter-spacing:-.3px}
+.top .t span{color:var(--acc)}
+.pitch{color:var(--dim);font-size:16px}
+.sp{flex:1}
+.badge-demo{font-size:13px;color:var(--amber);border:1px solid var(--amber);
+  border-radius:20px;padding:3px 10px;display:none}
+.badge-live{font-size:13px;color:var(--green);border:1px solid var(--green);
+  border-radius:20px;padding:3px 10px;display:none}
+.banner{display:none;margin:10px 0;padding:10px 14px;border-radius:10px;
+  background:#3a2c12;border:1px solid var(--amber);color:var(--amber);font-weight:600}
+.banner.off{display:block}
+.tabs{display:flex;gap:6px;margin:14px 0 18px;border-bottom:1px solid var(--line)}
+.tab{padding:10px 16px;background:none;border:none;border-bottom:3px solid transparent;
+  color:var(--dim);font:inherit;font-weight:600;cursor:pointer}
+.tab.on{color:var(--txt);border-bottom-color:var(--acc)}
+.page{display:none}.page.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:18px;margin:0 0 16px}
+label{display:block;font-size:13px;font-weight:600;color:var(--dim);margin:12px 0 4px}
+input,textarea{width:100%;background:var(--bg2);color:var(--txt);
+  border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit}
+textarea{min-height:110px;resize:vertical}
+button{font:inherit;font-weight:600;cursor:pointer;border:none;border-radius:10px;
+  padding:11px 20px;background:var(--acc2);color:#fff}
+button:hover{filter:brightness(1.15)}
+button:disabled{opacity:.45;cursor:not-allowed}
+button.ghost{background:var(--chip);color:var(--txt);border:1px solid var(--line)}
+button.big{width:100%;padding:14px;font-size:17px}
+.muted{color:var(--dim);font-size:14px}
+.hint{color:var(--faint);font-size:13px}
+.err{color:var(--red);font-size:14px;margin-top:8px;min-height:18px}
+.statusline{display:flex;align-items:center;gap:10px;font-weight:600;flex-wrap:wrap}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--amber);
+  animation:pulse 1.2s infinite}
+.dot.done{background:var(--green);animation:none}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+@media (max-width:640px){.grid{grid-template-columns:1fr}}
+.ev{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.ev .claim{margin-top:4px}
+.chip{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.4px;
+  text-transform:uppercase;padding:2px 9px;border-radius:20px;background:var(--chip);
+  color:var(--acc)}
+.chip.review{color:#9ecbff}.chip.price{color:var(--amber)}
+.chip.competitor{color:#c7a3ff}.chip.event{color:var(--teal)}
+.evsrc{font-size:13px;color:var(--dim);margin-top:6px}
+.evidref{display:inline-block;margin:0 4px 2px 0;font-size:12px;font-weight:700;
+  background:var(--chip);border:1px solid var(--line);color:var(--acc);
+  border-radius:6px;padding:1px 7px;cursor:pointer}
+.evidref:hover{border-color:var(--acc)}
+.evidref.mini{font-size:11px;padding:0 6px}
+.seghead{display:flex;align-items:baseline;gap:10px;margin:16px 0 8px}
+.seghead h3{margin:0}
+.count{font-size:13px;color:var(--faint)}
+.pchips{display:flex;flex-wrap:wrap;gap:8px}
+.pchip{background:var(--card2);border:1px solid var(--line);border-radius:20px;
+  padding:6px 14px;font-size:15px;cursor:pointer;color:var(--txt)}
+.pchip:hover{border-color:var(--acc)}
+.pchip .seg{color:var(--faint);font-size:12px;margin-left:5px}
+.round{margin:16px 0 8px}
+.roundh{font-size:14px;font-weight:700;color:var(--dim);text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:8px}
+.stance{background:var(--card2);border:1px solid var(--line);border-radius:12px;
+  padding:10px 12px;margin-bottom:8px}
+.stance .who{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.badge{font-size:12px;font-weight:800;border-radius:6px;padding:2px 8px;
+  text-transform:uppercase;letter-spacing:.4px}
+.badge.support{background:rgba(62,207,142,.18);color:var(--green)}
+.badge.oppose{background:rgba(241,112,123,.18);color:var(--red)}
+.badge.neutral{background:rgba(138,151,168,.18);color:var(--gray)}
+.camp{border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:10px;
+  background:var(--card2);padding:10px 14px;margin:8px 0}
+.camp .cn{font-weight:700}
+.camp ul{margin:6px 0 0 18px;padding:0;color:var(--dim);font-size:14px}
+.rec{font-size:22px;line-height:1.45;margin:10px 0}
+.confbar{height:14px;background:var(--bg2);border-radius:7px;overflow:hidden;margin:8px 0 2px}
+.confbar > div{height:100%;background:linear-gradient(90deg,var(--acc2),var(--acc))}
+.tally{display:flex;height:26px;border-radius:8px;overflow:hidden;margin:14px 0 6px;
+  background:var(--bg2)}
+.tally div{height:100%}
+.tally .s{background:var(--green)}.tally .o{background:var(--red)}
+.tally .n{background:var(--gray)}
+.tlegend{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--dim)}
+.sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px}
+.lockrow{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:14px}
+.padlock{color:var(--amber);font-weight:600}
+.lockcard{background:#2a2318;border:1px dashed var(--amber);border-radius:12px;
+  padding:14px 16px;margin:12px 0;color:var(--amber)}
+.obj{margin:6px 0;padding-left:18px}
+.impact{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;padding:8px 0;
+  border-bottom:1px solid var(--line)}
+.impact:last-child{border-bottom:none}
+.impact .iseg{font-weight:700;min-width:110px}
+.impact .iimp{flex:1}
+.panel{display:none;position:fixed;top:0;right:0;bottom:0;width:400px;max-width:100vw;
+  background:var(--bg2);border-left:1px solid var(--line);z-index:50;
+  padding:18px;overflow-y:auto;box-shadow:-8px 0 30px rgba(0,0,0,.45)}
+.panel.on{display:block}
+.panel .close{float:right;background:none;color:var(--dim);font-size:20px;padding:2px 8px}
+.msg{background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:10px 12px;margin-bottom:8px;font-size:15px}
+.msg.you{background:#1d2b45}
+.minicards{margin:6px 0 10px}
+.spin{display:inline-block;width:18px;height:18px;border:3px solid var(--line);
+  border-top-color:var(--acc);border-radius:50%;animation:sp 1s linear infinite;
+  vertical-align:-4px;margin-right:8px}
+@keyframes sp{to{transform:rotate(360deg)}}
+svg text{fill:var(--dim);font-size:11px}
+svg .bar-l{fill:var(--faint)}
+svg .axis{stroke:var(--line)}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="t">Call<span>Crowd</span></div>
+  <div class="pitch">Ask your customers before you spend the money.</div>
+  <div class="sp"></div>
+  <span class="badge-live" id="badgeLive">live</span>
+  <span class="badge-demo" id="badgeDemo">recorded session</span>
+  <label style="margin:0;font-size:14px">
+    <input type="checkbox" id="demoToggle" style="width:auto;margin-right:6px">
+    Demo mode (recorded)</label>
+</header>
+<div class="banner" id="banner"></div>
+
+<nav class="tabs">
+  <button class="tab on" id="tabRun">Run</button>
+  <button class="tab" id="tabLoop">Learning loop</button>
+  <button class="tab" id="tabAbout">About</button>
+</nav>
+
+<!-- ═══════════ RUN ═══════════ -->
+<section class="page on" id="pageRun">
+  <div class="card" id="cardIntake">
+    <h2>Intake</h2>
+    <div class="grid">
+      <div>
+        <label for="bname">Business name</label>
+        <input id="bname" placeholder="Cafe 210 West" value="">
+        <label for="btown">Town <span style="font-weight:400;color:var(--faint)">— type "Online" for online-only businesses</span></label>
+        <input id="btown" placeholder="State College — or Online">
+        <label for="bq">The decision (question)</label>
+        <input id="bq" placeholder="Should we stay open until 2 AM on football Saturdays?">
+      </div>
+      <div style="display:flex;flex-direction:column">
+        <label for="brev">Pasted reviews (optional)</label>
+        <textarea id="brev" placeholder="Paste Google / Yelp reviews here..."></textarea>
+      </div>
+    </div>
+    <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+      <button id="btnCreate">Start intake</button>
+      <button id="btnDebate" class="ghost" disabled>Run debate</button>
+    </div>
+    <div class="hint" style="margin-top:8px">
+      Intake scouts evidence, builds personas; the debate and verdict stream live below.</div>
+    <div class="err" id="intakeErr"></div>
+  </div>
+
+  <div class="card" id="cardSession" style="display:none">
+    <h2 id="sessTitle">Session</h2>
+    <div class="statusline"><span class="dot" id="dot"></span><span id="statusTxt">connecting…</span></div>
+
+    <div id="evWrap" style="display:none;margin-top:16px">
+      <h3>Evidence</h3>
+      <div class="grid" id="evGrid"></div>
+    </div>
+
+    <div id="perWrap" style="display:none;margin-top:16px">
+      <h3>Personas</h3>
+      <div class="muted hint">click a persona to chat with it (after unlock)</div>
+      <div id="perBoxes"></div>
+    </div>
+
+    <div id="debWrap" style="display:none;margin-top:16px">
+      <h3>Debate</h3>
+      <div id="debFeed"></div>
+    </div>
+
+    <div id="verdictWrap" style="display:none;margin-top:16px">
+      <h3>Verdict</h3>
+      <div id="verdictBox"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ LOOP ═══════════ -->
+<section class="page" id="pageLoop">
+  <div class="card">
+    <h2>Learning loop (Track 1A)</h2>
+    <p class="muted">Re-rolls the market truth, runs the belief-learning loop and evaluates
+      regret vs. baseline. Runs a real training pass — expect about 2–4 minutes.</p>
+    <button id="btnLoop" class="big">Run learning loop</button>
+    <div class="err" id="loopErr"></div>
+    <div id="loopRun" style="display:none;margin-top:12px">
+      <div class="statusline"><span class="spin"></span><span>running…</span>
+        <span id="loopTimer" style="font-variant-numeric:tabular-nums">0:00</span></div>
+    </div>
+  </div>
+  <div class="card" id="chartCard" style="display:none">
+    <h3>Regret per round (train)</h3>
+    <div id="trainChart"></div>
+    <h3 style="margin-top:18px">Baseline vs final vs test</h3>
+    <div id="barChart"></div>
+    <h3 style="margin-top:18px">Beliefs per segment</h3>
+    <div id="beliefs"></div>
+    <div style="margin-top:18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <label style="margin:0;font-size:14px">Reroll market (seed)</label>
+      <input id="rerollSeed" type="number" value="42" style="width:110px">
+      <button id="btnReroll" class="ghost">Reroll</button>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="pageAbout">
+  <div class="card">
+    <h2>CallCrowd</h2>
+    <p class="muted">A swarm of simulated customers — built from real evidence about your
+      business — debates your decision, and a judge weighs the crowd's verdict.
+    </p>
+    <p class="muted">This page runs the same product the partner app runs: intake → evidence →
+      persona swarm → two-round debate → verdict, with the learning loop and in-character
+      agent chat after checkout ($19 unlock).</p>
+    <p class="hint">Live backend: <span id="apiShow">http://127.0.0.1:8000</span></p>
+  </div>
+</section>
+
+<!-- chat side panel -->
+<div class="panel" id="chatPanel">
+  <button class="close" id="chatClose">✕</button>
+  <h3 id="chatName">Agent</h3>
+  <div class="muted" id="chatSeg"></div>
+  <div id="chatMsgs" style="margin-top:12px"></div>
+  <div style="position:sticky;bottom:0;background:var(--bg2);padding:10px 0 4px">
+    <div style="display:flex;gap:8px">
+      <input id="chatInput" placeholder="Ask in conversation…" style="flex:1">
+      <button id="chatSend">Send</button>
+    </div>
+  </div>
+</div>
+
+<script>
+"use strict";
+var API = "http://127.0.0.1:8000";
+/* ---- embedded recorded fixture (offline fallback for demo mode) ---- */
+var FIXTURE = {snapshot:{
+ session_id:"s_fixture", business:{name:"Cafe 210",town:"State College",business_class:"local_consumer"},
+ evidence:[
+  {id:"e1",claim:"Weekend footfall peaks after 10 PM and regulars complain about the 11 PM close.",source_url:"https://www.google.com/maps",source_label:"Google review",type:"review",quote:"\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\""},
+  {id:"e2",claim:"Late-night food options on College Ave thin out after midnight on game days.",source_url:"https://www.collegiatetimes.com/off-campus-late-night",source_label:"Local restaurant guide",type:"competitor",quote:"Only three kitchens on the block keep the lights on past midnight during home games."},
+  {id:"e3",claim:"Extended-close nights run roughly $180 of extra staff and utilities per night.",source_url:"manual",source_label:"Owner-pasted review",type:"price",quote:"Last extra-late Saturday cost about $180 in staff + utilities against $610 in late sales."}],
+ personas:[
+  {id:"p1",segment:"students",name:"Maya the junior",profile:"Junior who walks down from campus after every home game; her group always eats around midnight and gets shut out by the current close.",source_review_ids:["e1"]},
+  {id:"p2",segment:"students",name:"Devon the freshman",profile:"Freshman with a meal plan he calls a suggestion; hungry at 1 AM on game days and follows the crowd to whoever is open.",source_review_ids:["e1","e2"]},
+  {id:"p3",segment:"regulars",name:"Frank the morning regular",profile:"Retiree who arrives at 6:30 AM sharp; afraid a 2 AM close means tired staff and slower mornings on Sundays.",source_review_ids:["e3"]},
+  {id:"p4",segment:"regulars",name:"Rosa the afternoon regular",profile:"Works across the street, comes in most afternoons; neutral on closing hours but wary of price creep to cover late-night costs.",source_review_ids:["e3"]},
+  {id:"p5",segment:"visitors",name:"Pete the visiting dad",profile:"In town twice a season for tailgates; with two teenagers he would spend on a late dessert stop if somewhere clean is open.",source_review_ids:["e1","e2"]},
+  {id:"p6",segment:"staff",name:"Cleo the barista",profile:"Senior barista; open to closing late but only if there is a real cut of the late-night tips and a rideshare stipend.",source_review_ids:["e3"]}],
+ segments:[{name:"students",count:31},{name:"regulars",count:34},{name:"visitors",count:16}],
+ question:"Should we stay open until 2 AM on football Saturdays?",
+ verdict:{recommendation:"Stay open until 2 AM on the six home football Saturdays only, run by a small volunteer-style late crew with the game_day_special promo. The opposition is real — morning regulars may feel the cost — but the late-night demand gap (e1, e2) plus the strong late-sales vs. cost math (e3) makes the trade worth it, and returning to 11 PM closes in off-weeks protects the regulars.",
+  confidence:0.58,tally:{support:1,oppose:4,neutral:1},
+  objections:["Morning regulars (Frank) fear a tired staff and slower Sunday mornings if the late crew overruns.","One strong late Saturday does not prove the next five will repeat at the same margin.","The students driving the late demand are the lowest-paycheck-per-visit crowd; the mix may skew late without covering fixed costs."],
+  segment_impact:[{segment:"students",impact:"+30% visits on home-game Saturdays after 1 AM",evidence_ids:["e1","e2"]},{segment:"regulars",impact:"-10% morning visits from regulars annoyed by crowded Sundays",evidence_ids:["e3"]},{segment:"visitors",impact:"+15% dessert-and-drinks spend if a clean late option stays open",evidence_ids:["e2"]}]},
+ paid:false,status:"verdict_ready"
+},stream_events:[
+ {event:"persona_start",data:{persona_id:"p1",segment:"students",name:"Maya the junior"}},
+ {event:"persona_start",data:{persona_id:"p2",segment:"students",name:"Devon the freshman"}},
+ {event:"persona_start",data:{persona_id:"p3",segment:"regulars",name:"Frank the morning regular"}},
+ {event:"persona_start",data:{persona_id:"p4",segment:"regulars",name:"Rosa the afternoon regular"}},
+ {event:"persona_start",data:{persona_id:"p5",segment:"visitors",name:"Pete the visiting dad"}},
+ {event:"persona_start",data:{persona_id:"p6",segment:"staff",name:"Cleo the barista"}},
+ {event:"stance",data:{round:1,persona_id:"p1",segment:"students",stance:"support",stance_label:"Yes",reason:"My whole group walks out of Beaver Stadium starving at 12:30 and Cafe 210 is already dark. Two more hours is a crowd every time.",evidence_ids:["e1","e2"]}},
+ {event:"stance",data:{round:1,persona_id:"p2",segment:"students",stance:"support",stance_label:"Yes",reason:"Anything open past midnight on game days owns the walk home. I'd bring six friends with zero loyalty to anyone else.",evidence_ids:["e2"]}},
+ {event:"stance",data:{round:1,persona_id:"p3",segment:"regulars",stance:"oppose",stance_label:"No",reason:"I'm there at 6:30 sharp; a 2 AM close means slow, grumpy staff on Sunday mornings.",evidence_ids:["e3"]}},
+ {event:"stance",data:{round:1,persona_id:"p4",segment:"regulars",stance:"neutral",stance_label:"Undecided",reason:"Fine with late hours as long as my afternoon latte doesn't get pricier to pay for it.",evidence_ids:["e3"]}},
+ {event:"stance",data:{round:1,persona_id:"p5",segment:"visitors",stance:"support",stance_label:"Yes",reason:"With two teenagers we're hunting dessert at 12:45 and everywhere clean is shut.",evidence_ids:["e2"]}},
+ {event:"stance",data:{round:1,persona_id:"p6",segment:"staff",stance:"neutral",stance_label:"Undecided",reason:"I'd stay late only for a real cut of tips plus a rideshare stipend home.",evidence_ids:["e3"]}},
+ {event:"camp",data:{round:1,camp:"Open-late skeptics",member_ids:["p3","p4","p6"],top_arguments:["Extra payroll and utilities eat thin margins on a single night's data","Worn-down staff show up slower on Sunday mornings, hurting the most loyal regulars"]}},
+ {event:"camp",data:{round:1,camp:"Late-night believers",member_ids:["p1","p2","p5"],top_arguments:["Three late kitchens on the block is zero competition for thousands of post-game walkers","Game-day demand is predictable: six Saturdays, packed at 12:30, ready to spend"]}},
+ {event:"stance",data:{round:2,persona_id:"p1",segment:"students",stance:"support",stance_label:"Yes, six Saturdays",reason:"Skeptics are right that one night isn't proof — that's why it should be the six home games plus a buffer. I'd spend every one.",evidence_ids:["e1","e2"]}},
+ {event:"stance",data:{round:2,persona_id:"p2",segment:"students",stance:"oppose",stance_label:"Not at 2 AM",reason:"Hearing the cost math changed me — try midnight first and see if the line is real. I'll still show up at 12:30.",evidence_ids:["e3"]}},
+ {event:"stance",data:{round:2,persona_id:"p3",segment:"regulars",stance:"oppose",stance_label:"No",reason:"The skeptic case holds — margins are thin and Sunday is my whole routine. Don't risk my mornings.",evidence_ids:["e3"]}},
+ {event:"stance",data:{round:2,persona_id:"p4",segment:"regulars",stance:"oppose",stance_label:"No",reason:"Someone has to say it: a student deal plus late hours reads like a price hike for the rest of us.",evidence_ids:["e3"]}},
+ {event:"stance",data:{round:2,persona_id:"p5",segment:"visitors",stance:"support",stance_label:"Yes",reason:"Limit it to home games and we visiting families still get our late stop. Skeptic math works if you schedule the risk.",evidence_ids:["e2"]}},
+ {event:"stance",data:{round:2,persona_id:"p6",segment:"staff",stance:"oppose",stance_label:"No",reason:"Without a committed tips-plus-stipend structure I'd vote no — staff burnout is the hidden cost no one is pricing.",evidence_ids:["e3"]}},
+ {event:"camp",data:{round:2,camp:"Open-late skeptics",member_ids:["p2","p3","p4","p6"],top_arguments:["Prove it at midnight first: run the 12:30 test night, not the full 2 AM commitment","No tips/stipend structure means the late shift quietly becomes everyone's problem"]}},
+ {event:"camp",data:{round:2,camp:"Late-night believers",member_ids:["p1","p5"],top_arguments:["Schedule the risk: six home Saturdays only, evaluated after each one","Zero real competition after midnight on game days"]}}
+]};
+
+/* ===================== state ===================== */
+var S = {sid:null, paid:false, mock:false, offline:false, es:null, qsent:false,
+  evidence:{}, evidOrder:[], personas:{}, segments:{}, segOrder:[], stances:[], camps:[],
+  verdict:null, chatPid:null};
+
+/* ===================== helpers ===================== */
+function $(id){return document.getElementById(id);}
+function esc(s){var d=document.createElement("div");d.textContent=(s==null?"":String(s));return d.innerHTML;}
+function apiFetch(path,opts){
+  return fetch(API+path, Object.assign({headers:{"Content-Type":"application/json"}}, opts||{}))
+    .then(function(r){
+      if(!r.ok){return r.json().catch(function(){return {detail:r.statusText};})
+        .then(function(j){var e=new Error(j.detail||("HTTP "+r.status));e.status=r.status;throw e;});}
+      return r.json();
+    });
+}
+function post(path,body){return apiFetch(path,{method:"POST",body:JSON.stringify(body||{})});}
+function banner(msg,show){var b=$("banner");b.textContent=msg||"";b.className="banner"+(show?" off":"");}
+function evidenceRefChips(ids){
+  ids=(ids||[]).filter(function(x){return S.evidence[x];});
+  if(!ids.length) return "";
+  return ids.map(function(id){return '<span class="evidref" data-ev="'+id+'" title="'+
+    esc(S.evidence[id].claim||"")+'">'+esc(id)+"</span>";}).join("");
+}
+function jumpEvidence(id){
+  var el=document.querySelector('[data-card="'+id+'"]');
+  if(!el) return;
+  document.getElementById("tabRun").click();
+  el.scrollIntoView({behavior:"smooth",block:"center"});
+  el.style.borderColor="var(--acc)";
+  setTimeout(function(){el.style.borderColor="";},1600);
+}
+document.addEventListener("click",function(e){
+  var t=e.target.closest(".evidref");
+  if(t) jumpEvidence(t.getAttribute("data-ev"));
+});
+
+/* ===================== tabs ===================== */
+function setTab(name){
+  ["Run","Loop","About"].forEach(function(n){
+    $("tab"+n).className="tab"+(n===name?" on":"");
+    $("page"+n).className="page"+(n===name?" on":"");
+  });
+}
+$("tabRun").onclick=function(){setTab("Run");};
+$("tabLoop").onclick=function(){setTab("Loop"); if(S.sid&&!S.mock) apiFetch("/api/sessions/"+S.sid+"/loop-chart").then(function(raw){
+  // backend wraps: {chart:{train_line:[...], final_test_bar:{...}}, beliefs}; also accept contract {train,test_bar}
+  var d=(raw&&(raw.chart||raw))||{};
+  if(!d.train_line&&d.train) d={train_line:d.train.map(function(r){return {round:r.round,regret:r.regret,prediction_error:r.prediction_error};}),final_test_bar:d.test_bar||{}};
+  if(!d.train_line) return;
+  var tb=d.final_test_bar||{};
+  // renderLoop contract: {train:[{round,regret}], test_bar:{baseline_regret,final_regret,test_regret,shifted_context_regret}}
+  renderLoop({train:d.train_line.map(function(r){return {round:r.round,regret:r.regret};}),test_bar:tb});
+  var bl=$("beliefs"), bs=(raw&&raw.beliefs)||{}; var ks=Object.keys(bs);
+  bl.innerHTML=ks.length?ks.map(function(k){return '<div class="impact"><div class="iseg">'+esc(k)+"</div><div>"+esc(bs[k])+"</div></div>";}).join(""):"";
+}).catch(function(){});};
+$("tabAbout").onclick=function(){setTab("About");};
+
+/* ===================== demo-mode toggle ===================== */
+$("demoToggle").onclick=function(){
+  var on=this.checked;
+  stopStream();
+  S.mock=on; S.sid=null; S.offline=false; S.qsent=false;
+  resetSessionUI();
+  $("badgeDemo").style.display=on?"inline-block":"none";
+  if(on){ startMock(); }
+};
+
+/* ===================== session rendering ===================== */
+function resetSessionUI(){
+  S.evidence={}; S.evidOrder=[]; S.personas={}; S.segments={}; S.segOrder=[];
+  S.stances=[]; S.camps=[]; S.verdict=null; S.paid=false;
+  $("cardSession").style.display="none";
+  $("chatPanel").classList.remove("on");
+  $("loopErr").textContent=""; $("chartCard").style.display="none";
+}
+function setStatus(txt,done){
+  $("statusTxt").textContent=txt;
+  $("dot").className="dot"+(done?" done":"");
+}
+function addEvidence(card){
+  card=card&&card.card?card.card:card;
+  if(!card||!card.id||S.evidence[card.id]) return;
+  S.evidence[card.id]=card; S.evidOrder.push(card.id);
+  var g=$("evGrid");
+  var d=document.createElement("div");
+  d.className="ev"; d.setAttribute("data-card",card.id);
+  d.innerHTML='<span class="chip '+esc(card.type||"review")+'">'+esc(card.type||"review")+"</span>"+
+    '<div class="claim">'+esc(card.claim)+"</div>"+
+    (card.quote?'<div class="muted" style="margin-top:6px;font-style:italic">'+esc(card.quote)+"</div>":"")+
+    (card.source_label?'<div class="evsrc">source: '+(card.source_url&&card.source_url!=="manual"?
+      '<a href="'+esc(card.source_url)+'" target="_blank" rel="noopener">'+esc(card.source_label)+"</a>"
+      :esc(card.source_label))+"</div>":"");
+  g.appendChild(d); g.classList.add("on");
+  $("evWrap").style.display="block";
+}
+function addPersona(p){
+  p=p&&p.persona_id?{id:p.persona_id,segment:p.segment,name:p.name}:p;
+  if(!p||!p.id||S.personas[p.id]) return;
+  S.personas[p.id]=p;
+  if(!S.segments[p.segment]){S.segments[p.segment]=[];S.segOrder.push(p.segment);}
+  S.segments[p.segment].push(p.id);
+  renderPersonas();
+  $("perWrap").style.display="block";
+}
+function renderPersonas(){
+  var w=$("perBoxes"); w.innerHTML="";
+  S.segOrder.forEach(function(seg){
+    var snap=(S.snapshotSegs||{})[seg];
+    var head=document.createElement("div"); head.className="seghead";
+    head.innerHTML="<h3>"+esc(seg)+"</h3><span class='count'>"+
+      (snap?("count "+snap+" in segment · "):"")+S.segments[seg].length+" shown</span>";
+    var chips=document.createElement("div"); chips.className="pchips";
+    S.segments[seg].forEach(function(id){var p=S.personas[id];
+      var c=document.createElement("button"); c.className="pchip";
+      c.innerHTML=esc(p.name)+'<span class="seg">'+esc(seg)+"</span>";
+      c.onclick=function(){openChat(id);};
+      chips.appendChild(c);
+    });
+    w.appendChild(head); w.appendChild(chips);
+  });
+}
+var ROUND_LABEL={1:"Round 1 — positions",2:"Round 2 — cross-round"};
+function roundKey(r){return "r"+r;}
+function addStance(st){
+  st.round=st.round||1;
+  S.stances.push(st);
+  renderDebate();
+  $("debWrap").style.display="block";
+}
+function addCamp(camp){
+  camp.round=camp.round||1;
+  S.camps.push(camp);
+  renderDebate();
+  $("debWrap").style.display="block";
+}
+function renderDebate(){
+  var feed=$("debFeed"); feed.innerHTML="";
+  var rounds={};
+  S.stances.forEach(function(st){(rounds[st.round]=rounds[st.round]||[]).push(st);});
+  var campR={};
+  S.camps.forEach(function(c){(campR[c.round]=campR[c.round]||[]).push(c);});
+  var rnums=Object.keys(rounds).concat(Object.keys(campR));
+  rnums.map(Number).sort(function(a,b){return a-b;});
+  var seen={};
+  rnums.forEach(function(rn){if(seen[rn])return;seen[rn]=1;
+    var wrap=document.createElement("div"); wrap.className="round";
+    wrap.innerHTML='<div class="roundh">Round '+rn+'</div>';
+    (rounds[rn]||[]).forEach(function(st){
+      var p=S.personas[st.persona_id]||{name:st.persona_id||"?",segment:st.segment||""};
+      var d=document.createElement("div"); d.className="stance";
+      d.innerHTML='<div class="who"><strong>'+esc(p.name)+'</strong>'+
+        '<span class="chip">'+esc(st.segment||"")+'</span>'+
+        '<span class="badge '+esc(st.stance)+"'>"+esc(st.stance_label||st.stance)+"</span></div>"+
+        '<div style="margin-top:6px">'+esc(st.reason||"")+"</div>"+
+        (st.evidence_ids&&st.evidence_ids.length?'<div style="margin-top:6px">'+evidenceRefChips(st.evidence_ids)+"</div>":"");
+      wrap.appendChild(d);
+    });
+    (campR[rn]||[]).forEach(function(c){
+      var d=document.createElement("div"); d.className="camp";
+      var names=(c.member_ids||[]).map(function(id){
+        return S.personas[id]?S.personas[id].name:id;}).join(", ");
+      d.innerHTML='<div class="cn">'+esc(c.camp)+"</div>"+
+        '<div class="hint">with: '+esc(names)+"</div>"+
+        (c.top_arguments&&c.top_arguments.length?"<ul>"+c.top_arguments.map(function(a){
+          return "<li>"+esc(a)+"</li>";}).join("")+"</ul>":"");
+      wrap.appendChild(d);
+    });
+    feed.appendChild(wrap);
+  });
+}
+function renderVerdict(){
+  var v=S.verdict; if(!v) return;
+  $("verdictWrap").style.display="block";
+  var vb=$("verdictBox");
+  var tally=v.tally||{}; var sup=tally.support||0,opp=tally.oppose||0,neu=tally.neutral||0;
+  var tot=Math.max(1,sup+opp+neu);
+  var h='<div class="rec">'+esc(v.recommendation||"")+"</div>"+
+    '<div class="muted">Confidence '+Math.round((v.confidence||0)*100)+"%</div>"+
+    '<div class="confbar"><div style="width:'+Math.round((v.confidence||0)*100)+'%"></div></div>'+
+    '<div class="tally">'+
+      '<div class="s" style="width:'+Math.round(sup*100/tot)+'%"></div>'+
+      '<div class="o" style="width:'+Math.round(opp*100/tot)+'%"></div>'+
+      '<div class="n" style="width:'+Math.round(neu*100/tot)+'%"></div></div>'+
+    '<div class="tlegend">'+
+      '<span><span class="sw s" style="background:var(--green)"></span>support '+sup+"</span>"+
+      '<span><span class="sw" style="background:var(--red)"></span>oppose '+opp+"</span>"+
+      '<span><span class="sw" style="background:var(--gray)"></span>neutral '+neu+"</span></div>";
+  if(!S.paid){
+    h+='<div class="lockcard"><span class="padlock">🔒 Locked</span> — full segment impact, objections and agent chat unlock with checkout.</div>'+
+      '<div class="lockrow"><button id="btnPay" class="big">Unlock full segment impact + agent chat — $19</button></div>'+
+      '<div class="hint" style="margin-top:6px">Opens the Stripe checkout in a new tab; this demo then marks the session paid directly.</div>';
+  }else{
+    h+='<h3 style="margin-top:16px">Objections</h3><ul>'+
+      (v.objections||[]).map(function(o){return '<li class="obj">'+esc(o)+"</li>";}).join("")+"</ul>"+
+      '<h3 style="margin-top:16px">Segment impact</h3>'+
+      (v.segment_impact||[]).map(function(si){
+        return '<div class="impact"><div class="iseg">'+esc(si.segment)+"</div>"+
+          '<div class="iimp">'+esc(si.impact)+"</div>"+
+          '<div>'+evidenceRefChips(si.evidence_ids)+"</div></div>";}).join("")+
+      '<div class="hint" style="margin-top:10px">Click any persona above to chat in-character.</div>';
+  }
+  vb.innerHTML=h; renderVerdict.tot=tot;
+  var bp=$("btnPay");
+  if(bp&&!S.mock){ bp.onclick=doPay; }
+  else if(bp&&S.mock){ bp.disabled=true; bp.title="read-only recorded session"; }
+}
+function refreshVerdict(){ if(S.verdict) renderVerdict(); }
+
+/* ===================== intake / live flow ===================== */
+function stopStream(){ if(S.es){S.es.close();S.es=null;} }
+$("btnCreate").onclick=function(){
+  $("intakeErr").textContent="";
+  var name=$("bname").value.trim(), town=$("btown").value.trim();
+  var rev=$("brev").value.trim(), q=$("bq").value.trim();
+  if(!name||!town){$("intakeErr").textContent="business name and town are required.";return;}
+  stopStream(); S.qsent=false; S.mock=false; S.offline=false;
+  $("bname").disabled=true; $("btown").disabled=true;
+  post("/api/sessions",{business_name:name,town:town,reviews_text:rev||null})
+    .then(function(r){
+      S.sid=r.session_id;
+      $("sessTitle").textContent="Session "+S.sid+" — "+name+", "+town;
+      $("cardSession").style.display="block";
+      $("btnDebate").disabled=true;
+      setStatus("ingesting…");
+      openStream(q);
+    })
+    .catch(function(e){
+      $("bname").disabled=false; $("btown").disabled=false;
+      offlineFallback(e,"could not reach "+API);
+    });
+};
+function openStream(q){
+  if(S.es) S.es.close();
+  var es=new EventSource(API+"/api/sessions/"+S.sid+"/stream");
+  S.es=es;
+  es.onerror=function(){
+    if(S.offline) return;
+    setStatus("stream lost — retrying");
+  };
+  es.addEventListener("status",function(e){onStatus(parse(e));});
+  es.addEventListener("evidence",function(e){onEvidence(parse(e));});
+  es.addEventListener("persona_start",function(e){onPersona(parse(e));});
+  es.addEventListener("stance",function(e){addStance(parse(e));});
+  es.addEventListener("camp",function(e){addCamp(parse(e));});
+  es.addEventListener("verdict",function(e){onVerdict(parse(e));});
+  function parse(e){try{return JSON.parse(e.data);}catch(_){return {};}}
+  S._q=q;
+}
+function onStatus(s){
+  var t=s.status||"";
+  var lines=[];
+  if(s.round!==undefined) lines.push("round "+s.round);
+  if(s.business_class) lines.push("class: "+s.business_class);
+  if(s.evidence_count!==undefined) lines.push(s.evidence_count+" evidence cards");
+  if(s.detail) lines.push(s.detail);
+  if(s.stage) lines.push(s.stage);
+  setStatus(t+(lines.length?" — "+lines.join(" · "):""), t==="ready"||t==="verdict_ready");
+  if(t==="ready"&&!S.qsent&&S._q){S.qsent=true;post("/api/sessions/"+S.sid+"/question",{text:S._q}).catch(function(e){setStatus("question failed: "+e.message);});}
+  if(t==="ready") $("btnDebate").disabled=false;
+}
+function onEvidence(d){ if(d.card) addEvidence(d.card); else addEvidence(d); }
+function onPersona(p){ addPersona(p); setStatus("personas streaming"); }
+function onVerdict(v){
+  S.verdict=v; $("verdictWrap").style.display="block";
+  if(v.objections||v.segment_impact){ /* full data held locally; gate on paid */ }
+  refreshVerdict();
+  setStatus(S.paid?"verdict ready":"verdict ready — locked behind checkout",true);
+}
+$("btnDebate").onclick=function(){
+  if(!S.sid) return;
+  var q=$("bq").value.trim();
+  if(!q){$("intakeErr").textContent="enter a decision question first.";return;}
+  S.qsent=true;S._q=q;
+  this.disabled=true;
+  setStatus("dispatching debate");
+  post("/api/sessions/"+S.sid+"/question",{text:q})
+    .then(function(){$("btnDebate").disabled=false;})
+    .catch(function(e){$("btnDebate").disabled=false;setStatus("question rejected: "+e.message);
+      if(e.status===409)setStatus("session not ready — wait for evidence",false);});
+};
+
+/* ===================== pay ===================== */
+function doPay(){
+  if(!S.sid) return;
+  apiFetch("/api/sessions/"+S.sid+"/pay").then(function(r){
+    if(r.payment_url) window.open(r.payment_url,"_blank","noopener");
+    return post("/api/sessions/"+S.sid+"/pay/mark-paid");
+  }).then(function(){
+    S.paid=true; refreshVerdict();
+  }).catch(function(e){
+    if(String(e.message).indexOf("Failed")<0&&e.status!==0) return;
+    // fallback: mark paid directly anyway
+    post("/api/sessions/"+S.sid+"/pay/mark-paid").then(function(){S.paid=true;refreshVerdict();}).catch(function(){});
+  });
+}
+
+/* ===================== agent chat ===================== */
+function openChat(pid){
+  var p=S.personas[pid]; if(!p) return;
+  S.chatPid=pid;
+  $("chatName").textContent=p.name||pid;
+  $("chatSeg").textContent=(p.segment||"")+(p.profile?" · "+p.profile:"");
+  $("chatMsgs").innerHTML="";
+  $("chatInput").value="";
+  if(!S.paid){
+    $("chatMsgs").innerHTML='<div class="lockcard">🔒 Agent chat unlocks with checkout ($19).'+(S.mock?"<br>This is a read-only recorded session — unlock is disabled in demo mode.":"")+"</div>";
+  }
+  $("chatPanel").classList.add("on");
+}
+$("chatClose").onclick=function(){$("chatPanel").classList.remove("on");};
+$("chatSend").onclick=sendChat;
+$("chatInput").onkeydown=function(e){if(e.key==="Enter")sendChat();};
+function sendChat(){
+  if(!S.chatPid) return;
+  var msg=$("chatInput").value.trim();
+  if(!msg) return;
+  if(!S.paid||S.mock){
+    $("chatMsgs").insertAdjacentHTML("beforeend",
+      '<div class="msg you">'+esc(msg)+'</div><div class="muted">locked — unlock ($19) to chat in-character.</div>');
+    $("chatInput").value=""; return;
+  }
+  addChatBubble("you",msg,true);
+  $("chatInput").value="";
+  $("chatSend").disabled=true;
+  post("/api/sessions/"+S.sid+"/agents/"+S.chatPid+"/chat",{message:msg})
+    .then(function(r){
+      addChatBubble("them",r.reply,false,r.evidence_ids);
+      $("chatSend").disabled=false;
+    })
+    .catch(function(e){
+      addChatBubble("them","⚠ "+e.message,false);
+      $("chatSend").disabled=false;
+    });
+}
+function addChatBubble(which,text,mine,eids){
+  var w=$("chatMsgs");
+  var d=document.createElement("div");
+  d.className="msg"+(mine?" you":"");
+  d.innerHTML=esc(text);
+  w.appendChild(d);
+  if(eids&&eids.length){
+    var mc=document.createElement("div"); mc.className="minicards";
+    mc.innerHTML=eids.filter(function(id){return S.evidence[id];}).map(function(id){
+      return '<span class="evidref mini" data-ev="'+id+'" title="'+
+        esc(S.evidence[id].claim||"")+'">'+esc(id)+"</span>";}).join("");
+    w.appendChild(mc);
+  }
+  var c=document.getElementById("chatPanel"); c.scrollTop=c.scrollHeight;
+}
+
+/* ===================== mock / replay ===================== */
+function startMock(){
+  // try the recorded endpoint first; fall back to embedded fixture (offline)
+  apiFetch("/api/mock-session/s_demo"+("00"+Math.floor(Math.random()*99)).slice(-2))
+    .then(function(snap){
+      if(!$("demoToggle").checked) return;   // toggle flipped off mid-flight
+      if(!snap||!snap.session_id) throw new Error("no fixture");
+      playMock(snap,null,"recorded session — served by backend");
+    })
+    .catch(function(){
+      if(!$("demoToggle").checked) return;   // toggle flipped off mid-flight
+      playMock(FIXTURE.snapshot,FIXTURE.stream_events,
+        "recorded session — offline fallback (embedded copy of the fixture)");
+    });
+}
+function playMock(snap,streamEvents,label){
+  S.offline=true; S.mock=true;
+  banner(label,true);
+  // reset board
+  S.evidence={};S.evidOrder=[];S.personas={};S.segments={};S.segOrder=[];
+  S.stances=[];S.camps=[];S.verdict=null;
+  $("cardSession").style.display="block";
+  $("sessTitle").textContent="Session "+snap.session_id+" — "+(snap.business||{}).name+" (recorded)";
+  setStatus(snap.status||"verdict_ready",true);
+  $("evGrid").innerHTML="";$("perBoxes").innerHTML="";$("debFeed").innerHTML="";
+  (snap.evidence||[]).forEach(function(c){addEvidence(c);});
+  S.snapshotSegs={};(snap.segments||[]).forEach(function(sg){S.snapshotSegs[sg.name]=sg.count;});
+  (snap.personas||[]).forEach(function(p){addPersona(p);});
+  $("bq").value=snap.question||"";
+  // the endpoint snapshot carries evidence/personas/verdict only; the recorded
+  // debate feed lives in the embedded fixture (same recording) — replay it too
+  var feed=streamEvents||FIXTURE.stream_events;
+  if(feed){
+    feed.forEach(function(ev){
+      if(ev.event==="stance") addStance(ev.data);
+      else if(ev.event==="camp") addCamp(ev.data);
+    });
+  }
+  S.paid=!!snap.paid;
+  if(snap.verdict){S.verdict=snap.verdict;S.paid=!!snap.paid;refreshVerdict();}
+  $("btnPay")&&($("btnPay").disabled=true);
+  // read-only: disable intake + loop
+  $("btnCreate").disabled=false;
+  $("btnLoop").disabled=true;$("btnLoop").title="read-only in demo mode";
+}
+function offlineFallback(err,why){
+  // backend unreachable from live mode: show banner and replay the fixture (read-only)
+  $("intakeErr").textContent=String(why||"")+" — backend unreachable.";
+  playMock(FIXTURE.snapshot,FIXTURE.stream_events,
+    "offline fallback — backend unreachable; replaying the recorded demo session");
+  $("demoToggle").checked=true;
+  setTab("Run");
+  S.mock=true;
+  banner("offline fallback — backend unreachable; recorded session replayed",true);
+}
+
+/* ===================== learning loop ===================== */
+var loopTimer=null;
+$("btnLoop").onclick=function(){
+  if(!S.sid||S.mock){$("loopErr").textContent="run a live session first.";return;}
+  $("loopErr").textContent="";
+  $("loopRun").style.display="block";
+  var t0=Date.now();
+  if(loopTimer)clearInterval(loopTimer);
+  loopTimer=setInterval(function(){
+    var s=Math.floor((Date.now()-t0)/1000);
+    $("loopTimer").textContent=Math.floor(s/60)+":"+("0"+(s%60)).slice(-2);
+  },1000);
+  this.disabled=true;
+  post("/api/sessions/"+S.sid+"/run-loop",{})
+    .then(function(d){
+      clearInterval(loopTimer);
+      $("loopRun").style.display="none";
+      $("btnLoop").disabled=false;
+      $("loopErr").textContent="done.";
+      renderLoopFull(d);
+    })
+    .catch(function(e){
+      clearInterval(loopTimer);
+      $("loopRun").style.display="none";
+      $("btnLoop").disabled=false;
+      $("loopErr").textContent=e.status===409?("backend says: "+e.message+" (run the debate first)"):String(e.message);
+      if(e.status===404&&String(e.message).indexOf("session not found")>=0){
+        $("loopErr").textContent="session not found — run intake first.";
+      }
+    });
+};
+$("btnReroll").onclick=function(){
+  if(!S.sid||S.mock) { $("loopErr").textContent="read-only in demo mode."; return; }
+  var seed=parseInt($("rerollSeed").value,10);
+  if(isNaN(seed))seed=42;
+  $("loopErr").textContent="";
+  $("loopRun").style.display="block";
+  var t0=Date.now();
+  if(loopTimer)clearInterval(loopTimer);
+  loopTimer=setInterval(function(){
+    var s=Math.floor((Date.now()-t0)/1000);
+    $("loopTimer").textContent=Math.floor(s/60)+":"+("0"+(s%60)).slice(-2);
+  },1000);
+  post("/api/sessions/"+S.sid+"/loop/reroll",{seed:seed})
+    .then(function(d){clearInterval(loopTimer);$("loopRun").style.display="none";renderLoopFull(d);})
+    .catch(function(e){clearInterval(loopTimer);$("loopRun").style.display="none";$("loopErr").textContent=String(e.message);});
+};
+function renderLoopFull(d){
+  var train=(d.round_scores||[]).filter(function(r){return !r.split||r.split==="train";});
+  var chart={train:train.map(function(r){return {round:r.round,regret:r.regret};}),
+    test_bar:{baseline_regret:(d.final_eval||{}).baseline_regret,
+      final_regret:(d.final_eval||{}).final_regret,
+      test_regret:(d.final_eval||{}).test_regret,
+      shifted_context_regret:(d.final_eval||{}).shifted_context_regret}};
+  renderLoop(chart);
+  var bl=$("beliefs");
+  var keys=Object.keys(d.beliefs||{});
+  bl.innerHTML=keys.length?keys.map(function(k){
+    return '<div class="impact"><div class="iseg">'+esc(k)+"</div><div>"+esc(d.beliefs[k])+"</div></div>";
+  }).join(""):'<div class="hint">no beliefs returned.</div>';
+  $("chartCard").style.display="block";
+}
+function renderLoop(d){
+  var train=d.train||[];
+  var tb=d.test_bar||{};
+  $("chartCard").style.display="block";
+  var tc=$("trainChart"), bc=$("barChart");
+  if(!train.length){tc.innerHTML='<div class="hint">not run yet.</div>';}
+  else{
+    var W=640,H=160,pad=30;
+    var maxR=Math.max.apply(null,train.map(function(p){return +p.regret||0;}).concat([0.1]));
+    var pts=train.map(function(p,i){
+      var x=pad+( (W-2*pad) * ( train.length>1 ? i/(train.length-1) : 0.5 ));
+      var y=H-pad-(H-2*pad)*((+p.regret||0)/maxR);
+      return [x,y,+" "+0].slice(0,2).concat([p.round,p.regret]);
+    });
+    tc.innerHTML='<svg viewBox="0 0 '+W+' '+H+'" width="100%" style="max-width:'+W+'px">'+
+      '<line class="axis" x1="'+pad+'" y1="'+(H-pad)+'" x2="'+(W-pad)+'" y2="'+(H-pad)+'"/>'+
+      '<line class="axis" x1="'+pad+'" y1="'+(pad-10)+'" x2="'+pad+'" y2="'+(H-pad)+'"/>'+
+      '<text x="'+pad+'" y="'+(pad-12)+'">regret (max '+maxR.toFixed(3)+')</text>'+
+      '<polyline fill="none" stroke="#4f9cf7" stroke-width="2.5" points="'+
+        pts.map(function(p){return p[0].toFixed(1)+","+p[1].toFixed(1);}).join(" ")+'"/>'+
+      pts.map(function(p){
+        return '<circle cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="4" fill="#4f9cf7"/>'+
+          '<text x="'+p[0].toFixed(1)+'" y="'+(H-10)+'" text-anchor="middle">r'+p[2]+"</text>";}).join("")+
+      "</svg>";
+  }
+  var bars=[["baseline",tb.baseline_regret],["final",tb.final_regret],
+    ["test",tb.test_regret],["shifted",tb.shifted_context_regret]];
+  bars=bars.filter(function(b){return b[1]!==undefined&&b[1]!==null;});
+  if(!bars.length){bc.innerHTML='<div class="hint">not run yet.</div>';}
+  else{
+    var W2=640,bh=30,gap=12,pad2=90;
+    var maxB=Math.max.apply(null,bars.map(function(b){return Math.abs(+b[1])}));
+    bc.innerHTML='<svg viewBox="0 0 '+W2+' '+(bars.length*(bh+gap)+14)+
+      '" width="100%" style="max-width:'+W2+'px">'+
+      bars.map(function(b,i){
+        var w=Math.abs(+b[1])/maxB*(W2-pad2-90);
+        var y=i*(bh+gap)+8;
+        var col=i===1?"#3ecf8e":(i===2?"#4f9cf7":i===3?"#c7a3ff":"#8a97a8");
+        return '<rect x="'+pad2+'" y="'+y+'" width="'+w.toFixed(0)+'" height="'+bh+
+          '" rx="6" fill="'+col+'"/>'+
+          '<text x="'+(pad2-8)+'" y="'+(y+bh-9)+'" text-anchor="end">'+b[0]+"</text>"+
+          '<text x="'+(pad2+w+6).toFixed(0)+'" y="'+(y+bh-9)+'" class="bar-l">'+(+b[1]).toFixed(3)+"</text>";
+      }).join("")+"</svg>";
+  }
+}
+
+/* ===================== boot ===================== */
+$("apiShow").textContent=API;
+setTab("Run");
+</script>
+</body>
+</html>

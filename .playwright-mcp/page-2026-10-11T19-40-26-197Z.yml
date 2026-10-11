@@ -1,0 +1,94 @@
+- generic [ref=f26e78]:
+  - generic [ref=f26e79]:
+    - generic [ref=f26e80]:
+      - button "Back" [ref=f26e81] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f26e82] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f26e87]: Step 1/5 · Scout
+    - generic [ref=f26e88]:
+      - generic [ref=f26e89]: running
+      - generic [ref=f26e92]: Cafe 210
+  - generic [ref=f26e93]:
+    - complementary [ref=f26e94]:
+      - generic [ref=f26e95]:
+        - button "01 Name-only intake" [ref=f26e96] [cursor=pointer]:
+          - generic [ref=f26e97]: "01"
+          - generic [ref=f26e98]: Name-only intake
+        - button "02 Evidence & personas" [ref=f26e99] [cursor=pointer]:
+          - generic [ref=f26e100]: "02"
+          - generic [ref=f26e101]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f26e102] [cursor=pointer]:
+          - generic [ref=f26e103]: "03"
+          - generic [ref=f26e104]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f26e105] [cursor=pointer]:
+          - generic [ref=f26e106]: "04"
+          - generic [ref=f26e107]: Aggregated judge
+        - button "05 Loop · agents · drafts" [ref=f26e108] [cursor=pointer]:
+          - generic [ref=f26e109]: "05"
+          - generic [ref=f26e110]: Loop · agents · drafts
+      - generic [ref=f26e111]:
+        - text: Live Feed
+        - generic [ref=f26e112]: 4 events
+      - generic [ref=f26e113]:
+        - generic [ref=f26e114]:
+          - generic [ref=f26e115]: 15:40:25.037
+          - generic [ref=f26e116]: console
+          - generic [ref=f26e117]: "business confirmed: convening on Cafe 210 · State College (recorded replay)"
+        - generic [ref=f26e118]:
+          - generic [ref=f26e119]: 15:40:25.158
+          - generic [ref=f26e120]: session:start
+          - generic [ref=f26e121]: session opened · Cafe 210
+        - generic [ref=f26e122]:
+          - generic [ref=f26e123]: 15:40:25.481
+          - generic [ref=f26e124]: scout:source
+          - generic [ref=f26e125]: Mock · mock fixture replay
+        - generic [ref=f26e126]:
+          - generic [ref=f26e127]: 15:40:25.844
+          - generic [ref=f26e128]: evidence
+          - generic [ref=f26e129]: card e1 · Weekend footfall peaks after 10 PM and regulars complain abou…
+        - generic [ref=f26e130]:
+          - generic [ref=f26e131]: 15:40:25.853
+          - generic [ref=f26e132]: scout:reviews
+          - generic [ref=f26e133]: 1 reviews streamed
+      - generic [ref=f26e134]:
+        - generic [ref=f26e135]:
+          - generic [ref=f26e136]: 1/7
+          - text: sources
+        - generic [ref=f26e137]:
+          - generic [ref=f26e138]: "1"
+          - text: evidence
+        - generic [ref=f26e139]:
+          - generic [ref=f26e140]: "0"
+          - text: agents
+        - generic [ref=f26e141]:
+          - generic [ref=f26e142]: 0/2
+          - text: round
+    - main [ref=f26e143]:
+      - generic [ref=f26e144]:
+        - generic [ref=f26e145]:
+          - generic [ref=f26e146]:
+            - generic [ref=f26e147]: 01 · Scout — Name-only intake
+            - generic [ref=f26e148]: Scouts reading the internet on Cafe 210
+          - generic [ref=f26e149]: streaming
+        - generic [ref=f26e150]:
+          - generic [ref=f26e152]:
+            - generic [ref=f26e153]:
+              - text: ◇ source sweep
+              - generic [ref=f26e154]: 1/7
+            - generic [ref=f26e157]:
+              - generic [ref=f26e158]: 1 of 7 sources
+              - generic [ref=f26e159]: name-only intake
+            - generic [ref=f26e161]:
+              - generic [ref=f26e162]:
+                - generic [ref=f26e163]: Mock
+                - generic [ref=f26e164]: ok
+              - generic [ref=f26e165]: mock fixture replay
+          - generic [ref=f26e167]:
+            - generic [ref=f26e168]:
+              - text: ◇ reviews streaming
+              - generic [ref=f26e169]: 1 in
+            - generic [ref=f26e171]:
+              - text: "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\""
+              - generic [ref=f26e172]:
+                - generic [ref=f26e173]: Google review
+                - generic [ref=f26e174]: review 1

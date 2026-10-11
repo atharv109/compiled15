@@ -1,0 +1,84 @@
+- generic [ref=f9e67]:
+  - generic [ref=f9e68]:
+    - generic [ref=f9e69]:
+      - button "Back" [ref=f9e70] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f9e71] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f9e76]: Step 1/5 · Scout
+    - generic [ref=f9e77]:
+      - generic [ref=f9e78]: running
+      - generic [ref=f9e81]: Cafe 210 West
+  - generic [ref=f9e82]:
+    - complementary [ref=f9e83]:
+      - generic [ref=f9e84]:
+        - button "01 Name-only intake" [ref=f9e85] [cursor=pointer]:
+          - generic [ref=f9e86]: "01"
+          - generic [ref=f9e87]: Name-only intake
+        - button "02 Evidence & personas" [ref=f9e88] [cursor=pointer]:
+          - generic [ref=f9e89]: "02"
+          - generic [ref=f9e90]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f9e91] [cursor=pointer]:
+          - generic [ref=f9e92]: "03"
+          - generic [ref=f9e93]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f9e94] [cursor=pointer]:
+          - generic [ref=f9e95]: "04"
+          - generic [ref=f9e96]: Aggregated judge
+        - button "05 Loop & agents" [ref=f9e97] [cursor=pointer]:
+          - generic [ref=f9e98]: "05"
+          - generic [ref=f9e99]: Loop & agents
+      - generic [ref=f9e100]:
+        - text: Live Feed
+        - generic [ref=f9e101]: 3 events
+      - generic [ref=f9e102]:
+        - generic [ref=f9e103]:
+          - generic [ref=f9e104]: 14:31:44.459
+          - generic [ref=f9e105]: console
+          - generic [ref=f9e106]: live channel opened · backend same origin
+        - generic [ref=f9e107]:
+          - generic [ref=f9e108]: 14:31:44.540
+          - generic [ref=f9e109]: session:start
+          - generic [ref=f9e110]: session opened · Cafe 210 West
+        - generic [ref=f9e111]:
+          - generic [ref=f9e112]: 14:31:45.430
+          - generic [ref=f9e113]: scout:status
+          - generic [ref=f9e114]: "business_class: local_consumer — persona family: consumers"
+        - generic [ref=f9e115]:
+          - generic [ref=f9e116]: 14:31:45.431
+          - generic [ref=f9e117]: scout:source
+          - generic [ref=f9e118]: Classified · ok
+      - generic [ref=f9e119]:
+        - generic [ref=f9e120]:
+          - generic [ref=f9e121]: 1/7
+          - text: sources
+        - generic [ref=f9e122]:
+          - generic [ref=f9e123]: "0"
+          - text: evidence
+        - generic [ref=f9e124]:
+          - generic [ref=f9e125]: "0"
+          - text: agents
+        - generic [ref=f9e126]:
+          - generic [ref=f9e127]: 0/2
+          - text: round
+    - main [ref=f9e128]:
+      - generic [ref=f9e129]:
+        - generic [ref=f9e130]:
+          - generic [ref=f9e131]:
+            - generic [ref=f9e132]: 01 · Scout — Name-only intake
+            - generic [ref=f9e133]: Scouts reading the internet on Cafe 210 West
+          - generic [ref=f9e134]: streaming
+        - generic [ref=f9e135]:
+          - generic [ref=f9e137]:
+            - generic [ref=f9e138]:
+              - text: ◇ source sweep
+              - generic [ref=f9e139]: 1/7
+            - generic [ref=f9e142]:
+              - generic [ref=f9e143]: 1 of 7 sources
+              - generic [ref=f9e144]: name-only intake
+            - generic [ref=f9e147]:
+              - generic [ref=f9e148]: Classified
+              - generic [ref=f9e149]: ok
+          - generic [ref=f9e151]:
+            - generic [ref=f9e152]:
+              - text: ◇ reviews streaming
+              - generic [ref=f9e153]: 0 in
+            - generic [ref=f9e154]: …waiting for reviews

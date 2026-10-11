@@ -1,0 +1,24 @@
+- generic [active] [ref=f6e1]:
+  - generic:
+    - text: stage
+    - generic: debate
+    - text: · nodes
+    - generic: "31"
+    - text: · pairs
+    - generic: "43"
+    - text: · edges
+    - generic: "52"
+    - text: · alpha
+    - generic: "0.144"
+    - text: · dec
+    - generic: "0.03"
+    - text: · sim
+    - generic: "on"
+    - text: · arcs
+    - generic: "0"
+    - text: · pend 2/4 · phase
+    - generic: scout
+    - text: · toast
+    - generic: live
+  - generic: "<- persona {\"id\":\"p4\",\"segment\":\"tourists\",\"name\":\"Jordan\",\"profile\":\"\"} · <- persona {\"id\":\"p5\",\"segment\":\"families\",\"name\":\"Sam\",\"profile\":\"\"} · <- persona {\"id\":\"p6\",\"segment\":\"staff\",\"name\":\"Ivy\",\"profile\":\"\"} · <- persona {\"id\":\"p7\",\"segment\":\"regulars\",\"name\":\"Noor\",\"profile\":\"\"}"
+  - generic [ref=f6e2]: real-time updating

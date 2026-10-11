@@ -1,0 +1,980 @@
+- generic [ref=f9e67]:
+  - generic [ref=f9e68]:
+    - generic [ref=f9e69]:
+      - button "Back" [ref=f9e70] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f9e71] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f9e76]: Step 2/5 · Swarm
+    - generic [ref=f9e77]:
+      - generic [ref=f9e78]: running
+      - generic [ref=f9e81]: Cafe 210 West
+  - generic [ref=f9e82]:
+    - complementary [ref=f9e83]:
+      - generic [ref=f9e84]:
+        - button "01 Name-only intake" [ref=f9e156] [cursor=pointer]:
+          - generic [ref=f9e157]: "01"
+          - generic [ref=f9e158]: Name-only intake
+        - button "02 Evidence & personas" [ref=f9e159] [cursor=pointer]:
+          - generic [ref=f9e160]: "02"
+          - generic [ref=f9e161]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f9e162] [cursor=pointer]:
+          - generic [ref=f9e163]: "03"
+          - generic [ref=f9e164]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f9e165] [cursor=pointer]:
+          - generic [ref=f9e166]: "04"
+          - generic [ref=f9e167]: Aggregated judge
+        - button "05 Loop & agents" [ref=f9e168] [cursor=pointer]:
+          - generic [ref=f9e169]: "05"
+          - generic [ref=f9e170]: Loop & agents
+      - generic [ref=f9e100]:
+        - text: Live Feed
+        - generic [ref=f9e101]: 210 events
+      - generic [ref=f9e102]:
+        - generic [ref=f9e171]:
+          - generic [ref=f9e172]: 14:31:48.463
+          - generic [ref=f9e173]: evidence
+          - generic [ref=f9e174]: card e4 · Log inSign up Log inSign up Café 210 West Café 210 West pr…
+        - generic [ref=f9e175]:
+          - generic [ref=f9e176]: 14:31:48.465
+          - generic [ref=f9e177]: evidence
+          - generic [ref=f9e178]: card e5 · Log In Sign Up 11.5K followers 383 following Cafe 210 We…
+        - generic [ref=f9e179]:
+          - generic [ref=f9e180]: 14:31:48.467
+          - generic [ref=f9e181]: evidence
+          - generic [ref=f9e182]: card e6 · | Company Name | Revenue | Number of Employees | Employee Gro…
+        - generic [ref=f9e183]:
+          - generic [ref=f9e184]: 14:31:48.468
+          - generic [ref=f9e185]: evidence
+          - generic [ref=f9e186]: card e7 · 4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in St…
+        - generic [ref=f9e187]:
+          - generic [ref=f9e188]: 14:31:48.470
+          - generic [ref=f9e189]: evidence
+          - generic [ref=f9e190]: card e8 · Open now Image 25 Otto's Pub and Brewery 4.1 4.1 of 5 bub…
+        - generic [ref=f9e191]:
+          - generic [ref=f9e192]: 14:31:48.471
+          - generic [ref=f9e193]: evidence
+          - generic [ref=f9e194]: card e9 · Actually laughing reading the reviews bc why is bro on a powe…
+        - generic [ref=f9e195]:
+          - generic [ref=f9e196]: 14:31:48.473
+          - generic [ref=f9e197]: scout:reviews
+          - generic [ref=f9e198]: 1 reviews streamed
+        - generic [ref=f9e199]:
+          - generic [ref=f9e200]: 14:31:48.475
+          - generic [ref=f9e201]: evidence
+          - generic [ref=f9e202]: card e10 · Our waiter forgot about our drinks like I’m thirsty the food …
+        - generic [ref=f9e203]:
+          - generic [ref=f9e204]: 14:31:48.478
+          - generic [ref=f9e205]: scout:reviews
+          - generic [ref=f9e206]: 1 reviews streamed
+        - generic [ref=f9e207]:
+          - generic [ref=f9e208]: 14:31:48.479
+          - generic [ref=f9e209]: evidence
+          - generic [ref=f9e210]: card e11 · Despite having great food, service, and atmosphere, I can’t r…
+        - generic [ref=f9e211]:
+          - generic [ref=f9e212]: 14:31:48.481
+          - generic [ref=f9e213]: scout:reviews
+          - generic [ref=f9e214]: 1 reviews streamed
+        - generic [ref=f9e215]:
+          - generic [ref=f9e216]: 14:31:48.495
+          - generic [ref=f9e217]: evidence
+          - generic [ref=f9e218]: card e12 · Cafe is one of those places you want to be at until you there…
+        - generic [ref=f9e219]:
+          - generic [ref=f9e220]: 14:31:48.506
+          - generic [ref=f9e221]: scout:reviews
+          - generic [ref=f9e222]: 1 reviews streamed
+        - generic [ref=f9e223]:
+          - generic [ref=f9e224]: 14:31:48.508
+          - generic [ref=f9e225]: evidence
+          - generic [ref=f9e226]: card e13 · The bouncers are incredible. I felt so bad they had to deal w…
+        - generic [ref=f9e227]:
+          - generic [ref=f9e228]: 14:31:48.510
+          - generic [ref=f9e229]: scout:reviews
+          - generic [ref=f9e230]: 1 reviews streamed
+        - generic [ref=f9e231]:
+          - generic [ref=f9e232]: 14:31:48.511
+          - generic [ref=f9e233]: evidence
+          - generic [ref=f9e234]: card e14 · Charging cover just to kick you out half a second later!! If …
+        - generic [ref=f9e235]:
+          - generic [ref=f9e236]: 14:31:48.514
+          - generic [ref=f9e237]: scout:reviews
+          - generic [ref=f9e238]: 1 reviews streamed
+        - generic [ref=f9e239]:
+          - generic [ref=f9e240]: 14:31:48.517
+          - generic [ref=f9e241]: evidence
+          - generic [ref=f9e242]: card e15 · I have been a patron of Cafe 210 for years and love to come w…
+        - generic [ref=f9e243]:
+          - generic [ref=f9e244]: 14:31:48.521
+          - generic [ref=f9e245]: scout:reviews
+          - generic [ref=f9e246]: 1 reviews streamed
+        - generic [ref=f9e247]:
+          - generic [ref=f9e248]: 14:31:48.523
+          - generic [ref=f9e249]: evidence
+          - generic [ref=f9e250]: card e16 · . Food was good but our order was incorrect, and unfortunate…
+        - generic [ref=f9e251]:
+          - generic [ref=f9e252]: 14:31:48.528
+          - generic [ref=f9e253]: scout:reviews
+          - generic [ref=f9e254]: 1 reviews streamed
+        - generic [ref=f9e255]:
+          - generic [ref=f9e256]: 14:31:48.530
+          - generic [ref=f9e257]: evidence
+          - generic [ref=f9e258]: card e17 · Charging cover for a fully empty empty bar on a hot Friday af…
+        - generic [ref=f9e259]:
+          - generic [ref=f9e260]: 14:31:48.539
+          - generic [ref=f9e261]: scout:reviews
+          - generic [ref=f9e262]: 1 reviews streamed
+        - generic [ref=f9e263]:
+          - generic [ref=f9e264]: 14:31:48.544
+          - generic [ref=f9e265]: evidence
+          - generic [ref=f9e266]: card e18 · I used to come to this place when I was a student, but now th…
+        - generic [ref=f9e267]:
+          - generic [ref=f9e268]: 14:31:48.551
+          - generic [ref=f9e269]: scout:reviews
+          - generic [ref=f9e270]: 1 reviews streamed
+        - generic [ref=f9e271]:
+          - generic [ref=f9e272]: 14:31:48.554
+          - generic [ref=f9e273]: evidence
+          - generic [ref=f9e274]: card e19 · Good menu selection, outside seating, slushies
+        - generic [ref=f9e275]:
+          - generic [ref=f9e276]: 14:31:48.561
+          - generic [ref=f9e277]: scout:reviews
+          - generic [ref=f9e278]: 1 reviews streamed
+        - generic [ref=f9e279]:
+          - generic [ref=f9e280]: 14:31:48.564
+          - generic [ref=f9e281]: evidence
+          - generic [ref=f9e282]: card e20 · Literally the worst service I’ve ever experienced in my life.…
+        - generic [ref=f9e283]:
+          - generic [ref=f9e284]: 14:31:48.568
+          - generic [ref=f9e285]: scout:reviews
+          - generic [ref=f9e286]: 1 reviews streamed
+        - generic [ref=f9e287]:
+          - generic [ref=f9e288]: 14:31:48.571
+          - generic [ref=f9e289]: evidence
+          - generic [ref=f9e290]: card e21 · Love stopping at Cafe 210 West for lunch! Best to go around l…
+        - generic [ref=f9e291]:
+          - generic [ref=f9e292]: 14:31:48.577
+          - generic [ref=f9e293]: scout:reviews
+          - generic [ref=f9e294]: 1 reviews streamed
+        - generic [ref=f9e295]:
+          - generic [ref=f9e296]: 14:31:48.579
+          - generic [ref=f9e297]: evidence
+          - generic [ref=f9e298]: card e22 · We have been multiple times and never had a problem. The bar …
+        - generic [ref=f9e299]:
+          - generic [ref=f9e300]: 14:31:48.585
+          - generic [ref=f9e301]: scout:reviews
+          - generic [ref=f9e302]: 1 reviews streamed
+        - generic [ref=f9e303]:
+          - generic [ref=f9e304]: 14:31:48.596
+          - generic [ref=f9e305]: evidence
+          - generic [ref=f9e306]: card e23 · I had a very disappointing and frustrating experience here to…
+        - generic [ref=f9e307]:
+          - generic [ref=f9e308]: 14:31:48.600
+          - generic [ref=f9e309]: scout:reviews
+          - generic [ref=f9e310]: 1 reviews streamed
+        - generic [ref=f9e311]:
+          - generic [ref=f9e312]: 14:31:48.603
+          - generic [ref=f9e313]: evidence
+          - generic [ref=f9e314]: card e24 · Great spot if u want to get kicked out by power hungry bounce…
+        - generic [ref=f9e315]:
+          - generic [ref=f9e316]: 14:31:48.608
+          - generic [ref=f9e317]: scout:reviews
+          - generic [ref=f9e318]: 1 reviews streamed
+        - generic [ref=f9e319]:
+          - generic [ref=f9e320]: 14:31:48.610
+          - generic [ref=f9e321]: evidence
+          - generic [ref=f9e322]: card e25 · One of the worst meals I’ve had in a long time. Both the chee…
+        - generic [ref=f9e323]:
+          - generic [ref=f9e324]: 14:31:48.614
+          - generic [ref=f9e325]: scout:reviews
+          - generic [ref=f9e326]: 1 reviews streamed
+        - generic [ref=f9e327]:
+          - generic [ref=f9e328]: 14:31:48.617
+          - generic [ref=f9e329]: evidence
+          - generic [ref=f9e330]: card e26 · Pathetic food, tasteless, poorly cooked and not worth the mon…
+        - generic [ref=f9e331]:
+          - generic [ref=f9e332]: 14:31:48.622
+          - generic [ref=f9e333]: scout:reviews
+          - generic [ref=f9e334]: 1 reviews streamed
+        - generic [ref=f9e335]:
+          - generic [ref=f9e336]: 14:31:48.625
+          - generic [ref=f9e337]: evidence
+          - generic [ref=f9e338]: card e27 · Nice place once you get in. On a football Friday, you can wa…
+        - generic [ref=f9e339]:
+          - generic [ref=f9e340]: 14:31:48.629
+          - generic [ref=f9e341]: scout:reviews
+          - generic [ref=f9e342]: 1 reviews streamed
+        - generic [ref=f9e343]:
+          - generic [ref=f9e344]: 14:31:48.631
+          - generic [ref=f9e345]: evidence
+          - generic [ref=f9e346]: card e28 · Terrible, unwelcoming employees who don’t care about bringing…
+        - generic [ref=f9e347]:
+          - generic [ref=f9e348]: 14:31:48.636
+          - generic [ref=f9e349]: scout:reviews
+          - generic [ref=f9e350]: 1 reviews streamed
+        - generic [ref=f9e351]:
+          - generic [ref=f9e352]: 14:31:48.638
+          - generic [ref=f9e353]: evidence
+          - generic [ref=f9e354]: card e29 · Had a $5 cash only cover for the banana bar crawl. Couldn’t g…
+        - generic [ref=f9e355]:
+          - generic [ref=f9e356]: 14:31:48.643
+          - generic [ref=f9e357]: scout:reviews
+          - generic [ref=f9e358]: 1 reviews streamed
+        - generic [ref=f9e359]:
+          - generic [ref=f9e360]: 14:31:48.646
+          - generic [ref=f9e361]: evidence
+          - generic [ref=f9e362]: card e30 · I came in as a banana on banana crawl night and they charged …
+        - generic [ref=f9e363]:
+          - generic [ref=f9e364]: 14:31:48.650
+          - generic [ref=f9e365]: scout:reviews
+          - generic [ref=f9e366]: 1 reviews streamed
+        - generic [ref=f9e367]:
+          - generic [ref=f9e368]: 14:31:48.653
+          - generic [ref=f9e369]: evidence
+          - generic [ref=f9e370]: card e31 · I loved this place during undergrad so when I came back for H…
+        - generic [ref=f9e371]:
+          - generic [ref=f9e372]: 14:31:48.657
+          - generic [ref=f9e373]: scout:reviews
+          - generic [ref=f9e374]: 1 reviews streamed
+        - generic [ref=f9e375]:
+          - generic [ref=f9e376]: 14:31:48.659
+          - generic [ref=f9e377]: evidence
+          - generic [ref=f9e378]: card e32 · Service is slow but they are pretty busy so understandable. F…
+        - generic [ref=f9e379]:
+          - generic [ref=f9e380]: 14:31:48.687
+          - generic [ref=f9e381]: scout:reviews
+          - generic [ref=f9e382]: 1 reviews streamed
+        - generic [ref=f9e383]:
+          - generic [ref=f9e384]: 14:31:48.695
+          - generic [ref=f9e385]: evidence
+          - generic [ref=f9e386]: card e33 · My server was Alexi and she was amazing!!! Best service I’ve …
+        - generic [ref=f9e387]:
+          - generic [ref=f9e388]: 14:31:48.701
+          - generic [ref=f9e389]: scout:reviews
+          - generic [ref=f9e390]: 1 reviews streamed
+        - generic [ref=f9e391]:
+          - generic [ref=f9e392]: 14:31:48.704
+          - generic [ref=f9e393]: evidence
+          - generic [ref=f9e394]: card e34 · 1/2 hour to get a beer??..and fellow boomer told owner as wel…
+        - generic [ref=f9e395]:
+          - generic [ref=f9e396]: 14:31:48.709
+          - generic [ref=f9e397]: scout:reviews
+          - generic [ref=f9e398]: 1 reviews streamed
+        - generic [ref=f9e399]:
+          - generic [ref=f9e400]: 14:31:48.712
+          - generic [ref=f9e401]: evidence
+          - generic [ref=f9e402]: card e35 · Been waiting years to make it to Cafe 210 West before a White…
+        - generic [ref=f9e403]:
+          - generic [ref=f9e404]: 14:31:48.716
+          - generic [ref=f9e405]: scout:reviews
+          - generic [ref=f9e406]: 1 reviews streamed
+        - generic [ref=f9e407]:
+          - generic [ref=f9e408]: 14:31:48.719
+          - generic [ref=f9e409]: evidence
+          - generic [ref=f9e410]: card e36 · very poor experience due to the employees
+        - generic [ref=f9e411]:
+          - generic [ref=f9e412]: 14:31:48.723
+          - generic [ref=f9e413]: scout:reviews
+          - generic [ref=f9e414]: 1 reviews streamed
+        - generic [ref=f9e415]:
+          - generic [ref=f9e416]: 14:31:48.726
+          - generic [ref=f9e417]: evidence
+          - generic [ref=f9e418]: card e37 · Stopped in for lunch a week ago. Different service was slow, …
+        - generic [ref=f9e419]:
+          - generic [ref=f9e420]: 14:31:48.730
+          - generic [ref=f9e421]: scout:reviews
+          - generic [ref=f9e422]: 1 reviews streamed
+        - generic [ref=f9e423]:
+          - generic [ref=f9e424]: 14:31:48.733
+          - generic [ref=f9e425]: evidence
+          - generic [ref=f9e426]: card e38 · Chicken quesadilla with their ranch and fries are amazing! A …
+        - generic [ref=f9e427]:
+          - generic [ref=f9e428]: 14:31:48.738
+          - generic [ref=f9e429]: scout:reviews
+          - generic [ref=f9e430]: 1 reviews streamed
+        - generic [ref=f9e431]:
+          - generic [ref=f9e432]: 14:31:48.740
+          - generic [ref=f9e433]: evidence
+          - generic [ref=f9e434]: card e39 · We got there at 1:30pm and ordered food off the lunch special…
+        - generic [ref=f9e435]:
+          - generic [ref=f9e436]: 14:31:48.745
+          - generic [ref=f9e437]: scout:reviews
+          - generic [ref=f9e438]: 1 reviews streamed
+        - generic [ref=f9e439]:
+          - generic [ref=f9e440]: 14:31:48.748
+          - generic [ref=f9e441]: evidence
+          - generic [ref=f9e442]: card e40 · Horrible service, non-lenient for even slouching, these peopl…
+        - generic [ref=f9e443]:
+          - generic [ref=f9e444]: 14:31:48.755
+          - generic [ref=f9e445]: scout:reviews
+          - generic [ref=f9e446]: 1 reviews streamed
+        - generic [ref=f9e447]:
+          - generic [ref=f9e448]: 14:31:48.758
+          - generic [ref=f9e449]: evidence
+          - generic [ref=f9e450]: card e41 · Sitting outside. Waitress told us in the 70 degree direct sun…
+        - generic [ref=f9e451]:
+          - generic [ref=f9e452]: 14:31:48.763
+          - generic [ref=f9e453]: scout:reviews
+          - generic [ref=f9e454]: 1 reviews streamed
+        - generic [ref=f9e455]:
+          - generic [ref=f9e456]: 14:31:48.767
+          - generic [ref=f9e457]: evidence
+          - generic [ref=f9e458]: card e42 · 0/5 AWFUL MANAGER AND CHARGED FOR OTHER PEOPLES FOOD. Grabbed…
+        - generic [ref=f9e459]:
+          - generic [ref=f9e460]: 14:31:48.771
+          - generic [ref=f9e461]: scout:reviews
+          - generic [ref=f9e462]: 1 reviews streamed
+        - generic [ref=f9e463]:
+          - generic [ref=f9e464]: 14:31:48.774
+          - generic [ref=f9e465]: evidence
+          - generic [ref=f9e466]: card e43 · Disappointed writing this because I always come here as an al…
+        - generic [ref=f9e467]:
+          - generic [ref=f9e468]: 14:31:48.779
+          - generic [ref=f9e469]: scout:reviews
+          - generic [ref=f9e470]: 1 reviews streamed
+        - generic [ref=f9e471]:
+          - generic [ref=f9e472]: 14:31:48.781
+          - generic [ref=f9e473]: evidence
+          - generic [ref=f9e474]: card e44 · This was my hangout back in my college days. I was in town fo…
+        - generic [ref=f9e475]:
+          - generic [ref=f9e476]: 14:31:48.786
+          - generic [ref=f9e477]: scout:reviews
+          - generic [ref=f9e478]: 1 reviews streamed
+        - generic [ref=f9e479]:
+          - generic [ref=f9e480]: 14:31:48.789
+          - generic [ref=f9e481]: evidence
+          - generic [ref=f9e482]: card e45 · Great spot for a beer to sit outside
+        - generic [ref=f9e483]:
+          - generic [ref=f9e484]: 14:31:48.793
+          - generic [ref=f9e485]: scout:reviews
+          - generic [ref=f9e486]: 1 reviews streamed
+        - generic [ref=f9e487]:
+          - generic [ref=f9e488]: 14:31:48.796
+          - generic [ref=f9e489]: evidence
+          - generic [ref=f9e490]: card e46 · Reliving college days, listening to live music on the back po…
+        - generic [ref=f9e491]:
+          - generic [ref=f9e492]: 14:31:48.800
+          - generic [ref=f9e493]: scout:reviews
+          - generic [ref=f9e494]: 1 reviews streamed
+        - generic [ref=f9e495]:
+          - generic [ref=f9e496]: 14:31:48.802
+          - generic [ref=f9e497]: evidence
+          - generic [ref=f9e498]: card e47 · One of my favorites!
+        - generic [ref=f9e499]:
+          - generic [ref=f9e500]: 14:31:48.808
+          - generic [ref=f9e501]: scout:reviews
+          - generic [ref=f9e502]: 1 reviews streamed
+        - generic [ref=f9e503]:
+          - generic [ref=f9e504]: 14:31:48.813
+          - generic [ref=f9e505]: evidence
+          - generic [ref=f9e506]: card e48 · This bar will kick you out for no reason. I guess the bouncer…
+        - generic [ref=f9e507]:
+          - generic [ref=f9e508]: 14:31:48.817
+          - generic [ref=f9e509]: scout:reviews
+          - generic [ref=f9e510]: 1 reviews streamed
+        - generic [ref=f9e511]:
+          - generic [ref=f9e512]: 14:31:48.820
+          - generic [ref=f9e513]: evidence
+          - generic [ref=f9e514]: card e49 · My boyfriend and I were just in there for an afternoon drink.…
+        - generic [ref=f9e515]:
+          - generic [ref=f9e516]: 14:31:48.825
+          - generic [ref=f9e517]: scout:reviews
+          - generic [ref=f9e518]: 1 reviews streamed
+        - generic [ref=f9e519]:
+          - generic [ref=f9e520]: 14:31:48.828
+          - generic [ref=f9e521]: evidence
+          - generic [ref=f9e522]: card e50 · We’ll ALWAYS be back!! Friday nights on a football weekend fi…
+        - generic [ref=f9e523]:
+          - generic [ref=f9e524]: 14:31:48.832
+          - generic [ref=f9e525]: scout:reviews
+          - generic [ref=f9e526]: 1 reviews streamed
+        - generic [ref=f9e527]:
+          - generic [ref=f9e528]: 14:31:48.835
+          - generic [ref=f9e529]: evidence
+          - generic [ref=f9e530]: card e51 · Great live music that is constantly changing. Great drinks, d…
+        - generic [ref=f9e531]:
+          - generic [ref=f9e532]: 14:31:48.852
+          - generic [ref=f9e533]: scout:reviews
+          - generic [ref=f9e534]: 1 reviews streamed
+        - generic [ref=f9e535]:
+          - generic [ref=f9e536]: 14:31:48.855
+          - generic [ref=f9e537]: evidence
+          - generic [ref=f9e538]: card e52 · Went for the live music. Pure Cane Sugar and JR & Veronica …
+        - generic [ref=f9e539]:
+          - generic [ref=f9e540]: 14:31:48.861
+          - generic [ref=f9e541]: scout:reviews
+          - generic [ref=f9e542]: 1 reviews streamed
+        - generic [ref=f9e543]:
+          - generic [ref=f9e544]: 14:31:48.864
+          - generic [ref=f9e545]: evidence
+          - generic [ref=f9e546]: card e53 · Waited an hour for our order then 30 minutes to pay. Worst se…
+        - generic [ref=f9e547]:
+          - generic [ref=f9e548]: 14:31:48.876
+          - generic [ref=f9e549]: scout:reviews
+          - generic [ref=f9e550]: 1 reviews streamed
+        - generic [ref=f9e551]:
+          - generic [ref=f9e552]: 14:31:48.879
+          - generic [ref=f9e553]: evidence
+          - generic [ref=f9e554]: card e54 · Charged a $32 check and $5 fee 3 separate times to my card wh…
+        - generic [ref=f9e555]:
+          - generic [ref=f9e556]: 14:31:48.885
+          - generic [ref=f9e557]: scout:reviews
+          - generic [ref=f9e558]: 1 reviews streamed
+        - generic [ref=f9e559]:
+          - generic [ref=f9e560]: 14:31:48.887
+          - generic [ref=f9e561]: evidence
+          - generic [ref=f9e562]: card e55 · Service was awful. Manager was awful. Never would recommend t…
+        - generic [ref=f9e563]:
+          - generic [ref=f9e564]: 14:31:48.892
+          - generic [ref=f9e565]: scout:reviews
+          - generic [ref=f9e566]: 1 reviews streamed
+        - generic [ref=f9e567]:
+          - generic [ref=f9e568]: 14:31:48.894
+          - generic [ref=f9e569]: evidence
+          - generic [ref=f9e570]: card e56 · They let us in to order drinks. Then before even having a sip…
+        - generic [ref=f9e571]:
+          - generic [ref=f9e572]: 14:31:48.898
+          - generic [ref=f9e573]: scout:reviews
+          - generic [ref=f9e574]: 1 reviews streamed
+        - generic [ref=f9e575]:
+          - generic [ref=f9e576]: 14:31:48.900
+          - generic [ref=f9e577]: evidence
+          - generic [ref=f9e578]: card e57 · Server was bad and we were stuck with a 20% tip fee having ha…
+        - generic [ref=f9e579]:
+          - generic [ref=f9e580]: 14:31:48.905
+          - generic [ref=f9e581]: scout:reviews
+          - generic [ref=f9e582]: 1 reviews streamed
+        - generic [ref=f9e583]:
+          - generic [ref=f9e584]: 14:31:48.908
+          - generic [ref=f9e585]: evidence
+          - generic [ref=f9e586]: card e58 · Awful experience from start to finish! I don't recommend goin…
+        - generic [ref=f9e587]:
+          - generic [ref=f9e588]: 14:31:48.912
+          - generic [ref=f9e589]: scout:reviews
+          - generic [ref=f9e590]: 1 reviews streamed
+        - generic [ref=f9e591]:
+          - generic [ref=f9e592]: 14:31:48.914
+          - generic [ref=f9e593]: evidence
+          - generic [ref=f9e594]: card e59 · Food is decent, fun time with friends. Service absolutely SUC…
+        - generic [ref=f9e595]:
+          - generic [ref=f9e596]: 14:31:48.923
+          - generic [ref=f9e597]: scout:reviews
+          - generic [ref=f9e598]: 1 reviews streamed
+        - generic [ref=f9e599]:
+          - generic [ref=f9e600]: 14:31:48.926
+          - generic [ref=f9e601]: evidence
+          - generic [ref=f9e602]: card e60 · The beef in the Philly cheesesteak I ordered tasted horrible.…
+        - generic [ref=f9e603]:
+          - generic [ref=f9e604]: 14:31:48.933
+          - generic [ref=f9e605]: scout:reviews
+          - generic [ref=f9e606]: 1 reviews streamed
+        - generic [ref=f9e607]:
+          - generic [ref=f9e608]: 14:31:48.937
+          - generic [ref=f9e609]: evidence
+          - generic [ref=f9e610]: card e61 · Another good time with great live music.
+        - generic [ref=f9e611]:
+          - generic [ref=f9e612]: 14:31:48.941
+          - generic [ref=f9e613]: scout:reviews
+          - generic [ref=f9e614]: 1 reviews streamed
+        - generic [ref=f9e615]:
+          - generic [ref=f9e616]: 14:31:48.944
+          - generic [ref=f9e617]: evidence
+          - generic [ref=f9e618]: card e62 · This “facility” shows up second on the “dog friendly” places …
+        - generic [ref=f9e619]:
+          - generic [ref=f9e620]: 14:31:48.949
+          - generic [ref=f9e621]: scout:reviews
+          - generic [ref=f9e622]: 1 reviews streamed
+        - generic [ref=f9e623]:
+          - generic [ref=f9e624]: 14:31:48.952
+          - generic [ref=f9e625]: evidence
+          - generic [ref=f9e626]: card e63 · Fun place in the warm weather .
+        - generic [ref=f9e627]:
+          - generic [ref=f9e628]: 14:31:48.956
+          - generic [ref=f9e629]: scout:reviews
+          - generic [ref=f9e630]: 1 reviews streamed
+        - generic [ref=f9e631]:
+          - generic [ref=f9e632]: 14:31:48.959
+          - generic [ref=f9e633]: evidence
+          - generic [ref=f9e634]: card e64 · Terrible customer experience. Our daughter was ridiculously …
+        - generic [ref=f9e635]:
+          - generic [ref=f9e636]: 14:31:48.964
+          - generic [ref=f9e637]: scout:reviews
+          - generic [ref=f9e638]: 1 reviews streamed
+        - generic [ref=f9e639]:
+          - generic [ref=f9e640]: 14:31:48.966
+          - generic [ref=f9e641]: evidence
+          - generic [ref=f9e642]: card e65 · Our server paige was quick, friendly, attentive, and efficien…
+        - generic [ref=f9e643]:
+          - generic [ref=f9e644]: 14:31:48.977
+          - generic [ref=f9e645]: scout:reviews
+          - generic [ref=f9e646]: 1 reviews streamed
+        - generic [ref=f9e647]:
+          - generic [ref=f9e648]: 14:31:48.980
+          - generic [ref=f9e649]: evidence
+          - generic [ref=f9e650]: card e66 · We had the burger and Buffalo saucy tender grinder (with baco…
+        - generic [ref=f9e651]:
+          - generic [ref=f9e652]: 14:31:48.986
+          - generic [ref=f9e653]: scout:reviews
+          - generic [ref=f9e654]: 1 reviews streamed
+        - generic [ref=f9e655]:
+          - generic [ref=f9e656]: 14:31:48.990
+          - generic [ref=f9e657]: evidence
+          - generic [ref=f9e658]: card e67 · Do you know how BAD nachos have to be for a group of drunk pe…
+        - generic [ref=f9e659]:
+          - generic [ref=f9e660]: 14:31:48.997
+          - generic [ref=f9e661]: scout:reviews
+          - generic [ref=f9e662]: 1 reviews streamed
+        - generic [ref=f9e663]:
+          - generic [ref=f9e664]: 14:31:49.000
+          - generic [ref=f9e665]: evidence
+          - generic [ref=f9e666]: card e68 · Harrassed by a staff member for putting a cup of ice in my po…
+        - generic [ref=f9e667]:
+          - generic [ref=f9e668]: 14:31:49.005
+          - generic [ref=f9e669]: scout:reviews
+          - generic [ref=f9e670]: 1 reviews streamed
+        - generic [ref=f9e671]:
+          - generic [ref=f9e672]: 14:31:49.009
+          - generic [ref=f9e673]: evidence
+          - generic [ref=f9e674]: card e69 · Terrific spot in State College to have cheesesteaks! We visi…
+        - generic [ref=f9e675]:
+          - generic [ref=f9e676]: 14:31:49.015
+          - generic [ref=f9e677]: scout:reviews
+          - generic [ref=f9e678]: 1 reviews streamed
+        - generic [ref=f9e679]:
+          - generic [ref=f9e680]: 14:31:49.018
+          - generic [ref=f9e681]: evidence
+          - generic [ref=f9e682]: card e70 · Good drink & sandwich
+        - generic [ref=f9e683]:
+          - generic [ref=f9e684]: 14:31:49.023
+          - generic [ref=f9e685]: scout:reviews
+          - generic [ref=f9e686]: 1 reviews streamed
+        - generic [ref=f9e687]:
+          - generic [ref=f9e688]: 14:31:49.027
+          - generic [ref=f9e689]: evidence
+          - generic [ref=f9e690]: card e71 · College bar, food is bar food. They have local beer on tap li…
+        - generic [ref=f9e691]:
+          - generic [ref=f9e692]: 14:31:49.033
+          - generic [ref=f9e693]: scout:reviews
+          - generic [ref=f9e694]: 1 reviews streamed
+        - generic [ref=f9e695]:
+          - generic [ref=f9e696]: 14:31:49.036
+          - generic [ref=f9e697]: evidence
+          - generic [ref=f9e698]: card e72 · The bartender with glasses and balding hair runs the bar like…
+        - generic [ref=f9e699]:
+          - generic [ref=f9e700]: 14:31:49.040
+          - generic [ref=f9e701]: scout:reviews
+          - generic [ref=f9e702]: 1 reviews streamed
+        - generic [ref=f9e703]:
+          - generic [ref=f9e704]: 14:31:49.041
+          - generic [ref=f9e705]: evidence
+          - generic [ref=f9e706]: card e73 · The band absolutely KILLED it tonight... they even played Fre…
+        - generic [ref=f9e707]:
+          - generic [ref=f9e708]: 14:31:49.044
+          - generic [ref=f9e709]: scout:reviews
+          - generic [ref=f9e710]: 1 reviews streamed
+        - generic [ref=f9e711]:
+          - generic [ref=f9e712]: 14:31:49.048
+          - generic [ref=f9e713]: evidence
+          - generic [ref=f9e714]: card e74 · Kicked us out because they needed the table space and instead…
+        - generic [ref=f9e715]:
+          - generic [ref=f9e716]: 14:31:49.052
+          - generic [ref=f9e717]: scout:reviews
+          - generic [ref=f9e718]: 1 reviews streamed
+        - generic [ref=f9e719]:
+          - generic [ref=f9e720]: 14:31:49.055
+          - generic [ref=f9e721]: evidence
+          - generic [ref=f9e722]: card e75 · Flavored long island pitchers are way to go.
+        - generic [ref=f9e723]:
+          - generic [ref=f9e724]: 14:31:49.058
+          - generic [ref=f9e725]: scout:reviews
+          - generic [ref=f9e726]: 1 reviews streamed
+        - generic [ref=f9e727]:
+          - generic [ref=f9e728]: 14:31:49.061
+          - generic [ref=f9e729]: evidence
+          - generic [ref=f9e730]: card e76 · good prices but gets messy
+        - generic [ref=f9e731]:
+          - generic [ref=f9e732]: 14:31:49.066
+          - generic [ref=f9e733]: scout:reviews
+          - generic [ref=f9e734]: 1 reviews streamed
+        - generic [ref=f9e735]:
+          - generic [ref=f9e736]: 14:31:49.068
+          - generic [ref=f9e737]: evidence
+          - generic [ref=f9e738]: card e77 · The food isn't bad, just very inconsistent. It could be great…
+        - generic [ref=f9e739]:
+          - generic [ref=f9e740]: 14:31:49.074
+          - generic [ref=f9e741]: scout:reviews
+          - generic [ref=f9e742]: 1 reviews streamed
+        - generic [ref=f9e743]:
+          - generic [ref=f9e744]: 14:31:49.077
+          - generic [ref=f9e745]: evidence
+          - generic [ref=f9e746]: card e78 · Just a great place for food and drink on College Avenue. If t…
+        - generic [ref=f9e747]:
+          - generic [ref=f9e748]: 14:31:49.081
+          - generic [ref=f9e749]: scout:reviews
+          - generic [ref=f9e750]: 1 reviews streamed
+        - generic [ref=f9e751]:
+          - generic [ref=f9e752]: 14:31:49.084
+          - generic [ref=f9e753]: evidence
+          - generic [ref=f9e754]: card e79 · My fav college bar. Can get super busy like all of them but c…
+        - generic [ref=f9e755]:
+          - generic [ref=f9e756]: 14:31:49.089
+          - generic [ref=f9e757]: scout:reviews
+          - generic [ref=f9e758]: 1 reviews streamed
+        - generic [ref=f9e759]:
+          - generic [ref=f9e760]: 14:31:49.092
+          - generic [ref=f9e761]: evidence
+          - generic [ref=f9e762]: card e80 · Poor service - food was awful. Much better places in State Co…
+        - generic [ref=f9e763]:
+          - generic [ref=f9e764]: 14:31:49.097
+          - generic [ref=f9e765]: scout:reviews
+          - generic [ref=f9e766]: 1 reviews streamed
+        - generic [ref=f9e767]:
+          - generic [ref=f9e768]: 14:31:49.100
+          - generic [ref=f9e769]: evidence
+          - generic [ref=f9e770]: card e81 · Came for a concert. But it seems like a great hangout spot. V…
+        - generic [ref=f9e771]:
+          - generic [ref=f9e772]: 14:31:49.104
+          - generic [ref=f9e773]: scout:reviews
+          - generic [ref=f9e774]: 1 reviews streamed
+        - generic [ref=f9e775]:
+          - generic [ref=f9e776]: 14:31:49.107
+          - generic [ref=f9e777]: evidence
+          - generic [ref=f9e778]: card e82 · The raspberry drink was refreshing, fish and chips could've b…
+        - generic [ref=f9e779]:
+          - generic [ref=f9e780]: 14:31:49.111
+          - generic [ref=f9e781]: scout:reviews
+          - generic [ref=f9e782]: 1 reviews streamed
+        - generic [ref=f9e783]:
+          - generic [ref=f9e784]: 14:31:49.114
+          - generic [ref=f9e785]: evidence
+          - generic [ref=f9e786]: card e83 · Slushie was made with all the flavor at the bottom-tasted lik…
+        - generic [ref=f9e787]:
+          - generic [ref=f9e788]: 14:31:49.118
+          - generic [ref=f9e789]: scout:reviews
+          - generic [ref=f9e790]: 1 reviews streamed
+        - generic [ref=f9e791]:
+          - generic [ref=f9e792]: 14:31:49.122
+          - generic [ref=f9e793]: evidence
+          - generic [ref=f9e794]: card e84 · This has been my favorite place to go and have drinks outside…
+        - generic [ref=f9e795]:
+          - generic [ref=f9e796]: 14:31:49.127
+          - generic [ref=f9e797]: scout:reviews
+          - generic [ref=f9e798]: 1 reviews streamed
+        - generic [ref=f9e799]:
+          - generic [ref=f9e800]: 14:31:49.130
+          - generic [ref=f9e801]: evidence
+          - generic [ref=f9e802]: card e85 · Excellent food, fast service, fair prices. We would go again!
+        - generic [ref=f9e803]:
+          - generic [ref=f9e804]: 14:31:49.132
+          - generic [ref=f9e805]: scout:reviews
+          - generic [ref=f9e806]: 1 reviews streamed
+        - generic [ref=f9e807]:
+          - generic [ref=f9e808]: 14:31:49.134
+          - generic [ref=f9e809]: evidence
+          - generic [ref=f9e810]: card e86 · While I personally enjoy the food here and I have always rece…
+        - generic [ref=f9e811]:
+          - generic [ref=f9e812]: 14:31:49.138
+          - generic [ref=f9e813]: scout:reviews
+          - generic [ref=f9e814]: 1 reviews streamed
+        - generic [ref=f9e815]:
+          - generic [ref=f9e816]: 14:31:49.140
+          - generic [ref=f9e817]: evidence
+          - generic [ref=f9e818]: card e87 · After an accident, multiple servers stood around in front of …
+        - generic [ref=f9e819]:
+          - generic [ref=f9e820]: 14:31:49.146
+          - generic [ref=f9e821]: scout:reviews
+          - generic [ref=f9e822]: 1 reviews streamed
+        - generic [ref=f9e823]:
+          - generic [ref=f9e824]: 14:31:49.152
+          - generic [ref=f9e825]: evidence
+          - generic [ref=f9e826]: card e88 · Food was decent, service great, but very loud inside and out.
+        - generic [ref=f9e827]:
+          - generic [ref=f9e828]: 14:31:49.158
+          - generic [ref=f9e829]: scout:reviews
+          - generic [ref=f9e830]: 1 reviews streamed
+        - generic [ref=f9e831]:
+          - generic [ref=f9e832]: 14:31:49.162
+          - generic [ref=f9e833]: evidence
+          - generic [ref=f9e834]: card e89 · The bouncer accused me of having a fake ID even though it was…
+        - generic [ref=f9e835]:
+          - generic [ref=f9e836]: 14:31:49.166
+          - generic [ref=f9e837]: scout:reviews
+          - generic [ref=f9e838]: 1 reviews streamed
+        - generic [ref=f9e839]:
+          - generic [ref=f9e840]: 14:31:49.169
+          - generic [ref=f9e841]: evidence
+          - generic [ref=f9e842]: card e90 · Thursdays for long islands !!
+        - generic [ref=f9e843]:
+          - generic [ref=f9e844]: 14:31:49.175
+          - generic [ref=f9e845]: scout:reviews
+          - generic [ref=f9e846]: 1 reviews streamed
+        - generic [ref=f9e847]:
+          - generic [ref=f9e848]: 14:31:49.178
+          - generic [ref=f9e849]: evidence
+          - generic [ref=f9e850]: card e91 · Cameron is the man. Solid dude, solid service and solid attit…
+        - generic [ref=f9e851]:
+          - generic [ref=f9e852]: 14:31:49.181
+          - generic [ref=f9e853]: scout:reviews
+          - generic [ref=f9e854]: 1 reviews streamed
+        - generic [ref=f9e855]:
+          - generic [ref=f9e856]: 14:31:49.183
+          - generic [ref=f9e857]: evidence
+          - generic [ref=f9e858]: card e92 · Not so good not that much bad. Staff are generally rude!
+        - generic [ref=f9e859]:
+          - generic [ref=f9e860]: 14:31:49.186
+          - generic [ref=f9e861]: scout:reviews
+          - generic [ref=f9e862]: 1 reviews streamed
+        - generic [ref=f9e863]:
+          - generic [ref=f9e864]: 14:31:49.189
+          - generic [ref=f9e865]: evidence
+          - generic [ref=f9e866]: card e93 · Prepare to wait. Awful table service.
+        - generic [ref=f9e867]:
+          - generic [ref=f9e868]: 14:31:49.192
+          - generic [ref=f9e869]: scout:reviews
+          - generic [ref=f9e870]: 1 reviews streamed
+        - generic [ref=f9e871]:
+          - generic [ref=f9e872]: 14:31:49.194
+          - generic [ref=f9e873]: evidence
+          - generic [ref=f9e874]: card e94 · Drinks were good and inexpensive but this is more of a colleg…
+        - generic [ref=f9e875]:
+          - generic [ref=f9e876]: 14:31:49.198
+          - generic [ref=f9e877]: scout:reviews
+          - generic [ref=f9e878]: 1 reviews streamed
+        - generic [ref=f9e879]:
+          - generic [ref=f9e880]: 14:31:49.200
+          - generic [ref=f9e881]: evidence
+          - generic [ref=f9e882]: card e95 · we ordered something different than what we got, waited 10 mi…
+        - generic [ref=f9e883]:
+          - generic [ref=f9e884]: 14:31:49.204
+          - generic [ref=f9e885]: scout:reviews
+          - generic [ref=f9e886]: 1 reviews streamed
+        - generic [ref=f9e887]:
+          - generic [ref=f9e888]: 14:31:49.207
+          - generic [ref=f9e889]: evidence
+          - generic [ref=f9e890]: card e96 · Bar tender shewed me out the way. Very disrespectful. Didn’t …
+        - generic [ref=f9e891]:
+          - generic [ref=f9e892]: 14:31:49.211
+          - generic [ref=f9e893]: scout:reviews
+          - generic [ref=f9e894]: 1 reviews streamed
+        - generic [ref=f9e895]:
+          - generic [ref=f9e896]: 14:31:49.213
+          - generic [ref=f9e897]: evidence
+          - generic [ref=f9e898]: card e97 · Food was average but the insistence on seeing everyone’s ID b…
+        - generic [ref=f9e899]:
+          - generic [ref=f9e900]: 14:31:49.216
+          - generic [ref=f9e901]: scout:reviews
+          - generic [ref=f9e902]: 1 reviews streamed
+        - generic [ref=f9e903]:
+          - generic [ref=f9e904]: 14:31:49.219
+          - generic [ref=f9e905]: evidence
+          - generic [ref=f9e906]: card e98 · Tables were dirty and sticky. Service was good, food was subp…
+        - generic [ref=f9e907]:
+          - generic [ref=f9e908]: 14:31:49.223
+          - generic [ref=f9e909]: scout:reviews
+          - generic [ref=f9e910]: 1 reviews streamed
+        - generic [ref=f9e911]:
+          - generic [ref=f9e912]: 14:31:49.225
+          - generic [ref=f9e913]: evidence
+          - generic [ref=f9e914]: card e99 · Teas are great, staff acted like they were closed over an hou…
+        - generic [ref=f9e915]:
+          - generic [ref=f9e916]: 14:31:49.229
+          - generic [ref=f9e917]: scout:reviews
+          - generic [ref=f9e918]: 1 reviews streamed
+        - generic [ref=f9e919]:
+          - generic [ref=f9e920]: 14:31:49.232
+          - generic [ref=f9e921]: evidence
+          - generic [ref=f9e922]: card e100 · Never been and never will. $3 cash cover during happy hour, n…
+        - generic [ref=f9e923]:
+          - generic [ref=f9e924]: 14:31:49.236
+          - generic [ref=f9e925]: scout:reviews
+          - generic [ref=f9e926]: 1 reviews streamed
+        - generic [ref=f9e927]:
+          - generic [ref=f9e928]: 14:31:49.238
+          - generic [ref=f9e929]: evidence
+          - generic [ref=f9e930]: card e101 · Great atmosphere. Love the flavored Ice Tea In a picture 👍👍…
+        - generic [ref=f9e931]:
+          - generic [ref=f9e932]: 14:31:49.245
+          - generic [ref=f9e933]: scout:reviews
+          - generic [ref=f9e934]: 1 reviews streamed
+        - generic [ref=f9e935]:
+          - generic [ref=f9e936]: 14:31:49.248
+          - generic [ref=f9e937]: evidence
+          - generic [ref=f9e938]: card e102 · College bar with good drink specials and nice dive bar feel. …
+        - generic [ref=f9e939]:
+          - generic [ref=f9e940]: 14:31:49.255
+          - generic [ref=f9e941]: scout:reviews
+          - generic [ref=f9e942]: 1 reviews streamed
+        - generic [ref=f9e943]:
+          - generic [ref=f9e944]: 14:31:49.259
+          - generic [ref=f9e945]: evidence
+          - generic [ref=f9e946]: card e103 · We sat 5 min as waiters & waitress walked by . Finally someon…
+        - generic [ref=f9e947]:
+          - generic [ref=f9e948]: 14:31:49.264
+          - generic [ref=f9e949]: scout:reviews
+          - generic [ref=f9e950]: 1 reviews streamed
+        - generic [ref=f9e951]:
+          - generic [ref=f9e952]: 14:31:49.267
+          - generic [ref=f9e953]: evidence
+          - generic [ref=f9e954]: card e104 · Great service, great music, but five quarter pickle spears fo…
+        - generic [ref=f9e955]:
+          - generic [ref=f9e956]: 14:31:49.275
+          - generic [ref=f9e957]: scout:reviews
+          - generic [ref=f9e958]: 1 reviews streamed
+        - generic [ref=f9e959]:
+          - generic [ref=f9e960]: 14:31:49.280
+          - generic [ref=f9e961]: evidence
+          - generic [ref=f9e962]: card e105 · Bad food and bad customer service.
+        - generic [ref=f9e963]:
+          - generic [ref=f9e964]: 14:31:49.286
+          - generic [ref=f9e965]: scout:reviews
+          - generic [ref=f9e966]: 1 reviews streamed
+        - generic [ref=f9e967]:
+          - generic [ref=f9e968]: 14:31:49.289
+          - generic [ref=f9e969]: scout:done
+          - generic [ref=f9e970]: scout complete · evidence base ready
+      - generic [ref=f9e119]:
+        - generic [ref=f9e971]:
+          - generic [ref=f9e972]: 4/7
+          - text: sources
+        - generic [ref=f9e973]:
+          - generic [ref=f9e974]: "105"
+          - text: evidence
+        - generic [ref=f9e975]:
+          - generic [ref=f9e976]: "0"
+          - text: agents
+        - generic [ref=f9e977]:
+          - generic [ref=f9e978]: 0/2
+          - text: round
+    - main [ref=f9e128]:
+      - generic [ref=f9e979]:
+        - generic [ref=f9e980]:
+          - generic [ref=f9e981]:
+            - generic [ref=f9e982]: "02"
+            - generic [ref=f9e983]: Scouts done · evidence base ready
+          - generic [ref=f9e984]: streaming
+        - generic [ref=f9e985]:
+          - generic [ref=f9e986]:
+            - img [aria-hidden] [ref=f9e987]:
+              - generic [ref=f9e989]:
+                - generic [ref=f9e990] [cursor=pointer]: e1
+                - generic [ref=f9e992] [cursor=pointer]: e2
+                - generic [ref=f9e994] [cursor=pointer]: e3
+                - generic [ref=f9e996] [cursor=pointer]: e4
+                - generic [ref=f9e998] [cursor=pointer]: e5
+                - generic [ref=f9e1000] [cursor=pointer]: e6
+                - generic [ref=f9e1002] [cursor=pointer]: e7
+                - generic [ref=f9e1004] [cursor=pointer]: e8
+                - generic [ref=f9e1006] [cursor=pointer]: e9
+                - generic [ref=f9e1008] [cursor=pointer]: e10
+                - generic [ref=f9e1010] [cursor=pointer]: e11
+                - generic [ref=f9e1012] [cursor=pointer]: e12
+                - generic [ref=f9e1014] [cursor=pointer]: e13
+                - generic [ref=f9e1016] [cursor=pointer]: e14
+                - generic [ref=f9e1018] [cursor=pointer]: e15
+                - generic [ref=f9e1020] [cursor=pointer]: e16
+                - generic [ref=f9e1022] [cursor=pointer]: e17
+                - generic [ref=f9e1024] [cursor=pointer]: e18
+                - generic [ref=f9e1026] [cursor=pointer]: e19
+                - generic [ref=f9e1028] [cursor=pointer]: e20
+                - generic [ref=f9e1030] [cursor=pointer]: e21
+                - generic [ref=f9e1032] [cursor=pointer]: e22
+                - generic [ref=f9e1034] [cursor=pointer]: e23
+                - generic [ref=f9e1036] [cursor=pointer]: e24
+                - generic [ref=f9e1038] [cursor=pointer]: e25
+                - generic [ref=f9e1040] [cursor=pointer]: e26
+                - generic [ref=f9e1042] [cursor=pointer]: e27
+                - generic [ref=f9e1044] [cursor=pointer]: e28
+                - generic [ref=f9e1046] [cursor=pointer]: e29
+                - generic [ref=f9e1048] [cursor=pointer]: e30
+                - generic [ref=f9e1050] [cursor=pointer]: e31
+                - generic [ref=f9e1052] [cursor=pointer]: e32
+                - generic [ref=f9e1054] [cursor=pointer]: e33
+                - generic [ref=f9e1056] [cursor=pointer]: e34
+                - generic [ref=f9e1058] [cursor=pointer]: e35
+                - generic [ref=f9e1060] [cursor=pointer]: e36
+                - generic [ref=f9e1062] [cursor=pointer]: e37
+                - generic [ref=f9e1064] [cursor=pointer]: e38
+                - generic [ref=f9e1066] [cursor=pointer]: e39
+                - generic [ref=f9e1068] [cursor=pointer]: e40
+                - generic [ref=f9e1070] [cursor=pointer]: e41
+                - generic [ref=f9e1072] [cursor=pointer]: e42
+                - generic [ref=f9e1074] [cursor=pointer]: e43
+                - generic [ref=f9e1076] [cursor=pointer]: e44
+                - generic [ref=f9e1078] [cursor=pointer]: e45
+                - generic [ref=f9e1080] [cursor=pointer]: e46
+                - generic [ref=f9e1082] [cursor=pointer]: e47
+                - generic [ref=f9e1084] [cursor=pointer]: e48
+                - generic [ref=f9e1086] [cursor=pointer]: e49
+                - generic [ref=f9e1088] [cursor=pointer]: e50
+                - generic [ref=f9e1090] [cursor=pointer]: e51
+                - generic [ref=f9e1092] [cursor=pointer]: e52
+                - generic [ref=f9e1094] [cursor=pointer]: e53
+                - generic [ref=f9e1096] [cursor=pointer]: e54
+                - generic [ref=f9e1098] [cursor=pointer]: e55
+                - generic [ref=f9e1100] [cursor=pointer]: e56
+                - generic [ref=f9e1102] [cursor=pointer]: e57
+                - generic [ref=f9e1104] [cursor=pointer]: e58
+                - generic [ref=f9e1106] [cursor=pointer]: e59
+                - generic [ref=f9e1108] [cursor=pointer]: e60
+                - generic [ref=f9e1110] [cursor=pointer]: e61
+                - generic [ref=f9e1112] [cursor=pointer]: e62
+                - generic [ref=f9e1114] [cursor=pointer]: e63
+                - generic [ref=f9e1116] [cursor=pointer]: e64
+                - generic [ref=f9e1118] [cursor=pointer]: e65
+                - generic [ref=f9e1120] [cursor=pointer]: e66
+                - generic [ref=f9e1122] [cursor=pointer]: e67
+                - generic [ref=f9e1124] [cursor=pointer]: e68
+                - generic [ref=f9e1126] [cursor=pointer]: e69
+                - generic [ref=f9e1128] [cursor=pointer]: e70
+                - generic [ref=f9e1130] [cursor=pointer]: e71
+                - generic [ref=f9e1132] [cursor=pointer]: e72
+                - generic [ref=f9e1134] [cursor=pointer]: e73
+                - generic [ref=f9e1136] [cursor=pointer]: e74
+                - generic [ref=f9e1138] [cursor=pointer]: e75
+                - generic [ref=f9e1140] [cursor=pointer]: e76
+                - generic [ref=f9e1142] [cursor=pointer]: e77
+                - generic [ref=f9e1144] [cursor=pointer]: e78
+                - generic [ref=f9e1146] [cursor=pointer]: e79
+                - generic [ref=f9e1148] [cursor=pointer]: e80
+                - generic [ref=f9e1150] [cursor=pointer]: e81
+                - generic [ref=f9e1152] [cursor=pointer]: e82
+                - generic [ref=f9e1154] [cursor=pointer]: e83
+                - generic [ref=f9e1156] [cursor=pointer]: e84
+                - generic [ref=f9e1158] [cursor=pointer]: e85
+                - generic [ref=f9e1160] [cursor=pointer]: e86
+                - generic [ref=f9e1162] [cursor=pointer]: e87
+                - generic [ref=f9e1164] [cursor=pointer]: e88
+                - generic [ref=f9e1166] [cursor=pointer]: e89
+                - generic [ref=f9e1168] [cursor=pointer]: e90
+                - generic [ref=f9e1170] [cursor=pointer]: e91
+                - generic [ref=f9e1172] [cursor=pointer]: e92
+                - generic [ref=f9e1174] [cursor=pointer]: e93
+                - generic [ref=f9e1176] [cursor=pointer]: e94
+                - generic [ref=f9e1178] [cursor=pointer]: e95
+                - generic [ref=f9e1180] [cursor=pointer]: e96
+                - generic [ref=f9e1182] [cursor=pointer]: e97
+                - generic [ref=f9e1184] [cursor=pointer]: e98
+                - generic [ref=f9e1186] [cursor=pointer]: e99
+                - generic [ref=f9e1188] [cursor=pointer]: e100
+                - generic [ref=f9e1190] [cursor=pointer]: e101
+                - generic [ref=f9e1192] [cursor=pointer]: e102
+                - generic [ref=f9e1194] [cursor=pointer]: e103
+                - generic [ref=f9e1196] [cursor=pointer]: e104
+                - generic [ref=f9e1198] [cursor=pointer]: e105
+            - generic:
+              - generic: ◇ evidence graph
+              - generic: 105 evidence · 0 segments · 0 agents
+            - generic [aria-hidden]:
+              - generic: Nodes
+              - generic: review · wishes/praise
+              - generic: competitor / market
+              - generic: profile / operations
+              - generic: price
+              - generic: unverified (weak)
+              - generic: segment
+              - generic: agent
+          - generic [ref=f9e1200]:
+            - generic [ref=f9e1201]: 0 agents · 0 segments
+            - generic [ref=f9e1203]: emergent segments
+            - generic [ref=f9e1204]: segments appear as the swarm clusters itself…
+            - generic [ref=f9e1206]:
+              - text: agents materializing
+              - generic [ref=f9e1207]: ● live

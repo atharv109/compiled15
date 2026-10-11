@@ -1,0 +1,57 @@
+- generic [ref=f12e3]:
+  - navigation [ref=f12e4]:
+    - link "CustomerSwarm" [ref=f12e5] [cursor=pointer]:
+      - /url: index.html
+    - generic [ref=f12e10]: no signup · runs in your browser
+  - generic [ref=f12e11]:
+    - generic [ref=f12e12]:
+      - generic [ref=f12e13]: System Status
+      - heading "Swarm Ready" [level=1] [ref=f12e15]
+      - paragraph [ref=f12e16]: Type the name of your business. Scouts read what the internet already says about you; fifty customer agents are built from it and debate your decision.
+      - generic [ref=f12e17]:
+        - generic [ref=f12e18]: ◇ Workflow Steps
+        - list [ref=f12e19]:
+          - listitem [ref=f12e20]:
+            - generic [ref=f12e21]: "01"
+            - generic [ref=f12e22]:
+              - generic [ref=f12e23]: Scout
+              - generic [ref=f12e24]: Name-only intake. Reviews, menu, hours, competitors, news.CAPTCHA in the live browser? A human solves it — that's the product.
+          - listitem [ref=f12e25]:
+            - generic [ref=f12e26]: "02"
+            - generic [ref=f12e27]:
+              - generic [ref=f12e28]: Swarm
+              - generic [ref=f12e29]: Evidence cards + customer personas emerge from your own segments.
+          - listitem [ref=f12e30]:
+            - generic [ref=f12e31]: "03"
+            - generic [ref=f12e32]:
+              - generic [ref=f12e33]: Debate
+              - generic [ref=f12e34]: Two rounds. Camps cluster; round 2 reads the other camp's strongest points.
+          - listitem [ref=f12e35]:
+            - generic [ref=f12e36]: "04"
+            - generic [ref=f12e37]:
+              - generic [ref=f12e38]: Verdict
+              - generic [ref=f12e39]: Aggregated by a stronger judge model. Recommendation + confidence, free.
+          - listitem [ref=f12e40]:
+            - generic [ref=f12e41]: "05"
+            - generic [ref=f12e42]:
+              - generic [ref=f12e43]: Learn
+              - generic [ref=f12e44]: A calibrated mock market tests the swarm; the loop rewrites beliefs. Then chat with any agent.
+    - generic [ref=f12e45]:
+      - generic [ref=f12e46]:
+        - generic [ref=f12e47]:
+          - generic [ref=f12e48]: 01 / business name
+          - generic [ref=f12e49]: NAME-ONLY
+        - textbox "e.g. Cafe 210 West" [ref=f12e50]
+        - textbox "e.g. State College" [ref=f12e51]
+        - generic [ref=f12e52]: we find the rest · manual paste sharpens results (cap 200)
+      - generic [ref=f12e53]: decision under test
+      - generic [ref=f12e56]:
+        - generic [ref=f12e57]:
+          - generic [ref=f12e58]: 02 / the real question
+          - generic [ref=f12e59]: OWNERS ONLY
+        - textbox "e.g. Should we stay open until 2 AM on weekends and spend $400/month on a blanket delivery promo?" [ref=f12e60]
+        - generic [ref=f12e61]: "judge: gpt-5.6-sol · crowd lane: gpt-oss-120b @ groq"
+      - button "Convene the Swarm →" [ref=f12e63] [cursor=pointer]:
+        - generic [ref=f12e64]: Convene the Swarm
+        - generic [ref=f12e65]: →
+      - generic [ref=f12e66]: Session s_057a23 is already scouted — type your decision below and convene the debate.

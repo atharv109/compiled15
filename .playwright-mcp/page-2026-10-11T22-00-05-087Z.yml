@@ -1,0 +1,85 @@
+- generic [ref=f9e66]:
+  - generic [ref=f9e67]:
+    - generic [ref=f9e68]:
+      - button "Back" [ref=f9e69] [cursor=pointer]: ←
+      - link [ref=f9e70] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f9e71]
+    - generic [ref=f9e72]: Step 4/5 · Verdict
+    - generic [ref=f9e73]:
+      - generic [ref=f9e74]: complete
+      - generic [ref=f9e77]: Cafe 210 West
+  - generic [ref=f9e78]:
+    - main [ref=f9e79]:
+      - generic [ref=f9e80]:
+        - generic [ref=f9e81]:
+          - button "01 Name-only intake" [ref=f9e158] [cursor=pointer]:
+            - generic [ref=f9e159]: "01"
+            - generic [ref=f9e160]: Name-only intake
+          - button "02 Evidence & personas" [ref=f9e161] [cursor=pointer]:
+            - generic [ref=f9e162]: "02"
+            - generic [ref=f9e163]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f9e164] [cursor=pointer]:
+            - generic [ref=f9e165]: "03"
+            - generic [ref=f9e166]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f9e167] [cursor=pointer]:
+            - generic [ref=f9e168]: "04"
+            - generic [ref=f9e169]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f9e170] [cursor=pointer]:
+            - generic [ref=f9e171]: "05"
+            - generic [ref=f9e172]: Loop · agents · drafts
+        - generic "Run stats" [ref=f9e97]:
+          - generic [ref=f9e173]: 2/7sources
+          - generic [ref=f9e174]: 3evidence
+          - generic [ref=f9e175]: 50agents
+          - generic [ref=f9e176]: 2/2round
+        - generic "Canvas view" [ref=f9e102]:
+          - button "Graph" [ref=f9e103] [cursor=pointer]
+          - button "Split" [pressed] [ref=f9e104] [cursor=pointer]
+          - button "Workbench" [ref=f9e105] [cursor=pointer]
+      - generic [ref=f9e108]:
+        - generic [ref=f9e177]:
+          - generic [ref=f9e184]: still processing some content…
+          - button "Dismiss" [ref=f9e185] [cursor=pointer]: ×
+        - button "Toggle legend" [ref=f9e118] [cursor=pointer]: legend
+    - complementary [ref=f9e119]:
+      - generic [ref=f9e120]:
+        - generic [ref=f9e121]: chat
+        - button "Act on it" [ref=f9e186] [cursor=pointer]
+        - button "🔒 unlock — $19" [ref=f9e187] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f9e122] [cursor=pointer]: ›
+      - generic [ref=f9e123]:
+        - generic [ref=f9e188]:
+          - button "Act on the verdict 94% · 46/50 for" [expanded] [ref=f9e189] [cursor=pointer]:
+            - generic [ref=f9e190]: Act on the verdict
+            - generic [ref=f9e191]: 94% · 46/50 for
+            - generic [aria-hidden] [ref=f9e192]: ▾
+          - generic [ref=f9e193]:
+            - generic [ref=f9e194]: Stay open until 2 AM on football Saturdays, because 46 of 50 customer agents support the change, including unanimous support from students, regulars, tourists, staff-adjacent loyalists, and walk-ins. Weekend footfall peaks after 10 PM, nearby food options thin out after midnight on game days, and regulars already complain about the 11 PM close. Track whether late-night sales cover the roughly $180 in added staffing and utility costs per night.
+            - generic [ref=f9e195]:
+              - generic [ref=f9e196]: confidence
+              - generic [ref=f9e199]: 94%
+            - generic [ref=f9e200]:
+              - generic [ref=f9e201]: agent split
+              - generic [ref=f9e202]:
+                - generic [ref=f9e203]: "46"
+                - generic [ref=f9e205]: "1"
+                - generic [ref=f9e207]: "3"
+            - generic [ref=f9e209]:
+              - generic [ref=f9e210]: ■ support 46
+              - generic [ref=f9e211]: ■ oppose 1
+              - generic [ref=f9e212]: ■ neutral 3
+        - button "run log 19" [ref=f9e213] [cursor=pointer]:
+          - generic [ref=f9e126]: run log
+          - generic [ref=f9e127]: "19"
+          - generic [aria-hidden] [ref=f9e128]: ▾
+        - generic [ref=f9e129]:
+          - generic [ref=f9e131]:
+            - generic [ref=f9e132]: Pick an agent
+            - generic [ref=f9e133]: click a node in the graph
+          - generic [ref=f9e215]:
+            - generic [ref=f9e216]: locked
+            - generic [ref=f9e217]: Unlock full segment impact + agent chat — $19
+            - generic [ref=f9e218]: The $19 deep-dive unlocks chat with every agent — answers in character, backed by the session’s evidence.
+            - button "Unlock — $19 (demo payment)" [ref=f9e219] [cursor=pointer]
+            - generic [ref=f9e220]: demo session — no card is charged

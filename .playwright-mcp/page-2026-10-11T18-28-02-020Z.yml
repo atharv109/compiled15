@@ -1,0 +1,57 @@
+- generic [ref=f7e3]:
+  - navigation [ref=f7e4]:
+    - link "CustomerSwarm" [ref=f7e5] [cursor=pointer]:
+      - /url: index.html
+    - generic [ref=f7e10]: no signup · runs in your browser
+  - generic [ref=f7e11]:
+    - generic [ref=f7e12]:
+      - generic [ref=f7e13]: System Status
+      - heading "Swarm Ready" [level=1] [ref=f7e15]
+      - paragraph [ref=f7e16]: Type the name of your business. Scouts read what the internet already says about you; fifty customer agents are built from it and debate your decision.
+      - generic [ref=f7e17]:
+        - generic [ref=f7e18]: ◇ Workflow Steps
+        - list [ref=f7e19]:
+          - listitem [ref=f7e20]:
+            - generic [ref=f7e21]: "01"
+            - generic [ref=f7e22]:
+              - generic [ref=f7e23]: Scout
+              - generic [ref=f7e24]: Name-only intake. Reviews, menu, hours, competitors, news.CAPTCHA in the live browser? A human solves it — that's the product.
+          - listitem [ref=f7e25]:
+            - generic [ref=f7e26]: "02"
+            - generic [ref=f7e27]:
+              - generic [ref=f7e28]: Swarm
+              - generic [ref=f7e29]: Evidence cards + customer personas emerge from your own segments.
+          - listitem [ref=f7e30]:
+            - generic [ref=f7e31]: "03"
+            - generic [ref=f7e32]:
+              - generic [ref=f7e33]: Debate
+              - generic [ref=f7e34]: Two rounds. Camps cluster; round 2 reads the other camp's strongest points.
+          - listitem [ref=f7e35]:
+            - generic [ref=f7e36]: "04"
+            - generic [ref=f7e37]:
+              - generic [ref=f7e38]: Verdict
+              - generic [ref=f7e39]: Aggregated by a stronger judge model. Recommendation + confidence, free.
+          - listitem [ref=f7e40]:
+            - generic [ref=f7e41]: "05"
+            - generic [ref=f7e42]:
+              - generic [ref=f7e43]: Learn
+              - generic [ref=f7e44]: A calibrated mock market tests the swarm; the loop rewrites beliefs. Then chat with any agent.
+    - generic [ref=f7e45]:
+      - generic [ref=f7e46]:
+        - generic [ref=f7e47]:
+          - generic [ref=f7e48]: 01 / business name
+          - generic [ref=f7e49]: NAME-ONLY
+        - textbox "e.g. Cafe 210 West" [ref=f7e50]
+        - textbox "e.g. State College" [ref=f7e51]
+        - generic [ref=f7e52]: we find the rest · manual paste sharpens results (cap 200)
+      - generic [ref=f7e53]: decision under test
+      - generic [ref=f7e56]:
+        - generic [ref=f7e57]:
+          - generic [ref=f7e58]: 02 / the real question
+          - generic [ref=f7e59]: OWNERS ONLY
+        - textbox "e.g. Should we stay open until 2 AM on weekends and spend $400/month on a blanket delivery promo?" [ref=f7e60]
+        - generic [ref=f7e61]: "judge: gpt-5.6-sol · crowd lane: gpt-oss-120b @ groq"
+      - button "Convene the Swarm →" [ref=f7e63] [cursor=pointer]:
+        - generic [ref=f7e64]: Convene the Swarm
+        - generic [ref=f7e65]: →
+      - generic [ref=f7e66]: LIVE by default — scouts + debate run against the FastAPI backend on this origin. Add ?mock=1 to the URL to replay the recorded fixture instead.

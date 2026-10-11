@@ -1,0 +1,6 @@
+[      14ms] ReferenceError: dragNode is not defined
+    at tick (http://127.0.0.1:9000/assets/js/graph.js?v=15:609:7)
+    at loop (http://127.0.0.1:9000/assets/js/graph.js?v=15:892:7)
+[      22ms] ReferenceError: dragNode is not defined
+    at tick (http://127.0.0.1:9000/assets/js/graph.js?v=15:609:7)
+    at loop (http://127.0.0.1:9000/assets/js/graph.js?v=15:892:7)

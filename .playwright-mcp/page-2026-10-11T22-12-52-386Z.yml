@@ -1,0 +1,134 @@
+- generic [ref=f12e3]:
+  - generic [ref=f12e4]:
+    - generic [ref=f12e5]:
+      - button "Back" [ref=f12e6] [cursor=pointer]: ←
+      - link [ref=f12e7] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f12e8]
+    - generic [ref=f12e9]: Step 4/5 · Verdict
+    - generic [ref=f12e10]:
+      - generic [ref=f12e11]: complete
+      - generic [ref=f12e14]: Cafe 210 West
+  - generic [ref=f12e15]:
+    - main [ref=f12e16]:
+      - generic [ref=f12e17]:
+        - generic [ref=f12e18]:
+          - button "01 Name-only intake" [ref=f12e67] [cursor=pointer]:
+            - generic [ref=f12e68]: "01"
+            - generic [ref=f12e69]: Name-only intake
+          - button "02 Evidence & personas" [ref=f12e70] [cursor=pointer]:
+            - generic [ref=f12e71]: "02"
+            - generic [ref=f12e72]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f12e73] [cursor=pointer]:
+            - generic [ref=f12e74]: "03"
+            - generic [ref=f12e75]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f12e76] [cursor=pointer]:
+            - generic [ref=f12e77]: "04"
+            - generic [ref=f12e78]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f12e79] [cursor=pointer]:
+            - generic [ref=f12e80]: "05"
+            - generic [ref=f12e81]: Loop · agents · drafts
+        - generic "Canvas view" [ref=f12e34]:
+          - button "Graph" [ref=f12e35] [cursor=pointer]
+          - button "Split" [pressed] [ref=f12e36] [cursor=pointer]
+          - button "Workbench" [ref=f12e37] [cursor=pointer]
+      - generic [ref=f12e40]:
+        - generic [ref=f12e82]:
+          - generic [ref=f12e89]: still processing some content…
+          - button "Dismiss" [ref=f12e90] [cursor=pointer]: ×
+        - generic [ref=f12e42]:
+          - generic [ref=f12e91]: ENTITY TYPES
+          - generic [ref=f12e92]:
+            - generic [ref=f12e93]:
+              - generic [ref=f12e95]: review
+              - generic [ref=f12e96]: "1"
+            - generic [ref=f12e97]:
+              - generic [ref=f12e99]: entity
+              - generic [ref=f12e100]: "6"
+            - generic [ref=f12e101]:
+              - generic [ref=f12e103]: competitor
+              - generic [ref=f12e104]: "1"
+            - generic [ref=f12e105]:
+              - generic [ref=f12e107]: price
+              - generic [ref=f12e108]: "1"
+          - generic [ref=f12e109]: AGENT SEGMENTS
+          - generic [ref=f12e110]:
+            - generic [ref=f12e111]:
+              - generic [ref=f12e113]: students
+              - generic [ref=f12e114]: "12"
+            - generic [ref=f12e115]:
+              - generic [ref=f12e117]: regulars
+              - generic [ref=f12e118]: "10"
+            - generic [ref=f12e119]:
+              - generic [ref=f12e121]: families
+              - generic [ref=f12e122]: "8"
+            - generic [ref=f12e123]:
+              - generic [ref=f12e125]: tourists
+              - generic [ref=f12e126]: "10"
+            - generic [ref=f12e127]:
+              - generic [ref=f12e129]: staff-adjacent loyalists
+              - generic [ref=f12e130]: "9"
+            - generic [ref=f12e131]:
+              - generic [ref=f12e133]: walk-ins
+              - generic [ref=f12e134]: "1"
+        - button "Toggle legend" [ref=f12e43] [cursor=pointer]: legend
+    - complementary [ref=f12e44]:
+      - generic [ref=f12e45]:
+        - generic "Canvas view" [ref=f12e47]:
+          - button "Graph" [ref=f12e48] [cursor=pointer]
+          - button "Split" [pressed] [ref=f12e49] [cursor=pointer]
+          - button "Workbench" [ref=f12e50] [cursor=pointer]
+        - button "Act on it" [ref=f12e135] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f12e51] [cursor=pointer]: ›
+      - generic [ref=f12e52]:
+        - generic [ref=f12e137]:
+          - button "Act on the verdict 100% · 50/50 for" [expanded] [ref=f12e138] [cursor=pointer]:
+            - generic [ref=f12e139]: Act on the verdict
+            - generic [ref=f12e140]: 100% · 50/50 for
+            - generic [aria-hidden] [ref=f12e141]: ▾
+          - generic [ref=f12e142]:
+            - generic [ref=f12e168]: Extend weekend hours to 2 AM and run the blanket delivery promo, because all 50 customer agents support both measures and weekend footfall peaks after 10 PM. The limited food options after midnight, especially on game days, indicate an opportunity for late-night delivery, though the added demand should be weighed against roughly $180 in extra nightly operating costs.
+            - generic [ref=f12e169]:
+              - generic [ref=f12e170]: confidence
+              - generic [ref=f12e173]: 100%
+            - generic [ref=f12e174]:
+              - generic [ref=f12e175]: agent split
+              - generic [ref=f12e176]: "50"
+            - generic [ref=f12e181]:
+              - generic [ref=f12e182]: ■ support 50
+              - generic [ref=f12e183]: ■ oppose 0
+              - generic [ref=f12e184]: ■ neutral 0
+            - generic [ref=f12e185]:
+              - generic [ref=f12e186]: segment impact
+              - generic [ref=f12e187]:
+                - generic [ref=f12e188]: students
+                - generic [ref=f12e189]: Students seeking food after late events or game days would gain access to delivery and service through 2 AM.
+                - generic "Only three kitchens on the block keep the lights on past midnight during home games." [ref=f12e191]: e2 · Local restaurant guide
+              - generic [ref=f12e192]:
+                - generic [ref=f12e193]: regulars
+                - generic [ref=f12e194]: Regulars who complain about the 11 PM close would have three additional hours to order on weekends.
+                - generic "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\"" [ref=f12e196]: e1 · Google review
+              - generic [ref=f12e197]:
+                - generic [ref=f12e198]: walk-ins
+                - generic [ref=f12e199]: Late-night walk-ins could be served during the documented post-10 PM footfall peak.
+                - generic "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\"" [ref=f12e201]: e1 · Google review
+              - generic [ref=f12e202]: top objections
+              - list [ref=f12e203]:
+                - listitem [ref=f12e204]: 01Each extended-close night adds roughly $180 in staff and utility costs, with no revenue estimate provided to show that the added demand will cover it.
+                - listitem [ref=f12e205]: 02The strongest evidence for limited late-night competition is specific to game days, so demand may be weaker on other weekends.
+                - listitem [ref=f12e206]: 03The evidence directly supports later hours, but it does not establish that a blanket delivery promo is necessary or more effective than a narrower promotion.
+        - button "run log 21" [ref=f12e207] [cursor=pointer]:
+          - generic [ref=f12e55]: run log
+          - generic [ref=f12e56]: "21"
+          - generic [aria-hidden] [ref=f12e57]: ▾
+        - generic:
+          - generic [ref=f12e60]:
+            - generic [ref=f12e61]: Pick an agent
+            - generic [ref=f12e62]: click a node in the graph
+          - generic [ref=f12e208]:
+            - text: Click a customer node in the graph — it’s that agent.
+            - generic [ref=f12e209]: every agent answers in character, backed by the session’s evidence
+          - generic [ref=f12e64]:
+            - textbox "Message" [disabled] [ref=f12e65]:
+              - /placeholder: pick an agent…
+            - button "Send →" [ref=f12e66] [cursor=pointer]

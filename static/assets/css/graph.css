@@ -1,0 +1,306 @@
+/* ============================================================
+   CallCrowd — graph.css  ·  overlays for the middle "nodes" canvas
+   Companion to static/assets/js/graph.js (window.CSGraph).
+   Everything below sits over a transparent canvas on the console's
+   dark middle pane. Self-contained: no dependencies on console.css.
+   ============================================================ */
+
+.csg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+}
+
+.csg-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ---------- empty state (faint ❖ when no session) ---------- */
+.csg-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #5a6b80;
+  pointer-events: none;
+  transition: opacity .4s;
+}
+.csg-empty-mark {
+  font-size: 36px;
+  opacity: .28;
+  line-height: 1;
+}
+.csg-empty-line {
+  font: 500 11px/1.4 "Space Grotesk", system-ui, sans-serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  opacity: .65;
+}
+/* hidden once the first batch lands (graph.js toggles .csg-has) */
+.csg-has .csg-empty { opacity: 0; }
+.csg-has .csg-empty-mark { display: none; }
+.csg-has .csg-empty-line { display: none; }
+
+/* ---------- live / finished toast (§16.3) ---------- */
+.csg-toast {
+  position: absolute;
+  left: 50%;
+  bottom: 48px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, .65);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, .1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .15);
+  color: #fff;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.csg-toast[hidden],
+.csg-loader[hidden] { display: none; }
+.csg-toast-ico {
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+}
+/* breathing icon: 2s, opacity .7 → 1, scale 1 → 1.15, green glow */
+.csg-toast-live .csg-toast-ico {
+  animation: csg-breathe 2s ease-in-out infinite;
+}
+@keyframes csg-breathe {
+  0%, 100% {
+    opacity: .7;
+    transform: scale(1);
+    filter: drop-shadow(0 0 2px rgba(76, 175, 80, .3));
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px rgba(76, 175, 80, .6));
+  }
+}
+.csg-toast-ico-static { animation: none; }
+
+.csg-toast-x {
+  appearance: none;
+  background: none;
+  border: 0;
+  color: rgba(255, 255, 255, .6);
+  font-size: 16px;
+  line-height: 1;
+  padding: 2px 4px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.csg-toast-x:hover { color: #fff; }
+
+/* ---------- round-N loader (concentric ripple rings) ---------- */
+.csg-loader {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  pointer-events: none;
+  z-index: 2;
+}
+.csg-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 140px;
+  height: 140px;
+  margin: -70px 0 0 -70px;
+  border-radius: 50%;
+  border: 2px solid #5a6b80;
+  opacity: 0;
+  animation: csg-ripple 2s cubic-bezier(.4, 0, .2, 1) infinite;
+}
+.csg-ring:nth-child(2) { animation-delay: .4s; }
+.csg-ring:nth-child(3) { animation-delay: .8s; }
+@keyframes csg-ripple {
+  0%   { transform: scale(.5); opacity: 0; }
+  15%  { opacity: .9; }
+  100% { transform: scale(2.6); opacity: 0; }
+}
+.csg-loader-label {
+  font: 600 12px/1 "Space Grotesk", system-ui, sans-serif;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #9fb0c2;
+  text-align: center;
+  padding: 0 24px;
+}
+
+/* ---------- entity-types legend (bottom-left panel) ---------- */
+.csg-legend {
+  position: absolute;
+  left: 16px;
+  bottom: 46px;
+  min-width: 148px;
+  max-width: 230px;
+  max-height: 40%;
+  overflow-y: auto;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, .55);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, .1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .15);
+  color: #c8d2dc;
+  font-size: 13px;
+  z-index: 3;
+  display: none;
+}
+.csg-legend-open .csg-legend { display: block; }
+.csg-legend-cap {
+  font: 600 10px/1.4 "Space Grotesk", system-ui, sans-serif;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #7b8ea3;
+  margin: 2px 0 8px;
+  white-space: nowrap;
+}
+.csg-legend-cap2 { margin-top: 10px; }
+.csg-legend-rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 14px;
+}
+.csg-lg-item { display: flex; align-items: center; gap: 7px; min-width: 0; }
+.csg-lg-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  display: inline-block;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+}
+.csg-lg-ring { background: transparent; border: 2px solid #fff; width: 8px; height: 8px; }
+.csg-lg-name {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #dfe7ee;
+}
+.csg-lg-n {
+  flex: 0 0 auto;
+  font-size: 11px;
+  color: #7b8ea3;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- legend chip (collapsible toggle) ---------- */
+.csg-legend-chip {
+  appearance: none;
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, .55);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, .1);
+  color: #9fb0c2;
+  font: 500 11px/1.4 "Space Grotesk", system-ui, sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 3;
+  transition: color .15s, border-color .15s;
+}
+.csg-legend-chip:hover { color: #fff; border-color: rgba(255, 255, 255, .25); }
+.csg-legend-chip[hidden] { display: none; }
+
+/* ---------- hover tooltip (dark pill) ---------- */
+.csg-tip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 300px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, .72);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, .1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .25);
+  color: #e6edf3;
+  font-size: 13px;
+  line-height: 1.45;
+  white-space: normal;
+  word-break: break-word;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateZ(0);
+  transition: opacity .12s;
+  z-index: 6;
+}
+.csg-tip.on { opacity: 1; }
+
+/* ---------- pinned label card (topic/entity click) ---------- */
+.csg-pin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 240px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, .7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, .14);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, .3);
+  color: #e6edf3;
+  font-size: 13px;
+  line-height: 1.45;
+  z-index: 5;
+  will-change: transform;
+}
+.csg-pin-chip {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #10141a;
+  font: 600 10px/1.5 "Space Grotesk", system-ui, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.csg-pin-txt { color: #e6edf3; word-break: break-word; }
+.csg-pin-id {
+  margin-top: 6px;
+  font: 10px/1.4 ui-monospace, "SF Mono", Consolas, monospace;
+  color: #5a6b80;
+  word-break: break-all;
+}
+
+/* ---------- reduced motion (§16.6 B) ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .csg-toast-live .csg-toast-ico { animation: none; }
+  .csg-ring { animation: none; opacity: .35; }
+  .csg-ring:nth-child(2) { opacity: .22; }
+  .csg-ring:nth-child(3) { opacity: .12; }
+  .csg-empty { transition: none; }
+}

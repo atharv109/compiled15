@@ -1,0 +1,73 @@
+- generic [ref=f7e67]:
+  - generic [ref=f7e68]:
+    - generic [ref=f7e69]:
+      - button "Back" [ref=f7e70] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f7e71] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f7e76]: Step 1/5 · Scout
+    - generic [ref=f7e77]:
+      - generic [ref=f7e78]: running
+      - generic [ref=f7e81]: Cafe 210 West
+  - generic [ref=f7e82]:
+    - complementary [ref=f7e83]:
+      - generic [ref=f7e84]:
+        - button "01 Name-only intake" [ref=f7e85] [cursor=pointer]:
+          - generic [ref=f7e86]: "01"
+          - generic [ref=f7e87]: Name-only intake
+        - button "02 Evidence & personas" [ref=f7e88] [cursor=pointer]:
+          - generic [ref=f7e89]: "02"
+          - generic [ref=f7e90]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f7e91] [cursor=pointer]:
+          - generic [ref=f7e92]: "03"
+          - generic [ref=f7e93]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f7e94] [cursor=pointer]:
+          - generic [ref=f7e95]: "04"
+          - generic [ref=f7e96]: Aggregated judge
+        - button "05 Loop & agents" [ref=f7e97] [cursor=pointer]:
+          - generic [ref=f7e98]: "05"
+          - generic [ref=f7e99]: Loop & agents
+      - generic [ref=f7e100]:
+        - text: Live Feed
+        - generic [ref=f7e101]: 1 events
+      - generic [ref=f7e102]:
+        - generic [ref=f7e103]:
+          - generic [ref=f7e104]: 14:28:08.120
+          - generic [ref=f7e105]: console
+          - generic [ref=f7e106]: live channel opened · backend same origin
+        - generic [ref=f7e107]:
+          - generic [ref=f7e108]: 14:28:08.253
+          - generic [ref=f7e109]: session:start
+          - generic [ref=f7e110]: session opened · Cafe 210 West
+      - generic [ref=f7e111]:
+        - generic [ref=f7e112]:
+          - generic [ref=f7e113]: 0/7
+          - text: sources
+        - generic [ref=f7e114]:
+          - generic [ref=f7e115]: "0"
+          - text: evidence
+        - generic [ref=f7e116]:
+          - generic [ref=f7e117]: "0"
+          - text: agents
+        - generic [ref=f7e118]:
+          - generic [ref=f7e119]: 0/2
+          - text: round
+    - main [ref=f7e120]:
+      - generic [ref=f7e121]:
+        - generic [ref=f7e122]:
+          - generic [ref=f7e123]:
+            - generic [ref=f7e124]: 01 · Scout — Name-only intake
+            - generic [ref=f7e125]: Scouts reading the internet on Cafe 210 West
+          - generic [ref=f7e126]: streaming
+        - generic [ref=f7e127]:
+          - generic [ref=f7e129]:
+            - generic [ref=f7e130]:
+              - text: ◇ source sweep
+              - generic [ref=f7e131]: 0/7
+            - generic [ref=f7e134]:
+              - generic [ref=f7e135]: 0 of 7 sources
+              - generic [ref=f7e136]: name-only intake
+          - generic [ref=f7e138]:
+            - generic [ref=f7e139]:
+              - text: ◇ reviews streaming
+              - generic [ref=f7e140]: 0 in
+            - generic [ref=f7e141]: …waiting for reviews

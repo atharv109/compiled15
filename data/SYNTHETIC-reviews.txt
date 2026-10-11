@@ -1,0 +1,14 @@
+# ⚠️ SYNTHETIC TEST FIXTURE — do NOT demo or sell with this.
+# Purpose: unblock pipeline dev while real reviews are being pasted.
+# Structure mirrors what the real file will look like: one review per line,
+# prefix = star rating, reviewer context hint in brackets if known.
+# Replace with data/REAL-reviews.txt once the target business is chosen.
+
+[5] [student, penn state junior] Came here after the game, waited forever but the wings are worth it honestly
+[4] [families, parent visiting] Took my son for freshman move-in weekend, good portions, we sat outside
+[2] [regular, goes weekly] Prices went up again and they took the cheese fries off the menu. Disappointing
+[5] [game-day alumni, tailgater] Best spot to end a tailgate, they stay open late on home games
+[3] [grad student] Solid coffee and quiet before 6pm but it gets loud after
+[5] [student, birthday group] They accommodated our group of 12 on a Saturday night, great server
+[4] [regular, older crowd] Consistent for 10 years. Wish they had more vegetarian options though
+[2] [student] Closed at 10 on a Friday when everything else downtown is open til 2. Why?

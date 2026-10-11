@@ -1,0 +1,92 @@
+- generic [ref=e66]:
+  - generic [ref=e67]:
+    - generic [ref=e68]:
+      - button "Back" [ref=e69] [cursor=pointer]: ←
+      - link "CallCrowd" [ref=e70] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=e72]: Step 2/5 · Swarm
+    - generic [ref=e73]:
+      - generic [ref=e74]: running
+      - generic [ref=e77]: Cafe 210
+  - generic [ref=e78]:
+    - main [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - button "01 Name-only intake" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: "01"
+            - generic [ref=e84]: Name-only intake
+          - button "02 Evidence & personas" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]: "02"
+            - generic [ref=e87]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=e88] [cursor=pointer]:
+            - generic [ref=e89]: "03"
+            - generic [ref=e90]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=e91] [cursor=pointer]:
+            - generic [ref=e92]: "04"
+            - generic [ref=e93]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=e94] [cursor=pointer]:
+            - generic [ref=e95]: "05"
+            - generic [ref=e96]: Loop · agents · drafts
+        - generic "Run stats" [ref=e97]:
+          - generic [ref=e98]: 2/7sources
+          - generic [ref=e99]: 3evidence
+          - generic [ref=e100]: 50agents
+          - generic [ref=e101]: 0/2round
+        - generic "Canvas view" [ref=e102]:
+          - button "Graph" [pressed] [ref=e103] [cursor=pointer]
+          - button "Split" [ref=e104] [cursor=pointer]
+          - button "Workbench" [ref=e105] [cursor=pointer]
+      - generic [ref=e108]:
+        - generic [ref=e110]: real-time updating
+        - generic [ref=e118]:
+          - generic [ref=e119]: ENTITY TYPES
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - generic [ref=e123]: review
+              - generic [ref=e124]: "1"
+            - generic [ref=e125]:
+              - generic [ref=e127]: entity
+              - generic [ref=e128]: "6"
+            - generic [ref=e129]:
+              - generic [ref=e131]: competitor
+              - generic [ref=e132]: "1"
+            - generic [ref=e133]:
+              - generic [ref=e135]: price
+              - generic [ref=e136]: "1"
+          - generic [ref=e137]: AGENT SEGMENTS
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e141]: students
+              - generic [ref=e142]: "5"
+            - generic [ref=e143]:
+              - generic [ref=e145]: tourists
+              - generic [ref=e146]: "5"
+            - generic [ref=e147]:
+              - generic [ref=e149]: regulars
+              - generic [ref=e150]: "5"
+            - generic [ref=e151]:
+              - generic [ref=e153]: families
+              - generic [ref=e154]: "4"
+            - generic [ref=e155]:
+              - generic [ref=e157]: staff-adjacent loyalists
+              - generic [ref=e158]: "5"
+            - generic [ref=e159]:
+              - generic [ref=e161]: walk-ins
+              - generic [ref=e162]: "1"
+        - button "Toggle legend" [ref=e163] [cursor=pointer]: legend
+      - button "run log 9" [ref=e165] [cursor=pointer]:
+        - generic [ref=e166]: run log
+        - generic [ref=e167]: "9"
+        - generic [aria-hidden] [ref=e168]: ▾
+    - complementary [ref=e169]:
+      - generic [ref=e170]:
+        - generic [ref=e171]: chat
+        - button "Collapse chat panel" [ref=e172] [cursor=pointer]: ›
+      - generic [ref=e174]:
+        - generic [ref=e176]:
+          - generic [ref=e177]: Pick an agent
+          - generic [ref=e178]: click a node in the graph
+        - generic [ref=e180]:
+          - textbox "Message" [ref=e181]:
+            - /placeholder: pick an agent…
+          - button "Send →" [ref=e182] [cursor=pointer]

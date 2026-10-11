@@ -1,0 +1,80 @@
+- generic [ref=f27e79]:
+  - generic [ref=f27e80]:
+    - generic [ref=f27e81]:
+      - button "Back" [ref=f27e82] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f27e83] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f27e88]: Step 1/5 · Scout
+    - generic [ref=f27e89]:
+      - generic [ref=f27e90]: running
+      - generic [ref=f27e93]: Cafe 210 West
+  - generic [ref=f27e94]:
+    - complementary [ref=f27e95]:
+      - generic [ref=f27e96]:
+        - button "01 Name-only intake" [ref=f27e97] [cursor=pointer]:
+          - generic [ref=f27e98]: "01"
+          - generic [ref=f27e99]: Name-only intake
+        - button "02 Evidence & personas" [ref=f27e100] [cursor=pointer]:
+          - generic [ref=f27e101]: "02"
+          - generic [ref=f27e102]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f27e103] [cursor=pointer]:
+          - generic [ref=f27e104]: "03"
+          - generic [ref=f27e105]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f27e106] [cursor=pointer]:
+          - generic [ref=f27e107]: "04"
+          - generic [ref=f27e108]: Aggregated judge
+        - button "05 Loop · agents · drafts" [ref=f27e109] [cursor=pointer]:
+          - generic [ref=f27e110]: "05"
+          - generic [ref=f27e111]: Loop · agents · drafts
+      - generic [ref=f27e112]:
+        - text: Live Feed
+        - generic [ref=f27e113]: 2 events
+      - generic [ref=f27e114]:
+        - generic [ref=f27e115]:
+          - generic [ref=f27e116]: 15:42:23.812
+          - generic [ref=f27e117]: console
+          - generic [ref=f27e118]: "business confirmed: convening on Cafe 210 West · Online"
+        - generic [ref=f27e119]:
+          - generic [ref=f27e120]: 15:42:24.001
+          - generic [ref=f27e121]: session:start
+          - generic [ref=f27e122]: session opened · Cafe 210 West
+        - generic [ref=f27e123]:
+          - generic [ref=f27e124]: 15:42:24.222
+          - generic [ref=f27e125]: scout:source
+          - generic [ref=f27e126]: Resolved · ok
+      - generic [ref=f27e127]:
+        - generic [ref=f27e128]:
+          - generic [ref=f27e129]: 1/7
+          - text: sources
+        - generic [ref=f27e130]:
+          - generic [ref=f27e131]: "0"
+          - text: evidence
+        - generic [ref=f27e132]:
+          - generic [ref=f27e133]: "0"
+          - text: agents
+        - generic [ref=f27e134]:
+          - generic [ref=f27e135]: 0/2
+          - text: round
+    - main [ref=f27e136]:
+      - generic [ref=f27e137]:
+        - generic [ref=f27e138]:
+          - generic [ref=f27e139]:
+            - generic [ref=f27e140]: 01 · Scout — Name-only intake
+            - generic [ref=f27e141]: Scouts reading the internet on Cafe 210 West
+          - generic [ref=f27e142]: streaming
+        - generic [ref=f27e143]:
+          - generic [ref=f27e145]:
+            - generic [ref=f27e146]:
+              - text: ◇ source sweep
+              - generic [ref=f27e147]: 1/7
+            - generic [ref=f27e150]:
+              - generic [ref=f27e151]: 1 of 7 sources
+              - generic [ref=f27e152]: name-only intake
+            - generic [ref=f27e155]:
+              - generic [ref=f27e156]: Resolved
+              - generic [ref=f27e157]: ok
+          - generic [ref=f27e159]:
+            - generic [ref=f27e160]:
+              - text: ◇ reviews streaming
+              - generic [ref=f27e161]: 0 in
+            - generic [ref=f27e162]: …waiting for reviews

@@ -1,0 +1,40 @@
+- generic [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]: Customer Swarm
+    - generic [ref=f3e4]: Ask your customers before you spend the money.
+    - generic [ref=f3e5]:
+      - checkbox "Demo mode (recorded)" [ref=f3e6]
+      - text: Demo mode (recorded)
+  - navigation [ref=f3e7]:
+    - button "Run" [ref=f3e8] [cursor=pointer]
+    - button "Learning loop" [ref=f3e9] [cursor=pointer]
+    - button "About" [ref=f3e10] [cursor=pointer]
+  - generic [ref=f3e11]:
+    - generic [ref=f3e12]:
+      - heading "Intake" [level=2] [ref=f3e13]
+      - generic [ref=f3e14]:
+        - generic [ref=f3e15]:
+          - generic [ref=f3e16]: Business name
+          - textbox "Business name" [disabled] [ref=f3e17]:
+            - /placeholder: Cafe 210 West
+            - text: Cafe 210 West
+          - generic [ref=f3e18]: Town
+          - textbox "Town" [disabled] [ref=f3e19]:
+            - /placeholder: State College
+            - text: State College
+          - generic [ref=f3e20]: The decision (question)
+          - textbox "The decision (question)" [ref=f3e21]:
+            - /placeholder: Should we stay open until 2 AM on football Saturdays?
+            - text: Should we stay open until 2 AM on football Saturdays?
+        - generic [ref=f3e22]:
+          - generic [ref=f3e23]: Pasted reviews (optional)
+          - textbox "Pasted reviews (optional)" [ref=f3e24]:
+            - /placeholder: Paste Google / Yelp reviews here...
+            - text: "[1.0] Prepare to wait. Awful table service. [4.0] Drinks were good and inexpensive but this is more of a college bar/pub. [1.0] we ordered something different than what we got, waited 10 minutes for a side of ranch, and an additional 10 minutes for silverware. the atmosphere is still among the best in town, but the service is worse than ever. [1.0] Bar tender shewed me out the way. Very disrespectful. Didn't get food yet it's been 2 hours. [2.0] Food was average but the insistence on seeing everyone's ID before entering the restaurant for lunch was beyond annoying. They refused entry to a 65+ patron because her drivers license had expired. Bizarre! [1.0] Tables were dirty and sticky. Service was good, food was subpar. [3.0] Teas are great, staff acted like they were closed over an hour before closing. The bartender asked if we wanted to keep our tab open. Very confusing... [1.0] Never been and never will. $3 cash cover during happy hour, no live music and simply trying to have dinner on the patio. Ridiculous. [5.0] Great atmosphere. Love the flavored Ice Tea [3.0] College bar with good drink specials and nice dive bar feel. Beer was ice cold and they specialize in ice tea pitchers. Love this place since the 90s, but the food has gone way down hill. Nachos which were the state college go to were very stale. [3.0] We sat 5 min as waiters & waitress walked by. Finally someone asked if we were waited on. [4.0] Great service, great music, but five quarter pickle spears for $9.95. That's $8.00 per pickle. I generally don't write reviews, but this is egregious. [1.0] Bad food and bad customer service. [4.0] Good drink & sandwich [4.0] College bar, food is bar food. They have local beer on tap like New Trail and Axeman. Worth a trip [1.0] The bartender with glasses and balding hair runs the bar like his own personal domain. [5.0] The band absolutely KILLED it tonight... they even played Free Bird! [4.0] Flavored long island pitchers are way to go. [4.0] good prices but gets messy"
+      - generic [ref=f3e25]:
+        - button "Start intake" [active] [ref=f3e26] [cursor=pointer]
+        - button "Run debate" [disabled] [ref=f3e27]
+      - generic [ref=f3e28]: Intake scouts evidence, builds personas; the debate and verdict stream live below.
+    - generic [ref=f3e30]:
+      - heading "Session s_e78923 — Cafe 210 West, State College" [level=2] [ref=f3e31]
+      - generic [ref=f3e32]: ingesting

@@ -1,0 +1,8 @@
+# REAL business reviews — PASTE HERE before 12:30.
+# Target: [business name + town goes here — decide NOW]
+# Format: one review per line, prefix = star rating, brackets = any context you know.
+# Goal: 40–80 reviews minimum for usable personas. 100+ is ideal.
+# How: open the business's Google Maps page in a browser, copy the visible
+# review text straight in. Don't overthink dedup or formatting — raw is fine.
+
+[?] [TODO: paste or delete this line — first real review goes here]

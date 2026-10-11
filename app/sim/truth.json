@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "seed": 1234,
+  "segments": [
+    "families",
+    "game-day alumni",
+    "grad student",
+    "regular",
+    "student"
+  ],
+  "knob": "late_night_affinity",
+  "global": {
+    "price_elasticity": 0.009078,
+    "promo_amplitude": 0.229706,
+    "late_hours_labor_cost": 37.57,
+    "avg_ticket": 17.79,
+    "noise_scale": 0.06
+  },
+  "late_cliff_hour": 25,
+  "base_closing_hour": 21,
+  "segments_params": {
+    "families": {
+      "base_visits_wk": 3.731,
+      "price_elasticity_scale": 1.1809,
+      "late_gain_amp": 0.1874,
+      "promo_amp": -0.2012,
+      "ctx": {
+        "game_day": 0.119,
+        "finals_week": 0.101,
+        "summer": 0.125
+      }
+    },
+    "game-day alumni": {
+      "base_visits_wk": 48.43,
+      "price_elasticity_scale": 0.8793,
+      "late_gain_amp": 0.1351,
+      "promo_amp": 0.262,
+      "ctx": {
+        "game_day": 0.183,
+        "finals_week": 0.391,
+        "summer": -0.194
+      }
+    },
+    "grad student": {
+      "base_visits_wk": 69.726,
+      "price_elasticity_scale": 0.9815,
+      "late_gain_amp": 0.1375,
+      "promo_amp": 0.2732,
+      "ctx": {
+        "game_day": 0.069,
+        "finals_week": 0.247,
+        "summer": 0.109
+      }
+    },
+    "regular": {
+      "base_visits_wk": 41.633,
+      "price_elasticity_scale": 0.9535,
+      "late_gain_amp": 0.1522,
+      "promo_amp": 0.1733,
+      "ctx": {
+        "game_day": 0.382,
+        "finals_week": 0.335,
+        "summer": 0.053
+      }
+    },
+    "student": {
+      "base_visits_wk": 24.395,
+      "price_elasticity_scale": 1.0557,
+      "late_gain_amp": 0.1818,
+      "promo_amp": -0.191,
+      "ctx": {
+        "game_day": 0.184,
+        "finals_week": 0.224,
+        "summer": 0.212
+      }
+    }
+  }
+}

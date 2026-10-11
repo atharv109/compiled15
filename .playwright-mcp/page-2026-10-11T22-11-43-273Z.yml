@@ -1,0 +1,60 @@
+- generic [ref=f12e3]:
+  - generic [ref=f12e4]:
+    - generic [ref=f12e5]:
+      - button "Back" [ref=f12e6] [cursor=pointer]: ←
+      - link [ref=f12e7] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f12e8]
+    - generic [ref=f12e9]: Step 2/5 · Swarm
+    - generic [ref=f12e10]:
+      - generic [ref=f12e11]: running
+      - generic [ref=f12e14]: Cafe 210
+  - generic [ref=f12e15]:
+    - main [ref=f12e16]:
+      - generic [ref=f12e17]:
+        - generic [ref=f12e18]:
+          - button "01 Name-only intake" [ref=f12e19] [cursor=pointer]:
+            - generic [ref=f12e20]: "01"
+            - generic [ref=f12e21]: Name-only intake
+          - button "02 Evidence & personas" [ref=f12e22] [cursor=pointer]:
+            - generic [ref=f12e23]: "02"
+            - generic [ref=f12e24]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f12e25] [cursor=pointer]:
+            - generic [ref=f12e26]: "03"
+            - generic [ref=f12e27]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f12e28] [cursor=pointer]:
+            - generic [ref=f12e29]: "04"
+            - generic [ref=f12e30]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f12e31] [cursor=pointer]:
+            - generic [ref=f12e32]: "05"
+            - generic [ref=f12e33]: Loop · agents · drafts
+        - generic "Canvas view" [ref=f12e34]:
+          - button "Graph" [ref=f12e35] [cursor=pointer]
+          - button "Split" [pressed] [ref=f12e36] [cursor=pointer]
+          - button "Workbench" [ref=f12e37] [cursor=pointer]
+      - generic [ref=f12e40]:
+        - generic [aria-hidden]:
+          - generic: ❖
+          - generic: waiting for the swarm to convene
+        - button "Toggle legend" [ref=f12e43] [cursor=pointer]: legend
+    - complementary [ref=f12e44]:
+      - generic [ref=f12e45]:
+        - generic [ref=f12e46]: chat
+        - generic "Canvas view" [ref=f12e47]:
+          - button "Graph" [ref=f12e48] [cursor=pointer]
+          - button "Split" [pressed] [ref=f12e49] [cursor=pointer]
+          - button "Workbench" [ref=f12e50] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f12e51] [cursor=pointer]: ›
+      - generic [ref=f12e52]:
+        - button "run log 3" [ref=f12e54] [cursor=pointer]:
+          - generic [ref=f12e55]: run log
+          - generic [ref=f12e56]: "3"
+          - generic [aria-hidden] [ref=f12e57]: ▾
+        - generic [ref=f12e58]:
+          - generic [ref=f12e60]:
+            - generic [ref=f12e61]: Pick an agent
+            - generic [ref=f12e62]: click a node in the graph
+          - generic [ref=f12e64]:
+            - textbox "Message" [ref=f12e65]:
+              - /placeholder: pick an agent…
+            - button "Send →" [ref=f12e66] [cursor=pointer]

@@ -1,0 +1,58 @@
+HTTP 200
+{
+ "drafts": [
+  {
+   "id": "d1",
+   "title": "Join Us Late on Football Saturdays!",
+   "body_text": "Attention, Penn State fans! We're excited to announce that Caf\u00e9 210 West will be staying open until 2 AM on football Saturdays! Whether you're a student, alumni, or just in town for the game, our patio is the perfect place to celebrate the win with friends. Enjoy great drinks, a vibrant atmosphere, and the best late-night specials in town! Let\u2019s make those Saturdays unforgettable!",
+   "rationale": "This draft promotes extended hours to attract students and alumni, capitalizing on their loyalty and desire for late-night socializing.",
+   "evidence_ids": [
+    "e2",
+    "e3",
+    "e7"
+   ]
+  },
+  {
+   "id": "d2",
+   "title": "Stay Open Late for Football Fun!",
+   "body_text": "Get ready to cheer for your favorite team! Cafe 210 West will now stay open until 2 AM on football Saturdays! Whether you're a student, a regular, or just visiting, join us for the vibrant atmosphere, delicious drinks, and great company. Let's make those late-night memories together! We're committed to enhancing your experience by ramping up late-night staffing and ensuring the best service. Don't miss out on the fun\u2014let's celebrate the game and the community! #Cafe210West #FootballSaturday",
+   "rationale": "This promotes the vibrant atmosphere and appeals to regulars and students who support the extended hours.",
+   "evidence_ids": [
+    "e1",
+    "e3",
+    "e7"
+   ]
+  },
+  {
+   "id": "d3",
+   "title": "Stay Late for Game Day Fun!",
+   "body_text": "Get ready for football Saturdays like never before! We\u2019re excited to announce extended hours until 2 AM, catering to all the late-night fans and team spirit! Join us for a lively atmosphere, great service, and a chance to celebrate with fellow football lovers. Whether you\u2019re a student, a regular, or just in town to enjoy the game, we\u2019ve got you covered. Let's make unforgettable memories this game day! #FootballSaturdays #Cafe210West",
+   "rationale": "This draft emphasizes the demand for late-night options to enhance the game day experience for customers.",
+   "evidence_ids": [
+    "e2",
+    "e3",
+    "e7"
+   ]
+  }
+ ],
+ "scores": [
+  {
+   "id": "d1",
+   "score": 0.58,
+   "why": "Complete and aligned, but omits safeguards and invents late-night specials."
+  },
+  {
+   "id": "d2",
+   "score": 0.54,
+   "why": "Includes needed staffing commitment, but is abruptly truncated and omits intoxication procedures."
+  },
+  {
+   "id": "d3",
+   "score": 0.42,
+   "why": "Supports extended hours, but claims great service, omits safeguards, and ends incomplete."
+  }
+ ],
+ "best_id": "d1",
+ "artifact_type": "promo_copy",
+ "fallback_used": false
+}

@@ -1,0 +1,26 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - text: stage
+    - generic: full
+    - text: · nodes
+    - generic: "37"
+    - text: · pairs
+    - generic: "85"
+    - text: · edges
+    - generic: "107"
+    - text: · alpha
+    - generic: "0.000"
+    - text: · dec
+    - generic: "0.03"
+    - text: · sim off · arcs
+    - generic: "0"
+    - text: · pend 0/0 · phase
+    - generic: done
+    - text: · toast
+    - generic: done
+  - generic: "<- debate:camp {\"round\":2,\"camp\":\"Split hours\",\"member_ids\":[\"p1\",\"p2\",\"p4\",\"p8\"]} · <- verdict {\"verdict\":\"OPEN LATER\",\"confidence\":0.82} · <- stream:done {} · == csgraph:node {\"nodeId\":\"ev:c3\"}"
+  - generic [ref=e3]:
+    - generic [ref=e4] [cursor=pointer]
+    - generic [ref=e13]:
+      - generic [ref=e20]: still processing some content…
+      - button "Dismiss" [ref=e21] [cursor=pointer]: ×

@@ -1,0 +1,32 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]: Customer Swarm
+    - generic [ref=f4e4]: Ask your customers before you spend the money.
+    - generic [ref=f4e5]:
+      - checkbox "Demo mode (recorded)" [ref=f4e6]
+      - text: Demo mode (recorded)
+  - navigation [ref=f4e7]:
+    - button "Run" [ref=f4e8] [cursor=pointer]
+    - button "Learning loop" [ref=f4e9] [cursor=pointer]
+    - button "About" [ref=f4e10] [cursor=pointer]
+  - generic [ref=f4e12]:
+    - heading "Intake" [level=2] [ref=f4e13]
+    - generic [ref=f4e14]:
+      - generic [ref=f4e15]:
+        - generic [ref=f4e16]: Business name
+        - textbox "Business name" [ref=f4e17]:
+          - /placeholder: Cafe 210 West
+        - generic [ref=f4e18]: Town
+        - textbox "Town" [ref=f4e19]:
+          - /placeholder: State College
+        - generic [ref=f4e20]: The decision (question)
+        - textbox "The decision (question)" [ref=f4e21]:
+          - /placeholder: Should we stay open until 2 AM on football Saturdays?
+      - generic [ref=f4e22]:
+        - generic [ref=f4e23]: Pasted reviews (optional)
+        - textbox "Pasted reviews (optional)" [ref=f4e24]:
+          - /placeholder: Paste Google / Yelp reviews here...
+    - generic [ref=f4e25]:
+      - button "Start intake" [ref=f4e26] [cursor=pointer]
+      - button "Run debate" [disabled] [ref=f4e27]
+    - generic [ref=f4e28]: Intake scouts evidence, builds personas; the debate and verdict stream live below.

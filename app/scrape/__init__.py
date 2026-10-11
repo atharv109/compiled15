@@ -1,0 +1,1 @@
+"""Review-scraper bridge: async Google-review fetching via the sidecar service."""

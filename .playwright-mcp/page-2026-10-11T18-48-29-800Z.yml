@@ -1,0 +1,86 @@
+- generic [ref=f19e3]:
+  - generic [ref=f19e4]:
+    - generic [ref=f19e5]:
+      - button "Back" [ref=f19e6] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f19e7] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f19e12]: Step 2/5 · Swarm
+    - generic [ref=f19e13]:
+      - generic [ref=f19e14]: running
+      - generic [ref=f19e17]: Cafe 210 West
+  - generic [ref=f19e18]:
+    - complementary [ref=f19e19]:
+      - generic [ref=f19e20]:
+        - button "01 Name-only intake" [ref=f19e21] [cursor=pointer]:
+          - generic [ref=f19e22]: "01"
+          - generic [ref=f19e23]: Name-only intake
+        - button "02 Evidence & personas" [ref=f19e24] [cursor=pointer]:
+          - generic [ref=f19e25]: "02"
+          - generic [ref=f19e26]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f19e27] [cursor=pointer]:
+          - generic [ref=f19e28]: "03"
+          - generic [ref=f19e29]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f19e30] [cursor=pointer]:
+          - generic [ref=f19e31]: "04"
+          - generic [ref=f19e32]: Aggregated judge
+        - button "05 Loop & agents" [ref=f19e33] [cursor=pointer]:
+          - generic [ref=f19e34]: "05"
+          - generic [ref=f19e35]: Loop & agents
+      - generic [ref=f19e36]:
+        - text: Live Feed
+        - generic [ref=f19e37]: 3 events
+      - generic [ref=f19e38]:
+        - generic [ref=f19e39]:
+          - generic [ref=f19e40]: 14:48:27.802
+          - generic [ref=f19e41]: session:start
+          - generic [ref=f19e42]: session opened · Cafe 210 West
+        - generic [ref=f19e43]:
+          - generic [ref=f19e44]: 14:48:27.811
+          - generic [ref=f19e45]: scout:done
+          - generic [ref=f19e46]: scout complete · evidence base ready
+        - generic [ref=f19e47]:
+          - generic [ref=f19e48]: 14:48:27.833
+          - generic [ref=f19e49]: paid
+          - generic [ref=f19e50]: deep-dive unlocked (paid)
+      - generic [ref=f19e51]:
+        - generic [ref=f19e52]:
+          - generic [ref=f19e53]: 0/7
+          - text: sources
+        - generic [ref=f19e54]:
+          - generic [ref=f19e55]: "105"
+          - text: evidence
+        - generic [ref=f19e56]:
+          - generic [ref=f19e57]: "50"
+          - text: agents
+        - generic [ref=f19e58]:
+          - generic [ref=f19e59]: 0/2
+          - text: round
+    - main [ref=f19e60]:
+      - generic [ref=f19e61]:
+        - generic [ref=f19e62]:
+          - generic [ref=f19e63]:
+            - generic [ref=f19e64]: "02"
+            - generic [ref=f19e65]: Awaiting scout results…
+          - generic [ref=f19e66]: streaming
+        - generic [ref=f19e67]:
+          - generic [ref=f19e68]:
+            - generic:
+              - generic: ◇ evidence graph
+              - generic: 0 evidence · 0 segments · 0 agents
+            - generic [aria-hidden]:
+              - generic: Nodes
+              - generic: review · wishes/praise
+              - generic: competitor / market
+              - generic: profile / operations
+              - generic: price
+              - generic: unverified (weak)
+              - generic: segment
+              - generic: agent
+            - generic: ❖ waiting for the swarm — evidence cards land here
+          - generic [ref=f19e70]:
+            - generic [ref=f19e71]: 0 agents · 0 segments
+            - generic [ref=f19e73]: emergent segments
+            - generic [ref=f19e74]: segments appear as the swarm clusters itself…
+            - generic [ref=f19e76]:
+              - text: agents materializing
+              - generic [ref=f19e77]: ● live

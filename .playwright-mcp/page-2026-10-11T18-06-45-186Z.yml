@@ -1,0 +1,209 @@
+- generic [active] [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - generic [ref=f5e3]: Customer Swarm
+    - generic [ref=f5e4]: Ask your customers before you spend the money.
+    - generic [ref=f5e221]: recorded session
+    - generic [ref=f5e5]:
+      - checkbox "Demo mode (recorded)" [checked] [ref=f5e6]
+      - text: Demo mode (recorded)
+  - generic [ref=f5e30]: recorded session — served by backend
+  - navigation [ref=f5e7]:
+    - button "Run" [ref=f5e8] [cursor=pointer]
+    - button "Learning loop" [ref=f5e9] [cursor=pointer]
+    - button "About" [ref=f5e10] [cursor=pointer]
+  - generic [ref=f5e11]:
+    - generic [ref=f5e12]:
+      - heading "Intake" [level=2] [ref=f5e13]
+      - generic [ref=f5e14]:
+        - generic [ref=f5e15]:
+          - generic [ref=f5e16]: Business name
+          - textbox "Business name" [ref=f5e17]:
+            - /placeholder: Cafe 210 West
+            - text: Cafe 210 West
+          - generic [ref=f5e18]: Town
+          - textbox "Town" [ref=f5e19]:
+            - /placeholder: State College
+            - text: State College
+          - generic [ref=f5e20]: The decision (question)
+          - textbox "The decision (question)" [ref=f5e21]:
+            - /placeholder: Should we stay open until 2 AM on football Saturdays?
+            - text: Should we stay open until 2 AM on football Saturdays?
+        - generic [ref=f5e22]:
+          - generic [ref=f5e23]: Pasted reviews (optional)
+          - textbox "Pasted reviews (optional)" [ref=f5e24]:
+            - /placeholder: Paste Google / Yelp reviews here...
+      - generic [ref=f5e25]:
+        - button "Start intake" [ref=f5e26] [cursor=pointer]
+        - button "Run debate" [disabled] [ref=f5e27]
+      - generic [ref=f5e28]: Intake scouts evidence, builds personas; the debate and verdict stream live below.
+      - generic [ref=f5e29]: could not reach http://127.0.0.1:9999 — backend unreachable.
+    - generic [ref=f5e31]:
+      - heading "Session s_demo31 — Cafe 210 (recorded)" [level=2] [ref=f5e222]
+      - generic [ref=f5e33]: verdict_ready
+      - generic [ref=f5e36]:
+        - heading "Evidence" [level=3] [ref=f5e37]
+        - generic [ref=f5e38]:
+          - generic [ref=f5e223]:
+            - generic [ref=f5e224]: review
+            - generic [ref=f5e225]: Weekend footfall peaks after 10 PM and regulars complain about the 11 PM close.
+            - generic [ref=f5e226]: "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\""
+            - generic [ref=f5e227]:
+              - text: "source:"
+              - link "Google review" [ref=f5e228] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f5e229]:
+            - generic [ref=f5e230]: competitor
+            - generic [ref=f5e231]: Late-night food options on College Ave thin out after midnight on game days.
+            - generic [ref=f5e232]: Only three kitchens on the block keep the lights on past midnight during home games.
+            - generic [ref=f5e233]:
+              - text: "source:"
+              - link "Local restaurant guide" [ref=f5e234] [cursor=pointer]:
+                - /url: https://www.collegiatetimes.com/off-campus-late-night
+          - generic [ref=f5e235]:
+            - generic [ref=f5e236]: price
+            - generic [ref=f5e237]: Extended-close nights run roughly $180 of extra staff and utilities per night.
+            - generic [ref=f5e238]: Last extra-late Saturday cost about $180 in staff + utilities against $610 in late sales.
+            - generic [ref=f5e239]: "source: Owner-pasted review"
+      - generic [ref=f5e56]:
+        - heading "Personas" [level=3] [ref=f5e57]
+        - generic [ref=f5e58]: click a persona to chat with it (after unlock)
+        - generic [ref=f5e59]:
+          - generic [ref=f5e240]:
+            - heading "students" [level=3] [ref=f5e241]
+            - generic [ref=f5e242]: count 31 in segment · 2 shown
+          - generic [ref=f5e243]:
+            - button "Maya the juniorstudents" [ref=f5e244] [cursor=pointer]
+            - button "Devon the freshmanstudents" [ref=f5e245] [cursor=pointer]
+          - generic [ref=f5e246]:
+            - heading "regulars" [level=3] [ref=f5e247]
+            - generic [ref=f5e248]: count 34 in segment · 2 shown
+          - generic [ref=f5e249]:
+            - button "Frank the morning regularregulars" [ref=f5e250] [cursor=pointer]
+            - button "Rosa the afternoon regularregulars" [ref=f5e251] [cursor=pointer]
+          - generic [ref=f5e252]:
+            - heading "visitors" [level=3] [ref=f5e253]
+            - generic [ref=f5e254]: count 16 in segment · 1 shown
+          - button "Pete the visiting dadvisitors" [ref=f5e256] [cursor=pointer]
+          - generic [ref=f5e257]:
+            - heading "staff" [level=3] [ref=f5e258]
+            - generic [ref=f5e259]: 1 shown
+          - button "Cleo the baristastaff" [ref=f5e261] [cursor=pointer]
+      - generic [ref=f5e82]:
+        - heading "Debate" [level=3] [ref=f5e83]
+        - generic [ref=f5e84]:
+          - generic [ref=f5e262]:
+            - generic [ref=f5e263]: Round 1
+            - generic [ref=f5e264]:
+              - generic [ref=f5e265]:
+                - strong [ref=f5e266]: Maya the junior
+                - generic [ref=f5e267]: students
+                - generic [ref=f5e268]: My whole group walks out of Beaver Stadium starving at 12:30 and Cafe 210 is already dark. Two more hours is a crowd every time.
+              - generic [ref=f5e269]:
+                - generic "Weekend footfall peaks after 10 PM and regulars complain about the 11 PM close." [ref=f5e270] [cursor=pointer]: e1
+                - generic "Late-night food options on College Ave thin out after midnight on game days." [ref=f5e271] [cursor=pointer]: e2
+            - generic [ref=f5e272]:
+              - generic [ref=f5e273]:
+                - strong [ref=f5e274]: Devon the freshman
+                - generic [ref=f5e275]: students
+                - generic [ref=f5e276]: Anything open past midnight on game days owns the walk home. I'd bring six friends with zero loyalty to anyone else.
+              - generic "Late-night food options on College Ave thin out after midnight on game days." [ref=f5e278] [cursor=pointer]: e2
+            - generic [ref=f5e279]:
+              - generic [ref=f5e280]:
+                - strong [ref=f5e281]: Frank the morning regular
+                - generic [ref=f5e282]: regulars
+                - generic [ref=f5e283]: I'm there at 6:30 sharp; a 2 AM close means slow, grumpy staff on Sunday mornings.
+              - generic "Extended-close nights run roughly $180 of extra staff and utilities per night." [ref=f5e285] [cursor=pointer]: e3
+            - generic [ref=f5e286]:
+              - generic [ref=f5e287]:
+                - strong [ref=f5e288]: Rosa the afternoon regular
+                - generic [ref=f5e289]: regulars
+                - generic [ref=f5e290]: Fine with late hours as long as my afternoon latte doesn't get pricier to pay for it.
+              - generic "Extended-close nights run roughly $180 of extra staff and utilities per night." [ref=f5e292] [cursor=pointer]: e3
+            - generic [ref=f5e293]:
+              - generic [ref=f5e294]:
+                - strong [ref=f5e295]: Pete the visiting dad
+                - generic [ref=f5e296]: visitors
+                - generic [ref=f5e297]: With two teenagers we're hunting dessert at 12:45 and everywhere clean is shut.
+              - generic "Late-night food options on College Ave thin out after midnight on game days." [ref=f5e299] [cursor=pointer]: e2
+            - generic [ref=f5e300]:
+              - generic [ref=f5e301]:
+                - strong [ref=f5e302]: Cleo the barista
+                - generic [ref=f5e303]: staff
+                - generic [ref=f5e304]: I'd stay late only for a real cut of tips plus a rideshare stipend home.
+              - generic "Extended-close nights run roughly $180 of extra staff and utilities per night." [ref=f5e306] [cursor=pointer]: e3
+            - generic [ref=f5e307]:
+              - generic [ref=f5e308]: Open-late skeptics
+              - generic [ref=f5e309]: "with: Frank the morning regular, Rosa the afternoon regular, Cleo the barista"
+              - list [ref=f5e310]:
+                - listitem [ref=f5e311]: Extra payroll and utilities eat thin margins on a single night's data
+                - listitem [ref=f5e312]: Worn-down staff show up slower on Sunday mornings, hurting the most loyal regulars
+            - generic [ref=f5e313]:
+              - generic [ref=f5e314]: Late-night believers
+              - generic [ref=f5e315]: "with: Maya the junior, Devon the freshman, Pete the visiting dad"
+              - list [ref=f5e316]:
+                - listitem [ref=f5e317]: Three late kitchens on the block is zero competition for thousands of post-game walkers
+                - listitem [ref=f5e318]: "Game-day demand is predictable: six Saturdays, packed at 12:30, ready to spend"
+          - generic [ref=f5e319]:
+            - generic [ref=f5e320]: Round 2
+            - generic [ref=f5e321]:
+              - generic [ref=f5e322]:
+                - strong [ref=f5e323]: Maya the junior
+                - generic [ref=f5e324]: students
+                - generic [ref=f5e325]: Skeptics are right that one night isn't proof — that's why it should be the six home games plus a buffer. I'd spend every one.
+              - generic [ref=f5e326]:
+                - generic "Weekend footfall peaks after 10 PM and regulars complain about the 11 PM close." [ref=f5e327] [cursor=pointer]: e1
+                - generic "Late-night food options on College Ave thin out after midnight on game days." [ref=f5e328] [cursor=pointer]: e2
+            - generic [ref=f5e329]:
+              - generic [ref=f5e330]:
+                - strong [ref=f5e331]: Devon the freshman
+                - generic [ref=f5e332]: students
+                - generic [ref=f5e333]: Hearing the cost math changed me — try midnight first and see if the line is real. I'll still show up at 12:30.
+              - generic "Extended-close nights run roughly $180 of extra staff and utilities per night." [ref=f5e335] [cursor=pointer]: e3
+            - generic [ref=f5e336]:
+              - generic [ref=f5e337]:
+                - strong [ref=f5e338]: Frank the morning regular
+                - generic [ref=f5e339]: regulars
+                - generic [ref=f5e340]: The skeptic case holds — margins are thin and Sunday is my whole routine. Don't risk my mornings.
+              - generic "Extended-close nights run roughly $180 of extra staff and utilities per night." [ref=f5e342] [cursor=pointer]: e3
+            - generic [ref=f5e343]:
+              - generic [ref=f5e344]:
+                - strong [ref=f5e345]: Rosa the afternoon regular
+                - generic [ref=f5e346]: regulars
+                - generic [ref=f5e347]: "Someone has to say it: a student deal plus late hours reads like a price hike for the rest of us."
+              - generic "Extended-close nights run roughly $180 of extra staff and utilities per night." [ref=f5e349] [cursor=pointer]: e3
+            - generic [ref=f5e350]:
+              - generic [ref=f5e351]:
+                - strong [ref=f5e352]: Pete the visiting dad
+                - generic [ref=f5e353]: visitors
+                - generic [ref=f5e354]: Limit it to home games and we visiting families still get our late stop. Skeptic math works if you schedule the risk.
+              - generic "Late-night food options on College Ave thin out after midnight on game days." [ref=f5e356] [cursor=pointer]: e2
+            - generic [ref=f5e357]:
+              - generic [ref=f5e358]:
+                - strong [ref=f5e359]: Cleo the barista
+                - generic [ref=f5e360]: staff
+                - generic [ref=f5e361]: Without a committed tips-plus-stipend structure I'd vote no — staff burnout is the hidden cost no one is pricing.
+              - generic "Extended-close nights run roughly $180 of extra staff and utilities per night." [ref=f5e363] [cursor=pointer]: e3
+            - generic [ref=f5e364]:
+              - generic [ref=f5e365]: Open-late skeptics
+              - generic [ref=f5e366]: "with: Devon the freshman, Frank the morning regular, Rosa the afternoon regular, Cleo the barista"
+              - list [ref=f5e367]:
+                - listitem [ref=f5e368]: "Prove it at midnight first: run the 12:30 test night, not the full 2 AM commitment"
+                - listitem [ref=f5e369]: No tips/stipend structure means the late shift quietly becomes everyone's problem
+            - generic [ref=f5e370]:
+              - generic [ref=f5e371]: Late-night believers
+              - generic [ref=f5e372]: "with: Maya the junior, Pete the visiting dad"
+              - list [ref=f5e373]:
+                - listitem [ref=f5e374]: "Schedule the risk: six home Saturdays only, evaluated after each one"
+                - listitem [ref=f5e375]: Zero real competition after midnight on game days
+      - generic [ref=f5e199]:
+        - heading "Verdict" [level=3] [ref=f5e200]
+        - generic [ref=f5e201]:
+          - generic [ref=f5e376]: Stay open until 2 AM on the six home football Saturdays only, run by a small volunteer-style late crew with the game_day_special promo. The opposition is real — morning regulars may feel the cost — but the late-night demand gap (e1, e2) plus the strong late-sales vs. cost math (e3) makes the trade worth it, and returning to 11 PM closes in off-weeks protects the regulars.
+          - generic [ref=f5e377]: Confidence 58%
+          - generic [ref=f5e384]:
+            - generic [ref=f5e385]: support 1
+            - generic [ref=f5e387]: oppose 4
+            - generic [ref=f5e389]: neutral 1
+          - generic [ref=f5e391]: 🔒 Locked — full segment impact, objections and agent chat unlock with checkout.
+          - button "Unlock full segment impact + agent chat — $19" [disabled] [ref=f5e393]
+          - generic [ref=f5e394]: Opens the Stripe checkout in a new tab; this demo then marks the session paid directly.

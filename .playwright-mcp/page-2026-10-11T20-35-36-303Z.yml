@@ -1,0 +1,22 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - text: stage
+    - generic: build
+    - text: · nodes
+    - generic: "27"
+    - text: · pairs
+    - generic: "35"
+    - text: · edges
+    - generic: "44"
+    - text: · alpha
+    - generic: "0.000"
+    - text: · dec
+    - generic: "0.03"
+    - text: · sim off · arcs
+    - generic: "0"
+    - text: · pend 0/0 · phase
+    - generic: scout
+    - text: · toast
+    - generic: live
+  - generic: "<- evidence {\"id\":\"c10\",\"type\":\"news\",\"claim\":\"evening music events draw large cro · <- evidence {\"id\":\"c11\",\"type\":\"competitor\",\"claim\":\"prices increased last quarter · <- evidence {\"id\":\"c12\",\"type\":\"review\",\"claim\":\"tourists love the rooftop seating · — replay held before persona (build) —"
+  - generic [ref=f1e2]: real-time updating

@@ -1,0 +1,115 @@
+- generic [ref=f11e66]:
+  - generic [ref=f11e67]:
+    - generic [ref=f11e68]:
+      - button "Back" [ref=f11e69] [cursor=pointer]: ←
+      - link [ref=f11e70] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f11e71]
+    - generic [ref=f11e72]: Step 4/5 · Verdict
+    - generic [ref=f11e73]:
+      - generic [ref=f11e74]: complete
+      - generic [ref=f11e77]: Cafe 210 West
+  - generic [ref=f11e78]:
+    - main [ref=f11e79]:
+      - generic [ref=f11e80]:
+        - generic [ref=f11e81]:
+          - button "01 Name-only intake" [ref=f11e82] [cursor=pointer]:
+            - generic [ref=f11e83]: "01"
+            - generic [ref=f11e84]: Name-only intake
+          - button "02 Evidence & personas" [ref=f11e85] [cursor=pointer]:
+            - generic [ref=f11e86]: "02"
+            - generic [ref=f11e87]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f11e88] [cursor=pointer]:
+            - generic [ref=f11e89]: "03"
+            - generic [ref=f11e90]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f11e91] [cursor=pointer]:
+            - generic [ref=f11e92]: "04"
+            - generic [ref=f11e93]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f11e94] [cursor=pointer]:
+            - generic [ref=f11e95]: "05"
+            - generic [ref=f11e96]: Loop · agents · drafts
+        - generic "Canvas view" [ref=f11e97]:
+          - button "Graph" [ref=f11e98] [cursor=pointer]
+          - button "Split" [pressed] [ref=f11e99] [cursor=pointer]
+          - button "Workbench" [ref=f11e100] [cursor=pointer]
+      - generic [ref=f11e103]:
+        - generic [ref=f11e105]:
+          - generic [ref=f11e112]: still processing some content…
+          - button "Dismiss" [ref=f11e113] [cursor=pointer]: ×
+        - generic [ref=f11e114]:
+          - generic [ref=f11e115]: ENTITY TYPES
+          - generic [ref=f11e116]:
+            - generic [ref=f11e117]:
+              - generic [ref=f11e119]: review
+              - generic [ref=f11e120]: "1"
+            - generic [ref=f11e121]:
+              - generic [ref=f11e123]: entity
+              - generic [ref=f11e124]: "6"
+            - generic [ref=f11e125]:
+              - generic [ref=f11e127]: competitor
+              - generic [ref=f11e128]: "1"
+            - generic [ref=f11e129]:
+              - generic [ref=f11e131]: price
+              - generic [ref=f11e132]: "1"
+          - generic [ref=f11e133]: AGENT SEGMENTS
+          - generic [ref=f11e134]:
+            - generic [ref=f11e135]:
+              - generic [ref=f11e137]: students
+              - generic [ref=f11e138]: "12"
+            - generic [ref=f11e139]:
+              - generic [ref=f11e141]: regulars
+              - generic [ref=f11e142]: "10"
+            - generic [ref=f11e143]:
+              - generic [ref=f11e145]: families
+              - generic [ref=f11e146]: "8"
+            - generic [ref=f11e147]:
+              - generic [ref=f11e149]: tourists
+              - generic [ref=f11e150]: "10"
+            - generic [ref=f11e151]:
+              - generic [ref=f11e153]: staff-adjacent loyalists
+              - generic [ref=f11e154]: "9"
+            - generic [ref=f11e155]:
+              - generic [ref=f11e157]: walk-ins
+              - generic [ref=f11e158]: "1"
+        - button "Toggle legend" [ref=f11e159] [cursor=pointer]: legend
+    - complementary [ref=f11e160]:
+      - generic [ref=f11e161]:
+        - generic "Canvas view" [ref=f11e162]:
+          - button "Graph" [ref=f11e163] [cursor=pointer]
+          - button "Split" [pressed] [ref=f11e164] [cursor=pointer]
+          - button "Workbench" [ref=f11e165] [cursor=pointer]
+        - button "Act on it" [ref=f11e166] [cursor=pointer]
+        - button "🔒 unlock — $19" [ref=f11e167] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f11e168] [cursor=pointer]: ›
+      - generic [ref=f11e169]:
+        - generic [ref=f11e170]:
+          - button "Act on the verdict 100% · 50/50 for" [expanded] [ref=f11e171] [cursor=pointer]:
+            - generic [ref=f11e172]: Act on the verdict
+            - generic [ref=f11e173]: 100% · 50/50 for
+            - generic [aria-hidden] [ref=f11e174]: ▾
+          - generic [ref=f11e175]:
+            - generic [ref=f11e176]: Extend weekend hours to 2 AM and run the blanket delivery promo, because all 50 customer agents support both measures and weekend footfall peaks after 10 PM. The limited food options after midnight, especially on game days, indicate an opportunity for late-night delivery, though the added demand should be weighed against roughly $180 in extra nightly operating costs.
+            - generic [ref=f11e177]:
+              - generic [ref=f11e178]: confidence
+              - generic [ref=f11e181]: 100%
+            - generic [ref=f11e182]:
+              - generic [ref=f11e183]: agent split
+              - generic [ref=f11e184]: "50"
+            - generic [ref=f11e189]:
+              - generic [ref=f11e190]: ■ support 50
+              - generic [ref=f11e191]: ■ oppose 0
+              - generic [ref=f11e192]: ■ neutral 0
+        - button "run log 20" [ref=f11e194] [cursor=pointer]:
+          - generic [ref=f11e195]: run log
+          - generic [ref=f11e196]: "20"
+          - generic [aria-hidden] [ref=f11e197]: ▾
+        - generic:
+          - generic [ref=f11e199]:
+            - generic [ref=f11e200]: Pick an agent
+            - generic [ref=f11e201]: click a node in the graph
+          - generic [ref=f11e204]:
+            - generic [ref=f11e205]: locked
+            - generic [ref=f11e206]: Unlock full segment impact + agent chat — $19
+            - generic [ref=f11e207]: The $19 deep-dive unlocks chat with every agent — answers in character, backed by the session’s evidence.
+            - button "Unlock — $19 (demo payment)" [ref=f11e208] [cursor=pointer]
+            - generic [ref=f11e209]: demo session — no card is charged

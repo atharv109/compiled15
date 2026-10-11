@@ -1,0 +1,94 @@
+- generic [ref=f22e68]:
+  - generic [ref=f22e69]:
+    - generic [ref=f22e70]:
+      - button "Back" [ref=f22e71] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f22e72] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f22e77]: Step 1/5 · Scout
+    - generic [ref=f22e78]:
+      - generic [ref=f22e79]: running
+      - generic [ref=f22e82]: Cafe 210 West
+  - generic [ref=f22e83]:
+    - complementary [ref=f22e84]:
+      - generic [ref=f22e85]:
+        - button "01 Name-only intake" [ref=f22e86] [cursor=pointer]:
+          - generic [ref=f22e87]: "01"
+          - generic [ref=f22e88]: Name-only intake
+        - button "02 Evidence & personas" [ref=f22e89] [cursor=pointer]:
+          - generic [ref=f22e90]: "02"
+          - generic [ref=f22e91]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f22e92] [cursor=pointer]:
+          - generic [ref=f22e93]: "03"
+          - generic [ref=f22e94]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f22e95] [cursor=pointer]:
+          - generic [ref=f22e96]: "04"
+          - generic [ref=f22e97]: Aggregated judge
+        - button "05 Loop & agents" [ref=f22e98] [cursor=pointer]:
+          - generic [ref=f22e99]: "05"
+          - generic [ref=f22e100]: Loop & agents
+      - generic [ref=f22e101]:
+        - text: Live Feed
+        - generic [ref=f22e102]: 4 events
+      - generic [ref=f22e103]:
+        - generic [ref=f22e104]:
+          - generic [ref=f22e105]: 14:53:22.676
+          - generic [ref=f22e106]: console
+          - generic [ref=f22e107]: mock replay attached (recorded run)
+        - generic [ref=f22e108]:
+          - generic [ref=f22e109]: 14:53:22.758
+          - generic [ref=f22e110]: session:start
+          - generic [ref=f22e111]: session opened · Cafe 210 West
+        - generic [ref=f22e112]:
+          - generic [ref=f22e113]: 14:53:23.066
+          - generic [ref=f22e114]: scout:source
+          - generic [ref=f22e115]: Mock · mock fixture replay
+        - generic [ref=f22e116]:
+          - generic [ref=f22e117]: 14:53:23.426
+          - generic [ref=f22e118]: evidence
+          - generic [ref=f22e119]: card e1 · Weekend footfall peaks after 10 PM and regulars complain abou…
+        - generic [ref=f22e120]:
+          - generic [ref=f22e121]: 14:53:23.429
+          - generic [ref=f22e122]: scout:reviews
+          - generic [ref=f22e123]: 1 reviews streamed
+      - generic [ref=f22e124]:
+        - generic [ref=f22e125]:
+          - generic [ref=f22e126]: 1/7
+          - text: sources
+        - generic [ref=f22e127]:
+          - generic [ref=f22e128]: "1"
+          - text: evidence
+        - generic [ref=f22e129]:
+          - generic [ref=f22e130]: "0"
+          - text: agents
+        - generic [ref=f22e131]:
+          - generic [ref=f22e132]: 0/2
+          - text: round
+    - main [ref=f22e133]:
+      - generic [ref=f22e134]:
+        - generic [ref=f22e135]:
+          - generic [ref=f22e136]:
+            - generic [ref=f22e137]: 01 · Scout — Name-only intake
+            - generic [ref=f22e138]: Scouts reading the internet on Cafe 210 West
+          - generic [ref=f22e139]: streaming
+        - generic [ref=f22e140]:
+          - generic [ref=f22e142]:
+            - generic [ref=f22e143]:
+              - text: ◇ source sweep
+              - generic [ref=f22e144]: 1/7
+            - generic [ref=f22e147]:
+              - generic [ref=f22e148]: 1 of 7 sources
+              - generic [ref=f22e149]: name-only intake
+            - generic [ref=f22e151]:
+              - generic [ref=f22e152]:
+                - generic [ref=f22e153]: Mock
+                - generic [ref=f22e154]: ok
+              - generic [ref=f22e155]: mock fixture replay
+          - generic [ref=f22e157]:
+            - generic [ref=f22e158]:
+              - text: ◇ reviews streaming
+              - generic [ref=f22e159]: 1 in
+            - generic [ref=f22e161]:
+              - text: "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\""
+              - generic [ref=f22e162]:
+                - generic [ref=f22e163]: Google review
+                - generic [ref=f22e164]: review 1

@@ -1,0 +1,126 @@
+- generic [ref=f28e78]:
+  - generic [ref=f28e79]:
+    - generic [ref=f28e80]:
+      - button "Back" [ref=f28e81] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f28e82] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f28e87]: Step 1/5 · Scout
+    - generic [ref=f28e88]:
+      - generic [ref=f28e89]: running
+      - generic [ref=f28e92]: Ziggy's Diner
+  - generic [ref=f28e93]:
+    - status "Business identified" [ref=f28e200]:
+      - generic [ref=f28e201]: The swarm identified your business as Ziggy's Diner · Lock Haven — classified as consumers (local_consumer).
+      - generic [ref=f28e202]:
+        - button "Right — keep scouting" [ref=f28e203] [cursor=pointer]
+        - button "Wrong business — re-scout" [ref=f28e204]
+    - complementary [ref=f28e99]:
+      - generic [ref=f28e100]:
+        - button "01 Name-only intake" [ref=f28e101] [cursor=pointer]:
+          - generic [ref=f28e102]: "01"
+          - generic [ref=f28e103]: Name-only intake
+        - button "02 Evidence & personas" [ref=f28e104] [cursor=pointer]:
+          - generic [ref=f28e105]: "02"
+          - generic [ref=f28e106]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f28e107] [cursor=pointer]:
+          - generic [ref=f28e108]: "03"
+          - generic [ref=f28e109]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f28e110] [cursor=pointer]:
+          - generic [ref=f28e111]: "04"
+          - generic [ref=f28e112]: Aggregated judge
+        - button "05 Loop · agents · drafts" [ref=f28e113] [cursor=pointer]:
+          - generic [ref=f28e114]: "05"
+          - generic [ref=f28e115]: Loop · agents · drafts
+      - generic [ref=f28e116]:
+        - text: Live Feed
+        - generic [ref=f28e117]: 9 events
+      - generic [ref=f28e118]:
+        - generic [ref=f28e119]:
+          - generic [ref=f28e120]: 15:44:27.165
+          - generic [ref=f28e121]: console
+          - generic [ref=f28e122]: "business confirmed: convening on Ziggy's Diner · Lock Haven"
+        - generic [ref=f28e123]:
+          - generic [ref=f28e124]: 15:44:27.244
+          - generic [ref=f28e125]: session:start
+          - generic [ref=f28e126]: session opened · Ziggy's Diner
+        - generic [ref=f28e127]:
+          - generic [ref=f28e128]: 15:44:28.007
+          - generic [ref=f28e129]: scout:status
+          - generic [ref=f28e130]: "business_class: local_consumer — persona family: consumers"
+        - generic [ref=f28e131]:
+          - generic [ref=f28e132]: 15:44:28.010
+          - generic [ref=f28e133]: scout:source
+          - generic [ref=f28e134]: Classified · ok
+        - generic [ref=f28e172]:
+          - generic [ref=f28e173]: 15:44:31.282
+          - generic [ref=f28e174]: scout:source
+          - generic [ref=f28e175]: Tavily web (menu · news) · 8 · done
+        - generic [ref=f28e176]:
+          - generic [ref=f28e177]: 15:44:31.422
+          - generic [ref=f28e178]: scout:source
+          - generic [ref=f28e179]: Google reviews · ok
+        - generic [ref=f28e205]:
+          - generic [ref=f28e206]: 15:44:36.364
+          - generic [ref=f28e207]: stream:done
+          - generic [ref=f28e208]: session complete — all 5 steps shown
+        - generic [ref=f28e209]:
+          - generic [ref=f28e210]: 15:44:46.434
+          - generic [ref=f28e211]: console
+          - generic [ref=f28e212]: convening on Ziggy's Diner · Lock Haven
+        - generic [ref=f28e213]:
+          - generic [ref=f28e214]: 15:44:46.511
+          - generic [ref=f28e215]: session:start
+          - generic [ref=f28e216]: session opened · Ziggy's Diner
+        - generic [ref=f28e217]:
+          - generic [ref=f28e218]: 15:44:47.343
+          - generic [ref=f28e219]: scout:status
+          - generic [ref=f28e220]: "business_class: local_consumer — persona family: consumers"
+        - generic [ref=f28e221]:
+          - generic [ref=f28e222]: 15:44:47.344
+          - generic [ref=f28e223]: scout:source
+          - generic [ref=f28e224]: Classified · ok
+      - generic [ref=f28e135]:
+        - generic [ref=f28e225]:
+          - generic [ref=f28e226]: 1/7
+          - text: sources
+        - generic [ref=f28e227]:
+          - generic [ref=f28e228]: "0"
+          - text: evidence
+        - generic [ref=f28e229]:
+          - generic [ref=f28e230]: "0"
+          - text: agents
+        - generic [ref=f28e231]:
+          - generic [ref=f28e232]: 0/2
+          - text: round
+    - main [ref=f28e144]:
+      - generic [ref=f28e145]:
+        - generic [ref=f28e146]:
+          - generic [ref=f28e147]:
+            - generic [ref=f28e148]: 01 · Scout — Name-only intake
+            - generic [ref=f28e149]: Scouts reading the internet on Ziggy's Diner
+          - generic [ref=f28e150]: streaming
+        - generic [ref=f28e151]:
+          - generic [ref=f28e153]:
+            - generic [ref=f28e154]:
+              - text: ◇ source sweep
+              - generic [ref=f28e155]: 1/7
+            - generic [ref=f28e158]:
+              - generic [ref=f28e233]: 1 of 7 sources
+              - generic [ref=f28e234]: name-only intake
+            - generic [ref=f28e161]:
+              - generic [ref=f28e236]:
+                - generic [ref=f28e237]: Classified
+                - generic [ref=f28e238]: ok
+              - generic [ref=f28e191]:
+                - generic [ref=f28e192]:
+                  - generic [ref=f28e193]: Tavily web (menu · news)
+                  - generic [ref=f28e194]: ok
+                - generic [ref=f28e195]: 8 · done
+              - generic [ref=f28e197]:
+                - generic [ref=f28e198]: Google reviews
+                - generic [ref=f28e199]: ok
+          - generic [ref=f28e167]:
+            - generic [ref=f28e168]:
+              - text: ◇ reviews streaming
+              - generic [ref=f28e169]: 0 in
+            - generic [ref=f28e170]: …waiting for reviews

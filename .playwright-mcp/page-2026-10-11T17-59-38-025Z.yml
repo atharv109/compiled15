@@ -1,0 +1,1821 @@
+- generic [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]: Customer Swarm
+    - generic [ref=f3e4]: Ask your customers before you spend the money.
+    - generic [ref=f3e5]:
+      - checkbox "Demo mode (recorded)" [ref=f3e6]
+      - text: Demo mode (recorded)
+  - navigation [ref=f3e7]:
+    - button "Run" [ref=f3e8] [cursor=pointer]
+    - button "Learning loop" [ref=f3e9] [cursor=pointer]
+    - button "About" [ref=f3e10] [cursor=pointer]
+  - generic [ref=f3e11]:
+    - generic [ref=f3e12]:
+      - heading "Intake" [level=2] [ref=f3e13]
+      - generic [ref=f3e14]:
+        - generic [ref=f3e15]:
+          - generic [ref=f3e16]: Business name
+          - textbox "Business name" [disabled] [ref=f3e17]:
+            - /placeholder: Cafe 210 West
+            - text: Cafe 210 West
+          - generic [ref=f3e18]: Town
+          - textbox "Town" [disabled] [ref=f3e19]:
+            - /placeholder: State College
+            - text: State College
+          - generic [ref=f3e20]: The decision (question)
+          - textbox "The decision (question)" [ref=f3e21]:
+            - /placeholder: Should we stay open until 2 AM on football Saturdays?
+            - text: Should we stay open until 2 AM on football Saturdays?
+        - generic [ref=f3e22]:
+          - generic [ref=f3e23]: Pasted reviews (optional)
+          - textbox "Pasted reviews (optional)" [ref=f3e24]:
+            - /placeholder: Paste Google / Yelp reviews here...
+            - text: "[1.0] Prepare to wait. Awful table service. [4.0] Drinks were good and inexpensive but this is more of a college bar/pub. [1.0] we ordered something different than what we got, waited 10 minutes for a side of ranch, and an additional 10 minutes for silverware. the atmosphere is still among the best in town, but the service is worse than ever. [1.0] Bar tender shewed me out the way. Very disrespectful. Didn't get food yet it's been 2 hours. [2.0] Food was average but the insistence on seeing everyone's ID before entering the restaurant for lunch was beyond annoying. They refused entry to a 65+ patron because her drivers license had expired. Bizarre! [1.0] Tables were dirty and sticky. Service was good, food was subpar. [3.0] Teas are great, staff acted like they were closed over an hour before closing. The bartender asked if we wanted to keep our tab open. Very confusing... [1.0] Never been and never will. $3 cash cover during happy hour, no live music and simply trying to have dinner on the patio. Ridiculous. [5.0] Great atmosphere. Love the flavored Ice Tea [3.0] College bar with good drink specials and nice dive bar feel. Beer was ice cold and they specialize in ice tea pitchers. Love this place since the 90s, but the food has gone way down hill. Nachos which were the state college go to were very stale. [3.0] We sat 5 min as waiters & waitress walked by. Finally someone asked if we were waited on. [4.0] Great service, great music, but five quarter pickle spears for $9.95. That's $8.00 per pickle. I generally don't write reviews, but this is egregious. [1.0] Bad food and bad customer service. [4.0] Good drink & sandwich [4.0] College bar, food is bar food. They have local beer on tap like New Trail and Axeman. Worth a trip [1.0] The bartender with glasses and balding hair runs the bar like his own personal domain. [5.0] The band absolutely KILLED it tonight... they even played Free Bird! [4.0] Flavored long island pitchers are way to go. [4.0] good prices but gets messy"
+      - generic [ref=f3e25]:
+        - button "Start intake" [active] [ref=f3e26] [cursor=pointer]
+        - button "Run debate" [ref=f3e27] [cursor=pointer]
+      - generic [ref=f3e28]: Intake scouts evidence, builds personas; the debate and verdict stream live below.
+    - generic [ref=f3e30]:
+      - heading "Session s_e78923 — Cafe 210 West, State College" [level=2] [ref=f3e31]
+      - generic [ref=f3e32]: verdict ready — locked behind checkout
+      - generic [ref=f3e35]:
+        - heading "Evidence" [level=3] [ref=f3e36]
+        - generic [ref=f3e37]:
+          - generic [ref=f3e38]:
+            - generic [ref=f3e39]: price
+            - generic [ref=f3e40]: "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West's hours? Cafe 210 West is l"
+            - generic [ref=f3e41]: "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West's hours? Cafe 210 West is located in State College, Pennsylvania. Monday: 11 AM - 2 AM. Tuesday: 11 AM - 2 AM. Wednesday: 11 AM - 2 AM. Thursday: 11 AM - 2 AM. Friday: 11 AM - 2 AM. Saturday: 11 AM - 2 AM. Sunday: 12 PM - 10 PM. Where is Cafe 2"
+            - generic [ref=f3e42]:
+              - text: "source:"
+              - link "Cafe 210 West - State College, PA | joe coffee" [ref=f3e43] [cursor=pointer]:
+                - /url: https://joe.coffee/locations/pa/state-college/cafe-210-west-state-college
+          - generic [ref=f3e44]:
+            - generic [ref=f3e45]: price
+            - generic [ref=f3e46]: "All Cities› PA› State College› Cafe 210 West 👍 #40 Most Liked · 693 Likes # Cafe 210 West 210 W College Ave, State College, PA 814-237-3449 ★ 3.0 / 5 from 2 ratings 693 lik"
+            - generic [ref=f3e47]: "All Cities› PA› State College› Cafe 210 West 👍 #40 Most Liked · 693 Likes # Cafe 210 West 210 W College Ave, State College, PA 814-237-3449 ★ 3.0 / 5 from 2 ratings 693 likes Rate:tap a star to rate 🏆 Monthly Wins MOST LIKED APR 2026 🏷️ Dishes/Highlights American - Pubs - Bar 📋 Menu Café 210 Skillet Fries $11.95 Crisp golden brown fries on a cast iron skillet topped with melted ch"
+            - generic [ref=f3e48]:
+              - text: "source:"
+              - link "Cafe 210 West Menu, State College, PA" [ref=f3e49] [cursor=pointer]:
+                - /url: https://www.menuguide.com/PA/State-College/Cafe-210-West
+          - generic [ref=f3e50]:
+            - generic [ref=f3e51]: public_info
+            - generic [ref=f3e52]: Café 210 West for those who haven’t seen it is located on 210 W College Ave, State College, PA 16801, “210” no surprise there
+            - generic [ref=f3e53]: Café 210 West for those who haven’t seen it is located on 210 W College Ave, State College, PA 16801, “210” no surprise there. Café 210 West is open Monday thru Saturday from 11 in the morning until 2 in the morning. The only exception is that they are not available or open on Sundays. A cool this that is a good thing to know is if you wish to hold an event there you can, but it is more of a bar a
+            - generic [ref=f3e54]:
+              - text: "source:"
+              - link "Cafe 210 West | Food Review State College Edition" [ref=f3e55] [cursor=pointer]:
+                - /url: https://sites.psu.edu/kenblogrcl/2019/12/05/cafe-210-west
+          - generic [ref=f3e56]:
+            - generic [ref=f3e57]: price
+            - generic [ref=f3e58]: "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State's favorite patio! Hours: Mon - Sat 11 am - 2am; S"
+            - generic [ref=f3e59]: "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State's favorite patio! Hours: Mon - Sat 11 am - 2am; Sun 12pm - 10pm. Lunch, dinner, drinks, & late-night menu. Live music Thurs - Sat! 210 W College Ave linktr.ee/cafe210west Joined August 2009 367 Following4,707 Followers RepliesRepliesRepostsRepostsMediaMedia @Caf"
+            - generic [ref=f3e60]:
+              - text: "source:"
+              - link "Café 210 West (@Cafe210West) / X" [ref=f3e61] [cursor=pointer]:
+                - /url: https://x.com/Cafe210West?lang=en
+          - generic [ref=f3e62]:
+            - generic [ref=f3e63]: public_info
+            - generic [ref=f3e64]: "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave,"
+            - generic [ref=f3e65]: "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave, State College ... more cafe210west's highlight story picture Corner Brothers cafe210west's highlight story picture Special Events cafe210west's highlight story picture 55 Days of Café cafe210west's highli"
+            - generic [ref=f3e66]:
+              - text: "source:"
+              - link "Cafe 210 West (@cafe210west) • Instagram photos and videos" [ref=f3e67] [cursor=pointer]:
+                - /url: https://www.instagram.com/cafe210west?hl=en
+          - generic [ref=f3e68]:
+            - generic [ref=f3e69]: competitor
+            - generic [ref=f3e70]: "| Company Name | Revenue | Number of Employees | Employee Growth | Total Funding | --- --- | #1 Arbitrator Inte.."
+            - generic [ref=f3e71]: "| Company Name | Revenue | Number of Employees | Employee Growth | Total Funding | --- --- | #1 Arbitrator Inte... | $15.3M | 63 | -12% | N/A | | #2 BAYADA Habilita... | $21.6M | 63 | 21% | N/A | | #3 OnwardState.com | $12M | 65 | 8% | N/A | | #4 Polymics Ltd. | $15M | 66 | -8% | N/A | | #5 CommAgency | $15.1M | 67 | 5% | N/A | [...] | Competitor Name | Revenue | Number of Employees | Empl"
+            - generic [ref=f3e72]:
+              - text: "source:"
+              - 'link "Cafe 210 West: Revenue, Competitors, Alternatives" [ref=f3e73] [cursor=pointer]':
+                - /url: https://growjo.com/company/Cafe_210_West
+          - generic [ref=f3e74]:
+            - generic [ref=f3e75]: competitor
+            - generic [ref=f3e76]: "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun"
+            - generic [ref=f3e77]: "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun’s out, a comfortable bar inside, generally affordable food and drink, and an overall welcoming environment. There are few bars that can compete downtown. [...] ### A Secret Vault If there was ever a point for a State C"
+            - generic [ref=f3e78]:
+              - text: "source:"
+              - link "Brainstorming Alternatives For Cafe 210's Backpack Issue | Onward State" [ref=f3e79] [cursor=pointer]:
+                - /url: https://onwardstate.com/2025/04/08/brainstorming-alternatives-for-cafe-210s-backpack-issue
+          - generic [ref=f3e80]:
+            - generic [ref=f3e81]: competitor
+            - generic [ref=f3e82]: Open now Image 25 Otto's Pub and Brewery 4.1 4.1 of 5 bubbles (885 reviews) American • $$ - $$$ Open now Image 26 The Field Burger & Tap 4.2 4.2 of 5 bubbles (417 revie
+            - generic [ref=f3e83]: Open now Image 25 Otto's Pub and Brewery 4.1 4.1 of 5 bubbles (885 reviews) American • $$ - $$$ Open now Image 26 The Field Burger & Tap 4.2 4.2 of 5 bubbles (417 reviews) American • $$ - $$$ Open now Image 27 Happy Valley Brewing Company 4.1 4.1 of 5 bubbles (654 reviews) American • $$ - $$$ Closed today Image 28 Gigi's Southern Table 4.1 4.1 of 5 bubbles (447 reviews)
+            - generic [ref=f3e84]:
+              - text: "source:"
+              - link "CAFE 210 WEST, State College - Restaurant Reviews, Photos & Phone Number - Tripa" [ref=f3e85] [cursor=pointer]:
+                - /url: https://www.tripadvisor.com/Restaurant_Review-g53755-d463124-Reviews-Cafe_210_West-State_College_Pennsylvania.html
+          - generic [ref=f3e86]:
+            - generic [ref=f3e87]: review
+            - generic [ref=f3e88]: Actually laughing reading the reviews bc why is bro on a power trip to kick people out.
+            - generic [ref=f3e89]: Actually laughing reading the reviews bc why is bro on a power trip to kick people out.
+            - generic [ref=f3e90]:
+              - text: "source:"
+              - link "Ashley Anderson" [ref=f3e91] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e92]:
+            - generic [ref=f3e93]: review
+            - generic [ref=f3e94]: Our waiter forgot about our drinks like I’m thirsty the food is no where to be found I will never be back here again save your time and don’t come here EVER we have been looking ar
+            - generic [ref=f3e95]: Our waiter forgot about our drinks like I’m thirsty the food is no where to be found I will never be back here again save your time and don’t come here EVER we have been looking around and people who came in here 15 mins after us already have there food and they have a much much bigger table.
+            - generic [ref=f3e96]:
+              - text: "source:"
+              - link "Addison Kreisich" [ref=f3e97] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e98]:
+            - generic [ref=f3e99]: review
+            - generic [ref=f3e100]: Despite having great food, service, and atmosphere, I can’t rate this experience higher than a 2 star. My girlfriend was kicked out for being too drunk, despite this being her 2nd
+            - generic [ref=f3e101]: Despite having great food, service, and atmosphere, I can’t rate this experience higher than a 2 star. My girlfriend was kicked out for being too drunk, despite this being her 2nd drink of the night. I have no issue with bars kicking out drunks, but tonight there was a large group that was kicked out for being ”too drunk”. Most of these people didn’t seem drunk, and there was even a lady kicked ou
+            - generic [ref=f3e102]:
+              - text: "source:"
+              - link "Chris Williams" [ref=f3e103] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e104]:
+            - generic [ref=f3e105]: review
+            - generic [ref=f3e106]: Cafe is one of those places you want to be at until you there. Their inexperienced, brand new, bartenders walked up and described that my wife was too drunk (after trying to find o
+            - generic [ref=f3e107]: Cafe is one of those places you want to be at until you there. Their inexperienced, brand new, bartenders walked up and described that my wife was too drunk (after trying to find our credit card) 2 minutes after we ordered drink. Absolutely comical how awful of a business you can run in state college and still make money. If you want to enjoy a bar, your must should not only exclude cafe, but shou
+            - generic [ref=f3e108]:
+              - text: "source:"
+              - link "Tommy Twotone" [ref=f3e109] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e110]:
+            - generic [ref=f3e111]: review
+            - generic [ref=f3e112]: The bouncers are incredible. I felt so bad they had to deal with the one drunk girl who tried getting in 3 times after she was thrown out. Embarrassed for her. Give the bouncers a
+            - generic [ref=f3e113]: The bouncers are incredible. I felt so bad they had to deal with the one drunk girl who tried getting in 3 times after she was thrown out. Embarrassed for her. Give the bouncers a bonus!!! BUFF CHICK DIP 15/10.
+            - generic [ref=f3e114]:
+              - text: "source:"
+              - link "Jennifer Strzelecki" [ref=f3e115] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e116]:
+            - generic [ref=f3e117]: review
+            - generic [ref=f3e118]: Charging cover just to kick you out half a second later!! If you’re going to accuse someone of being intoxicated and physically remove them, maybe take a moment to actually assess
+            - generic [ref=f3e119]: Charging cover just to kick you out half a second later!! If you’re going to accuse someone of being intoxicated and physically remove them, maybe take a moment to actually assess the situation first. I had literally just paid to get in and was drinking water. Being the designated driver should be something a bar appreciates, not something that results in you being treated like a drunk and physica
+            - generic [ref=f3e120]:
+              - text: "source:"
+              - link "Molly" [ref=f3e121] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e122]:
+            - generic [ref=f3e123]: review
+            - generic [ref=f3e124]: I have been a patron of Cafe 210 for years and love to come when the weather is nice to sit on the patio. Tonight changed my opinion on the establishment and I will not be back and
+            - generic [ref=f3e125]: I have been a patron of Cafe 210 for years and love to come when the weather is nice to sit on the patio. Tonight changed my opinion on the establishment and I will not be back and I will be telling others not to go. I was kicked out after having 1 drink and being “slumped over.” In actuality, I was looking down, trying to find photos on my phone to show my boyfriend. The bouncer told me I needed
+            - generic [ref=f3e126]:
+              - text: "source:"
+              - link "Leeann Runkle" [ref=f3e127] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e128]:
+            - generic [ref=f3e129]: review
+            - generic [ref=f3e130]: . Food was good but our order was incorrect, and unfortunately not ratified fully. Our bill was incorrect as well, we were overcharged. We did not have time to wait to get it
+            - generic [ref=f3e131]: . Food was good but our order was incorrect, and unfortunately not ratified fully. Our bill was incorrect as well, we were overcharged. We did not have time to wait to get it corrected, as we had an appointment and couldn’t be late. Our waitress/sever was very busy. We only had one waitress/server, which was not enough for the amount of people there were.
+            - generic [ref=f3e132]:
+              - text: "source:"
+              - link "tina s" [ref=f3e133] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e134]:
+            - generic [ref=f3e135]: review
+            - generic [ref=f3e136]: Charging cover for a fully empty empty bar on a hot Friday afternoon. Makes sense why they're empty.
+            - generic [ref=f3e137]: Charging cover for a fully empty empty bar on a hot Friday afternoon. Makes sense why they're empty.
+            - generic [ref=f3e138]:
+              - text: "source:"
+              - link "Jake Weidman" [ref=f3e139] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e140]:
+            - generic [ref=f3e141]: review
+            - generic [ref=f3e142]: I used to come to this place when I was a student, but now they ask you to leave water bottles in a bin outside. Once a business starts to treat people like they’re being screened
+            - generic [ref=f3e143]: I used to come to this place when I was a student, but now they ask you to leave water bottles in a bin outside. Once a business starts to treat people like they’re being screened by TSA, I don’t recommend going there unless you have no other option. Go to a place that treats you like a guest.
+            - generic [ref=f3e144]:
+              - text: "source:"
+              - link "Geoffrey Wilds" [ref=f3e145] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e146]:
+            - generic [ref=f3e147]: review
+            - generic [ref=f3e148]: Good menu selection, outside seating, slushies
+            - generic [ref=f3e149]: Good menu selection, outside seating, slushies
+            - generic [ref=f3e150]:
+              - text: "source:"
+              - link "Monabu75" [ref=f3e151] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e152]:
+            - generic [ref=f3e153]: review
+            - generic [ref=f3e154]: Literally the worst service I’ve ever experienced in my life. I had to wait over 30 minutes for anyone to come up to me and there were like five other people. Food is good if you m
+            - generic [ref=f3e155]: Literally the worst service I’ve ever experienced in my life. I had to wait over 30 minutes for anyone to come up to me and there were like five other people. Food is good if you manage to get it before you give up and leave.
+            - generic [ref=f3e156]:
+              - text: "source:"
+              - link "Margaret Jordan" [ref=f3e157] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e158]:
+            - generic [ref=f3e159]: review
+            - generic [ref=f3e160]: Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c
+            - generic [ref=f3e161]: Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad combo are standouts, and everything feels freshly made. Friendly service and a comfortable setting make it an easy lunch go‑to.
+            - generic [ref=f3e162]:
+              - text: "source:"
+              - link "Troy Mercer" [ref=f3e163] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e164]:
+            - generic [ref=f3e165]: review
+            - generic [ref=f3e166]: We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte
+            - generic [ref=f3e167]: We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the bartenders are nice and attentive. The problem I had was the bouncers. It sometimes feels like a power trip and they seem especially rude to certain girls. They will let their friends in and they will be rude to the customer
+            - generic [ref=f3e168]:
+              - text: "source:"
+              - link "Love Brooks" [ref=f3e169] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e170]:
+            - generic [ref=f3e171]: review
+            - generic [ref=f3e172]: I had a very disappointing and frustrating experience here tonight. After purchasing a drink for $10, my card initially didn’t go through with one bartender. Instead of handling it
+            - generic [ref=f3e173]: I had a very disappointing and frustrating experience here tonight. After purchasing a drink for $10, my card initially didn’t go through with one bartender. Instead of handling it professionally, he immediately blamed my bank and said, word for word, “maybe you spent too much money tonight.” I then went to another bartender, and the same card worked without any issue, proving it was not a bank p
+            - generic [ref=f3e174]:
+              - text: "source:"
+              - link "Dan Rod" [ref=f3e175] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e176]:
+            - generic [ref=f3e177]: review
+            - generic [ref=f3e178]: Great spot if u want to get kicked out by power hungry bouncers, watch out for big Caillou
+            - generic [ref=f3e179]: Great spot if u want to get kicked out by power hungry bouncers, watch out for big Caillou
+            - generic [ref=f3e180]:
+              - text: "source:"
+              - link "Glamp Marvelous" [ref=f3e181] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e182]:
+            - generic [ref=f3e183]: review
+            - generic [ref=f3e184]: One of the worst meals I’ve had in a long time. Both the cheesesteak and fish and chips were extremely salty—so much so that they were difficult to eat. Poorly prepared and served
+            - generic [ref=f3e185]: One of the worst meals I’ve had in a long time. Both the cheesesteak and fish and chips were extremely salty—so much so that they were difficult to eat. Poorly prepared and served without care. A complete letdown.
+            - generic [ref=f3e186]:
+              - text: "source:"
+              - link "Athma Ezhuthupally" [ref=f3e187] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e188]:
+            - generic [ref=f3e189]: review
+            - generic [ref=f3e190]: Pathetic food, tasteless, poorly cooked and not worth the money. Both cheese steaks and fish and chips were extremely salty.
+            - generic [ref=f3e191]: Pathetic food, tasteless, poorly cooked and not worth the money. Both cheese steaks and fish and chips were extremely salty.
+            - generic [ref=f3e192]:
+              - text: "source:"
+              - link "ANURAG N P" [ref=f3e193] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e194]:
+            - generic [ref=f3e195]: review
+            - generic [ref=f3e196]: Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover.
+            - generic [ref=f3e197]: Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover.
+            - generic [ref=f3e198]:
+              - text: "source:"
+              - link "Andre Floyd" [ref=f3e199] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e200]:
+            - generic [ref=f3e201]: review
+            - generic [ref=f3e202]: Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es
+            - generic [ref=f3e203]: Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting establishment. My family and I came to PSU for family weekend to visit our freshman and see his new home. We TRIED to come here for a drink and some food around 630pm. We were turned away at the door because the bouncers d
+            - generic [ref=f3e204]:
+              - text: "source:"
+              - link "Francynne Mikhaela Pomperada" [ref=f3e205] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e206]:
+            - generic [ref=f3e207]: review
+            - generic [ref=f3e208]: Had a $5 cash only cover for the banana bar crawl. Couldn’t go in because no one has cash in 2025. Also no other bars had covers because your cover was your banana costume.
+            - generic [ref=f3e209]: Had a $5 cash only cover for the banana bar crawl. Couldn’t go in because no one has cash in 2025. Also no other bars had covers because your cover was your banana costume.
+            - generic [ref=f3e210]:
+              - text: "source:"
+              - link "Asa Simmers" [ref=f3e211] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e212]:
+            - generic [ref=f3e213]: review
+            - generic [ref=f3e214]: I came in as a banana on banana crawl night and they charged me $5 cash even though I had the banana costume pass. They ended up kicking me out because I didn’t “tell them” that th
+            - generic [ref=f3e215]: I came in as a banana on banana crawl night and they charged me $5 cash even though I had the banana costume pass. They ended up kicking me out because I didn’t “tell them” that there was no soap and paper towel in the women’s room. I went to the men’s room sadly I did not know that was unacceptable and they kicked me out. I am a kind soul and feel like this was very extremist. May I add that ther
+            - generic [ref=f3e216]:
+              - text: "source:"
+              - link "Ania Wilamowski" [ref=f3e217] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e218]:
+            - generic [ref=f3e219]: review
+            - generic [ref=f3e220]: I loved this place during undergrad so when I came back for Homecoming this was a guaranteed stop for me! The pitchers were just as fun as I remember and the skillet fries and wing
+            - generic [ref=f3e221]: I loved this place during undergrad so when I came back for Homecoming this was a guaranteed stop for me! The pitchers were just as fun as I remember and the skillet fries and wings are still a hit 🔥 This will always be a State College staple 💙
+            - generic [ref=f3e222]:
+              - text: "source:"
+              - link "Ashley “Ash Bash” Bradley" [ref=f3e223] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e224]:
+            - generic [ref=f3e225]: review
+            - generic [ref=f3e226]: Service is slow but they are pretty busy so understandable. Food is okay, good mozzarella sticks. Great spirits and beer selection. Live music was awesome!
+            - generic [ref=f3e227]: Service is slow but they are pretty busy so understandable. Food is okay, good mozzarella sticks. Great spirits and beer selection. Live music was awesome!
+            - generic [ref=f3e228]:
+              - text: "source:"
+              - link "Shannon G" [ref=f3e229] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e230]:
+            - generic [ref=f3e231]: review
+            - generic [ref=f3e232]: My server was Alexi and she was amazing!!! Best service I’ve ever had. Best server cafe has to offer.
+            - generic [ref=f3e233]: My server was Alexi and she was amazing!!! Best service I’ve ever had. Best server cafe has to offer.
+            - generic [ref=f3e234]:
+              - text: "source:"
+              - link "Ryan Levant" [ref=f3e235] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e236]:
+            - generic [ref=f3e237]: review
+            - generic [ref=f3e238]: 1/2 hour to get a beer??..and fellow boomer told owner as well as they also noted how long it took
+            - generic [ref=f3e239]: 1/2 hour to get a beer??..and fellow boomer told owner as well as they also noted how long it took
+            - generic [ref=f3e240]:
+              - text: "source:"
+              - link "michael costello" [ref=f3e241] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e242]:
+            - generic [ref=f3e243]: review
+            - generic [ref=f3e244]: Been waiting years to make it to Cafe 210 West before a White Out game. Done and done.
+            - generic [ref=f3e245]: Been waiting years to make it to Cafe 210 West before a White Out game. Done and done.
+            - generic [ref=f3e246]:
+              - text: "source:"
+              - link "Financiacion Legal" [ref=f3e247] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e248]:
+            - generic [ref=f3e249]: review
+            - generic [ref=f3e250]: very poor experience due to the employees
+            - generic [ref=f3e251]: very poor experience due to the employees
+            - generic [ref=f3e252]:
+              - text: "source:"
+              - link "keoni" [ref=f3e253] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e254]:
+            - generic [ref=f3e255]: review
+            - generic [ref=f3e256]: Stopped in for lunch a week ago. Different service was slow, and ours was one of only four tables occupied. Burger was good. And while the atmosphere was dead over lunch, I'm sure
+            - generic [ref=f3e257]: Stopped in for lunch a week ago. Different service was slow, and ours was one of only four tables occupied. Burger was good. And while the atmosphere was dead over lunch, I'm sure it's still hops like it used to when I was in here at 1:00 a.m. 25 years ago.
+            - generic [ref=f3e258]:
+              - text: "source:"
+              - link "Michael Wissemann (Mikey W)" [ref=f3e259] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e260]:
+            - generic [ref=f3e261]: review
+            - generic [ref=f3e262]: Chicken quesadilla with their ranch and fries are amazing! A drag show was going on while we were there and it looked super fun! Will probably seek that out next time we go!
+            - generic [ref=f3e263]: Chicken quesadilla with their ranch and fries are amazing! A drag show was going on while we were there and it looked super fun! Will probably seek that out next time we go!
+            - generic [ref=f3e264]:
+              - text: "source:"
+              - link "Milk Jug" [ref=f3e265] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e266]:
+            - generic [ref=f3e267]: review
+            - generic [ref=f3e268]: We got there at 1:30pm and ordered food off the lunch specials menu that the server gave us. The check turned out to be fifteen dollars per item, instead of the eight dollars the m
+            - generic [ref=f3e269]: We got there at 1:30pm and ordered food off the lunch specials menu that the server gave us. The check turned out to be fifteen dollars per item, instead of the eight dollars the menu stated. We asked the server and he said the manager said that we had to pay FULL PRICE for the food since they were running low on certain things. It was not stated anywhere, they even had signs talking about their s
+            - generic [ref=f3e270]:
+              - text: "source:"
+              - link "Jack F" [ref=f3e271] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e272]:
+            - generic [ref=f3e273]: review
+            - generic [ref=f3e274]: Horrible service, non-lenient for even slouching, these people don’t even know the difference between a sober and drunk person. Again, horrible and pathetic, never want to go there
+            - generic [ref=f3e275]: Horrible service, non-lenient for even slouching, these people don’t even know the difference between a sober and drunk person. Again, horrible and pathetic, never want to go there ever again.
+            - generic [ref=f3e276]:
+              - text: "source:"
+              - link "Colin Kooney" [ref=f3e277] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e278]:
+            - generic [ref=f3e279]: review
+            - generic [ref=f3e280]: Sitting outside. Waitress told us in the 70 degree direct sunlight they could put down the awning to give shade but the manager was a little busy. After waiting an hour and a half,
+            - generic [ref=f3e281]: Sitting outside. Waitress told us in the 70 degree direct sunlight they could put down the awning to give shade but the manager was a little busy. After waiting an hour and a half, a friend going to the bathroom heard the manager say “if they want shade they can sit inside”. Awful management, pretty great service and servers. Sad to set that example for their customers and workers as a leader but
+            - generic [ref=f3e282]:
+              - text: "source:"
+              - link "Darin Richard" [ref=f3e283] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e284]:
+            - generic [ref=f3e285]: review
+            - generic [ref=f3e286]: 0/5 AWFUL MANAGER AND CHARGED FOR OTHER PEOPLES FOOD. Grabbed a table that had just cleared out with a bigger group of 8 friends. Ordered food expecting the check at the end of the
+            - generic [ref=f3e287]: 0/5 AWFUL MANAGER AND CHARGED FOR OTHER PEOPLES FOOD. Grabbed a table that had just cleared out with a bigger group of 8 friends. Ordered food expecting the check at the end of the meal. Did not see the server for over an hour before having to stand up and grab him. Was charged for over $20 worth of food that was not ours and must of been the people before that never closed out their tab. Spoke th
+            - generic [ref=f3e288]:
+              - text: "source:"
+              - link "Casey Brennan" [ref=f3e289] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e290]:
+            - generic [ref=f3e291]: review
+            - generic [ref=f3e292]: Disappointed writing this because I always come here as an alum to bring friends and family here who have never been to Penn State before. I visited over Blue and White weekend an
+            - generic [ref=f3e293]: Disappointed writing this because I always come here as an alum to bring friends and family here who have never been to Penn State before. I visited over Blue and White weekend and ordered 2 tea pitchers, and left my tab open thinking they'd just charge the tip at the end of the night when they close the bar. My mistake thinking they'd be honest. They added extra items, my guess thinking the ta
+            - generic [ref=f3e294]:
+              - text: "source:"
+              - link "BG" [ref=f3e295] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e296]:
+            - generic [ref=f3e297]: review
+            - generic [ref=f3e298]: This was my hangout back in my college days. I was in town for a work event yesterday, and I got a decent-sized group of us to come here to hangout and have dinner. Our server was
+            - generic [ref=f3e299]: This was my hangout back in my college days. I was in town for a work event yesterday, and I got a decent-sized group of us to come here to hangout and have dinner. Our server was awesome- very attentive and accommodating. We had people coming and going in our party, and she was so gracious with us. I wish I got her name to mention her specifically. We stayed for a few hours, and the atmosphere
+            - generic [ref=f3e300]:
+              - text: "source:"
+              - link "Zachary Pinkosky" [ref=f3e301] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e302]:
+            - generic [ref=f3e303]: review
+            - generic [ref=f3e304]: Great spot for a beer to sit outside
+            - generic [ref=f3e305]: Great spot for a beer to sit outside
+            - generic [ref=f3e306]:
+              - text: "source:"
+              - link "Doug W" [ref=f3e307] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e308]:
+            - generic [ref=f3e309]: review
+            - generic [ref=f3e310]: Reliving college days, listening to live music on the back porch, drinking good cheap pitchers, and eating surprisingly good food; what’s not to love?
+            - generic [ref=f3e311]: Reliving college days, listening to live music on the back porch, drinking good cheap pitchers, and eating surprisingly good food; what’s not to love?
+            - generic [ref=f3e312]:
+              - text: "source:"
+              - link "Brendan Rhoad" [ref=f3e313] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e314]:
+            - generic [ref=f3e315]: review
+            - generic [ref=f3e316]: One of my favorites!
+            - generic [ref=f3e317]: One of my favorites!
+            - generic [ref=f3e318]:
+              - text: "source:"
+              - link "Tammy Mengel" [ref=f3e319] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e320]:
+            - generic [ref=f3e321]: review
+            - generic [ref=f3e322]: This bar will kick you out for no reason. I guess the bouncer decided he didn’t like me. Overall terrible experience, will not be returning.
+            - generic [ref=f3e323]: This bar will kick you out for no reason. I guess the bouncer decided he didn’t like me. Overall terrible experience, will not be returning.
+            - generic [ref=f3e324]:
+              - text: "source:"
+              - link "christopher fischer" [ref=f3e325] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e326]:
+            - generic [ref=f3e327]: review
+            - generic [ref=f3e328]: My boyfriend and I were just in there for an afternoon drink. I didn't get food because the only thing I wanted to order was "out". No problem. I wanted a second drink after a whil
+            - generic [ref=f3e329]: My boyfriend and I were just in there for an afternoon drink. I didn't get food because the only thing I wanted to order was "out". No problem. I wanted a second drink after a while but no server. The bartender said the server will be with us shortly. She arrived with the check instead. I explained I wanted another drink but she kept walking. I waited at the entrance and asked her if we had asked
+            - generic [ref=f3e330]:
+              - text: "source:"
+              - link "GloriaMott" [ref=f3e331] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e332]:
+            - generic [ref=f3e333]: review
+            - generic [ref=f3e334]: We’ll ALWAYS be back!! Friday nights on a football weekend find lines around the corner at the cafe. We had been in having pitchers and iced teas when my visiting daughter from NY
+            - generic [ref=f3e335]: We’ll ALWAYS be back!! Friday nights on a football weekend find lines around the corner at the cafe. We had been in having pitchers and iced teas when my visiting daughter from NYC got in line alone to see if she could catch up with us. Line was an hour long.. then the owner JR shows up and says, “I love to help people skip the line sometimes, come with me” and takes 2 people from the end and b
+            - generic [ref=f3e336]:
+              - text: "source:"
+              - link "Patty Vollmar" [ref=f3e337] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e338]:
+            - generic [ref=f3e339]: review
+            - generic [ref=f3e340]: Great live music that is constantly changing. Great drinks, decent food, just needs more wait staff but I know that's not their fault.
+            - generic [ref=f3e341]: Great live music that is constantly changing. Great drinks, decent food, just needs more wait staff but I know that's not their fault.
+            - generic [ref=f3e342]:
+              - text: "source:"
+              - link "Archer Christman" [ref=f3e343] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e344]:
+            - generic [ref=f3e345]: review
+            - generic [ref=f3e346]: Went for the live music. Pure Cane Sugar and JR & Veronica and the Band were both incredible. That place was on FIRE. Some kind soul opened up a slider door just to get fresh air
+            - generic [ref=f3e347]: Went for the live music. Pure Cane Sugar and JR & Veronica and the Band were both incredible. That place was on FIRE. Some kind soul opened up a slider door just to get fresh air for the folks dancing up a sweat storm. All the while, the front of house was quiet and chill. The bartenders were attentive and kind. The bathrooms were accessible and clean all night long (2 private women's bathrooms
+            - generic [ref=f3e348]:
+              - text: "source:"
+              - link "Kerith Strano Taylor" [ref=f3e349] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e350]:
+            - generic [ref=f3e351]: review
+            - generic [ref=f3e352]: Waited an hour for our order then 30 minutes to pay. Worst service I have ever received.
+            - generic [ref=f3e353]: Waited an hour for our order then 30 minutes to pay. Worst service I have ever received.
+            - generic [ref=f3e354]:
+              - text: "source:"
+              - link "Skyler van Cruyningen" [ref=f3e355] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e356]:
+            - generic [ref=f3e357]: review
+            - generic [ref=f3e358]: Charged a $32 check and $5 fee 3 separate times to my card when I paid in cash. Charged over $100 to an order PAID IN CASH. When I called, instead of explaining like a normal perso
+            - generic [ref=f3e359]: Charged a $32 check and $5 fee 3 separate times to my card when I paid in cash. Charged over $100 to an order PAID IN CASH. When I called, instead of explaining like a normal person the guy started talking over me like I was an idiot. This is not a normal business practice. Will not go to an overpriced jungle juice bar again :)
+            - generic [ref=f3e360]:
+              - text: "source:"
+              - link "Sadie Niedermyer" [ref=f3e361] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e362]:
+            - generic [ref=f3e363]: review
+            - generic [ref=f3e364]: Service was awful. Manager was awful. Never would recommend this place to anyone.
+            - generic [ref=f3e365]: Service was awful. Manager was awful. Never would recommend this place to anyone.
+            - generic [ref=f3e366]:
+              - text: "source:"
+              - link "Erin Gould" [ref=f3e367] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e368]:
+            - generic [ref=f3e369]: review
+            - generic [ref=f3e370]: They let us in to order drinks. Then before even having a sip, they kicked the entire group out saying that someone had dropped their ID. They then refused to refund the drinks. Th
+            - generic [ref=f3e371]: They let us in to order drinks. Then before even having a sip, they kicked the entire group out saying that someone had dropped their ID. They then refused to refund the drinks. The bouncers are insanely aggressive power trippers. It’s a trick to get money without getting the place too full. I’d be more understanding if they said it’s their discretion and just gave us our money back
+            - generic [ref=f3e372]:
+              - text: "source:"
+              - link "Daniel Heim" [ref=f3e373] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e374]:
+            - generic [ref=f3e375]: review
+            - generic [ref=f3e376]: Server was bad and we were stuck with a 20% tip fee having had given a credit card up front. The only time I have seen this before was when a place, up front, tells you for large p
+            - generic [ref=f3e377]: Server was bad and we were stuck with a 20% tip fee having had given a credit card up front. The only time I have seen this before was when a place, up front, tells you for large parties. If this was done by the waitress, she should be told not to do so. If this is the policy of the cafe, they should tell you up front. Food was ok.
+            - generic [ref=f3e378]:
+              - text: "source:"
+              - link "John Baldwin" [ref=f3e379] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e380]:
+            - generic [ref=f3e381]: review
+            - generic [ref=f3e382]: Awful experience from start to finish! I don't recommend going to this place! We asked the bouncer if there was a happy hour since there was a cover fee, and he said, "yes." I go
+            - generic [ref=f3e383]: Awful experience from start to finish! I don't recommend going to this place! We asked the bouncer if there was a happy hour since there was a cover fee, and he said, "yes." I go inside and ask the bartender for a happy hour item, and guess what? He says there's no happy hour today. That was frustrating and misleading. Moving on, we ordered drinks, which took forever to arrive. When they finally
+            - generic [ref=f3e384]:
+              - text: "source:"
+              - link "okkali thakali" [ref=f3e385] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e386]:
+            - generic [ref=f3e387]: review
+            - generic [ref=f3e388]: Food is decent, fun time with friends. Service absolutely SUCKS. Every time I come here the waiters are so slow. Decided to sit at a table to see how long it would take to be waite
+            - generic [ref=f3e389]: Food is decent, fun time with friends. Service absolutely SUCKS. Every time I come here the waiters are so slow. Decided to sit at a table to see how long it would take to be waited on, ended up leaving after 40 minutes without being served/checked up on.
+            - generic [ref=f3e390]:
+              - text: "source:"
+              - link "Alexandra Freed" [ref=f3e391] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e392]:
+            - generic [ref=f3e393]: review
+            - generic [ref=f3e394]: The beef in the Philly cheesesteak I ordered tasted horrible. I won't come back, the place is not worth the money
+            - generic [ref=f3e395]: The beef in the Philly cheesesteak I ordered tasted horrible. I won't come back, the place is not worth the money
+            - generic [ref=f3e396]:
+              - text: "source:"
+              - link "Mel BDU" [ref=f3e397] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e398]:
+            - generic [ref=f3e399]: review
+            - generic [ref=f3e400]: Another good time with great live music.
+            - generic [ref=f3e401]: Another good time with great live music.
+            - generic [ref=f3e402]:
+              - text: "source:"
+              - link "Colin Minnick" [ref=f3e403] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e404]:
+            - generic [ref=f3e405]: review
+            - generic [ref=f3e406]: This “facility” shows up second on the “dog friendly” places to eat. IT IS NOT DOG FRIENDLY, no dogs are allowed at the o it side area unless they are service dogs, don’t waste you
+            - generic [ref=f3e407]: This “facility” shows up second on the “dog friendly” places to eat. IT IS NOT DOG FRIENDLY, no dogs are allowed at the o it side area unless they are service dogs, don’t waste your time
+            - generic [ref=f3e408]:
+              - text: "source:"
+              - link "Sullivan & Sampson Doodle" [ref=f3e409] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e410]:
+            - generic [ref=f3e411]: review
+            - generic [ref=f3e412]: Fun place in the warm weather .
+            - generic [ref=f3e413]: Fun place in the warm weather .
+            - generic [ref=f3e414]:
+              - text: "source:"
+              - link "Jessica Miller" [ref=f3e415] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e416]:
+            - generic [ref=f3e417]: review
+            - generic [ref=f3e418]: Terrible customer experience. Our daughter was ridiculously kicked out for the day. She came out on the patio to say hello to us as we were walking by. She was on the inside of
+            - generic [ref=f3e419]: Terrible customer experience. Our daughter was ridiculously kicked out for the day. She came out on the patio to say hello to us as we were walking by. She was on the inside of the patio fence. We were on the outside. I touched her drink - nothing was consumed and it never left her hand- and she was told she had to leave for breaking the “rules”, which were not posted anywhere… She lost the m
+            - generic [ref=f3e420]:
+              - text: "source:"
+              - link "Lori Weeks" [ref=f3e421] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e422]:
+            - generic [ref=f3e423]: review
+            - generic [ref=f3e424]: Our server paige was quick, friendly, attentive, and efficient! My friends and I decided to eat at Cafe on a very hot day and our server Paige made the molting hot day better by al
+            - generic [ref=f3e425]: Our server paige was quick, friendly, attentive, and efficient! My friends and I decided to eat at Cafe on a very hot day and our server Paige made the molting hot day better by always getting us waters and letting us keep our menus as fans lol. She was very sweet and hope I to sit in her section again!
+            - generic [ref=f3e426]:
+              - text: "source:"
+              - link "Hellen Aguilar" [ref=f3e427] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e428]:
+            - generic [ref=f3e429]: review
+            - generic [ref=f3e430]: We had the burger and Buffalo saucy tender grinder (with bacon and ranch dressing added). DELICIOUS! Jonas, our server, was amazing, friendly, and attentive. I highly endorse this
+            - generic [ref=f3e431]: We had the burger and Buffalo saucy tender grinder (with bacon and ranch dressing added). DELICIOUS! Jonas, our server, was amazing, friendly, and attentive. I highly endorse this venue for a casual lunch or dinner, then come back for the awesome night life, drinks, and band!
+            - generic [ref=f3e432]:
+              - text: "source:"
+              - link "wayne" [ref=f3e433] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e434]:
+            - generic [ref=f3e435]: review
+            - generic [ref=f3e436]: Do you know how BAD nachos have to be for a group of drunk people to be disgusted and disappointed by them? Pretty friggin bad. Who made the culinary decision to put ARUGULA on nac
+            - generic [ref=f3e437]: Do you know how BAD nachos have to be for a group of drunk people to be disgusted and disappointed by them? Pretty friggin bad. Who made the culinary decision to put ARUGULA on nachos??? Somehow the whole basket arrived soggy ( but yet it barely any nacho cheese) and only got more nasty the longer it sat at our table. Service and drink were good, but do yourself a massive favor and skip the food h
+            - generic [ref=f3e438]:
+              - text: "source:"
+              - link "Sophia" [ref=f3e439] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e440]:
+            - generic [ref=f3e441]: review
+            - generic [ref=f3e442]: Harrassed by a staff member for putting a cup of ice in my pocket while going to the bathroom to not have to hold it. Nowhere near the exit. Staff are on a power trip harrassing pe
+            - generic [ref=f3e443]: Harrassed by a staff member for putting a cup of ice in my pocket while going to the bathroom to not have to hold it. Nowhere near the exit. Staff are on a power trip harrassing people.
+            - generic [ref=f3e444]:
+              - text: "source:"
+              - link "Joseph Tutino" [ref=f3e445] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e446]:
+            - generic [ref=f3e447]: review
+            - generic [ref=f3e448]: Terrific spot in State College to have cheesesteaks! We visited Cafe 210 West for the first time and the vibes are definitely college bound atmosphere. The service was fantastic!
+            - generic [ref=f3e449]: Terrific spot in State College to have cheesesteaks! We visited Cafe 210 West for the first time and the vibes are definitely college bound atmosphere. The service was fantastic! We ordered the mozzarella sticks for an appetizer - which were excellent. The cheesesteaks were really good too. It did not have a sauce which I had to order a side of marinara to add onto the cheesesteak for an add
+            - generic [ref=f3e450]:
+              - text: "source:"
+              - link "Dan Perez" [ref=f3e451] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e452]:
+            - generic [ref=f3e453]: review
+            - generic [ref=f3e454]: Good drink & sandwich
+            - generic [ref=f3e455]: Good drink & sandwich
+            - generic [ref=f3e456]:
+              - text: "source:"
+              - link "Patience Poole" [ref=f3e457] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e458]:
+            - generic [ref=f3e459]: review
+            - generic [ref=f3e460]: College bar, food is bar food. They have local beer on tap like New Trail and Axeman. Worth a trip
+            - generic [ref=f3e461]: College bar, food is bar food. They have local beer on tap like New Trail and Axeman. Worth a trip
+            - generic [ref=f3e462]:
+              - text: "source:"
+              - link "Steve Breen" [ref=f3e463] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e464]:
+            - generic [ref=f3e465]: review
+            - generic [ref=f3e466]: The bartender with glasses and balding hair runs the bar like his own personal domain. This bar is apparently his little kingdom.
+            - generic [ref=f3e467]: The bartender with glasses and balding hair runs the bar like his own personal domain. This bar is apparently his little kingdom.
+            - generic [ref=f3e468]:
+              - text: "source:"
+              - link "Mike Wang" [ref=f3e469] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e470]:
+            - generic [ref=f3e471]: review
+            - generic [ref=f3e472]: The band absolutely KILLED it tonight... they even played Free Bird!
+            - generic [ref=f3e473]: The band absolutely KILLED it tonight... they even played Free Bird!
+            - generic [ref=f3e474]:
+              - text: "source:"
+              - link "Jacob Pile" [ref=f3e475] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e476]:
+            - generic [ref=f3e477]: review
+            - generic [ref=f3e478]: Kicked us out because they needed the table space and instead of telling us that they told the group that we were “too drunk” even though we only had two drinks each. Mid food and
+            - generic [ref=f3e479]: Kicked us out because they needed the table space and instead of telling us that they told the group that we were “too drunk” even though we only had two drinks each. Mid food and midder service.
+            - generic [ref=f3e480]:
+              - text: "source:"
+              - link "Hannah Pirrello" [ref=f3e481] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e482]:
+            - generic [ref=f3e483]: review
+            - generic [ref=f3e484]: Flavored long island pitchers are way to go.
+            - generic [ref=f3e485]: Flavored long island pitchers are way to go.
+            - generic [ref=f3e486]:
+              - text: "source:"
+              - link "Rahil Patel" [ref=f3e487] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e488]:
+            - generic [ref=f3e489]: review
+            - generic [ref=f3e490]: good prices but gets messy
+            - generic [ref=f3e491]: good prices but gets messy
+            - generic [ref=f3e492]:
+              - text: "source:"
+              - link "Lito Hu" [ref=f3e493] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e494]:
+            - generic [ref=f3e495]: review
+            - generic [ref=f3e496]: The food isn't bad, just very inconsistent. It could be great one day, then less proportions and lower quality another day. The staff is always friendly.
+            - generic [ref=f3e497]: The food isn't bad, just very inconsistent. It could be great one day, then less proportions and lower quality another day. The staff is always friendly.
+            - generic [ref=f3e498]:
+              - text: "source:"
+              - link "Omar Siam" [ref=f3e499] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e500]:
+            - generic [ref=f3e501]: review
+            - generic [ref=f3e502]: Just a great place for food and drink on College Avenue. If the weather is decent, be prepared to wait a while to get in, though it's usually worth the wait. We sat on the back dec
+            - generic [ref=f3e503]: Just a great place for food and drink on College Avenue. If the weather is decent, be prepared to wait a while to get in, though it's usually worth the wait. We sat on the back deck during a recently crowded Saturday afternoon and couldn't get served any food back there, but service is pretty awful everywhere anymore, so par for the course, I suppose.
+            - generic [ref=f3e504]:
+              - text: "source:"
+              - link "M Robinson" [ref=f3e505] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e506]:
+            - generic [ref=f3e507]: review
+            - generic [ref=f3e508]: My fav college bar. Can get super busy like all of them but cafe has the best outdoor seating imo. It's always the vibe no matter what you're trying to go for. The food is great to
+            - generic [ref=f3e509]: My fav college bar. Can get super busy like all of them but cafe has the best outdoor seating imo. It's always the vibe no matter what you're trying to go for. The food is great too
+            - generic [ref=f3e510]:
+              - text: "source:"
+              - link "Shubhsri Rajendra" [ref=f3e511] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e512]:
+            - generic [ref=f3e513]: review
+            - generic [ref=f3e514]: Poor service - food was awful. Much better places in State College. Waited 20 minutes before a waitress came to our table.
+            - generic [ref=f3e515]: Poor service - food was awful. Much better places in State College. Waited 20 minutes before a waitress came to our table.
+            - generic [ref=f3e516]:
+              - text: "source:"
+              - link "Jeff Larson" [ref=f3e517] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e518]:
+            - generic [ref=f3e519]: review
+            - generic [ref=f3e520]: Came for a concert. But it seems like a great hangout spot. Very busy
+            - generic [ref=f3e521]: Came for a concert. But it seems like a great hangout spot. Very busy
+            - generic [ref=f3e522]:
+              - text: "source:"
+              - link "V K" [ref=f3e523] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e524]:
+            - generic [ref=f3e525]: review
+            - generic [ref=f3e526]: The raspberry drink was refreshing, fish and chips could've been better.
+            - generic [ref=f3e527]: The raspberry drink was refreshing, fish and chips could've been better.
+            - generic [ref=f3e528]:
+              - text: "source:"
+              - link "Prameth Gaddale" [ref=f3e529] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e530]:
+            - generic [ref=f3e531]: review
+            - generic [ref=f3e532]: Slushie was made with all the flavor at the bottom-tasted like lemon-ordered watermelon. Nachos were cold. Service was good but food was disappointing. Not a good experience
+            - generic [ref=f3e533]: Slushie was made with all the flavor at the bottom-tasted like lemon-ordered watermelon. Nachos were cold. Service was good but food was disappointing. Not a good experience
+            - generic [ref=f3e534]:
+              - text: "source:"
+              - link "Mark Lavine" [ref=f3e535] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e536]:
+            - generic [ref=f3e537]: review
+            - generic [ref=f3e538]: This has been my favorite place to go and have drinks outside since the 1990s. It's still awesome!
+            - generic [ref=f3e539]: This has been my favorite place to go and have drinks outside since the 1990s. It's still awesome!
+            - generic [ref=f3e540]:
+              - text: "source:"
+              - link "Dave Romanyshyn" [ref=f3e541] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e542]:
+            - generic [ref=f3e543]: review
+            - generic [ref=f3e544]: Excellent food, fast service, fair prices. We would go again!
+            - generic [ref=f3e545]: Excellent food, fast service, fair prices. We would go again!
+            - generic [ref=f3e546]:
+              - text: "source:"
+              - link "Scott Faust" [ref=f3e547] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e548]:
+            - generic [ref=f3e549]: review
+            - generic [ref=f3e550]: While I personally enjoy the food here and I have always received good service from the wait staff, I reached out in an attempt to speak to either a manager or store operator regar
+            - generic [ref=f3e551]: While I personally enjoy the food here and I have always received good service from the wait staff, I reached out in an attempt to speak to either a manager or store operator regarding a possible food donation and instead of getting any sort of feedback regarding this, I was told by someone who sounded quite lazy that they could not grab someone for me and I was rudely hung up on. While I'll still
+            - generic [ref=f3e552]:
+              - text: "source:"
+              - link "Jonathan Clifton" [ref=f3e553] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e554]:
+            - generic [ref=f3e555]: review
+            - generic [ref=f3e556]: After an accident, multiple servers stood around in front of the bar to talk about and make fun of those involved. Extremely unprofessional.
+            - generic [ref=f3e557]: After an accident, multiple servers stood around in front of the bar to talk about and make fun of those involved. Extremely unprofessional.
+            - generic [ref=f3e558]:
+              - text: "source:"
+              - link "Emma DeHaas" [ref=f3e559] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e560]:
+            - generic [ref=f3e561]: review
+            - generic [ref=f3e562]: Food was decent, service great, but very loud inside and out.
+            - generic [ref=f3e563]: Food was decent, service great, but very loud inside and out.
+            - generic [ref=f3e564]:
+              - text: "source:"
+              - link "Thomas Neuin" [ref=f3e565] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e566]:
+            - generic [ref=f3e567]: review
+            - generic [ref=f3e568]: The bouncer accused me of having a fake ID even though it was real. I had to wait 50 minutes for the cops to arrive to verify, so I could get my real ID back. He was very rude and
+            - generic [ref=f3e569]: The bouncer accused me of having a fake ID even though it was real. I had to wait 50 minutes for the cops to arrive to verify, so I could get my real ID back. He was very rude and kept accusing me even though it was a valid ID. Customers came up to me after and apologized on behalf of him. What a disappointment.
+            - generic [ref=f3e570]:
+              - text: "source:"
+              - link "Caroline Radocaj" [ref=f3e571] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e572]:
+            - generic [ref=f3e573]: review
+            - generic [ref=f3e574]: Thursdays for long islands !!
+            - generic [ref=f3e575]: Thursdays for long islands !!
+            - generic [ref=f3e576]:
+              - text: "source:"
+              - link "Frank Romeo" [ref=f3e577] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e578]:
+            - generic [ref=f3e579]: review
+            - generic [ref=f3e580]: Cameron is the man. Solid dude, solid service and solid attitude. This is why psu bars are great, because of the people.
+            - generic [ref=f3e581]: Cameron is the man. Solid dude, solid service and solid attitude. This is why psu bars are great, because of the people.
+            - generic [ref=f3e582]:
+              - text: "source:"
+              - link "Cory" [ref=f3e583] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e584]:
+            - generic [ref=f3e585]: review
+            - generic [ref=f3e586]: Not so good not that much bad. Staff are generally rude!
+            - generic [ref=f3e587]: Not so good not that much bad. Staff are generally rude!
+            - generic [ref=f3e588]:
+              - text: "source:"
+              - link "Kadir Berkhan AKALIN" [ref=f3e589] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e590]:
+            - generic [ref=f3e591]: review
+            - generic [ref=f3e592]: Prepare to wait. Awful table service.
+            - generic [ref=f3e593]: Prepare to wait. Awful table service.
+            - generic [ref=f3e594]:
+              - text: "source:"
+              - link "Matt Oakley" [ref=f3e595] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e596]:
+            - generic [ref=f3e597]: review
+            - generic [ref=f3e598]: Drinks were good and inexpensive but this is more of a college bar/pub.
+            - generic [ref=f3e599]: Drinks were good and inexpensive but this is more of a college bar/pub.
+            - generic [ref=f3e600]:
+              - text: "source:"
+              - link "Brian K Stennett Sr" [ref=f3e601] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e602]:
+            - generic [ref=f3e603]: review
+            - generic [ref=f3e604]: we ordered something different than what we got, waited 10 minutes for a side of ranch, and an additional 10 minutes for silverware. the atmosphere is still among the best in town,
+            - generic [ref=f3e605]: we ordered something different than what we got, waited 10 minutes for a side of ranch, and an additional 10 minutes for silverware. the atmosphere is still among the best in town, but the service is worse than ever.
+            - generic [ref=f3e606]:
+              - text: "source:"
+              - link "Mer Wilcox" [ref=f3e607] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e608]:
+            - generic [ref=f3e609]: review
+            - generic [ref=f3e610]: Bar tender shewed me out the way. Very disrespectful. Didn’t get food yet it’s been 2 hours.
+            - generic [ref=f3e611]: Bar tender shewed me out the way. Very disrespectful. Didn’t get food yet it’s been 2 hours.
+            - generic [ref=f3e612]:
+              - text: "source:"
+              - link "Lizz Biast" [ref=f3e613] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e614]:
+            - generic [ref=f3e615]: review
+            - generic [ref=f3e616]: Food was average but the insistence on seeing everyone’s ID before entering the restaurant for lunch was beyond annoying. They refused entry to a 65+ patron because her drivers lic
+            - generic [ref=f3e617]: Food was average but the insistence on seeing everyone’s ID before entering the restaurant for lunch was beyond annoying. They refused entry to a 65+ patron because her drivers license had expired. Bizarre!
+            - generic [ref=f3e618]:
+              - text: "source:"
+              - link "Ken Knight" [ref=f3e619] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e620]:
+            - generic [ref=f3e621]: review
+            - generic [ref=f3e622]: Tables were dirty and sticky. Service was good, food was subpar.
+            - generic [ref=f3e623]: Tables were dirty and sticky. Service was good, food was subpar.
+            - generic [ref=f3e624]:
+              - text: "source:"
+              - link "Zach Wisor" [ref=f3e625] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e626]:
+            - generic [ref=f3e627]: review
+            - generic [ref=f3e628]: Teas are great, staff acted like they were closed over an hour before closing. The bartender asked if we wanted to keep our tab open. Very confusing...
+            - generic [ref=f3e629]: Teas are great, staff acted like they were closed over an hour before closing. The bartender asked if we wanted to keep our tab open. Very confusing...
+            - generic [ref=f3e630]:
+              - text: "source:"
+              - link "Andrew Kahn" [ref=f3e631] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e632]:
+            - generic [ref=f3e633]: review
+            - generic [ref=f3e634]: Never been and never will. $3 cash cover during happy hour, no live music and simply trying to have dinner on the patio. Ridiculous.
+            - generic [ref=f3e635]: Never been and never will. $3 cash cover during happy hour, no live music and simply trying to have dinner on the patio. Ridiculous.
+            - generic [ref=f3e636]:
+              - text: "source:"
+              - link "Sara Kimmig" [ref=f3e637] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e638]:
+            - generic [ref=f3e639]: review
+            - generic [ref=f3e640]: Great atmosphere. Love the flavored Ice Tea In a picture 👍👍 …
+            - generic [ref=f3e641]: Great atmosphere. Love the flavored Ice Tea In a picture 👍👍 …
+            - generic [ref=f3e642]:
+              - text: "source:"
+              - link "Sean Good" [ref=f3e643] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e644]:
+            - generic [ref=f3e645]: review
+            - generic [ref=f3e646]: College bar with good drink specials and nice dive bar feel. Beer was ice cold and they specialize in ice tea pitchers. Love this place since the 90s, but the food has gone way d
+            - generic [ref=f3e647]: College bar with good drink specials and nice dive bar feel. Beer was ice cold and they specialize in ice tea pitchers. Love this place since the 90s, but the food has gone way down hill. Nachos which were the state college go to were very stale. Most of the chips were crushed up bits of chips. The burgers are absolutely a joke. Would have preferred a McDonald’s cheeseburger. Over cooked th
+            - generic [ref=f3e648]:
+              - text: "source:"
+              - link "D S" [ref=f3e649] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e650]:
+            - generic [ref=f3e651]: review
+            - generic [ref=f3e652]: We sat 5 min as waiters & waitress walked by . Finally someone asked if we were waited on. Hello they sat us there 🙄 . Now they made me prove I was minimal 21. I can assure you my
+            - generic [ref=f3e653]: We sat 5 min as waiters & waitress walked by . Finally someone asked if we were waited on. Hello they sat us there 🙄 . Now they made me prove I was minimal 21. I can assure you my wife & I don't resemble any college age. Food was average along with prices. …
+            - generic [ref=f3e654]:
+              - text: "source:"
+              - link "Gary" [ref=f3e655] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e656]:
+            - generic [ref=f3e657]: review
+            - generic [ref=f3e658]: Great service, great music, but five quarter pickle spears for $9.95. That’s $8.00 per pickle. I generally don’t write reviews, but this is egregious.
+            - generic [ref=f3e659]: Great service, great music, but five quarter pickle spears for $9.95. That’s $8.00 per pickle. I generally don’t write reviews, but this is egregious.
+            - generic [ref=f3e660]:
+              - text: "source:"
+              - link "Coreen P" [ref=f3e661] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e662]:
+            - generic [ref=f3e663]: review
+            - generic [ref=f3e664]: Bad food and bad customer service.
+            - generic [ref=f3e665]: Bad food and bad customer service.
+            - generic [ref=f3e666]:
+              - text: "source:"
+              - link "Noor Aljashmi" [ref=f3e667] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=f3e668]:
+            - generic [ref=f3e669]: review
+            - generic [ref=f3e670]: "[1.0] Prepare to wait. Awful table service."
+            - generic [ref=f3e671]: "[1.0] Prepare to wait. Awful table service. [4.0] Drinks were good and inexpensive but this is more of a college bar/pub. [1.0] we ordered something different than what we got, waited 10 minutes for a side of ranch, and an additional 10 minutes for silverware. the atmosphere is still among the best in town, but the service is worse than ever. [1.0] Bar tender shewed me out the way. Very disrespect"
+            - generic [ref=f3e672]: "source: Owner-pasted review"
+      - generic [ref=f3e673]:
+        - heading "Personas" [level=3] [ref=f3e674]
+        - generic [ref=f3e675]: click a persona to chat with it (after unlock)
+        - generic [ref=f3e676]:
+          - generic [ref=f3e677]:
+            - heading "students" [level=3] [ref=f3e678]
+            - generic [ref=f3e679]: 9 shown
+          - generic [ref=f3e680]:
+            - button "Emily the Studentstudents" [ref=f3e681] [cursor=pointer]
+            - button "Sam the juniorstudents" [ref=f3e682] [cursor=pointer]
+            - button "Kathy the health-conscious studentstudents" [ref=f3e683] [cursor=pointer]
+            - button "Sam the junior 2students" [ref=f3e684] [cursor=pointer]
+            - button "Tina the health-conscious studentstudents" [ref=f3e685] [cursor=pointer]
+            - button "Sam the Juniorstudents" [ref=f3e686] [cursor=pointer]
+            - button "Megan the Grad Studentstudents" [ref=f3e687] [cursor=pointer]
+            - button "Sam the junior 2 2students" [ref=f3e688] [cursor=pointer]
+            - button "Rachel the weekend warriorstudents" [ref=f3e689] [cursor=pointer]
+          - generic [ref=f3e690]:
+            - heading "regulars" [level=3] [ref=f3e691]
+            - generic [ref=f3e692]: 14 shown
+          - generic [ref=f3e693]:
+            - button "Mark the Regularregulars" [ref=f3e694] [cursor=pointer]
+            - button "Kate the Game Day Enthusiastregulars" [ref=f3e695] [cursor=pointer]
+            - button "Chris the Late-Night Bar Hopperregulars" [ref=f3e696] [cursor=pointer]
+            - button "Tom the loyal alumregulars" [ref=f3e697] [cursor=pointer]
+            - button "Jessica the brunch loverregulars" [ref=f3e698] [cursor=pointer]
+            - button "Beth the food criticregulars" [ref=f3e699] [cursor=pointer]
+            - button "Oliver the late-night regularregulars" [ref=f3e700] [cursor=pointer]
+            - button "Ethan the club-goerregulars" [ref=f3e701] [cursor=pointer]
+            - button "Alex the Local Regularregulars" [ref=f3e702] [cursor=pointer]
+            - button "Sara the Foodieregulars" [ref=f3e703] [cursor=pointer]
+            - button "Josh the Craft Beer Loverregulars" [ref=f3e704] [cursor=pointer]
+            - button "Tom the college alumregulars" [ref=f3e705] [cursor=pointer]
+            - button "Mike the late-night regularregulars" [ref=f3e706] [cursor=pointer]
+            - button "Paul the sports enthusiastregulars" [ref=f3e707] [cursor=pointer]
+          - generic [ref=f3e708]:
+            - heading "families" [level=3] [ref=f3e709]
+            - generic [ref=f3e710]: 7 shown
+          - generic [ref=f3e711]:
+            - button "Lisa the Family Visitorfamilies" [ref=f3e712] [cursor=pointer]
+            - button "Sarah the family plannerfamilies" [ref=f3e713] [cursor=pointer]
+            - button "Lisa the family plannerfamilies" [ref=f3e714] [cursor=pointer]
+            - button "Mark the skeptical dadfamilies" [ref=f3e715] [cursor=pointer]
+            - button "Emily the Family Plannerfamilies" [ref=f3e716] [cursor=pointer]
+            - button "Lisa the family planner 2families" [ref=f3e717] [cursor=pointer]
+            - button "Karen the concerned parentfamilies" [ref=f3e718] [cursor=pointer]
+          - generic [ref=f3e719]:
+            - heading "tourists" [level=3] [ref=f3e720]
+            - generic [ref=f3e721]: 12 shown
+          - generic [ref=f3e722]:
+            - button "Ryan the Touristtourists" [ref=f3e723] [cursor=pointer]
+            - button "Sandra the Alumnitourists" [ref=f3e724] [cursor=pointer]
+            - button "Lisa the weekend touristtourists" [ref=f3e725] [cursor=pointer]
+            - button "Derek the budget travelertourists" [ref=f3e726] [cursor=pointer]
+            - button "Jess the visiting touristtourists" [ref=f3e727] [cursor=pointer]
+            - button "Megan the nostalgia seekertourists" [ref=f3e728] [cursor=pointer]
+            - button "Clara the first-time visitortourists" [ref=f3e729] [cursor=pointer]
+            - button "Tina the Touristtourists" [ref=f3e730] [cursor=pointer]
+            - button "Chris the Game Day Fantourists" [ref=f3e731] [cursor=pointer]
+            - button "Laura the Newcomertourists" [ref=f3e732] [cursor=pointer]
+            - button "Jessica the out-of-townertourists" [ref=f3e733] [cursor=pointer]
+            - button "Tina the first-time visitortourists" [ref=f3e734] [cursor=pointer]
+          - generic [ref=f3e735]:
+            - heading "staff-adjacent loyalists" [level=3] [ref=f3e736]
+            - generic [ref=f3e737]: 5 shown
+          - generic [ref=f3e738]:
+            - button "Sophie the Staff-Adjacent Loyaliststaff-adjacent loyalists" [ref=f3e739] [cursor=pointer]
+            - button "Mark the local bartenderstaff-adjacent loyalists" [ref=f3e740] [cursor=pointer]
+            - button "Nick the loyal staff memberstaff-adjacent loyalists" [ref=f3e741] [cursor=pointer]
+            - button "Benny the Bar Hopperstaff-adjacent loyalists" [ref=f3e742] [cursor=pointer]
+            - button "Alex the undergrad workerstaff-adjacent loyalists" [ref=f3e743] [cursor=pointer]
+          - generic [ref=f3e744]:
+            - heading "walk-ins" [level=3] [ref=f3e745]
+            - generic [ref=f3e746]: 3 shown
+          - generic [ref=f3e747]:
+            - button "Tom the Casual Dinerwalk-ins" [ref=f3e748] [cursor=pointer]
+            - button "Jake the Frustrated Customerwalk-ins" [ref=f3e749] [cursor=pointer]
+            - button "Jake the night owlwalk-ins" [ref=f3e750] [cursor=pointer]
+      - generic [ref=f3e751]:
+        - heading "Debate" [level=3] [ref=f3e752]
+        - generic [ref=f3e753]:
+          - generic [ref=f3e754]:
+            - generic [ref=f3e755]: Round 1
+            - generic [ref=f3e756]:
+              - generic [ref=f3e757]:
+                - strong [ref=f3e758]: Emily the Student
+                - generic [ref=f3e759]: students
+                - generic [ref=f3e760]: Being open until 2 AM on football Saturdays would attract more students looking for a place to hang out after games. The atmosphere at Cafe 210 West is already popular for social gatherings, and extended hours would capitalize on that vibe.
+              - generic [ref=f3e761]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e762] [cursor=pointer]': e4
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e763] [cursor=pointer]: e21
+            - generic [ref=f3e764]:
+              - generic [ref=f3e765]:
+                - strong [ref=f3e766]: Mark the Regular
+                - generic [ref=f3e767]: regulars
+                - generic [ref=f3e768]: As a regular, I enjoy the lively atmosphere on game nights and staying open later would definitely attract more patrons looking to celebrate after the game. Plus, the patio is a great spot for late-night gatherings, especially on football Saturdays.
+              - generic [ref=f3e769]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e770] [cursor=pointer]': e4
+                - generic "I have been a patron of Cafe 210 for years and love to come when the weather is nice to sit on the patio. Tonight changed my opinion on the establishment and I will not be back and" [ref=f3e771] [cursor=pointer]: e15
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e772] [cursor=pointer]: e22
+            - generic [ref=f3e774]:
+              - strong [ref=f3e775]: Lisa the Family Visitor
+              - generic [ref=f3e776]: families
+              - generic [ref=f3e777]: Staying open until 2 AM may alienate families looking for a welcoming environment, especially on football weekends when crowds can become rowdy. Families like mine prefer casual dining options that are more family-friendly and less chaotic.
+            - generic [ref=f3e778]:
+              - generic [ref=f3e779]:
+                - strong [ref=f3e780]: Ryan the Tourist
+                - generic [ref=f3e781]: tourists
+                - generic [ref=f3e782]: Being open until 2 AM on football Saturdays would allow tourists like me to enjoy the local vibe and nightlife after the games. Many locals seem to enjoy the atmosphere and food, so it could attract more visitors looking for late-night options.
+              - generic [ref=f3e783]:
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e784] [cursor=pointer]': e7
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e785] [cursor=pointer]: e21
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e786] [cursor=pointer]: e27
+            - generic [ref=f3e787]:
+              - generic [ref=f3e788]:
+                - strong [ref=f3e789]: Sophie the Staff-Adjacent Loyalist
+                - generic [ref=f3e790]: staff-adjacent loyalists
+                - generic [ref=f3e791]: Keeping Cafe 210 West open until 2 AM on football Saturdays would cater to the nostalgic crowd and those looking to socialize after games, enhancing the lively atmosphere. It fits the college vibe and allows us to relive those fun late-night moments from our student days.
+              - generic [ref=f3e792]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e793] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e794] [cursor=pointer]': e5
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e795] [cursor=pointer]': e7
+            - generic [ref=f3e796]:
+              - generic [ref=f3e797]:
+                - strong [ref=f3e798]: Tom the Casual Diner
+                - generic [ref=f3e799]: walk-ins
+                - generic [ref=f3e800]: Staying open until 2 AM on football Saturdays would cater to the late-night crowd looking for a convenient meal after games, which fits perfectly with my casual dining style. It could enhance the atmosphere and bring in more customers looking to unwind after a long day of cheering for their team.
+              - generic [ref=f3e801]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e802] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e803] [cursor=pointer]': e5
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e804] [cursor=pointer]: e21
+            - generic [ref=f3e805]:
+              - generic [ref=f3e806]:
+                - strong [ref=f3e807]: Kate the Game Day Enthusiast
+                - generic [ref=f3e808]: regulars
+                - generic [ref=f3e809]: As a Game Day Enthusiast, I thrive on the vibrant energy of Cafe 210 West before and after games, and staying open late would allow fans like me to celebrate together longer. The atmosphere is electric, and it would be a missed opportunity to close early when so many of us are looking to enjoy the night with fellow fans.
+              - generic [ref=f3e810]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e811] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e812] [cursor=pointer]': e7
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e813] [cursor=pointer]: e21
+            - generic [ref=f3e815]:
+              - strong [ref=f3e816]: Jake the Frustrated Customer
+              - generic [ref=f3e817]: walk-ins
+              - generic [ref=f3e818]: Staying open late seems like a recipe for more negative experiences, especially with the unwelcoming service reported. Customers have shared frustrations about being kicked out and poor service, which could deter more business on football Saturdays.
+            - generic [ref=f3e819]:
+              - generic [ref=f3e820]:
+                - strong [ref=f3e821]: Sandra the Alumni
+                - generic [ref=f3e822]: tourists
+                - generic [ref=f3e823]: Staying open until 2 AM on football Saturdays would allow alumni like me to relive our college memories and catch up with friends in a familiar and lively atmosphere. Plus, it seems like many people enjoy the late-night vibe at Cafe 210 West, making it a prime spot for post-game celebrations.
+              - generic [ref=f3e824]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e825] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e826] [cursor=pointer]: e27
+            - generic [ref=f3e827]:
+              - generic [ref=f3e828]:
+                - strong [ref=f3e829]: Chris the Late-Night Bar Hopper
+                - generic [ref=f3e830]: regulars
+                - generic [ref=f3e831]: Staying open until 2 AM on football Saturdays will attract more late-night bar hoppers like me who enjoy the lively atmosphere and want to celebrate after the game. The bar is already a popular hangout, and extending hours will only enhance that vibe and increase business.
+              - generic [ref=f3e832]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e833] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e834] [cursor=pointer]': e5
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e835] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e836] [cursor=pointer]: e22
+            - generic [ref=f3e837]:
+              - generic [ref=f3e838]:
+                - strong [ref=f3e839]: Sam the junior
+                - generic [ref=f3e840]: students
+                - generic [ref=f3e841]: Football Saturdays are a huge deal, and having the bar open until 2 AM will attract more students looking for a fun place to celebrate after the game. The patio experience is a big draw for us, especially when the weather is nice, and staying open late would enhance that nostalgia and atmosphere.
+              - generic [ref=f3e842]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e843] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e844] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e845] [cursor=pointer]: e22
+            - generic [ref=f3e846]:
+              - generic [ref=f3e847]:
+                - strong [ref=f3e848]: Sarah the family planner
+                - generic [ref=f3e849]: families
+                - generic [ref=f3e850]: Staying open until 2 AM may attract a rowdy crowd, which can create an unwelcoming atmosphere for families. Many reviews highlight issues with unwelcoming staff and strict policies that make it difficult for families to enjoy their time, especially on busy nights like football Saturdays.
+              - generic [ref=f3e851]:
+                - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e852] [cursor=pointer]: e28
+                - generic "Despite having great food, service, and atmosphere, I can’t rate this experience higher than a 2 star. My girlfriend was kicked out for being too drunk, despite this being her 2nd" [ref=f3e853] [cursor=pointer]: e11
+                - generic "Cafe is one of those places you want to be at until you there. Their inexperienced, brand new, bartenders walked up and described that my wife was too drunk (after trying to find o" [ref=f3e854] [cursor=pointer]: e12
+            - generic [ref=f3e855]:
+              - generic [ref=f3e856]:
+                - strong [ref=f3e857]: Tom the loyal alum
+                - generic [ref=f3e858]: regulars
+                - generic [ref=f3e859]: Keeping Cafe 210 West open until 2 AM on football Saturdays can attract more loyal alumni like me who want to relive the college atmosphere after games. However, improving service quality is essential to ensure a positive experience during those late hours.
+              - generic [ref=f3e860]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e861] [cursor=pointer]': e4
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e862] [cursor=pointer]: e22
+            - generic [ref=f3e863]:
+              - generic [ref=f3e864]:
+                - strong [ref=f3e865]: Lisa the weekend tourist
+                - generic [ref=f3e866]: tourists
+                - generic [ref=f3e867]: Staying open until 2 AM on football Saturdays could attract more tourists and locals looking for a late-night spot after games. Many people enjoy the atmosphere and food, but service issues might need to be addressed to ensure a welcoming experience.
+              - generic [ref=f3e868]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e869] [cursor=pointer]': e1
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e870] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e871] [cursor=pointer]: e27
+            - generic [ref=f3e872]:
+              - generic [ref=f3e873]:
+                - strong [ref=f3e874]: Jake the night owl
+                - generic [ref=f3e875]: walk-ins
+                - generic [ref=f3e876]: Keeping the bar open until 2 AM on football Saturdays will attract more night owls like me who enjoy the lively atmosphere, especially after games. It's essential to avoid strict bouncers and poor service to ensure a fun experience for everyone.
+              - generic [ref=f3e877]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e878] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e879] [cursor=pointer]: e27
+            - generic [ref=f3e880]:
+              - generic [ref=f3e881]:
+                - strong [ref=f3e882]: Kathy the health-conscious student
+                - generic [ref=f3e883]: students
+                - generic [ref=f3e884]: Staying open until 2 AM on football Saturdays could attract more students looking for late-night healthy food options after games. Many students, including myself, appreciate places with good food and a relaxed atmosphere, especially on busy game days.
+              - generic [ref=f3e885]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e886] [cursor=pointer]': e4
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e887] [cursor=pointer]: e21
+            - generic [ref=f3e888]:
+              - generic [ref=f3e889]:
+                - strong [ref=f3e890]: Mark the local bartender
+                - generic [ref=f3e891]: staff-adjacent loyalists
+                - generic [ref=f3e892]: Staying open until 2 AM on football Saturdays could capitalize on the late-night crowd looking for a fun atmosphere after games. Given Cafe 210's patio and social vibe, it's a great way to keep the energy going and attract more patrons.
+              - generic [ref=f3e893]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e894] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e895] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e896] [cursor=pointer]: e22
+            - generic [ref=f3e897]:
+              - generic [ref=f3e898]:
+                - strong [ref=f3e899]: Jessica the brunch lover
+                - generic [ref=f3e900]: regulars
+                - generic [ref=f3e901]: Staying open until 2 AM on football Saturdays could attract more patrons looking for a place to celebrate after the game, especially since there are options for hearty meals and a lively atmosphere. Plus, it aligns with my love for a relaxed vibe during those late-night outings.
+              - generic [ref=f3e902]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e903] [cursor=pointer]': e1
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e904] [cursor=pointer]: e21
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e905] [cursor=pointer]: e22
+            - generic [ref=f3e907]:
+              - strong [ref=f3e908]: Derek the budget traveler
+              - generic [ref=f3e909]: tourists
+              - generic [ref=f3e910]: Staying open until 2 AM could lead to more issues with cover charges and unpleasant service experiences, as many customers have reported negative encounters related to being kicked out or overcharged late at night. It's better to focus on providing a welcoming atmosphere earlier in the evening.
+            - generic [ref=f3e912]:
+              - strong [ref=f3e913]: Beth the food critic
+              - generic [ref=f3e914]: regulars
+              - generic [ref=f3e915]: While staying open late might attract more patrons, the service complaints I've read indicate that the quality could suffer, leading to more disappointed customers. It's crucial to maintain high standards, or you risk turning away regulars like me.
+            - generic [ref=f3e916]:
+              - generic [ref=f3e917]:
+                - strong [ref=f3e918]: Sam the junior 2
+                - generic [ref=f3e919]: students
+                - generic [ref=f3e920]: Staying open until 2 AM on football Saturdays would cater to students looking for a place to hang out after games, especially since it already has a fun atmosphere and is popular among students. Plus, it could boost sales during peak times when demand is high.
+              - generic [ref=f3e921]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e922] [cursor=pointer]': e4
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e923] [cursor=pointer]: e21
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e924] [cursor=pointer]': e7
+            - generic [ref=f3e925]:
+              - generic [ref=f3e926]:
+                - strong [ref=f3e927]: Lisa the family planner
+                - generic [ref=f3e928]: families
+                - generic [ref=f3e929]: As a family planner, I find that the atmosphere during busy weekends can be quite unwelcoming for families, which would likely discourage us from visiting. Several reviews highlight negative experiences regarding service and the environment at Cafe 210 West on busy nights, especially for families (e28).
+              - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e931] [cursor=pointer]: e28
+            - generic [ref=f3e932]:
+              - generic [ref=f3e933]:
+                - strong [ref=f3e934]: Nick the loyal staff member
+                - generic [ref=f3e935]: staff-adjacent loyalists
+                - generic [ref=f3e936]: Football Saturdays bring in a crowd that enjoys the atmosphere and the late-night options, as seen from the positive experiences shared by patrons. It's crucial to accommodate the demand during these peak times, especially since many loyal customers appreciate Cafe 210's vibrant nightlife.
+              - generic [ref=f3e937]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e938] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e939] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e940] [cursor=pointer]: e22
+            - generic [ref=f3e941]:
+              - generic [ref=f3e942]:
+                - strong [ref=f3e943]: Jess the visiting tourist
+                - generic [ref=f3e944]: tourists
+                - generic [ref=f3e945]: Staying open until 2 AM on football Saturdays could attract more customers looking to enjoy the lively atmosphere and music, especially since many former students like me return to reminisce about their college days. The patio is a great spot to hang out, and extended hours could enhance the experience despite some mixed feelings about service.
+              - generic [ref=f3e946]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e947] [cursor=pointer]': e1
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e948] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e949] [cursor=pointer]': e7
+            - generic [ref=f3e950]:
+              - generic [ref=f3e951]:
+                - strong [ref=f3e952]: Oliver the late-night regular
+                - generic [ref=f3e953]: regulars
+                - generic [ref=f3e954]: Being open until 2 AM on football Saturdays would allow us late-night regulars to enjoy the atmosphere and drink specials after the game. It's a great chance to catch up with friends and unwind, even if the bouncers can be a bit much sometimes.
+              - generic [ref=f3e955]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e956] [cursor=pointer]': e1
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e957] [cursor=pointer]: e27
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e958] [cursor=pointer]: e22
+            - generic [ref=f3e960]:
+              - strong [ref=f3e961]: Tina the health-conscious student
+              - generic [ref=f3e962]: students
+              - generic [ref=f3e963]: Staying open until 2 AM might exacerbate the inconsistency in food quality and service, as mentioned in reviews where patrons faced long waits and poor experiences. As a health-conscious student, I would prefer a well-managed environment over extended hours that could lead to more chaos.
+            - generic [ref=f3e965]:
+              - strong [ref=f3e966]: Mark the skeptical dad
+              - generic [ref=f3e967]: families
+              - generic [ref=f3e968]: Staying open until 2 AM could lead to more incidents similar to those reported, where patrons are treated poorly or kicked out without proper assessment. This raises concerns about the safety and experience for families and visiting parents like me.
+            - generic [ref=f3e969]:
+              - generic [ref=f3e970]:
+                - strong [ref=f3e971]: Megan the nostalgia seeker
+                - generic [ref=f3e972]: tourists
+                - generic [ref=f3e973]: As a nostalgia seeker, I cherish the vibrant atmosphere of Cafe 210 West on game days and staying open later would allow more time for friends to reminisce and enjoy each other's company. Despite some service declines, the energy on football Saturdays is something special that should be embraced.
+              - generic [ref=f3e974]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e975] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e976] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e977] [cursor=pointer]: e22
+            - generic [ref=f3e978]:
+              - generic [ref=f3e979]:
+                - strong [ref=f3e980]: Ethan the club-goer
+                - generic [ref=f3e981]: regulars
+                - generic [ref=f3e982]: Staying open until 2 AM on football Saturdays would capitalize on the lively atmosphere that regulars like me enjoy, especially after games. Many patrons are willing to pay cover charges for the experience, despite frustrations, indicating a demand for late-night fun.
+              - generic [ref=f3e983]:
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e984] [cursor=pointer]: e27
+                - generic "Charging cover just to kick you out half a second later!! If you’re going to accuse someone of being intoxicated and physically remove them, maybe take a moment to actually assess" [ref=f3e985] [cursor=pointer]: e14
+            - generic [ref=f3e987]:
+              - strong [ref=f3e988]: Clara the first-time visitor
+              - generic [ref=f3e989]: tourists
+              - generic [ref=f3e990]: My experience at Cafe 210 West was marred by poor service, and I noticed others shared similar frustrations. Staying open late might not fix the underlying service issues that turn customers away, as indicated by many negative reviews about the staff and atmosphere.
+            - generic [ref=f3e991]:
+              - generic [ref=f3e992]:
+                - strong [ref=f3e993]: Sam the Junior
+                - generic [ref=f3e994]: students
+                - generic [ref=f3e995]: Staying open until 2 AM on football Saturdays would attract more students looking for a place to hang out after games, especially since many enjoy the vibrant bar scene. Plus, Cafe 210 West's current hours suggest there is demand for late-night options, as students appreciate those social spots post-game.
+              - generic [ref=f3e996]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e997] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e998] [cursor=pointer]': e5
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e999] [cursor=pointer]': e7
+            - generic [ref=f3e1001]:
+              - strong [ref=f3e1002]: Emily the Family Planner
+              - generic [ref=f3e1003]: families
+              - generic [ref=f3e1004]: Staying open until 2 AM may not align with family-friendly values, as several reviews indicate a negative experience for families due to unwelcoming staff and a party atmosphere. Families often seek places that are inviting and cater to their needs during family weekends, which may not be met during late hours.
+            - generic [ref=f3e1006]:
+              - strong [ref=f3e1007]: Alex the Local Regular
+              - generic [ref=f3e1008]: regulars
+              - generic [ref=f3e1009]: As a long-time local, I love the relaxed vibe on the patio, especially during football Saturdays. Staying open until 2 AM would give us a great place to gather and enjoy the game together after a hearty lunch.
+            - generic [ref=f3e1010]:
+              - generic [ref=f3e1011]:
+                - strong [ref=f3e1012]: Tina the Tourist
+                - generic [ref=f3e1013]: tourists
+                - generic [ref=f3e1014]: As a tourist, I enjoy visiting local cafes with outdoor seating, especially during lively events like football Saturdays. Keeping the cafe open late can attract more visitors seeking a genuine State College experience after the game.
+              - generic [ref=f3e1015]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1016] [cursor=pointer]': e4
+                - generic "Good menu selection, outside seating, slushies" [ref=f3e1017] [cursor=pointer]: e19
+            - generic [ref=f3e1018]:
+              - generic [ref=f3e1019]:
+                - strong [ref=f3e1020]: Benny the Bar Hopper
+                - generic [ref=f3e1021]: staff-adjacent loyalists
+                - generic [ref=f3e1022]: Football Saturdays are a prime time for bar hopping, and staying open later can attract more customers looking to celebrate after the games. Plus, Café 210 West's vibrant atmosphere is perfect for reliving the excitement of game day with friends.
+              - generic [ref=f3e1023]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e1024] [cursor=pointer]': e1
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1025] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1026] [cursor=pointer]: e22
+            - generic [ref=f3e1027]:
+              - generic [ref=f3e1028]:
+                - strong [ref=f3e1029]: Megan the Grad Student
+                - generic [ref=f3e1030]: students
+                - generic [ref=f3e1031]: Staying open until 2 AM on football Saturdays can provide a productive atmosphere for students like me who need a place to study late. Additionally, it could attract more customers who are looking for a comfortable spot after games.
+              - generic [ref=f3e1032]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1033] [cursor=pointer]': e4
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1034] [cursor=pointer]: e21
+            - generic [ref=f3e1035]:
+              - generic [ref=f3e1036]:
+                - strong [ref=f3e1037]: Chris the Game Day Fan
+                - generic [ref=f3e1038]: tourists
+                - generic [ref=f3e1039]: As an alumni and fan, I love gathering with friends after games, and staying open until 2 AM on football Saturdays would enhance the festive atmosphere we cherish. Many spots, like Cafe 210 West, thrive late into the night, showing there's a demand for late-night fun in State College.
+              - generic [ref=f3e1040]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1041] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1042] [cursor=pointer]': e5
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1043] [cursor=pointer]: e22
+            - generic [ref=f3e1044]:
+              - generic [ref=f3e1045]:
+                - strong [ref=f3e1046]: Sara the Foodie
+                - generic [ref=f3e1047]: regulars
+                - generic [ref=f3e1048]: Football Saturdays attract a vibrant crowd, and staying open late can enhance the experience for fans looking for quality food and a lively atmosphere. It aligns with the local culture of enjoying the game with friends over good food and drinks.
+              - generic [ref=f3e1049]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1050] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1051] [cursor=pointer]: e27
+            - generic [ref=f3e1052]:
+              - generic [ref=f3e1053]:
+                - strong [ref=f3e1054]: Josh the Craft Beer Lover
+                - generic [ref=f3e1055]: regulars
+                - generic [ref=f3e1056]: Football Saturdays are a prime time for socializing, and staying open until 2 AM would attract more customers looking for a great beer selection and live music. Bars like Cafe 210 West benefit from extended hours on busy nights, enhancing the overall experience for patrons like me.
+              - generic [ref=f3e1057]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1058] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1059] [cursor=pointer]': e5
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1060] [cursor=pointer]: e27
+            - generic [ref=f3e1061]:
+              - generic [ref=f3e1062]:
+                - strong [ref=f3e1063]: Laura the Newcomer
+                - generic [ref=f3e1064]: tourists
+                - generic [ref=f3e1065]: Staying open until 2 AM on football Saturdays could attract more customers looking for a late-night spot after the game. It seems like a popular choice among locals and could help create a vibrant atmosphere during those weekends.
+              - generic [ref=f3e1066]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1067] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1068] [cursor=pointer]': e5
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1069] [cursor=pointer]: e27
+            - generic [ref=f3e1070]:
+              - generic [ref=f3e1071]:
+                - strong [ref=f3e1072]: Sam the junior 2 2
+                - generic [ref=f3e1073]: students
+                - generic [ref=f3e1074]: Staying open until 2 AM on football Saturdays would attract more students looking for a lively place to hang out after games. Plus, I often recommend Cafe 210 West for its great food and atmosphere, which could benefit from the extended hours on busy nights.
+              - generic [ref=f3e1075]:
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1076] [cursor=pointer]: e21
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1077] [cursor=pointer]': e4
+            - generic [ref=f3e1079]:
+              - strong [ref=f3e1080]: Lisa the family planner 2
+              - generic [ref=f3e1081]: families
+              - generic [ref=f3e1082]: As a family planner, I think extending hours to 2 AM could create an unwelcoming environment for families, especially given the negative comments about staff attitudes during busy times. Families are likely looking for a casual dining experience, not a late-night party atmosphere, which might deter them from returning.
+            - generic [ref=f3e1083]:
+              - generic [ref=f3e1084]:
+                - strong [ref=f3e1085]: Tom the college alum
+                - generic [ref=f3e1086]: regulars
+                - generic [ref=f3e1087]: As an alum, I cherish the memories of reuniting with friends at Cafe 210 West during football weekends, and staying open until 2 AM would allow more time for us to relive those moments over pitchers of beer. Many people enjoy the lively atmosphere and would likely appreciate the extended hours on such special occasions.
+              - generic [ref=f3e1088]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1089] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1090] [cursor=pointer]': e5
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1091] [cursor=pointer]: e22
+            - generic [ref=f3e1092]:
+              - generic [ref=f3e1093]:
+                - strong [ref=f3e1094]: Jessica the out-of-towner
+                - generic [ref=f3e1095]: tourists
+                - generic [ref=f3e1096]: As a tourist, I look forward to experiencing the late-night bar scene, especially on football Saturdays when the atmosphere is lively. Staying open until 2 AM would cater to visitors like me who want to enjoy the music and food after the game.
+              - generic [ref=f3e1097]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1098] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1099] [cursor=pointer]': e7
+            - generic [ref=f3e1100]:
+              - generic [ref=f3e1101]:
+                - strong [ref=f3e1102]: Mike the late-night regular
+                - generic [ref=f3e1103]: regulars
+                - generic [ref=f3e1104]: Football Saturdays attract a lively crowd, and staying open later would allow us to enjoy the vibrant atmosphere and specials with fellow locals. The patio is perfect for late-night gatherings after games.
+              - generic [ref=f3e1105]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1106] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1107] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1108] [cursor=pointer]: e22
+            - generic [ref=f3e1110]:
+              - strong [ref=f3e1111]: Karen the concerned parent
+              - generic [ref=f3e1112]: families
+              - generic [ref=f3e1113]: The treatment of patrons at bars like Cafe 210 West is concerning, with reports of unwelcoming staff and excessive bouncer actions, which makes me hesitant to support extended hours. Families and parents looking for a friendly atmosphere would likely avoid places with such negative experiences.
+            - generic [ref=f3e1114]:
+              - generic [ref=f3e1115]:
+                - strong [ref=f3e1116]: Alex the undergrad worker
+                - generic [ref=f3e1117]: staff-adjacent loyalists
+                - generic [ref=f3e1118]: Staying open until 2 AM on football Saturdays would cater to the crowd looking for fun late-night hangouts, especially after games. Despite some service inconsistencies, the energy and vibe can attract more customers during these peak times.
+              - generic [ref=f3e1119]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1120] [cursor=pointer]': e4
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1121] [cursor=pointer]: e22
+            - generic [ref=f3e1122]:
+              - generic [ref=f3e1123]:
+                - strong [ref=f3e1124]: Rachel the weekend warrior
+                - generic [ref=f3e1125]: students
+                - generic [ref=f3e1126]: As a student who enjoys hanging out at Cafe 210 West, staying open until 2 AM on football Saturdays would be awesome for post-game celebrations with friends. It matches the lively weekend vibe and gives us a place to unwind after the games.
+              - generic [ref=f3e1127]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1128] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1129] [cursor=pointer]': e5
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1130] [cursor=pointer]': e7
+            - generic [ref=f3e1131]:
+              - generic [ref=f3e1132]:
+                - strong [ref=f3e1133]: Paul the sports enthusiast
+                - generic [ref=f3e1134]: regulars
+                - generic [ref=f3e1135]: Staying open until 2 AM on football Saturdays would enhance the communal vibe that I love about Cafe 210 West, especially during big games when the crowd is lively and enthusiastic. It’s the perfect time for fans to celebrate and enjoy the atmosphere together.
+              - generic [ref=f3e1136]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1137] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1138] [cursor=pointer]': e5
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1139] [cursor=pointer]': e7
+            - generic [ref=f3e1140]:
+              - generic [ref=f3e1141]:
+                - strong [ref=f3e1142]: Tina the first-time visitor
+                - generic [ref=f3e1143]: tourists
+                - generic [ref=f3e1144]: Staying open until 2 AM on football Saturdays would allow more visitors like me to enjoy the local culture and food after the games. Many people want to experience a lively atmosphere during these events, and extended hours could enhance that experience.
+              - generic [ref=f3e1145]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1146] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1147] [cursor=pointer]': e5
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1148] [cursor=pointer]': e7
+            - generic [ref=f3e1149]:
+              - generic [ref=f3e1150]: Regulars supporters
+              - generic [ref=f3e1151]: "with: Mark the Regular, Kate the Game Day Enthusiast, Chris the Late-Night Bar Hopper, Tom the loyal alum, Jessica the brunch lover, Oliver the late-night regular, Ethan the club-goer, Sara the Foodie, Josh the Craft Beer Lover, Tom the college alum, Mike the late-night regular, Paul the sports enthusiast"
+              - list [ref=f3e1152]:
+                - listitem [ref=f3e1153]: As a regular, I enjoy the lively atmosphere on game nights and staying open later would definitely attract more patrons looking to celebrate after the game. Plus, the patio is a great spot for late-night gatherings, especially on football Saturdays.
+                - listitem [ref=f3e1154]: As a Game Day Enthusiast, I thrive on the vibrant energy of Cafe 210 West before and after games, and staying open late would allow fans like me to celebrate together longer. The atmosphere is electric, and it would be a missed opportunity to close early when so many of us are looking to enjoy the night with fellow fans.
+                - listitem [ref=f3e1155]: Staying open until 2 AM on football Saturdays will attract more late-night bar hoppers like me who enjoy the lively atmosphere and want to celebrate after the game. The bar is already a popular hangout, and extending hours will only enhance that vibe and increase business.
+            - generic [ref=f3e1156]:
+              - generic [ref=f3e1157]: Supporters
+              - generic [ref=f3e1158]: "with: Ryan the Tourist, Sandra the Alumni, Lisa the weekend tourist, Jess the visiting tourist, Megan the nostalgia seeker, Tina the Tourist, Chris the Game Day Fan, Laura the Newcomer, Jessica the out-of-towner, Tina the first-time visitor, Emily the Student, Sam the junior, Kathy the health-conscious student, Sam the junior 2, Sam the Junior, Megan the Grad Student, Sam the junior 2 2, Rachel the weekend warrior, Sophie the Staff-Adjacent Loyalist, Mark the local bartender, Nick the loyal staff member, Benny the Bar Hopper, Alex the undergrad worker, Tom the Casual Diner, Jake the night owl"
+              - list [ref=f3e1159]:
+                - listitem [ref=f3e1160]: Being open until 2 AM on football Saturdays would attract more students looking for a place to hang out after games. The atmosphere at Cafe 210 West is already popular for social gatherings, and extended hours would capitalize on that vibe.
+                - listitem [ref=f3e1161]: Being open until 2 AM on football Saturdays would allow tourists like me to enjoy the local vibe and nightlife after the games. Many locals seem to enjoy the atmosphere and food, so it could attract more visitors looking for late-night options.
+                - listitem [ref=f3e1162]: Keeping Cafe 210 West open until 2 AM on football Saturdays would cater to the nostalgic crowd and those looking to socialize after games, enhancing the lively atmosphere. It fits the college vibe and allows us to relive those fun late-night moments from our student days.
+            - generic [ref=f3e1163]:
+              - generic [ref=f3e1164]: Skeptics
+              - generic [ref=f3e1165]: "with: Sarah the family planner, Lisa the family planner"
+              - list [ref=f3e1166]:
+                - listitem [ref=f3e1167]: Staying open until 2 AM may attract a rowdy crowd, which can create an unwelcoming atmosphere for families. Many reviews highlight issues with unwelcoming staff and strict policies that make it difficult for families to enjoy their time, especially on busy nights like football Saturdays.
+                - listitem [ref=f3e1168]: As a family planner, I find that the atmosphere during busy weekends can be quite unwelcoming for families, which would likely discourage us from visiting. Several reviews highlight negative experiences regarding service and the environment at Cafe 210 West on busy nights, especially for families (e28).
+            - generic [ref=f3e1169]:
+              - generic [ref=f3e1170]: Undecided
+              - generic [ref=f3e1171]: "with: Lisa the Family Visitor, Jake the Frustrated Customer, Derek the budget traveler, Beth the food critic, Tina the health-conscious student, Mark the skeptical dad, Clara the first-time visitor, Emily the Family Planner, Alex the Local Regular, Lisa the family planner 2, Karen the concerned parent"
+              - list [ref=f3e1172]:
+                - listitem [ref=f3e1173]: Staying open until 2 AM may alienate families looking for a welcoming environment, especially on football weekends when crowds can become rowdy. Families like mine prefer casual dining options that are more family-friendly and less chaotic.
+                - listitem [ref=f3e1174]: Staying open late seems like a recipe for more negative experiences, especially with the unwelcoming service reported. Customers have shared frustrations about being kicked out and poor service, which could deter more business on football Saturdays.
+                - listitem [ref=f3e1175]: Staying open until 2 AM could lead to more issues with cover charges and unpleasant service experiences, as many customers have reported negative encounters related to being kicked out or overcharged late at night. It's better to focus on providing a welcoming atmosphere earlier in the evening.
+          - generic [ref=f3e1176]:
+            - generic [ref=f3e1177]: Round 2
+            - generic [ref=f3e1178]:
+              - generic [ref=f3e1179]:
+                - strong [ref=f3e1180]: Emily the Student
+                - generic [ref=f3e1181]: students
+                - generic [ref=f3e1182]: Staying open until 2 AM on football Saturdays would be great for students like me who want a lively spot to celebrate after games. It would attract more of us looking for good food and a fun atmosphere to unwind with friends.
+              - generic [ref=f3e1183]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1184] [cursor=pointer]': e4
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1185] [cursor=pointer]: e21
+            - generic [ref=f3e1186]:
+              - generic [ref=f3e1187]:
+                - strong [ref=f3e1188]: Mark the Regular
+                - generic [ref=f3e1189]: regulars
+                - generic [ref=f3e1190]: Keeping the cafe open until 2 AM on football Saturdays would enhance the lively atmosphere that I and many other regulars cherish, allowing us to celebrate after games. It aligns perfectly with the vibrant culture of socializing among fans, making it a go-to spot for post-game gatherings.
+              - generic [ref=f3e1191]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1192] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1193] [cursor=pointer]': e7
+            - generic [ref=f3e1194]:
+              - generic [ref=f3e1195]:
+                - strong [ref=f3e1196]: Lisa the Family Visitor
+                - generic [ref=f3e1197]: families
+                - generic [ref=f3e1198]: Staying open until 2 AM could create a chaotic atmosphere that is unwelcoming for families, as many reviews highlight concerns about poor service and negative experiences during busy times. It's essential for Cafe 210 West to maintain a family-friendly environment to attract and keep customers like us.
+              - generic [ref=f3e1199]:
+                - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e1200] [cursor=pointer]: e28
+                - generic "Cafe is one of those places you want to be at until you there. Their inexperienced, brand new, bartenders walked up and described that my wife was too drunk (after trying to find o" [ref=f3e1201] [cursor=pointer]: e12
+            - generic [ref=f3e1202]:
+              - generic [ref=f3e1203]:
+                - strong [ref=f3e1204]: Ryan the Tourist
+                - generic [ref=f3e1205]: tourists
+                - generic [ref=f3e1206]: Staying open until 2 AM on football Saturdays would definitely attract more tourists and students looking to celebrate after the games, enhancing the vibrant atmosphere of Cafe 210 West. It would be the perfect spot for late-night dining and unwinding after a long day of cheering for the team!
+              - generic [ref=f3e1207]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1208] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1209] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1210] [cursor=pointer]: e22
+            - generic [ref=f3e1211]:
+              - generic [ref=f3e1212]:
+                - strong [ref=f3e1213]: Sophie the Staff-Adjacent Loyalist
+                - generic [ref=f3e1214]: staff-adjacent loyalists
+                - generic [ref=f3e1215]: Staying open until 2 AM on football Saturdays would attract more students and alumni looking for a fun place to unwind and relive those college memories. The vibrant atmosphere and nostalgia make it the perfect spot for post-game celebrations.
+              - generic [ref=f3e1216]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1217] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1218] [cursor=pointer]': e7
+            - generic [ref=f3e1219]:
+              - generic [ref=f3e1220]:
+                - strong [ref=f3e1221]: Tom the Casual Diner
+                - generic [ref=f3e1222]: walk-ins
+                - generic [ref=f3e1223]: Staying open until 2 AM on football Saturdays would definitely attract more people looking for a place to unwind after the games, which is something I really enjoy. It would enhance the lively atmosphere and provide a convenient dining option after a long day of cheering for the team.
+              - generic [ref=f3e1224]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1225] [cursor=pointer]': e4
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1226] [cursor=pointer]: e22
+            - generic [ref=f3e1227]:
+              - generic [ref=f3e1228]:
+                - strong [ref=f3e1229]: Kate the Game Day Enthusiast
+                - generic [ref=f3e1230]: regulars
+                - generic [ref=f3e1231]: Staying open late would enhance the vibrant atmosphere after games, allowing fans like me to celebrate together and relive those moments. Many of us cherish the chance to gather and enjoy good food and drinks with fellow Nittany Lions after the game.
+              - generic [ref=f3e1232]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1233] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1234] [cursor=pointer]': e5
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1235] [cursor=pointer]': e7
+            - generic [ref=f3e1237]:
+              - strong [ref=f3e1238]: Jake the Frustrated Customer
+              - generic [ref=f3e1239]: walk-ins
+              - generic [ref=f3e1240]: Staying open until 2 AM could create a more chaotic environment that would further deter families and casual visitors, especially given the negative reviews about service and atmosphere. The unwelcoming experiences reported by patrons suggest that extending hours might only amplify these issues.
+            - generic [ref=f3e1241]:
+              - generic [ref=f3e1242]:
+                - strong [ref=f3e1243]: Sandra the Alumni
+                - generic [ref=f3e1244]: tourists
+                - generic [ref=f3e1245]: As an alumna, I cherish the opportunity to relive college memories and catch up with friends after games, and extended hours would enhance that nostalgic atmosphere. The vibrant energy and demand for late-night options make Cafe 210 West the perfect spot for post-game celebrations.
+              - generic [ref=f3e1246]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1247] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1248] [cursor=pointer]: e27
+            - generic [ref=f3e1249]:
+              - generic [ref=f3e1250]:
+                - strong [ref=f3e1251]: Chris the Late-Night Bar Hopper
+                - generic [ref=f3e1252]: regulars
+                - generic [ref=f3e1253]: Staying open until 2 AM on football Saturdays would create an even more lively atmosphere that I, and many regulars like me, enjoy after games. It would attract more fans looking to celebrate together, enhancing the communal vibe we cherish at Cafe 210 West.
+              - generic [ref=f3e1254]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1255] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1256] [cursor=pointer]': e7
+            - generic [ref=f3e1257]:
+              - generic [ref=f3e1258]:
+                - strong [ref=f3e1259]: Sam the junior
+                - generic [ref=f3e1260]: students
+                - generic [ref=f3e1261]: Staying open until 2 AM on football Saturdays would definitely attract more students looking to celebrate after games, enhancing the lively atmosphere we love. It would be the perfect spot for late-night dining and socializing, which is a big part of our college experience.
+              - generic [ref=f3e1262]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1263] [cursor=pointer]': e4
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1264] [cursor=pointer]: e22
+            - generic [ref=f3e1265]:
+              - generic [ref=f3e1266]:
+                - strong [ref=f3e1267]: Sarah the family planner
+                - generic [ref=f3e1268]: families
+                - generic [ref=f3e1269]: Staying open until 2 AM may create a chaotic atmosphere that is unwelcoming for families, as many reviews highlight poor service and negative experiences during busy weekends. This could deter families like mine from choosing your establishment for dining out.
+              - generic [ref=f3e1270]:
+                - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e1271] [cursor=pointer]: e28
+                - generic "Literally the worst service I’ve ever experienced in my life. I had to wait over 30 minutes for anyone to come up to me and there were like five other people. Food is good if you m" [ref=f3e1272] [cursor=pointer]: e20
+            - generic [ref=f3e1273]:
+              - generic [ref=f3e1274]:
+                - strong [ref=f3e1275]: Tom the loyal alum
+                - generic [ref=f3e1276]: regulars
+                - generic [ref=f3e1277]: Extending hours on football Saturdays would enhance the lively atmosphere that I cherish, allowing me and my friends to relive our college memories after games. It would also cater to the strong demand for late-night fun among alumni and locals alike.
+              - generic [ref=f3e1278]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e1279] [cursor=pointer]': e1
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1280] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1281] [cursor=pointer]: e27
+            - generic [ref=f3e1282]:
+              - generic [ref=f3e1283]:
+                - strong [ref=f3e1284]: Lisa the weekend tourist
+                - generic [ref=f3e1285]: tourists
+                - generic [ref=f3e1286]: Staying open until 2 AM on football Saturdays would definitely attract more tourists and students wanting to celebrate after the game, enhancing the lively atmosphere that I enjoy. It would also provide a convenient option for late-night dining, which is something I look for during my visits.
+              - generic [ref=f3e1287]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1288] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1289] [cursor=pointer]: e27
+            - generic [ref=f3e1290]:
+              - generic [ref=f3e1291]:
+                - strong [ref=f3e1292]: Jake the night owl
+                - generic [ref=f3e1293]: walk-ins
+                - generic [ref=f3e1294]: Staying open until 2 AM on football Saturdays would create a lively spot for post-game celebrations, which is exactly what I look for when hanging out with friends. The demand for late-night dining and drinks is high, and it would enhance the fun atmosphere that many patrons love.
+              - generic [ref=f3e1295]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1296] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1297] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1298] [cursor=pointer]: e22
+            - generic [ref=f3e1299]:
+              - generic [ref=f3e1300]:
+                - strong [ref=f3e1301]: Kathy the health-conscious student
+                - generic [ref=f3e1302]: students
+                - generic [ref=f3e1303]: Keeping the cafe open late on football Saturdays would cater to students like me looking for a relaxed place to enjoy good food and drinks after games. The lively atmosphere and late-night dining options would definitely attract more patrons, making it a popular post-game spot.
+              - generic [ref=f3e1304]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1305] [cursor=pointer]': e4
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1306] [cursor=pointer]: e21
+            - generic [ref=f3e1307]:
+              - generic [ref=f3e1308]:
+                - strong [ref=f3e1309]: Mark the local bartender
+                - generic [ref=f3e1310]: staff-adjacent loyalists
+                - generic [ref=f3e1311]: Staying open until 2 AM would definitely attract more students and create a vibrant post-game atmosphere that many locals and alumni cherish. It could also help boost late-night dining options, which are often in high demand after games.
+              - generic [ref=f3e1312]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1313] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1314] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1315] [cursor=pointer]: e22
+            - generic [ref=f3e1316]:
+              - generic [ref=f3e1317]:
+                - strong [ref=f3e1318]: Jessica the brunch lover
+                - generic [ref=f3e1319]: regulars
+                - generic [ref=f3e1320]: Staying open until 2 AM on football Saturdays would create a fun and vibrant atmosphere for patrons looking to celebrate after games, which aligns perfectly with the lively brunch culture I enjoy. It would also provide a great opportunity for regulars like me to unwind with hearty meals and drinks after the excitement of the game.
+              - generic [ref=f3e1321]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1322] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1323] [cursor=pointer]': e5
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1324] [cursor=pointer]: e21
+            - generic [ref=f3e1325]:
+              - generic [ref=f3e1326]:
+                - strong [ref=f3e1327]: Derek the budget traveler
+                - generic [ref=f3e1328]: tourists
+                - generic [ref=f3e1329]: Staying open until 2 AM could lead to a chaotic atmosphere, which might drive away families and budget travelers like me who prefer a more welcoming dining experience. Many reviews highlight poor service and unwelcoming staff during busy times, which could worsen with extended hours.
+              - generic [ref=f3e1330]:
+                - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e1331] [cursor=pointer]: e28
+                - generic "Our waiter forgot about our drinks like I’m thirsty the food is no where to be found I will never be back here again save your time and don’t come here EVER we have been looking ar" [ref=f3e1332] [cursor=pointer]: e10
+                - generic "Cafe is one of those places you want to be at until you there. Their inexperienced, brand new, bartenders walked up and described that my wife was too drunk (after trying to find o" [ref=f3e1333] [cursor=pointer]: e12
+            - generic [ref=f3e1335]:
+              - strong [ref=f3e1336]: Beth the food critic
+              - generic [ref=f3e1337]: regulars
+              - generic [ref=f3e1338]: Staying open until 2 AM could exacerbate the negative experiences I've heard about regarding poor service and an unwelcoming atmosphere, particularly for families. The chaotic nature of late-night crowds may drive away loyal customers looking for a pleasant dining experience.
+            - generic [ref=f3e1339]:
+              - generic [ref=f3e1340]:
+                - strong [ref=f3e1341]: Sam the junior 2
+                - generic [ref=f3e1342]: students
+                - generic [ref=f3e1343]: Staying open until 2 AM on football Saturdays would create an awesome place for students like me to hang out after games, enjoying the lively atmosphere and delicious food. It would definitely attract more friends looking for a post-game meal and fun.
+              - generic [ref=f3e1344]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1345] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1346] [cursor=pointer]': e5
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1347] [cursor=pointer]: e21
+            - generic [ref=f3e1348]:
+              - generic [ref=f3e1349]:
+                - strong [ref=f3e1350]: Lisa the family planner
+                - generic [ref=f3e1351]: families
+                - generic [ref=f3e1352]: Extending hours until 2 AM on football Saturdays could create a chaotic atmosphere that is unwelcoming for families, as many reviews highlight negative experiences related to service and environment during busy weekends. Maintaining a family-friendly vibe is essential for attracting families like mine to return.
+              - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e1354] [cursor=pointer]: e28
+            - generic [ref=f3e1355]:
+              - generic [ref=f3e1356]:
+                - strong [ref=f3e1357]: Nick the loyal staff member
+                - generic [ref=f3e1358]: staff-adjacent loyalists
+                - generic [ref=f3e1359]: Staying open until 2 AM on football Saturdays would enhance the vibrant atmosphere that regulars love and attract more patrons looking to celebrate after games, creating a communal vibe. This aligns with the nostalgia and energy of post-game celebrations that many people cherish at Cafe 210 West.
+              - generic [ref=f3e1360]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1361] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1362] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1363] [cursor=pointer]: e22
+            - generic [ref=f3e1364]:
+              - generic [ref=f3e1365]:
+                - strong [ref=f3e1366]: Jess the visiting tourist
+                - generic [ref=f3e1367]: tourists
+                - generic [ref=f3e1368]: Staying open late on football Saturdays would really enhance the lively atmosphere and provide a great spot for alumni and tourists like me to celebrate after games. It could also cater to our late-night dining needs, making it a go-to place for post-game fun.
+              - generic [ref=f3e1369]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1370] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1371] [cursor=pointer]': e7
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1372] [cursor=pointer]: e27
+            - generic [ref=f3e1373]:
+              - generic [ref=f3e1374]:
+                - strong [ref=f3e1375]: Oliver the late-night regular
+                - generic [ref=f3e1376]: regulars
+                - generic [ref=f3e1377]: Staying open until 2 AM on football Saturdays would definitely attract more patrons looking to celebrate after games, enhancing the lively atmosphere that I love about Cafe 210 West. It’s a perfect opportunity to capitalize on the energetic crowd and create memorable experiences for everyone.
+              - generic [ref=f3e1378]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e1379] [cursor=pointer]': e1
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1380] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1381] [cursor=pointer]': e7
+            - generic [ref=f3e1382]:
+              - generic [ref=f3e1383]:
+                - strong [ref=f3e1384]: Tina the health-conscious student
+                - generic [ref=f3e1385]: students
+                - generic [ref=f3e1386]: Staying open until 2 AM could create a chaotic environment that discourages families and health-conscious students like me from visiting, especially given the reports of poor service and negative experiences during busy times.
+              - generic [ref=f3e1387]:
+                - generic "Our waiter forgot about our drinks like I’m thirsty the food is no where to be found I will never be back here again save your time and don’t come here EVER we have been looking ar" [ref=f3e1388] [cursor=pointer]: e10
+                - generic "I have been a patron of Cafe 210 for years and love to come when the weather is nice to sit on the patio. Tonight changed my opinion on the establishment and I will not be back and" [ref=f3e1389] [cursor=pointer]: e15
+                - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e1390] [cursor=pointer]: e28
+            - generic [ref=f3e1391]:
+              - generic [ref=f3e1392]:
+                - strong [ref=f3e1393]: Mark the skeptical dad
+                - generic [ref=f3e1394]: families
+                - generic [ref=f3e1395]: Staying open until 2 AM on football Saturdays could create a chaotic environment that deters families, as many reviews highlight issues with service and unwelcoming staff during busy times. A late-night crowd may compromise the family-friendly atmosphere that is essential for attracting parents and their kids.
+              - generic [ref=f3e1396]:
+                - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e1397] [cursor=pointer]: e28
+                - generic "Despite having great food, service, and atmosphere, I can’t rate this experience higher than a 2 star. My girlfriend was kicked out for being too drunk, despite this being her 2nd" [ref=f3e1398] [cursor=pointer]: e11
+                - generic "Cafe is one of those places you want to be at until you there. Their inexperienced, brand new, bartenders walked up and described that my wife was too drunk (after trying to find o" [ref=f3e1399] [cursor=pointer]: e12
+            - generic [ref=f3e1400]:
+              - generic [ref=f3e1401]:
+                - strong [ref=f3e1402]: Megan the nostalgia seeker
+                - generic [ref=f3e1403]: tourists
+                - generic [ref=f3e1404]: Staying open until 2 AM on football Saturdays would enhance the nostalgic atmosphere and attract more alumni and tourists looking to celebrate after games. It could help bring back the fun experiences of my college years, creating a lively post-game environment that many of us cherish.
+              - generic [ref=f3e1405]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1406] [cursor=pointer]': e4
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1407] [cursor=pointer]: e22
+            - generic [ref=f3e1408]:
+              - generic [ref=f3e1409]:
+                - strong [ref=f3e1410]: Ethan the club-goer
+                - generic [ref=f3e1411]: regulars
+                - generic [ref=f3e1412]: Staying open until 2 AM on football Saturdays would definitely attract more patrons looking to celebrate after games, enhancing the lively atmosphere I love. It would create a communal vibe where fans can unwind and relive great moments together.
+              - generic [ref=f3e1413]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e1414] [cursor=pointer]': e1
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1415] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1416] [cursor=pointer]: e27
+            - generic [ref=f3e1418]:
+              - strong [ref=f3e1419]: Clara the first-time visitor
+              - generic [ref=f3e1420]: tourists
+              - generic [ref=f3e1421]: Staying open until 2 AM could lead to a chaotic environment that deters families and first-time visitors like me, especially given the negative experiences reported about service and atmosphere during busy times. If the service doesn't improve, extending hours might just exacerbate these issues.
+            - generic [ref=f3e1422]:
+              - generic [ref=f3e1423]:
+                - strong [ref=f3e1424]: Sam the Junior
+                - generic [ref=f3e1425]: students
+                - generic [ref=f3e1426]: Staying open until 2 AM on football Saturdays would definitely attract more students and fans looking to celebrate after games. It fits with the lively atmosphere that we love and provides a great option for late-night dining.
+              - generic [ref=f3e1427]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1428] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1429] [cursor=pointer]': e7
+            - generic [ref=f3e1430]:
+              - generic [ref=f3e1431]:
+                - strong [ref=f3e1432]: Emily the Family Planner
+                - generic [ref=f3e1433]: families
+                - generic [ref=f3e1434]: Staying open until 2 AM could create a chaotic atmosphere that is unwelcoming for families, as many reviews indicate negative experiences with service and environment during busy nights (e28). A late-night crowd might deter families from visiting, which is crucial for a family-friendly establishment (e28).
+              - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e1436] [cursor=pointer]: e28
+            - generic [ref=f3e1437]:
+              - generic [ref=f3e1438]:
+                - strong [ref=f3e1439]: Alex the Local Regular
+                - generic [ref=f3e1440]: regulars
+                - generic [ref=f3e1441]: Staying open until 2 AM could create a chaotic environment that makes it less welcoming for families and regulars like me who enjoy a relaxed vibe. Negative experiences shared by customers suggest that extended hours may worsen service issues and deter loyal patrons.
+              - generic [ref=f3e1442]:
+                - generic "I have been a patron of Cafe 210 for years and love to come when the weather is nice to sit on the patio. Tonight changed my opinion on the establishment and I will not be back and" [ref=f3e1443] [cursor=pointer]: e15
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1444] [cursor=pointer]: e21
+            - generic [ref=f3e1445]:
+              - generic [ref=f3e1446]:
+                - strong [ref=f3e1447]: Tina the Tourist
+                - generic [ref=f3e1448]: tourists
+                - generic [ref=f3e1449]: Staying open until 2 AM on football Saturdays would attract more tourists like me looking to enjoy a lively atmosphere after the game. It's a great opportunity to unwind and experience the local vibe, especially with outdoor seating options.
+              - generic [ref=f3e1450]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1451] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1452] [cursor=pointer]': e7
+            - generic [ref=f3e1453]:
+              - generic [ref=f3e1454]:
+                - strong [ref=f3e1455]: Benny the Bar Hopper
+                - generic [ref=f3e1456]: staff-adjacent loyalists
+                - generic [ref=f3e1457]: Staying open until 2 AM on football Saturdays would definitely attract more students and fans looking to celebrate after the game, enhancing the vibrant atmosphere that I love about Café 210 West. It would be the perfect spot for reliving those fun memories with friends after cheering for our team.
+              - generic [ref=f3e1458]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1459] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1460] [cursor=pointer]': e7
+            - generic [ref=f3e1461]:
+              - generic [ref=f3e1462]:
+                - strong [ref=f3e1463]: Megan the Grad Student
+                - generic [ref=f3e1464]: students
+                - generic [ref=f3e1465]: Staying open until 2 AM on football Saturdays would provide a lively atmosphere and cater to students looking for a place to unwind after games, which aligns with the energetic culture surrounding sports events. This would enhance the café's appeal as a convenient late-night dining option for those celebrating after the game.
+              - generic [ref=f3e1466]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1467] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1468] [cursor=pointer]: e27
+            - generic [ref=f3e1469]:
+              - generic [ref=f3e1470]:
+                - strong [ref=f3e1471]: Chris the Game Day Fan
+                - generic [ref=f3e1472]: tourists
+                - generic [ref=f3e1473]: Staying open until 2 AM would create a vibrant atmosphere for alumni and tourists like me to celebrate after the game, making it a nostalgic and lively gathering spot. It would definitely capitalize on the demand for late-night options, enhancing the overall experience for fans.
+              - generic [ref=f3e1474]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1475] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1476] [cursor=pointer]': e5
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1477] [cursor=pointer]': e7
+            - generic [ref=f3e1478]:
+              - generic [ref=f3e1479]:
+                - strong [ref=f3e1480]: Sara the Foodie
+                - generic [ref=f3e1481]: regulars
+                - generic [ref=f3e1482]: Staying open until 2 AM on football Saturdays would definitely enhance the lively atmosphere that I and many other regulars cherish after games. It's a perfect opportunity to enjoy quality food and drinks while celebrating with friends and fellow fans.
+              - generic [ref=f3e1483]:
+                - 'generic "Cafe Alina ★ 4.8 ☕ Cafe ☕ Chew Chew Bun ★ 4.8 ☕ Cafe See all coffee shops in State College → ## Frequently Asked Questions What are Cafe 210 West''s hours? Cafe 210 West is l" [ref=f3e1484] [cursor=pointer]': e1
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1485] [cursor=pointer]': e4
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1486] [cursor=pointer]: e22
+            - generic [ref=f3e1487]:
+              - generic [ref=f3e1488]:
+                - strong [ref=f3e1489]: Josh the Craft Beer Lover
+                - generic [ref=f3e1490]: regulars
+                - generic [ref=f3e1491]: Staying open until 2 AM on football Saturdays would definitely attract more patrons looking to celebrate after games, creating a vibrant atmosphere that I and other regulars enjoy. The demand for late-night fun is strong, and it would enhance the communal vibe where fans can relive great moments together.
+              - generic [ref=f3e1492]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1493] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1494] [cursor=pointer]: e27
+            - generic [ref=f3e1495]:
+              - generic [ref=f3e1496]:
+                - strong [ref=f3e1497]: Laura the Newcomer
+                - generic [ref=f3e1498]: tourists
+                - generic [ref=f3e1499]: Staying open until 2 AM on football Saturdays would create a fun and lively atmosphere that I would love to experience after games. It would be a great option for both locals and tourists looking to unwind and celebrate the day.
+              - generic [ref=f3e1500]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1501] [cursor=pointer]': e4
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1502] [cursor=pointer]: e27
+            - generic [ref=f3e1503]:
+              - generic [ref=f3e1504]:
+                - strong [ref=f3e1505]: Sam the junior 2 2
+                - generic [ref=f3e1506]: students
+                - generic [ref=f3e1507]: Keeping Cafe 210 West open until 2 AM on football Saturdays would attract more students and create a lively atmosphere for post-game celebrations. As a regular, I appreciate having a spot to unwind with friends after the game, and this would enhance that experience.
+              - generic [ref=f3e1508]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1509] [cursor=pointer]': e4
+                - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1510] [cursor=pointer]: e21
+            - generic [ref=f3e1512]:
+              - strong [ref=f3e1513]: Lisa the family planner 2
+              - generic [ref=f3e1514]: families
+              - generic [ref=f3e1515]: Staying open until 2 AM on football Saturdays could lead to a chaotic atmosphere that is unwelcoming for families like mine, especially with reports of poor service and negative experiences during busy weekends. It's important to maintain a family-friendly environment to attract and retain customers.
+            - generic [ref=f3e1516]:
+              - generic [ref=f3e1517]:
+                - strong [ref=f3e1518]: Tom the college alum
+                - generic [ref=f3e1519]: regulars
+                - generic [ref=f3e1520]: Extending hours on football Saturdays would definitely attract more alumni and fans looking to celebrate after games, enhancing the fun atmosphere we love. It would give us more time to relive those college memories with friends over pitchers of beer.
+              - generic [ref=f3e1521]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1522] [cursor=pointer]': e4
+                - 'generic "Log In Sign Up 11.5K followers 383 following Cafe 210 West Penn State’s favorite patio! Current Hours: Mon - Sat: 11 AM - 2AM Sun: 12 PM - 10PM 210 W College Ave," [ref=f3e1523] [cursor=pointer]': e5
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1524] [cursor=pointer]: e22
+            - generic [ref=f3e1525]:
+              - generic [ref=f3e1526]:
+                - strong [ref=f3e1527]: Jessica the out-of-towner
+                - generic [ref=f3e1528]: tourists
+                - generic [ref=f3e1529]: Staying open until 2 AM on football Saturdays would be perfect for attracting more visitors like me who want to celebrate after games and enjoy the lively atmosphere. It's a great chance to try the food, especially the chicken quesadilla, and enjoy the live music.
+              - generic [ref=f3e1530]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1531] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1532] [cursor=pointer]': e7
+                - generic "Nice place once you get in. On a football Friday, you can wait 90 minutes in line or pay the $35 cover." [ref=f3e1533] [cursor=pointer]: e27
+            - generic [ref=f3e1534]:
+              - generic [ref=f3e1535]:
+                - strong [ref=f3e1536]: Mike the late-night regular
+                - generic [ref=f3e1537]: regulars
+                - generic [ref=f3e1538]: Staying open until 2 AM on football Saturdays would definitely attract more locals and alumni looking to celebrate after games, enhancing the vibrant atmosphere that I love. It would provide a perfect place for us to relive those memorable moments together after the games.
+              - generic [ref=f3e1539]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1540] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1541] [cursor=pointer]': e7
+            - generic [ref=f3e1542]:
+              - generic [ref=f3e1543]:
+                - strong [ref=f3e1544]: Karen the concerned parent
+                - generic [ref=f3e1545]: families
+                - generic [ref=f3e1546]: Staying open until 2 AM could create a chaotic environment that would deter families like mine from visiting, especially given the negative experiences reported by others regarding service and staff behavior. A more welcoming atmosphere is essential for attracting families who are concerned about their dining experience.
+              - generic [ref=f3e1547]:
+                - generic "Terrible, unwelcoming employees who don’t care about bringing in business- even on family weekend! PARENTS AND FAMILIES- Save your money and put it toward a better more inviting es" [ref=f3e1548] [cursor=pointer]: e28
+                - generic "Despite having great food, service, and atmosphere, I can’t rate this experience higher than a 2 star. My girlfriend was kicked out for being too drunk, despite this being her 2nd" [ref=f3e1549] [cursor=pointer]: e11
+                - generic "Cafe is one of those places you want to be at until you there. Their inexperienced, brand new, bartenders walked up and described that my wife was too drunk (after trying to find o" [ref=f3e1550] [cursor=pointer]: e12
+            - generic [ref=f3e1551]:
+              - generic [ref=f3e1552]:
+                - strong [ref=f3e1553]: Alex the undergrad worker
+                - generic [ref=f3e1554]: staff-adjacent loyalists
+                - generic [ref=f3e1555]: Staying open until 2 AM on football Saturdays would capitalize on the lively atmosphere and offer a great place for students to celebrate after games. It would also provide much-needed late-night dining options for those looking for a bite after cheering for the team.
+              - generic [ref=f3e1556]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1557] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1558] [cursor=pointer]': e7
+                - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1559] [cursor=pointer]: e22
+            - generic [ref=f3e1560]:
+              - generic [ref=f3e1561]:
+                - strong [ref=f3e1562]: Rachel the weekend warrior
+                - generic [ref=f3e1563]: students
+                - generic [ref=f3e1564]: Staying open until 2 AM on football Saturdays would create an awesome atmosphere for students like me to celebrate after games with friends. The late-night option would definitely make Cafe 210 West the go-to spot for post-game fun and food.
+              - generic [ref=f3e1565]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1566] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1567] [cursor=pointer]': e7
+            - generic [ref=f3e1568]:
+              - generic [ref=f3e1569]:
+                - strong [ref=f3e1570]: Paul the sports enthusiast
+                - generic [ref=f3e1571]: regulars
+                - generic [ref=f3e1572]: Staying open until 2 AM on football Saturdays would definitely attract more fans looking to celebrate after the games, enhancing the communal atmosphere that I love about Cafe 210 West. It would be a great opportunity for regulars like me to enjoy the vibrant post-game energy with fellow sports enthusiasts.
+              - generic [ref=f3e1573]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1574] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1575] [cursor=pointer]': e7
+            - generic [ref=f3e1576]:
+              - generic [ref=f3e1577]:
+                - strong [ref=f3e1578]: Tina the first-time visitor
+                - generic [ref=f3e1579]: tourists
+                - generic [ref=f3e1580]: Staying open until 2 AM on football Saturdays would create a lively atmosphere for fans like me, making it a perfect spot to celebrate after the game. I love the idea of having a late-night dining option to enjoy local food and soak in the excitement with fellow visitors and locals.
+              - generic [ref=f3e1581]:
+                - 'generic "Log inSign up Log inSign up Café 210 West Café 210 West profile banner @Cafe210West # Café 210 West @Cafe210West Penn State''s favorite patio! Hours: Mon - Sat 11 am - 2am; S" [ref=f3e1582] [cursor=pointer]': e4
+                - 'generic "4/8/25 4:03 am In my opinion, Cafe 210 is the best bar in State College. Cafe has it all: great specials on Monday and Thursday, a patio and deck that are incredible when the sun" [ref=f3e1583] [cursor=pointer]': e7
+            - generic [ref=f3e1584]:
+              - generic [ref=f3e1585]: Late-night supporters
+              - generic [ref=f3e1586]: "with: Mark the Regular, Kate the Game Day Enthusiast, Chris the Late-Night Bar Hopper, Tom the loyal alum, Jessica the brunch lover, Oliver the late-night regular, Ethan the club-goer, Sara the Foodie, Josh the Craft Beer Lover, Tom the college alum, Mike the late-night regular, Paul the sports enthusiast"
+              - list [ref=f3e1587]:
+                - listitem [ref=f3e1588]: Attract more patrons celebrating after games
+                - listitem [ref=f3e1589]: Enhance the lively atmosphere and community vibe
+                - listitem [ref=f3e1590]: Capitalize on demand for late-night fun
+            - generic [ref=f3e1591]:
+              - generic [ref=f3e1592]: Late-night advocates
+              - generic [ref=f3e1593]: "with: Ryan the Tourist, Sandra the Alumni, Lisa the weekend tourist, Jess the visiting tourist, Megan the nostalgia seeker, Tina the Tourist, Chris the Game Day Fan, Laura the Newcomer, Jessica the out-of-towner, Tina the first-time visitor, Emily the Student, Sam the junior, Kathy the health-conscious student, Sam the junior 2, Sam the Junior, Megan the Grad Student, Sam the junior 2 2, Rachel the weekend warrior, Sophie the Staff-Adjacent Loyalist, Mark the local bartender, Nick the loyal staff member, Benny the Bar Hopper, Alex the undergrad worker, Tom the Casual Diner, Jake the night owl"
+              - list [ref=f3e1594]:
+                - listitem [ref=f3e1595]: Attract more students and tourists looking for post-game hangouts.
+                - listitem [ref=f3e1596]: Enhance the lively atmosphere and nostalgia of football Saturdays.
+                - listitem [ref=f3e1597]: Capitalize on demand for late-night dining options.
+            - generic [ref=f3e1598]:
+              - generic [ref=f3e1599]: Family-Friendly Advocates
+              - generic [ref=f3e1600]: "with: Lisa the Family Visitor, Sarah the family planner, Lisa the family planner, Mark the skeptical dad, Emily the Family Planner, Karen the concerned parent, Derek the budget traveler, Tina the health-conscious student, Alex the Local Regular"
+              - list [ref=f3e1601]:
+                - listitem [ref=f3e1602]: Late hours may attract rowdy crowds
+                - listitem [ref=f3e1603]: Unwelcoming atmosphere for families
+                - listitem [ref=f3e1604]: Negative reviews on service during busy nights
+            - generic [ref=f3e1605]:
+              - generic [ref=f3e1606]: Open-late skeptics
+              - generic [ref=f3e1607]: "with: Jake the Frustrated Customer, Beth the food critic, Clara the first-time visitor, Lisa the family planner 2"
+              - list [ref=f3e1608]:
+                - listitem [ref=f3e1609]: Late hours could alienate families seeking a welcoming atmosphere.
+                - listitem [ref=f3e1610]: Poor service and negative experiences reported may worsen with extended hours.
+                - listitem [ref=f3e1611]: Extended hours might lead to more chaotic and unmanageable situations.
+      - generic [ref=f3e1612]:
+        - heading "Verdict" [level=3] [ref=f3e1613]
+        - generic [ref=f3e1614]:
+          - generic [ref=f3e1615]: Stay open until 2 AM on football Saturdays, because support exceeds opposition 31 to 12 and is especially strong among students, tourists, and loyalists seeking postgame activity. Maintain the hours with added attention to service consistency and crowd handling, since the evidence includes complaints about delays, staff interactions, and busy football-weekend conditions.
+          - generic [ref=f3e1616]: Confidence 43%
+          - generic [ref=f3e1623]:
+            - generic [ref=f3e1624]: support 31
+            - generic [ref=f3e1626]: oppose 12
+            - generic [ref=f3e1628]: neutral 7
+          - generic [ref=f3e1630]: 🔒 Locked — full segment impact, objections and agent chat unlock with checkout.
+          - button "Unlock full segment impact + agent chat — $19" [ref=f3e1632] [cursor=pointer]
+          - generic [ref=f3e1633]: Opens the Stripe checkout in a new tab; this demo then marks the session paid directly.

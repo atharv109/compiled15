@@ -1,0 +1,87 @@
+{
+  "description": "Recorded fixture session for Cafe 210 (State College) — used by /api/mock-session/{id} and app.mock_debate.run_debate. Shapes mirror docs/api-contract.md v1.",
+  "snapshot": {
+    "session_id": "s_fixture",
+    "business": { "name": "Cafe 210", "town": "State College", "business_class": "local_consumer" },
+    "evidence": [
+      { "id": "e1", "claim": "Weekend footfall peaks after 10 PM and regulars complain about the 11 PM close.", "source_url": "https://www.google.com/maps", "source_label": "Google review", "type": "review", "quote": "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\"" },
+      { "id": "e2", "claim": "Late-night food options on College Ave thin out after midnight on game days.", "source_url": "https://www.collegiatetimes.com/off-campus-late-night", "source_label": "Local restaurant guide", "type": "competitor", "quote": "Only three kitchens on the block keep the lights on past midnight during home games." },
+      { "id": "e3", "claim": "Extended-close nights run roughly $180 of extra staff and utilities per night.", "source_url": "manual", "source_label": "Owner-pasted review", "type": "price", "quote": "Last extra-late Saturday cost about $180 in staff + utilities against $610 in late sales." }
+    ],
+    "personas": [
+      { "id": "p1", "segment": "students", "name": "Maya the junior", "profile": "Junior who walks down from campus after every home game; her group always eats around midnight and gets shut out by the current close.", "source_review_ids": ["e1"], "weight": 1.4 },
+      { "id": "p2", "segment": "students", "name": "Devon the freshman", "profile": "Freshman with a meal plan he calls a suggestion; hungry at 1 AM on game days and follows the crowd to whoever is open.", "source_review_ids": ["e1", "e2"], "weight": 1.6 },
+      { "id": "p3", "segment": "regulars", "name": "Frank the morning regular", "profile": "Retiree who arrives at 6:30 AM sharp; afraid a 2 AM close means tired staff and slower mornings on Sundays.", "source_review_ids": ["e3"], "weight": 1.2 },
+      { "id": "p4", "segment": "regulars", "name": "Rosa the afternoon regular", "profile": "Works across the street, comes in most afternoons; neutral on closing hours but wary of price creep to cover late-night costs.", "source_review_ids": ["e3"], "weight": 1.0 },
+      { "id": "p5", "segment": "visitors", "name": "Pete the visiting dad", "profile": "In town twice a season for tailgates; with two teenagers he would spend on a late dessert stop if somewhere clean is open.", "source_review_ids": ["e1", "e2"], "weight": 0.8 },
+      { "id": "p6", "segment": "staff", "name": "Cleo the barista", "profile": "Senior barista; open to closing late but only if there is a real cut of the late-night tips and a rideshare stipend.", "source_review_ids": ["e3"], "weight": 1.0 }
+    ],
+    "segments": [
+      { "name": "students", "count": 31 },
+      { "name": "regulars", "count": 34 },
+      { "name": "visitors", "count": 16 }
+    ],
+    "question": "Should we stay open until 2 AM on football Saturdays?",
+    "verdict": {
+      "recommendation": "Stay open until 2 AM on the six home football Saturdays only, run by a small volunteer-style late crew with the game_day_special promo. The opposition is real — morning regulars may feel the cost — but the late-night demand gap (e1, e2) plus the strong late-sales vs. cost math (e3) makes the trade worth it, and returning to 11 PM closes in off-weeks protects the regulars.",
+      "confidence": 0.58,
+      "tally": { "support": 1, "oppose": 4, "neutral": 1 },
+      "objections": [
+        "Morning regulars (Frank) fear a tired staff and slower Sunday mornings if the late crew overruns.",
+        "One strong late Saturday does not prove the next five will repeat at the same margin.",
+        "The students driving the late demand are the lowest-paycheck-per-visit crowd; the mix may skew late without covering fixed costs."
+      ],
+      "segment_impact": [
+        { "segment": "students", "impact": "+30% visits on home-game Saturdays after 1 AM", "evidence_ids": ["e1", "e2"] },
+        { "segment": "regulars", "impact": "-10% morning visits from regulars annoyed by crowded Sundays", "evidence_ids": ["e3"] },
+        { "segment": "visitors", "impact": "+15% dessert-and-drinks spend if a clean late option stays open", "evidence_ids": ["e2"] }
+      ]
+    },
+    "paid": false,
+    "status": "verdict_ready"
+  },
+  "stream_events": [
+    { "event": "persona_start", "data": { "persona_id": "p1", "segment": "students", "name": "Maya the junior" } },
+    { "event": "persona_start", "data": { "persona_id": "p2", "segment": "students", "name": "Devon the freshman" } },
+    { "event": "persona_start", "data": { "persona_id": "p3", "segment": "regulars", "name": "Frank the morning regular" } },
+    { "event": "persona_start", "data": { "persona_id": "p4", "segment": "regulars", "name": "Rosa the afternoon regular" } },
+    { "event": "persona_start", "data": { "persona_id": "p5", "segment": "visitors", "name": "Pete the visiting dad" } },
+    { "event": "persona_start", "data": { "persona_id": "p6", "segment": "staff", "name": "Cleo the barista" } },
+
+    { "event": "stance", "data": { "round": 1, "persona_id": "p1", "segment": "students", "stance": "support", "stance_label": "Yes", "reason": "My whole group walks out of Beaver Stadium starving at 12:30 and Cafe 210 is already dark. Two more hours is a crowd every time.", "evidence_ids": ["e1", "e2"] } },
+    { "event": "stance", "data": { "round": 1, "persona_id": "p2", "segment": "students", "stance": "support", "stance_label": "Yes", "reason": "Anything open past midnight on game days owns the walk home. I'd bring six friends with zero loyalty to anyone else.", "evidence_ids": ["e2"] } },
+    { "event": "stance", "data": { "round": 1, "persona_id": "p3", "segment": "regulars", "stance": "oppose", "stance_label": "No", "reason": "I'm there at 6:30 sharp; a 2 AM close means slow, grumpy staff on Sunday mornings.", "evidence_ids": ["e3"] } },
+    { "event": "stance", "data": { "round": 1, "persona_id": "p4", "segment": "regulars", "stance": "neutral", "stance_label": "Undecided", "reason": "Fine with late hours as long as my afternoon latte doesn't get pricier to pay for it.", "evidence_ids": ["e3"] } },
+    { "event": "stance", "data": { "round": 1, "persona_id": "p5", "segment": "visitors", "stance": "support", "stance_label": "Yes", "reason": "With two teenagers we're hunting dessert at 12:45 and everywhere clean is shut.", "evidence_ids": ["e2"] } },
+    { "event": "stance", "data": { "round": 1, "persona_id": "p6", "segment": "staff", "stance": "neutral", "stance_label": "Undecided", "reason": "I'd stay late only for a real cut of tips plus a rideshare stipend home.", "evidence_ids": ["e3"] } },
+
+    { "event": "camp", "data": { "round": 1, "camp": "Open-late skeptics", "member_ids": ["p3", "p4", "p6"], "top_arguments": ["Extra payroll and utilities eat thin margins on a single night's data", "Worn-down staff show up slower on Sunday mornings, hurting the most loyal regulars"] } },
+    { "event": "camp", "data": { "round": 1, "camp": "Late-night believers", "member_ids": ["p1", "p2", "p5"], "top_arguments": ["Three late kitchens on the block is zero competition for thousands of post-game walkers", "Game-day demand is predictable: six Saturdays, packed at 12:30, ready to spend"] } },
+
+    { "event": "stance", "data": { "round": 2, "persona_id": "p1", "segment": "students", "stance": "support", "stance_label": "Yes, six Saturdays", "reason": "Skeptics are right that one night isn't proof — that's why it should be the six home games plus a buffer. I'd spend every one.", "evidence_ids": ["e1", "e2"], "predicted_visits": { "students": 2.0, "regulars": 0.6 } } },
+    { "event": "stance", "data": { "round": 2, "persona_id": "p2", "segment": "students", "stance": "oppose", "stance_label": "Not at 2 AM", "reason": "Hearing the cost math changed me — try midnight first and see if the line is real. I'll still show up at 12:30.", "evidence_ids": ["e3"], "predicted_visits": { "students": 1.5, "regulars": 0.8 } } },
+    { "event": "stance", "data": { "round": 2, "persona_id": "p3", "segment": "regulars", "stance": "oppose", "stance_label": "No", "reason": "The skeptic case holds — margins are thin and Sunday is my whole routine. Don't risk my mornings.", "evidence_ids": ["e3"], "predicted_visits": { "students": 0.5, "regulars": 0.9 } } },
+    { "event": "stance", "data": { "round": 2, "persona_id": "p4", "segment": "regulars", "stance": "oppose", "stance_label": "No", "reason": "Someone has to say it: a student deal plus late hours reads like a price hike for the rest of us.", "evidence_ids": ["e3"], "predicted_visits": { "students": 0.7, "regulars": 0.6 } } },
+    { "event": "stance", "data": { "round": 2, "persona_id": "p5", "segment": "visitors", "stance": "support", "stance_label": "Yes", "reason": "Limit it to home games and we visiting families still get our late stop. Skeptic math works if you schedule the risk.", "evidence_ids": ["e2"], "predicted_visits": { "visitors": 1.2, "students": 0.4 } } },
+    { "event": "stance", "data": { "round": 2, "persona_id": "p6", "segment": "staff", "stance": "oppose", "stance_label": "No", "reason": "Without a committed tips-plus-stipend structure I'd vote no — staff burnout is the hidden cost no one is pricing.", "evidence_ids": ["e3"], "predicted_visits": { "staff": 0.0, "students": 0.5 } } },
+
+    { "event": "camp", "data": { "round": 2, "camp": "Open-late skeptics", "member_ids": ["p2", "p3", "p4", "p6"], "top_arguments": ["Prove it at midnight first: run the 12:30 test night, not the full 2 AM commitment", "No tips/stipend structure means the late shift quietly becomes everyone's problem"] } },
+    { "event": "camp", "data": { "round": 2, "camp": "Late-night believers", "member_ids": ["p1", "p5"], "top_arguments": ["Schedule the risk: six home Saturdays only, evaluated after each one", "Zero real competition after midnight on game days"] } },
+
+    { "event": "verdict", "data": {
+      "recommendation": "Stay open until 2 AM on the six home football Saturdays only, run by a small volunteer-style late crew with the game_day_special promo. The opposition is real — morning regulars may feel the cost — but the late-night demand gap (e1, e2) plus the strong late-sales vs. cost math (e3) makes the trade worth it, and returning to 11 PM closes in off-weeks protects the regulars.",
+      "confidence": 0.58,
+      "tally": { "support": 1, "oppose": 4, "neutral": 1 },
+      "objections": [
+        "Morning regulars (Frank) fear a tired staff and slower Sunday mornings if the late crew overruns.",
+        "One strong late Saturday does not prove the next five will repeat at the same margin.",
+        "The students driving the late demand are the lowest-paycheck-per-visit crowd; the mix may skew late without covering fixed costs."
+      ],
+      "segment_impact": [
+        { "segment": "students", "impact": "+30% visits on home-game Saturdays after 1 AM", "evidence_ids": ["e1", "e2"] },
+        { "segment": "regulars", "impact": "-10% morning visits from regulars annoyed by crowded Sundays", "evidence_ids": ["e3"] },
+        { "segment": "visitors", "impact": "+15% dessert-and-drinks spend if a clean late option stays open", "evidence_ids": ["e2"] }
+      ]
+    } }
+  ]
+}

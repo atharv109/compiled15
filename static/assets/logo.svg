@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- CallCrowd mark: teal speech bubble, three crowd figures (traced from logo.png) -->
+  <g fill="#45D0C6">
+    <!-- bubble body: circle + tail -->
+    <path d="M50 8c22 0 40 15.5 40 37.5S72 83 50 83c-3.6 0-7.1-.4-10.4-1.2L26 92V79.6C14.6 74 7 64 7 45.5 7 23.5 28 8 50 8z"/>
+  </g>
+  <!-- crowd: three figures cut out in white -->
+  <g fill="#fff">
+    <!-- side figure (left) -->
+    <circle cx="30" cy="42" r="7.5"/>
+    <path d="M16 68c0-7.5 6.3-13.5 14-13.5S44 60.5 44 68v4.8A36 36 0 0 1 16 68z"/>
+    <!-- center figure (larger, front) -->
+    <circle cx="50" cy="40" r="10"/>
+    <path d="M33 74.5c0-9.5 7.6-17.2 17-17.2s17 7.7 17 17.2l-1 4.6a38.6 38.6 0 0 1-32 0z"/>
+    <!-- side figure (right) -->
+    <circle cx="70" cy="42" r="7.5"/>
+    <path d="M56 68c0-7.5 6.3-13.5 14-13.5S84 60.5 84 68v4.8a36 36 0 0 1-28 4.8z"/>
+  </g>
+</svg>

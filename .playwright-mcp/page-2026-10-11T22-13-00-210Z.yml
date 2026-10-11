@@ -1,0 +1,102 @@
+- generic [ref=f13e3]:
+  - generic [ref=f13e4]:
+    - generic [ref=f13e5]:
+      - button "Back" [ref=f13e6] [cursor=pointer]: ←
+      - link [ref=f13e7] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f13e8]
+    - generic [ref=f13e9]: Step 4/5 · Verdict
+    - generic [ref=f13e10]:
+      - generic [ref=f13e11]: complete
+      - generic [ref=f13e14]: Cafe 210
+  - generic [ref=f13e15]:
+    - main [ref=f13e16]:
+      - generic [ref=f13e17]:
+        - generic [ref=f13e18]:
+          - button "01 Name-only intake" [ref=f13e19] [cursor=pointer]:
+            - generic [ref=f13e20]: "01"
+            - generic [ref=f13e21]: Name-only intake
+          - button "02 Evidence & personas" [ref=f13e22] [cursor=pointer]:
+            - generic [ref=f13e23]: "02"
+            - generic [ref=f13e24]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f13e25] [cursor=pointer]:
+            - generic [ref=f13e26]: "03"
+            - generic [ref=f13e27]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f13e28] [cursor=pointer]:
+            - generic [ref=f13e29]: "04"
+            - generic [ref=f13e30]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f13e31] [cursor=pointer]:
+            - generic [ref=f13e32]: "05"
+            - generic [ref=f13e33]: Loop · agents · drafts
+        - generic "Canvas view" [ref=f13e34]:
+          - button "Graph" [ref=f13e35] [cursor=pointer]
+          - button "Split" [pressed] [ref=f13e36] [cursor=pointer]
+          - button "Workbench" [ref=f13e37] [cursor=pointer]
+      - generic [ref=f13e40]:
+        - generic [aria-hidden]:
+          - generic: ❖
+          - generic: waiting for the swarm to convene
+        - generic [ref=f13e42]:
+          - generic [ref=f13e49]: still processing some content…
+          - button "Dismiss" [ref=f13e50] [cursor=pointer]: ×
+        - button "Toggle legend" [ref=f13e52] [cursor=pointer]: legend
+    - complementary [ref=f13e53]:
+      - generic [ref=f13e54]:
+        - generic "Canvas view" [ref=f13e55]:
+          - button "Graph" [ref=f13e56] [cursor=pointer]
+          - button "Split" [pressed] [ref=f13e57] [cursor=pointer]
+          - button "Workbench" [ref=f13e58] [cursor=pointer]
+        - button "Act on it" [ref=f13e59] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f13e60] [cursor=pointer]: ›
+      - generic [ref=f13e61]:
+        - generic [ref=f13e62]:
+          - button "Act on the verdict 100% · 50/50 for" [expanded] [ref=f13e63] [cursor=pointer]:
+            - generic [ref=f13e64]: Act on the verdict
+            - generic [ref=f13e65]: 100% · 50/50 for
+            - generic [aria-hidden] [ref=f13e66]: ▾
+          - generic [ref=f13e67]:
+            - generic [ref=f13e68]: Extend weekend hours to 2 AM and run the blanket delivery promo, because all 50 customer agents support both measures and weekend footfall peaks after 10 PM. The limited food options after midnight, especially on game days, indicate an opportunity for late-night delivery, though the added demand should be weighed against roughly $180 in extra nightly operating costs.
+            - generic [ref=f13e69]:
+              - generic [ref=f13e70]: confidence
+              - generic [ref=f13e73]: 100%
+            - generic [ref=f13e74]:
+              - generic [ref=f13e75]: agent split
+              - generic [ref=f13e76]: "50"
+            - generic [ref=f13e81]:
+              - generic [ref=f13e82]: ■ support 50
+              - generic [ref=f13e83]: ■ oppose 0
+              - generic [ref=f13e84]: ■ neutral 0
+            - generic [ref=f13e85]:
+              - generic [ref=f13e86]: segment impact
+              - generic [ref=f13e87]:
+                - generic [ref=f13e88]: students
+                - generic [ref=f13e89]: Students seeking food after late events or game days would gain access to delivery and service through 2 AM.
+                - generic "Only three kitchens on the block keep the lights on past midnight during home games." [ref=f13e91]: e2 · Local restaurant guide
+              - generic [ref=f13e92]:
+                - generic [ref=f13e93]: regulars
+                - generic [ref=f13e94]: Regulars who complain about the 11 PM close would have three additional hours to order on weekends.
+                - generic "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\"" [ref=f13e96]: e1 · Google review
+              - generic [ref=f13e97]:
+                - generic [ref=f13e98]: walk-ins
+                - generic [ref=f13e99]: Late-night walk-ins could be served during the documented post-10 PM footfall peak.
+                - generic "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\"" [ref=f13e101]: e1 · Google review
+              - generic [ref=f13e102]: top objections
+              - list [ref=f13e103]:
+                - listitem [ref=f13e104]: 01Each extended-close night adds roughly $180 in staff and utility costs, with no revenue estimate provided to show that the added demand will cover it.
+                - listitem [ref=f13e105]: 02The strongest evidence for limited late-night competition is specific to game days, so demand may be weaker on other weekends.
+                - listitem [ref=f13e106]: 03The evidence directly supports later hours, but it does not establish that a blanket delivery promo is necessary or more effective than a narrower promotion.
+        - button "run log 22" [ref=f13e108] [cursor=pointer]:
+          - generic [ref=f13e109]: run log
+          - generic [ref=f13e110]: "22"
+          - generic [aria-hidden] [ref=f13e111]: ▾
+        - generic:
+          - generic [ref=f13e113]:
+            - generic [ref=f13e114]: Pick an agent
+            - generic [ref=f13e115]: click a node in the graph
+          - generic [ref=f13e118]:
+            - text: Click a customer node in the graph — it’s that agent.
+            - generic [ref=f13e119]: every agent answers in character, backed by the session’s evidence
+          - generic [ref=f13e120]:
+            - textbox "Message" [disabled] [ref=f13e121]:
+              - /placeholder: pick an agent…
+            - button "Send →" [ref=f13e122] [cursor=pointer]

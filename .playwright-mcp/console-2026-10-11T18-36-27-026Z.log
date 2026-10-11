@@ -1,0 +1,6 @@
+[  224705ms] ReferenceError: drawChart is not defined
+    at renderLoop (http://127.0.0.1:8000/demo/assets/js/steps/learn.js:195:5)
+    at renderTab (http://127.0.0.1:8000/demo/assets/js/steps/learn.js:118:31)
+    at EventTarget.<anonymous> (http://127.0.0.1:8000/demo/assets/js/steps/learn.js:63:7)
+    at Object.emit (http://127.0.0.1:8000/demo/assets/js/bridge.js:51:14)
+    at CS.runLoop (http://127.0.0.1:8000/demo/assets/js/bridge.js:517:36)

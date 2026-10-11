@@ -1,0 +1,444 @@
+- generic [ref=f1e75]:
+  - generic [ref=f1e76]:
+    - generic [ref=f1e77]:
+      - button "Back" [ref=f1e78] [cursor=pointer]: ←
+      - link "CallCrowd" [ref=f1e79] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f1e81]: Step 3/5 · Debate
+    - generic [ref=f1e82]:
+      - generic [ref=f1e83]: running
+      - generic [ref=f1e86]: Cafe 210
+  - generic [ref=f1e87]:
+    - complementary [ref=f1e88]:
+      - generic [ref=f1e89]:
+        - generic [ref=f1e90]: Agents
+        - generic [ref=f1e91]: 45 agents · 2 camps
+        - button "Collapse agents panel" [ref=f1e92] [cursor=pointer]: ‹
+      - generic [ref=f1e93]:
+        - generic [ref=f1e94]:
+          - button "R2 Late-night food supporters 12 agents" [expanded] [ref=f1e95] [cursor=pointer]:
+            - generic [ref=f1e96]: R2
+            - generic [ref=f1e97]: Late-night food supporters
+            - generic [ref=f1e98]: 12 agents
+            - generic [aria-hidden] [ref=f1e99]: ▾
+          - generic [ref=f1e100]:
+            - button "Chat with Taylor the student" [ref=f1e101] [cursor=pointer]:
+              - generic [ref=f1e112]:
+                - generic [ref=f1e113]:
+                  - generic [ref=f1e114]: Taylor the student
+                  - generic [ref=f1e115]: students
+                - generic [ref=f1e116]: for
+                - generic [ref=f1e117]: Staying open until 2 AM would significantly help students like me who crave late-night snacks after studying or games. With fewer food options available after midnight, this change would cater directly to our needs and increase foot traffic.
+              - generic [ref=f1e118]: ask ↗
+            - button "Chat with Sam the junior" [ref=f1e119] [cursor=pointer]:
+              - generic [ref=f1e130]:
+                - generic [ref=f1e131]:
+                  - generic [ref=f1e132]: Sam the junior
+                  - generic [ref=f1e133]: students
+                - generic [ref=f1e134]: for
+                - generic [ref=f1e135]: Staying open until 2 AM would give us students more late-night food options, especially after games when we need snacks. Plus, with fewer choices after midnight, it would definitely bring in more hungry students like me.
+              - generic [ref=f1e136]: ask ↗
+            - button "Chat with Emily the game-day fan" [ref=f1e137] [cursor=pointer]:
+              - generic [ref=f1e149]:
+                - generic [ref=f1e150]:
+                  - generic [ref=f1e151]: Emily the game-day fan
+                  - generic [ref=f1e152]: students
+                - generic [ref=f1e153]: for
+                - generic [ref=f1e154]: Extending hours would give us more late-night food options after games when we're really hungry, addressing the complaints about the 11 PM close. Plus, with fewer choices after midnight on College Ave, it would attract more students like me looking for affordable eats.
+              - generic [ref=f1e155]: ask ↗
+            - button "Chat with Max the student athlete" [ref=f1e156] [cursor=pointer]:
+              - generic [ref=f1e166]:
+                - generic [ref=f1e167]:
+                  - generic [ref=f1e168]: Max the student athlete
+                  - generic [ref=f1e169]: students
+                - generic [ref=f1e170]: for
+                - generic [ref=f1e171]: Staying open until 2 AM would give us much-needed late-night food options after games when we're all looking to refuel, especially with limited choices after midnight on College Ave. Plus, many of us are frustrated with the current 11 PM closing time and would love a place to hang out and eat after practice or study sessions.
+              - generic [ref=f1e172]: ask ↗
+            - button "Chat with Jake the late-night student" [ref=f1e173] [cursor=pointer]:
+              - generic [ref=f1e184]:
+                - generic [ref=f1e185]:
+                  - generic [ref=f1e186]: Jake the late-night student
+                  - generic [ref=f1e187]: students
+                - generic [ref=f1e188]: for
+                - generic [ref=f1e189]: Staying open until 2 AM would really help me and my friends after games or late-night study sessions, especially since options thin out after midnight. It would definitely attract more students looking for a good meal after a long night.
+              - generic [ref=f1e190]: ask ↗
+            - button "Chat with Kevin the budget-savvy student" [ref=f1e191] [cursor=pointer]:
+              - generic [ref=f1e202]:
+                - generic [ref=f1e203]:
+                  - generic [ref=f1e204]: Kevin the budget-savvy student
+                  - generic [ref=f1e205]: students
+                - generic [ref=f1e206]: for
+                - generic [ref=f1e207]: Staying open until 2 AM on football Saturdays would provide the late-night food options we desperately need after games, especially since there aren't many choices after midnight on College Ave. This would definitely help satisfy my friends and me, who often look for affordable eats after late-night study sessions or events.
+              - generic [ref=f1e208]: ask ↗
+            - button "Chat with Mark the game-day enthusiast" [ref=f1e209] [cursor=pointer]:
+              - generic [ref=f1e221]:
+                - generic [ref=f1e222]:
+                  - generic [ref=f1e223]: Mark the game-day enthusiast
+                  - generic [ref=f1e224]: students
+                - generic [ref=f1e225]: for
+                - generic [ref=f1e226]: Extending hours would really help students like me who want late-night food after games, especially since many options are gone after midnight. Plus, it would address complaints about the current 11 PM closing time.
+              - generic [ref=f1e227]: ask ↗
+            - button "Chat with Sam the junior 2" [ref=f1e228] [cursor=pointer]:
+              - generic [ref=f1e238]:
+                - generic [ref=f1e239]:
+                  - generic [ref=f1e240]: Sam the junior 2
+                  - generic [ref=f1e241]: students
+                - generic [ref=f1e242]: for
+                - generic [ref=f1e243]: Staying open until 2 AM on football Saturdays would really help students like me who are looking for food after late study sessions or games. With fewer options available after midnight, this change would definitely attract more of us looking for a bite to eat.
+              - generic [ref=f1e244]: ask ↗
+            - button "Chat with Bella the game-day fanatic" [ref=f1e245] [cursor=pointer]:
+              - generic [ref=f1e255]:
+                - generic [ref=f1e256]:
+                  - generic [ref=f1e257]: Bella the game-day fanatic
+                  - generic [ref=f1e258]: students
+                - generic [ref=f1e259]: for
+                - generic [ref=f1e260]: Extending hours to 2 AM on football Saturdays would be awesome for students like me who crave late-night food after games, especially since options are scarce after midnight on College Ave. It would help satisfy the demand and make our post-game celebrations even better!
+              - generic [ref=f1e261]: ask ↗
+            - button "Chat with Sam the junior 2 2" [ref=f1e262] [cursor=pointer]:
+              - generic [ref=f1e273]:
+                - generic [ref=f1e274]:
+                  - generic [ref=f1e275]: Sam the junior 2 2
+                  - generic [ref=f1e276]: students
+                - generic [ref=f1e277]: for
+                - generic [ref=f1e278]: Staying open until 2 AM on football Saturdays would definitely help us find food after games when options are scarce, especially since many of us are looking for hearty meals after a long night of studying and cheering for our team. Plus, I've heard a lot of complaints about the 11 PM close, so this change would really benefit us students!
+              - generic [ref=f1e279]: ask ↗
+            - button "Chat with Aisha the new student" [ref=f1e280] [cursor=pointer]:
+              - generic [ref=f1e291]:
+                - generic [ref=f1e292]:
+                  - generic [ref=f1e293]: Aisha the new student
+                  - generic [ref=f1e294]: students
+                - generic [ref=f1e295]: for
+                - generic [ref=f1e296]: As a first-year student, I would greatly appreciate having more late-night food options after games and during study sessions, especially since current choices thin out after midnight. This change would definitely cater to our needs and enhance our late-night experiences.
+              - generic [ref=f1e297]: ask ↗
+            - button "Chat with Kevin the game day fan" [ref=f1e298] [cursor=pointer]:
+              - generic [ref=f1e308]:
+                - generic [ref=f1e309]:
+                  - generic [ref=f1e310]: Kevin the game day fan
+                  - generic [ref=f1e311]: students
+                - generic [ref=f1e312]: for
+                - generic [ref=f1e313]: As a student who enjoys late-night food after games, having options available after midnight is crucial, especially with limited choices on College Ave. Extending hours would definitely meet the demand from fans like me who are looking for affordable eats late at night.
+              - generic [ref=f1e314]: ask ↗
+        - generic [ref=f1e315]:
+          - button "R2 Late-night Supporters 33 agents" [expanded] [ref=f1e316] [cursor=pointer]:
+            - generic [ref=f1e317]: R2
+            - generic [ref=f1e318]: Late-night Supporters
+            - generic [ref=f1e319]: 33 agents
+            - generic [aria-hidden] [ref=f1e320]: ▾
+          - generic [ref=f1e321]:
+            - button "Chat with Jordan the regular" [ref=f1e322] [cursor=pointer]:
+              - generic [ref=f1e333]:
+                - generic [ref=f1e334]:
+                  - generic [ref=f1e335]: Jordan the regular
+                  - generic [ref=f1e336]: regulars
+                - generic [ref=f1e337]: for
+                - generic [ref=f1e338]: Extending hours to 2 AM on football Saturdays would meet the peak demand after 10 PM and provide much-needed late-night food options, addressing our frustrations with the current 11 PM closing time.
+              - generic [ref=f1e339]: ask ↗
+            - button "Chat with Tom the local" [ref=f1e340] [cursor=pointer]:
+              - generic [ref=f1e350]:
+                - generic [ref=f1e351]:
+                  - generic [ref=f1e352]: Tom the local
+                  - generic [ref=f1e353]: regulars
+                - generic [ref=f1e354]: for
+                - generic [ref=f1e355]: Staying open until 2 AM on football Saturdays would meet the demand from regulars like me who want late-night food options after games, especially given the complaints about the 11 PM closing time. It would also fill the gap left by dwindling food choices on College Ave after midnight.
+              - generic [ref=f1e356]: ask ↗
+            - button "Chat with Bob the weekend warrior" [ref=f1e357] [cursor=pointer]:
+              - generic [ref=f1e368]:
+                - generic [ref=f1e369]:
+                  - generic [ref=f1e370]: Bob the weekend warrior
+                  - generic [ref=f1e371]: regulars
+                - generic [ref=f1e372]: for
+                - generic [ref=f1e373]: Staying open until 2 AM on football Saturdays would cater to the peak foot traffic after 10 PM and address the complaints about the early closing time. It would also help fill the gap in late-night food options that diminish after midnight on game days.
+              - generic [ref=f1e374]: ask ↗
+            - button "Chat with Sandra the weekend regular" [ref=f1e375] [cursor=pointer]:
+              - generic [ref=f1e386]:
+                - generic [ref=f1e387]:
+                  - generic [ref=f1e388]: Sandra the weekend regular
+                  - generic [ref=f1e389]: regulars
+                - generic [ref=f1e390]: for
+                - generic [ref=f1e391]: Staying open until 2 AM would give us more options after the game and would definitely cater to the late-night crowd that I often see. It would also address the complaints about the current 11 PM closing time and keep the vibrant atmosphere going longer.
+              - generic [ref=f1e392]: ask ↗
+            - button "Chat with Brian the night owl" [ref=f1e393] [cursor=pointer]:
+              - generic [ref=f1e404]:
+                - generic [ref=f1e405]:
+                  - generic [ref=f1e406]: Brian the night owl
+                  - generic [ref=f1e407]: regulars
+                - generic [ref=f1e408]: for
+                - generic [ref=f1e409]: Extending hours on football Saturdays would provide much-needed late-night options for regulars like me who often grab food after 10 PM. With the limited choices available after midnight, this would greatly enhance our dining experience and attract more customers.
+              - generic [ref=f1e410]: ask ↗
+            - button "Chat with Lily the regular" [ref=f1e411] [cursor=pointer]:
+              - generic [ref=f1e421]:
+                - generic [ref=f1e422]:
+                  - generic [ref=f1e423]: Lily the regular
+                  - generic [ref=f1e424]: regulars
+                - generic [ref=f1e425]: for
+                - generic [ref=f1e426]: Extending hours to 2 AM on football Saturdays would cater to the peak foot traffic after 10 PM and address the frustrations of regulars like me regarding the current 11 PM closing time. It would also provide much-needed late-night dining options in a thin market after midnight on game days.
+              - generic [ref=f1e427]: ask ↗
+            - button "Chat with Nina the weekend warrior" [ref=f1e428] [cursor=pointer]:
+              - generic [ref=f1e439]:
+                - generic [ref=f1e440]:
+                  - generic [ref=f1e441]: Nina the weekend warrior
+                  - generic [ref=f1e442]: regulars
+                - generic [ref=f1e443]: for
+                - generic [ref=f1e444]: Extending hours to 2 AM would align with the peak foot traffic after 10 PM and cater to our needs for late-night food options, which are currently limited. Many regulars, including myself, are frustrated with the 11 PM close, so this change would enhance our weekend experience.
+              - generic [ref=f1e445]: ask ↗
+            - button "Chat with Megan the night owl" [ref=f1e446] [cursor=pointer]:
+              - generic [ref=f1e458]:
+                - generic [ref=f1e459]:
+                  - generic [ref=f1e460]: Megan the night owl
+                  - generic [ref=f1e461]: regulars
+                - generic [ref=f1e462]: for
+                - generic [ref=f1e463]: Staying open until 2 AM on football Saturdays would satisfy the late-night cravings of regulars like me and provide a much-needed dining option after 10 PM when foot traffic peaks. Given the limited late-night choices, this change could really enhance our weekend experience.
+              - generic [ref=f1e464]: ask ↗
+            - button "Chat with Liam the weekend partier" [ref=f1e465] [cursor=pointer]:
+              - generic [ref=f1e476]:
+                - generic [ref=f1e477]:
+                  - generic [ref=f1e478]: Liam the weekend partier
+                  - generic [ref=f1e479]: regulars
+                - generic [ref=f1e480]: for
+                - generic [ref=f1e481]: Staying open until 2 AM on football Saturdays would cater to the peak crowd after 10 PM and would definitely satisfy regulars like me who are frustrated with the 11 PM close. Plus, with fewer late-night food options available, it would attract more friends and fellow party-goers looking for a good meal after the game.
+              - generic [ref=f1e482]: ask ↗
+            - button "Chat with Chris the tourist" [ref=f1e483] [cursor=pointer]:
+              - generic [ref=f1e494]:
+                - generic [ref=f1e495]:
+                  - generic [ref=f1e496]: Chris the tourist
+                  - generic [ref=f1e497]: tourists
+                - generic [ref=f1e498]: for
+                - generic [ref=f1e499]: Staying open until 2 AM on football Saturdays would fill the late-night dining gap and cater to the increased foot traffic after games, which is something I, and other tourists, are looking for. This extension would enhance our dining options and satisfy regulars frustrated with the current hours.
+              - generic [ref=f1e500]: ask ↗
+            - button "Chat with Anna the tourist" [ref=f1e501] [cursor=pointer]:
+              - generic [ref=f1e511]:
+                - generic [ref=f1e512]:
+                  - generic [ref=f1e513]: Anna the tourist
+                  - generic [ref=f1e514]: tourists
+                - generic [ref=f1e515]: for
+                - generic [ref=f1e516]: Staying open until 2 AM on football Saturdays would provide much-needed late-night food options after games, which is perfect for tourists like me looking for local gems. With limited choices available after midnight, this change would definitely enhance the dining experience in the area.
+              - generic [ref=f1e517]: ask ↗
+            - button "Chat with Sarah the adventurous eater" [ref=f1e518] [cursor=pointer]:
+              - generic [ref=f1e528]:
+                - generic [ref=f1e529]:
+                  - generic [ref=f1e530]: Sarah the adventurous eater
+                  - generic [ref=f1e531]: tourists
+                - generic [ref=f1e532]: for
+                - generic [ref=f1e533]: Staying open until 2 AM would be a great way to fill the gap of late-night dining options, especially since many regulars are unhappy with the 11 PM closing time. It would also attract more tourists and families looking for unique dining experiences after games.
+              - generic [ref=f1e534]: ask ↗
+            - button "Chat with Laura the visiting tourist" [ref=f1e535] [cursor=pointer]:
+              - generic [ref=f1e547]:
+                - generic [ref=f1e548]:
+                  - generic [ref=f1e549]: Laura the visiting tourist
+                  - generic [ref=f1e550]: tourists
+                - generic [ref=f1e551]: for
+                - generic [ref=f1e552]: Staying open until 2 AM on football Saturdays would provide much-needed late-night dining options, especially since many regulars are unhappy with the current closing time. It would also attract more tourists like me who are looking for vibrant local experiences after the game.
+              - generic [ref=f1e553]: ask ↗
+            - button "Chat with Emma the casual diner" [ref=f1e554] [cursor=pointer]:
+              - generic [ref=f1e566]:
+                - generic [ref=f1e567]:
+                  - generic [ref=f1e568]: Emma the casual diner
+                  - generic [ref=f1e569]: tourists
+                - generic [ref=f1e570]: for
+                - generic [ref=f1e571]: Staying open until 2 AM would definitely meet the late-night food demand that rises after games, especially since options thin out after midnight on College Ave. As a tourist, having more late-night dining choices would enhance my experience exploring the city.
+              - generic [ref=f1e572]: ask ↗
+            - button "Chat with Mike the tourist" [ref=f1e573] [cursor=pointer]:
+              - generic [ref=f1e584]:
+                - generic [ref=f1e585]:
+                  - generic [ref=f1e586]: Mike the tourist
+                  - generic [ref=f1e587]: tourists
+                - generic [ref=f1e588]: for
+                - generic [ref=f1e589]: Staying open until 2 AM on football Saturdays would cater to the peak foot traffic after 10 PM and satisfy regulars who are unhappy with the current 11 PM closing time. With fewer late-night food options available after midnight on College Ave, this change would attract more customers like me looking for late-night eats after games.
+              - generic [ref=f1e590]: ask ↗
+            - button "Chat with Chris the city explorer" [ref=f1e591] [cursor=pointer]:
+              - generic [ref=f1e601]:
+                - generic [ref=f1e602]:
+                  - generic [ref=f1e603]: Chris the city explorer
+                  - generic [ref=f1e604]: tourists
+                - generic [ref=f1e605]: for
+                - generic [ref=f1e606]: Keeping the restaurant open until 2 AM on football Saturdays would provide essential late-night dining options for tourists like myself, who are looking for local eateries after games. With fewer choices available after midnight, this change would significantly enhance my weekend experience in the city.
+              - generic [ref=f1e607]: ask ↗
+            - button "Chat with Tom the tourist" [ref=f1e608] [cursor=pointer]:
+              - generic [ref=f1e619]:
+                - generic [ref=f1e620]:
+                  - generic [ref=f1e621]: Tom the tourist
+                  - generic [ref=f1e622]: tourists
+                - generic [ref=f1e623]: for
+                - generic [ref=f1e624]: Extending hours would cater to the peak foot traffic after 10 PM and provide much-needed late-night dining options, which are currently lacking. This change would attract more tourists like me who want to experience the vibrant local culture after games.
+              - generic [ref=f1e625]: ask ↗
+            - button "Chat with Jamie the family" [ref=f1e626] [cursor=pointer]:
+              - generic [ref=f1e638]:
+                - generic [ref=f1e639]:
+                  - generic [ref=f1e640]: Jamie the family
+                  - generic [ref=f1e641]: families
+                - generic [ref=f1e642]: for
+                - generic [ref=f1e643]: Extending hours would provide much-needed late-night options for families after games and satisfy the complaints about the current 11 PM close. It also fills a gap left by limited late-night dining choices in the area, attracting more customers like us.
+              - generic [ref=f1e644]: ask ↗
+            - button "Chat with Linda the family planner" [ref=f1e645] [cursor=pointer]:
+              - generic [ref=f1e655]:
+                - generic [ref=f1e656]:
+                  - generic [ref=f1e657]: Linda the family planner
+                  - generic [ref=f1e658]: families
+                - generic [ref=f1e659]: for
+                - generic [ref=f1e660]: Extending hours would provide much-needed late-night food options for families after games, addressing the current gap and meeting the needs of regulars who are frustrated with the 11 PM close. This would also attract more families looking for a vibrant dining experience after outings.
+              - generic [ref=f1e661]: ask ↗
+            - button "Chat with Nina the game-day parent" [ref=f1e662] [cursor=pointer]:
+              - generic [ref=f1e672]:
+                - generic [ref=f1e673]:
+                  - generic [ref=f1e674]: Nina the game-day parent
+                  - generic [ref=f1e675]: families
+                - generic [ref=f1e676]: for
+                - generic [ref=f1e677]: Extending hours would cater to the late-night crowd after games and fulfill the demand for late-night food options, especially since regulars are unhappy with the current closing time. This change would enhance our family outings by providing more dining choices after events.
+              - generic [ref=f1e678]: ask ↗
+            - button "Chat with Mary the regular mom" [ref=f1e679] [cursor=pointer]:
+              - generic [ref=f1e690]:
+                - generic [ref=f1e691]:
+                  - generic [ref=f1e692]: Mary the regular mom
+                  - generic [ref=f1e693]: families
+                - generic [ref=f1e694]: for
+                - generic [ref=f1e695]: Staying open until 2 AM would be great for families like mine who want to grab a bite after the games. It would also solve the issue of limited late-night options and make it convenient for us after busy weekends.
+              - generic [ref=f1e696]: ask ↗
+            - button "Chat with Diane the busy career woman" [ref=f1e697] [cursor=pointer]:
+              - generic [ref=f1e708]:
+                - generic [ref=f1e709]:
+                  - generic [ref=f1e710]: Diane the busy career woman
+                  - generic [ref=f1e711]: families
+                - generic [ref=f1e712]: for
+                - generic [ref=f1e713]: Extending hours to 2 AM would provide me with more dining options after long workdays, allowing me to enjoy quality time with my family post-game without the stress of cooking. Additionally, it addresses the complaints about the current closing time and fills the gap in late-night dining options.
+              - generic [ref=f1e714]: ask ↗
+            - button "Chat with Jenna the family planner" [ref=f1e715] [cursor=pointer]:
+              - generic [ref=f1e725]:
+                - generic [ref=f1e726]:
+                  - generic [ref=f1e727]: Jenna the family planner
+                  - generic [ref=f1e728]: families
+                - generic [ref=f1e729]: for
+                - generic [ref=f1e730]: Staying open until 2 AM on football Saturdays would provide essential late-night dining options for families like mine who enjoy post-game outings. With limited choices available after midnight on College Ave, this extension would greatly enhance our dining experience after events.
+              - generic [ref=f1e731]: ask ↗
+            - button "Chat with Jessica the family planner" [ref=f1e732] [cursor=pointer]:
+              - generic [ref=f1e743]:
+                - generic [ref=f1e744]:
+                  - generic [ref=f1e745]: Jessica the family planner
+                  - generic [ref=f1e746]: families
+                - generic [ref=f1e747]: for
+                - generic [ref=f1e748]: Extending hours to 2 AM on football Saturdays would provide essential late-night dining options that families need after game events, especially given the complaints about the current 11 PM closing time. This would enhance our family outings and cater to the demand for more family-friendly venues during late hours.
+              - generic [ref=f1e749]: ask ↗
+            - button "Chat with Sophia the social mom" [ref=f1e750] [cursor=pointer]:
+              - generic [ref=f1e762]:
+                - generic [ref=f1e763]:
+                  - generic [ref=f1e764]: Sophia the social mom
+                  - generic [ref=f1e765]: families
+                - generic [ref=f1e766]: for
+                - generic [ref=f1e767]: Extending hours to 2 AM on football Saturdays would provide families like mine with more dining options after the games, as well as cater to the late-night crowd that’s currently underserved. This would definitely enhance our dining experience and meet the demands of regulars who prefer to eat out later.
+              - generic [ref=f1e768]: ask ↗
+            - button "Chat with Pat the staff-adjacent loyalist" [ref=f1e769] [cursor=pointer]:
+              - generic [ref=f1e780]:
+                - generic [ref=f1e781]:
+                  - generic [ref=f1e782]: Pat the staff-adjacent loyalist
+                  - generic [ref=f1e783]: staff-adjacent loyalists
+                - generic [ref=f1e784]: for
+                - generic [ref=f1e785]: Extending hours would cater to the peak foot traffic after 10 PM and address the complaints from regulars about the 11 PM close. With fewer late-night dining options available, this change would attract more customers seeking meals after games.
+              - generic [ref=f1e786]: ask ↗
+            - button "Chat with Jake the late-night worker" [ref=f1e787] [cursor=pointer]:
+              - generic [ref=f1e799]:
+                - generic [ref=f1e800]:
+                  - generic [ref=f1e801]: Jake the late-night worker
+                  - generic [ref=f1e802]: staff-adjacent loyalists
+                - generic [ref=f1e803]: for
+                - generic [ref=f1e804]: Staying open until 2 AM on football Saturdays would give us more options after our shifts, especially since many regulars are unhappy with the 11 PM close. It would also help fill the gap after midnight when other late-night spots are gone (e1, e2).
+              - generic [ref=f1e805]: ask ↗
+            - button "Chat with Tom the local staff member" [ref=f1e806] [cursor=pointer]:
+              - generic [ref=f1e817]:
+                - generic [ref=f1e818]:
+                  - generic [ref=f1e819]: Tom the local staff member
+                  - generic [ref=f1e820]: staff-adjacent loyalists
+                - generic [ref=f1e821]: for
+                - generic [ref=f1e822]: Staying open until 2 AM on football Saturdays would cater to the peak foot traffic after 10 PM and address the frustrations of regulars with the current 11 PM closing time. With limited late-night options on College Ave after midnight, this change would definitely attract more customers looking for a bite after games.
+              - generic [ref=f1e823]: ask ↗
+            - button "Chat with Tom the staff-loyalist" [ref=f1e824] [cursor=pointer]:
+              - generic [ref=f1e834]:
+                - generic [ref=f1e835]:
+                  - generic [ref=f1e836]: Tom the staff-loyalist
+                  - generic [ref=f1e837]: staff-adjacent loyalists
+                - generic [ref=f1e838]: for
+                - generic [ref=f1e839]: Extending hours to 2 AM on football Saturdays would meet the demand for late-night food options after games and address complaints about the current 11 PM closing time. This change could enhance foot traffic and bring in more loyal customers looking for familiar flavors after hours.
+              - generic [ref=f1e840]: ask ↗
+            - button "Chat with Oliver the community supporter" [ref=f1e841] [cursor=pointer]:
+              - generic [ref=f1e852]:
+                - generic [ref=f1e853]:
+                  - generic [ref=f1e854]: Oliver the community supporter
+                  - generic [ref=f1e855]: staff-adjacent loyalists
+                - generic [ref=f1e856]: for
+                - generic [ref=f1e857]: Extending hours to 2 AM on football Saturdays would meet the demands of regulars frustrated by the 11 PM close and fill the gap left by dwindling late-night options on College Ave after midnight. This would enhance the community experience and likely attract more customers seeking a vibrant dining atmosphere after games.
+              - generic [ref=f1e858]: ask ↗
+            - button "Chat with Dave the late-shift worker" [ref=f1e859] [cursor=pointer]:
+              - generic [ref=f1e871]:
+                - generic [ref=f1e872]:
+                  - generic [ref=f1e873]: Dave the late-shift worker
+                  - generic [ref=f1e874]: staff-adjacent loyalists
+                - generic [ref=f1e875]: for
+                - generic [ref=f1e876]: Staying open until 2 AM on football Saturdays would definitely cater to the late-night crowd and address the complaints about the 11 PM closing time. It would also help fill the gap left by fewer dining options in the area after midnight.
+              - generic [ref=f1e877]: ask ↗
+            - button "Chat with Nina the late-night chef" [ref=f1e878] [cursor=pointer]:
+              - generic [ref=f1e888]:
+                - generic [ref=f1e889]:
+                  - generic [ref=f1e890]: Nina the late-night chef
+                  - generic [ref=f1e891]: staff-adjacent loyalists
+                - generic [ref=f1e892]: for
+                - generic [ref=f1e893]: Extending hours to 2 AM on football Saturdays would meet the late-night demand and address the complaints from regulars about the current 11 PM closing time. With fewer late-night options available after midnight, this change would definitely attract more customers like me looking for a bite after shifts or games.
+              - generic [ref=f1e894]: ask ↗
+            - button "Chat with Aaron the late-night craver" [ref=f1e895] [cursor=pointer]:
+              - generic [ref=f1e906]:
+                - generic [ref=f1e907]:
+                  - generic [ref=f1e908]: Aaron the late-night craver
+                  - generic [ref=f1e909]: walk-ins
+                - generic [ref=f1e910]: for
+                - generic [ref=f1e911]: Keeping the doors open until 2 AM on football Saturdays would fill the late-night dining gap after games, attracting both regulars and new customers. With the current 11 PM closing time frustrating many, this change would likely boost business significantly.
+              - generic [ref=f1e912]: ask ↗
+      - generic [ref=f1e913]:
+        - generic [ref=f1e914]:
+          - generic [ref=f1e915]: 2/7
+          - text: sources
+        - generic [ref=f1e916]:
+          - generic [ref=f1e917]: "3"
+          - text: evidence
+        - generic [ref=f1e918]:
+          - generic [ref=f1e919]: "45"
+          - text: agents
+        - generic [ref=f1e920]:
+          - generic [ref=f1e921]: 2/2
+          - text: round
+      - button "run log 16" [ref=f1e923] [cursor=pointer]:
+        - generic [ref=f1e924]: run log
+        - generic [ref=f1e925]: "16"
+        - generic [aria-hidden] [ref=f1e926]: ▾
+    - main [ref=f1e927]:
+      - generic [ref=f1e928]:
+        - button "01 Name-only intake" [ref=f1e929] [cursor=pointer]:
+          - generic [ref=f1e930]: "01"
+          - generic [ref=f1e931]: Name-only intake
+        - button "02 Evidence & personas" [ref=f1e932] [cursor=pointer]:
+          - generic [ref=f1e933]: "02"
+          - generic [ref=f1e934]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f1e935] [cursor=pointer]:
+          - generic [ref=f1e936]: "03"
+          - generic [ref=f1e937]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f1e938] [cursor=pointer]:
+          - generic [ref=f1e939]: "04"
+          - generic [ref=f1e940]: Aggregated judge
+        - button "05 Loop · agents · drafts" [ref=f1e941] [cursor=pointer]:
+          - generic [ref=f1e942]: "05"
+          - generic [ref=f1e943]: Loop · agents · drafts
+      - generic [ref=f1e944]: memory updating in real-time
+    - complementary [ref=f1e956]:
+      - generic [ref=f1e957]:
+        - generic [ref=f1e958]: Chat
+        - generic [ref=f1e959]: cross-question the swarm
+        - button "Collapse chat panel" [ref=f1e960] [cursor=pointer]: ›
+      - button "Act on the verdict" [ref=f1e962] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f1e964]: ▾
+      - generic [ref=f1e965]:
+        - generic [ref=f1e967]:
+          - generic [ref=f1e968]: Pick an agent
+          - generic [ref=f1e969]: select an agent on the left rail
+        - generic [ref=f1e970]:
+          - button "This agent" [pressed] [ref=f1e971] [cursor=pointer]
+          - button "Ask the room" [ref=f1e972] [cursor=pointer]
+        - generic [ref=f1e975]:
+          - generic [ref=f1e976]: verdict pending
+          - generic [ref=f1e977]: The verdict isn’t in yet
+          - generic [ref=f1e978]: Agents open up to questions once the debate closes at a verdict.

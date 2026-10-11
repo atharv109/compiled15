@@ -1,0 +1,179 @@
+- generic [ref=f1e66]:
+  - generic [ref=f1e67]:
+    - generic [ref=f1e68]:
+      - button "Back" [ref=f1e69] [cursor=pointer]: ←
+      - link "CallCrowd" [ref=f1e70] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f1e72]: Step 4/5 · Verdict
+    - generic [ref=f1e73]:
+      - generic [ref=f1e74]: complete
+      - generic [ref=f1e77]: Cafe 210
+  - generic [ref=f1e78]:
+    - main [ref=f1e79]:
+      - generic [ref=f1e80]:
+        - generic [ref=f1e81]:
+          - button "01 Name-only intake" [ref=f1e183] [cursor=pointer]:
+            - generic [ref=f1e184]: "01"
+            - generic [ref=f1e185]: Name-only intake
+          - button "02 Evidence & personas" [ref=f1e186] [cursor=pointer]:
+            - generic [ref=f1e187]: "02"
+            - generic [ref=f1e188]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f1e189] [cursor=pointer]:
+            - generic [ref=f1e190]: "03"
+            - generic [ref=f1e191]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f1e192] [cursor=pointer]:
+            - generic [ref=f1e193]: "04"
+            - generic [ref=f1e194]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f1e195] [cursor=pointer]:
+            - generic [ref=f1e196]: "05"
+            - generic [ref=f1e197]: Loop · agents · drafts
+        - generic "Run stats" [ref=f1e97]:
+          - generic [ref=f1e198]: 2/7sources
+          - generic [ref=f1e199]: 3evidence
+          - generic [ref=f1e200]: 50agents
+          - generic [ref=f1e201]: 2/2round
+        - generic "Canvas view" [ref=f1e102]:
+          - button "Graph" [ref=f1e103] [cursor=pointer]
+          - button "Split" [active] [pressed] [ref=f1e104] [cursor=pointer]
+          - button "Workbench" [ref=f1e105] [cursor=pointer]
+      - generic [ref=f1e108]:
+        - generic [ref=f1e202]:
+          - generic [ref=f1e209]: still processing some content…
+          - button "Dismiss" [ref=f1e210] [cursor=pointer]: ×
+        - generic [ref=f1e118]:
+          - generic [ref=f1e211]: ENTITY TYPES
+          - generic [ref=f1e212]:
+            - generic [ref=f1e213]:
+              - generic [ref=f1e215]: review
+              - generic [ref=f1e216]: "1"
+            - generic [ref=f1e217]:
+              - generic [ref=f1e219]: entity
+              - generic [ref=f1e220]: "6"
+            - generic [ref=f1e221]:
+              - generic [ref=f1e223]: competitor
+              - generic [ref=f1e224]: "1"
+            - generic [ref=f1e225]:
+              - generic [ref=f1e227]: price
+              - generic [ref=f1e228]: "1"
+          - generic [ref=f1e229]: AGENT SEGMENTS
+          - generic [ref=f1e230]:
+            - generic [ref=f1e231]:
+              - generic [ref=f1e233]: students
+              - generic [ref=f1e234]: "12"
+            - generic [ref=f1e235]:
+              - generic [ref=f1e237]: walk-ins
+              - generic [ref=f1e238]: "4"
+            - generic [ref=f1e239]:
+              - generic [ref=f1e241]: tourists
+              - generic [ref=f1e242]: "10"
+            - generic [ref=f1e243]:
+              - generic [ref=f1e245]: families
+              - generic [ref=f1e246]: "10"
+            - generic [ref=f1e247]:
+              - generic [ref=f1e249]: staff-adjacent loyalists
+              - generic [ref=f1e250]: "7"
+            - generic [ref=f1e251]:
+              - generic [ref=f1e253]: regulars
+              - generic [ref=f1e254]: "7"
+        - button "Toggle legend" [ref=f1e163] [cursor=pointer]: legend
+      - button "run log 22" [ref=f1e255] [cursor=pointer]:
+        - generic [ref=f1e166]: run log
+        - generic [ref=f1e167]: "22"
+        - generic [aria-hidden] [ref=f1e168]: ▾
+      - region "Step detail" [ref=f1e290]:
+        - generic [ref=f1e291]:
+          - generic [ref=f1e292]: Step 4 · Verdict
+          - button "Dismiss step panel" [ref=f1e293] [cursor=pointer]: ✕
+        - generic [ref=f1e295]:
+          - generic [ref=f1e296]: JUDGE VERDICT · 50 AGENT VOTES AGGREGATED
+          - generic [ref=f1e297]: Stay open until 2 AM on football Saturdays, because 46 of 50 customer agents support the change, including unanimous support from students, regulars, tourists, staff-adjacent loyalists, and walk-ins. Weekend footfall peaks after 10 PM, nearby food options thin out after midnight on game days, and regulars already complain about the 11 PM close. Track whether late-night sales cover the roughly $180 in added staffing and utility costs per night.
+          - generic [ref=f1e298]:
+            - generic [ref=f1e299]:
+              - generic [ref=f1e300]: AGENT SPLIT
+              - generic [ref=f1e301]:
+                - generic [ref=f1e302]: "46"
+                - generic [ref=f1e304]: "1"
+                - generic [ref=f1e306]: "3"
+              - generic [ref=f1e308]:
+                - generic [ref=f1e309]: ■ support 46
+                - generic [ref=f1e310]: ■ oppose 1
+                - generic [ref=f1e311]: ■ neutral 3
+            - generic [ref=f1e312]:
+              - generic [ref=f1e317]:
+                - generic [ref=f1e318]: 94%
+                - generic [ref=f1e319]: confidence
+              - paragraph [ref=f1e320]: borderline split = lower confidence — that's honesty, not weakness
+          - generic [ref=f1e321]:
+            - generic [ref=f1e322]: DEEP-DIVE · SEGMENT IMPACT · OBJECTIONS
+            - generic:
+              - generic: SEGMENT-BY-SEGMENT IMPACT
+              - generic:
+                - generic:
+                  - generic: students
+                  - generic: Students would gain a food option after midnight on game days, when nearby choices are limited.
+                  - generic: e2
+                - generic:
+                  - generic: regulars
+                  - generic: Regulars dissatisfied with the 11 PM close would have three additional hours to visit.
+                  - generic: e1
+                - generic:
+                  - generic: tourists
+                  - generic: Tourists seeking food after games would have access during the documented late-evening footfall peak and after other options thin out.
+                  - generic: e1e2
+                - generic:
+                  - generic: families
+                  - generic: Families would receive little direct benefit because their stated preference is for early dining rather than late-night service.
+              - generic:
+                - generic:
+                  - generic: TOP OBJECTIONS
+                  - list:
+                    - listitem:
+                      - generic: "01"
+                      - generic: The roughly $180 in extra staffing and utility costs per extended-close night may outweigh the additional late-night revenue.
+                    - listitem:
+                      - generic: "02"
+                      - generic: Late-night hours do not serve families’ preference for early dining and could shift attention away from family-oriented service.
+                    - listitem:
+                      - generic: "03"
+                      - generic: Only customer demand and operating costs are provided; the tally does not establish that post-midnight sales will be profitable.
+            - generic [ref=f1e323]:
+              - generic [ref=f1e324]: Segment-by-segment impact · top objections · per-agent chat · owner-ready drafts — $19
+              - button "Unlock — $19 (demo payment)" [ref=f1e325] [cursor=pointer]
+              - generic [ref=f1e326]: demo mode — no card is charged
+    - complementary [ref=f1e169]:
+      - generic [ref=f1e170]:
+        - generic [ref=f1e171]: chat
+        - button "Act on it" [ref=f1e256] [cursor=pointer]
+        - button "🔒 unlock — $19" [ref=f1e257] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f1e172] [cursor=pointer]: ›
+      - generic [ref=f1e173]:
+        - generic [ref=f1e258]:
+          - button "Act on the verdict 94% · 46/50 for" [expanded] [ref=f1e259] [cursor=pointer]:
+            - generic [ref=f1e260]: Act on the verdict
+            - generic [ref=f1e261]: 94% · 46/50 for
+            - generic [aria-hidden] [ref=f1e262]: ▾
+          - generic [ref=f1e263]:
+            - generic [ref=f1e264]: Stay open until 2 AM on football Saturdays, because 46 of 50 customer agents support the change, including unanimous support from students, regulars, tourists, staff-adjacent loyalists, and walk-ins. Weekend footfall peaks after 10 PM, nearby food options thin out after midnight on game days, and regulars already complain about the 11 PM close. Track whether late-night sales cover the roughly $180 in added staffing and utility costs per night.
+            - generic [ref=f1e265]:
+              - generic [ref=f1e266]: confidence
+              - generic [ref=f1e269]: 94%
+            - generic [ref=f1e270]:
+              - generic [ref=f1e271]: agent split
+              - generic [ref=f1e272]:
+                - generic [ref=f1e273]: "46"
+                - generic [ref=f1e275]: "1"
+                - generic [ref=f1e277]: "3"
+            - generic [ref=f1e279]:
+              - generic [ref=f1e280]: ■ support 46
+              - generic [ref=f1e281]: ■ oppose 1
+              - generic [ref=f1e282]: ■ neutral 3
+        - generic [ref=f1e174]:
+          - generic [ref=f1e176]:
+            - generic [ref=f1e177]: Pick an agent
+            - generic [ref=f1e178]: click a node in the graph
+          - generic [ref=f1e284]:
+            - generic [ref=f1e285]: locked
+            - generic [ref=f1e286]: Unlock full segment impact + agent chat — $19
+            - generic [ref=f1e287]: The $19 deep-dive unlocks chat with every agent — answers in character, backed by the session’s evidence.
+            - button "Unlock — $19 (demo payment)" [ref=f1e288] [cursor=pointer]
+            - generic [ref=f1e289]: demo session — no card is charged

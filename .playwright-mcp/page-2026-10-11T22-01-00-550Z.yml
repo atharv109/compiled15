@@ -1,0 +1,48 @@
+- generic [ref=f9e66]:
+  - generic [ref=f9e67]:
+    - generic [ref=f9e68]:
+      - button "Back" [ref=f9e69] [cursor=pointer]: ←
+      - link [ref=f9e70] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f9e71]
+    - generic [ref=f9e72]: Step 4/5 · Verdict
+    - generic [ref=f9e73]:
+      - generic [ref=f9e74]: complete
+      - generic [ref=f9e77]: Cafe 210 West
+  - complementary [ref=f9e119]:
+    - generic [ref=f9e120]:
+      - generic [ref=f9e121]: chat
+      - button "Act on it" [ref=f9e186] [cursor=pointer]
+      - button "🔒 unlock — $19" [ref=f9e187] [cursor=pointer]
+      - button "Collapse chat panel" [ref=f9e122] [cursor=pointer]: ›
+    - generic [ref=f9e123]:
+      - generic [ref=f9e188]:
+        - button "Act on the verdict 94% · 46/50 for" [expanded] [ref=f9e189] [cursor=pointer]:
+          - generic [ref=f9e190]: Act on the verdict
+          - generic [ref=f9e191]: 94% · 46/50 for
+          - generic [aria-hidden] [ref=f9e192]: ▾
+        - generic [ref=f9e193]:
+          - generic [ref=f9e194]: Stay open until 2 AM on football Saturdays, because 46 of 50 customer agents support the change, including unanimous support from students, regulars, tourists, staff-adjacent loyalists, and walk-ins. Weekend footfall peaks after 10 PM, nearby food options thin out after midnight on game days, and regulars already complain about the 11 PM close. Track whether late-night sales cover the roughly $180 in added staffing and utility costs per night.
+          - generic [ref=f9e195]:
+            - generic [ref=f9e196]: confidence
+            - generic [ref=f9e199]: 94%
+          - generic [ref=f9e200]:
+            - generic [ref=f9e201]: agent split
+            - generic [ref=f9e202]:
+              - generic [ref=f9e203]: "46"
+              - generic [ref=f9e205]: "1"
+              - generic [ref=f9e207]: "3"
+          - generic [ref=f9e209]:
+            - generic [ref=f9e210]: ■ support 46
+            - generic [ref=f9e211]: ■ oppose 1
+            - generic [ref=f9e212]: ■ neutral 3
+      - generic [ref=f9e129]:
+        - generic [ref=f9e131]:
+          - generic [ref=f9e132]: Pick an agent
+          - generic [ref=f9e133]: click a node in the graph
+        - generic [ref=f9e215]:
+          - generic [ref=f9e216]: locked
+          - generic [ref=f9e217]: Unlock full segment impact + agent chat — $19
+          - generic [ref=f9e218]: The $19 deep-dive unlocks chat with every agent — answers in character, backed by the session’s evidence.
+          - button "Unlock — $19 (demo payment)" [ref=f9e219] [cursor=pointer]
+          - generic [ref=f9e220]: demo session — no card is charged

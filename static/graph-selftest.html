@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CallCrowd — graph selftest</title>
+<link rel="stylesheet" href="assets/css/graph.css" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+<style>
+  /* dark middle-pane stand-in so the module is seen in its target theme */
+  html, body { margin: 0; height: 100%; background: #080b10; }
+  #pane {
+    position: fixed; inset: 24px;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 12px; overflow: hidden;
+    background:
+      radial-gradient(80% 60% at 50% 45%, rgba(255,178,36,.05), transparent 70%),
+      #0b0f14;
+  }
+  #hud {
+    position: fixed; top: 8px; left: 12px; right: 12px; z-index: 9;
+    font: 12px/1.5 "Space Grotesk", monospace; color: #9fb0c2;
+    display: flex; gap: 16px; flex-wrap: wrap; pointer-events: none;
+  }
+  #hud b { color: #FFB224; font-weight: 600; }
+  #events {
+    position: fixed; bottom: 8px; left: 12px; right: 12px; z-index: 9;
+    font: 11px/1.5 monospace; color: #5a6b80; pointer-events: none;
+    max-height: 60px; overflow: hidden;
+  }
+</style>
+</head>
+<body>
+<div id="hud">loading…</div>
+<div id="events"></div>
+<div id="pane"></div>
+
+<script src="assets/js/graph.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- fake CS (same event vocabulary as bridge.js) ---------- */
+  var handlers = {};
+  var CS = {
+    session: { evidence: [], personas: [], debate: { rounds: [] } },
+    on: function (name, fn) {
+      (handlers[name] = handlers[name] || []).push(fn);
+      return function () { var a = handlers[name] || []; var i = a.indexOf(fn); if (i >= 0) a.splice(i, 1); };
+    },
+    emit: function (name, data) {
+      (handlers[name] || []).forEach(function (fn) { fn({ detail: data }); });
+      log("<- " + name + " " + JSON.stringify(data).slice(0, 70));
+    },
+    color: function (id) {
+      var h = 0;
+      var s = String(id);
+      for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+      return ["#B45309", "#0F766E", "#7C3AED", "#1D4ED8", "#BE185D",
+              "#65A30D", "#C2410C", "#0369A1", "#7E22CE", "#4D7C0F"][h % 10];
+    },
+  };
+
+  /* ---------- scenario pacing ----------
+     ?f=N speeds everything up N× (default 6 for quick checks);
+     ?real = realistic timings; ?stage=build|personas|round1|debate|full
+     stops the replay at that point. */
+  var q = new URLSearchParams(location.search);
+  var F = q.get("real") ? 1 : parseFloat(q.get("f") || "6");
+  var STAGE = q.get("stage") || "full";
+  var T = function (ms) { return Math.round(ms / F); };
+
+  var CLAIMS = [
+    "customers complain that weekend wait times stretch past forty minutes",
+    "regulars praise the weekend brunch menu and the new pastry counter",
+    "delivery orders arrive cold and support is slow to respond",
+    "the new self checkout kiosks reduced queue length sharply",
+    "neighbourhood office workers want earlier opening hours",
+    "students complain the loyalty app loses their stamp balance",
+    "competitor cafe nearby launched a happy hour discount",
+    "staff report the kitchen bottleneck slows large orders",
+    "reviews mention friendly baristas remembering regulars by name",
+    "evening music events draw large crowds on fridays",
+    "prices increased last quarter and weekday footfall dropped",
+    "tourists love the rooftop seating but find the entrance hidden",
+  ];
+  var TYPES = ["review", "review", "news", "competitor", "review", "menu",
+               "review", "news", "review", "news", "competitor", "review"];
+  var SEGS = ["regulars", "students", "office-workers", "tourists", "families",
+              "staff", "regulars", "students", "families", "regulars"];
+  var NAMES = ["Maya", "Tom", "Priya", "Jordan", "Sam", "Ivy", "Noor", "Kit",
+               "Rex", "Ada"];
+
+  var pending = [];
+  function at(ms, name, data) { pending.push({ t: T(ms), name: name, data: data }); }
+
+  /* 0 — start */
+  at(0, "session:start", { business: "Cafe Aurora", town: "State College", mock: true });
+
+  /* scout — evidence over ~24 s (compressed by F) */
+  for (var i = 0; i < 12; i++)
+    at(1000 + i * 2000, "evidence", {
+      id: "c" + (i + 1), type: TYPES[i], claim: CLAIMS[i],
+      source: "google", confidence: 0.8,
+    });
+
+  /* personas at the scout tail */
+  for (i = 0; i < 10; i++)
+    at(26000 + i * 500, "persona", {
+      id: "p" + (i + 1), segment: SEGS[i], name: NAMES[i], profile: "",
+    });
+
+  /* debate round 1 */
+  at(31000, "debate:round", { n: 1 });
+  var stances = ["support", "oppose", "support", "oppose", "neutral",
+                 "support", "oppose", "oppose", "support", "oppose",
+                 "support", "oppose", "neutral", "oppose", "support",
+                 "oppose", "support", "oppose", "support", "oppose"];
+  for (i = 0; i < 20; i++)
+    at(32600 + i * 400, "debate:stance", {
+      round: 1, persona_id: "p" + ((i % 10) + 1),
+      persona_name: NAMES[i % 10], segment: SEGS[i % 10],
+      stance: stances[i], reason: "…",
+    });
+  at(40800, "debate:camp", { round: 1, camp: "Keep it cosy",
+    member_ids: ["p1", "p3", "p5", "p7", "p9"] });
+  at(41200, "debate:camp", { round: 1, camp: "Go 24/7",
+    member_ids: ["p2", "p4", "p6", "p8", "p10"] });
+
+  /* debate round 2 */
+  at(42000, "debate:round", { n: 2 });
+  for (i = 0; i < 12; i++)
+    at(42400 + i * 400, "debate:stance", {
+      round: 2, persona_id: "p" + ((i % 10) + 1),
+      persona_name: NAMES[i % 10], segment: SEGS[i % 10],
+      stance: i % 2 ? "oppose" : "support", reason: "…",
+    });
+  at(47800, "debate:camp", { round: 2, camp: "Split hours",
+    member_ids: ["p1", "p2", "p4", "p8"] });
+
+  /* verdict + stream end */
+  at(50000, "verdict", { verdict: "OPEN LATER", confidence: 0.82 });
+  at(53000, "stream:done", {});
+
+  /* stage gating: stop BEFORE playing the named event */
+  var STAGE_STOPS = {
+    none: ["evidence"],
+    build: ["persona"],
+    personas: ["debate:round"],
+    round1: ["debate:stance"],
+    debate: ["debate:round|2"],
+    full: null,
+  };
+  var stopAt = STAGE_STOPS[STAGE] || null;
+  function shouldStop(next) {
+    if (!stopAt) return false;
+    return stopAt.some(function (s) {
+      if (s.indexOf("|") > 0)
+        return next.name === s.split("|")[0] &&
+               String(next.data.n || next.data.round || "") === s.split("|")[1];
+      return s === next.name;
+    });
+  }
+
+  /* ---------- run ---------- */
+  window.CSGraph.mount(document.getElementById("pane"), CS);
+
+  var t = 0;
+  function step() {
+    if (!pending.length) return;
+    var next = pending[0];
+    if (shouldStop(next)) { log("— replay held before " + next.name + " (" + STAGE + ") —"); return; }
+    var wait = next.t - t;
+    t = next.t;
+    setTimeout(function () {
+      CS.emit(next.name, next.data);
+      pending.shift();
+      step();
+    }, Math.max(0, wait));
+  }
+  step();
+
+  window.addEventListener("csgraph:node", function (e) {
+    log("== csgraph:node " + JSON.stringify(e.detail));
+  });
+
+  /* ---------- HUD ---------- */
+  var hud = document.getElementById("hud");
+  var evBox = document.getElementById("events");
+  var logLines = [];
+  function log(s) {
+    logLines.push(s);
+    if (logLines.length > 4) logLines.shift();
+    evBox.textContent = logLines.join("  ·  ");
+  }
+  setInterval(function () {
+    var d = window.__csgDebug ? window.__csgDebug() : null;
+    if (!d) { hud.textContent = "module not mounted"; return; }
+    hud.innerHTML = "stage <b>" + STAGE + "</b> · nodes <b>" + d.nodes + "</b> · pairs <b>" + d.pairs +
+      "</b> · edges <b>" + d.edges + "</b> · alpha <b>" + d.alpha.toFixed(3) +
+      "</b> · dec <b>" + d.alphaDecay + "</b> · sim " + (d.simRunning ? "<b>on</b>" : "off") +
+      " · arcs <b>" + d.arcs + "</b> · pend " + d.pendingNodes + "/" + d.pendingEdges +
+      " · phase <b>" + d.phase + "</b> · toast <b>" + (d.toast || "none") + "</b>";
+  }, 300);
+})();
+</script>
+</body>
+</html>

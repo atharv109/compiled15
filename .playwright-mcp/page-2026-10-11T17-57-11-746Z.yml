@@ -1,0 +1,101 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Customer Swarm
+    - generic [ref=e4]: Ask your customers before you spend the money.
+    - generic [ref=e30]: recorded session
+    - generic [ref=e5]:
+      - checkbox "Demo mode (recorded)" [checked] [active] [ref=e6]
+      - text: Demo mode (recorded)
+  - generic [ref=e31]: recorded session — served by backend
+  - navigation [ref=e7]:
+    - button "Run" [ref=e8] [cursor=pointer]
+    - button "Learning loop" [ref=e9] [cursor=pointer]
+    - button "About" [ref=e10] [cursor=pointer]
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - heading "Intake" [level=2] [ref=e13]
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: Business name
+          - textbox "Business name" [ref=e17]:
+            - /placeholder: Cafe 210 West
+          - generic [ref=e18]: Town
+          - textbox "Town" [ref=e19]:
+            - /placeholder: State College
+          - generic [ref=e20]: The decision (question)
+          - textbox "The decision (question)" [ref=e21]:
+            - /placeholder: Should we stay open until 2 AM on football Saturdays?
+            - text: Should we stay open until 2 AM on football Saturdays?
+        - generic [ref=e22]:
+          - generic [ref=e23]: Pasted reviews (optional)
+          - textbox "Pasted reviews (optional)" [ref=e24]:
+            - /placeholder: Paste Google / Yelp reviews here...
+      - generic [ref=e25]:
+        - button "Start intake" [ref=e26] [cursor=pointer]
+        - button "Run debate" [disabled] [ref=e27]
+      - generic [ref=e28]: Intake scouts evidence, builds personas; the debate and verdict stream live below.
+    - generic [ref=e32]:
+      - heading "Session s_demo96 — Cafe 210 (recorded)" [level=2] [ref=e33]
+      - generic [ref=e34]: verdict_ready
+      - generic [ref=e37]:
+        - heading "Evidence" [level=3] [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: review
+            - generic [ref=e42]: Weekend footfall peaks after 10 PM and regulars complain about the 11 PM close.
+            - generic [ref=e43]: "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\""
+            - generic [ref=e44]:
+              - text: "source:"
+              - link "Google review" [ref=e45] [cursor=pointer]:
+                - /url: https://www.google.com/maps
+          - generic [ref=e46]:
+            - generic [ref=e47]: competitor
+            - generic [ref=e48]: Late-night food options on College Ave thin out after midnight on game days.
+            - generic [ref=e49]: Only three kitchens on the block keep the lights on past midnight during home games.
+            - generic [ref=e50]:
+              - text: "source:"
+              - link "Local restaurant guide" [ref=e51] [cursor=pointer]:
+                - /url: https://www.collegiatetimes.com/off-campus-late-night
+          - generic [ref=e52]:
+            - generic [ref=e53]: price
+            - generic [ref=e54]: Extended-close nights run roughly $180 of extra staff and utilities per night.
+            - generic [ref=e55]: Last extra-late Saturday cost about $180 in staff + utilities against $610 in late sales.
+            - generic [ref=e56]: "source: Owner-pasted review"
+      - generic [ref=e57]:
+        - heading "Personas" [level=3] [ref=e58]
+        - generic [ref=e59]: click a persona to chat with it (after unlock)
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - heading "students" [level=3] [ref=e62]
+            - generic [ref=e63]: count 31 in segment · 2 shown
+          - generic [ref=e64]:
+            - button "Maya the juniorstudents" [ref=e65] [cursor=pointer]
+            - button "Devon the freshmanstudents" [ref=e66] [cursor=pointer]
+          - generic [ref=e67]:
+            - heading "regulars" [level=3] [ref=e68]
+            - generic [ref=e69]: count 34 in segment · 2 shown
+          - generic [ref=e70]:
+            - button "Frank the morning regularregulars" [ref=e71] [cursor=pointer]
+            - button "Rosa the afternoon regularregulars" [ref=e72] [cursor=pointer]
+          - generic [ref=e73]:
+            - heading "visitors" [level=3] [ref=e74]
+            - generic [ref=e75]: count 16 in segment · 1 shown
+          - button "Pete the visiting dadvisitors" [ref=e77] [cursor=pointer]
+          - generic [ref=e78]:
+            - heading "staff" [level=3] [ref=e79]
+            - generic [ref=e80]: 1 shown
+          - button "Cleo the baristastaff" [ref=e82] [cursor=pointer]
+      - generic [ref=e83]:
+        - heading "Verdict" [level=3] [ref=e84]
+        - generic [ref=e85]:
+          - generic [ref=e86]: Stay open until 2 AM on the six home football Saturdays only, run by a small volunteer-style late crew with the game_day_special promo. The opposition is real — morning regulars may feel the cost — but the late-night demand gap (e1, e2) plus the strong late-sales vs. cost math (e3) makes the trade worth it, and returning to 11 PM closes in off-weeks protects the regulars.
+          - generic [ref=e87]: Confidence 58%
+          - generic [ref=e94]:
+            - generic [ref=e95]: support 1
+            - generic [ref=e97]: oppose 4
+            - generic [ref=e99]: neutral 1
+          - generic [ref=e101]:
+            - text: 🔒 Locked — full segment impact, objections and agent chat unlock with checkout.
+            - emphasis [ref=e102]: "If paid=false: teaser only."
+          - button "Unlock full segment impact + agent chat — $19" [disabled] [ref=e104]
+          - generic [ref=e105]: Opens the Stripe checkout in a new tab; this demo then marks the session paid directly.

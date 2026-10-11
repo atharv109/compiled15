@@ -1,0 +1,29 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]: Customer Swarm
+    - generic [ref=f4e4]: Ask your customers before you spend the money.
+    - generic [ref=f4e5]:
+      - checkbox "Demo mode (recorded)" [ref=f4e6]
+      - text: Demo mode (recorded)
+  - navigation [ref=f4e7]:
+    - button "Run" [ref=f4e8] [cursor=pointer]
+    - button "Learning loop" [ref=f4e9] [cursor=pointer]
+    - button "About" [ref=f4e10] [cursor=pointer]
+  - generic [ref=f4e30]:
+    - generic [ref=f4e31]:
+      - heading "Learning loop (Track 1A)" [level=2] [ref=f4e32]
+      - paragraph [ref=f4e33]: Re-rolls the market truth, runs the belief-learning loop and evaluates regret vs. baseline. Runs a real training pass — expect about 2–4 minutes.
+      - button "Run learning loop" [ref=f4e34] [cursor=pointer]
+      - generic [ref=f4e37]:
+        - generic [ref=f4e39]: running…
+        - generic [ref=f4e40]: 0:39
+    - generic [ref=f4e41]:
+      - heading "Regret per round (train)" [level=3] [ref=f4e42]
+      - generic [ref=f4e43]: not run yet.
+      - heading "Baseline vs final vs test" [level=3] [ref=f4e45]
+      - generic [ref=f4e46]: not run yet.
+      - heading "Beliefs per segment" [level=3] [ref=f4e48]
+      - generic [ref=f4e49]:
+        - generic [ref=f4e50]: Reroll market (seed)
+        - spinbutton [ref=f4e51]: "7"
+        - button "Reroll" [ref=f4e52] [cursor=pointer]

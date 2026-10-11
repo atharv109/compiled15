@@ -1,0 +1,67 @@
+- generic [ref=f28e3]:
+  - navigation [ref=f28e4]:
+    - link "CustomerSwarm" [ref=f28e5] [cursor=pointer]:
+      - /url: index.html
+    - generic [ref=f28e10]: no signup · the swarm debates in real time
+  - generic [ref=f28e11]:
+    - generic [ref=f28e12]:
+      - generic [ref=f28e13]: System Status
+      - heading "Swarm Ready" [level=1] [ref=f28e15]
+      - paragraph [ref=f28e16]: Paste your business link, or give the name and town. Scouts read what the internet already says about you; fifty customer agents are built from it and debate your decision.
+      - generic [ref=f28e17]:
+        - generic [ref=f28e18]: ◇ Workflow Steps
+        - list [ref=f28e19]:
+          - listitem [ref=f28e20]:
+            - generic [ref=f28e21]: "01"
+            - generic [ref=f28e22]:
+              - generic [ref=f28e23]: Scout
+              - generic [ref=f28e24]: Link or name+town intake — you confirm the business we find. Reviews, menu, hours, competitors, news.CAPTCHA in the live browser? A human solves it — that's the product.
+          - listitem [ref=f28e25]:
+            - generic [ref=f28e26]: "02"
+            - generic [ref=f28e27]:
+              - generic [ref=f28e28]: Swarm
+              - generic [ref=f28e29]: Evidence cards + customer personas emerge from your own segments.
+          - listitem [ref=f28e30]:
+            - generic [ref=f28e31]: "03"
+            - generic [ref=f28e32]:
+              - generic [ref=f28e33]: Debate
+              - generic [ref=f28e34]: Two rounds. Camps cluster; round 2 reads the other camp's strongest points.
+          - listitem [ref=f28e35]:
+            - generic [ref=f28e36]: "04"
+            - generic [ref=f28e37]:
+              - generic [ref=f28e38]: Verdict
+              - generic [ref=f28e39]: Aggregated by a stronger judge model. Recommendation + confidence, free.
+          - listitem [ref=f28e40]:
+            - generic [ref=f28e41]: "05"
+            - generic [ref=f28e42]:
+              - generic [ref=f28e43]: Learn
+              - generic [ref=f28e44]: A calibrated mock market tests the swarm; the loop rewrites beliefs. Then chat with any agent.
+    - generic [ref=f28e45]:
+      - generic [ref=f28e46]:
+        - generic [ref=f28e47]:
+          - generic [ref=f28e48]: 01 / your business
+          - generic [ref=f28e49]: LINK OR NAME
+        - textbox "Paste your business link — Google Maps, Yelp, or your website" [ref=f28e50]
+        - generic [ref=f28e51]: — or —
+        - textbox "e.g. Cafe 210 West" [ref=f28e52]: Ziggy's Diner
+        - textbox "e.g. State College — or \"Online\" for online-only" [ref=f28e53]: Lock Haven
+        - generic [ref=f28e54]: we confirm the business we find with you before scouting · manual paste sharpens results
+      - generic [ref=f28e55]: decision under test
+      - generic [ref=f28e58]:
+        - generic [ref=f28e59]:
+          - generic [ref=f28e60]: 02 / the real question
+          - generic [ref=f28e61]: OWNERS ONLY
+        - textbox "e.g. Should we stay open until 2 AM on weekends and spend $400/month on a blanket delivery promo?" [ref=f28e62]: Should we add a breakfast-all-day menu?
+        - generic [ref=f28e63]: strong judge model · 50 customer agents · live debate
+        - dialog "Confirm your business" [ref=f28e65]:
+          - generic [ref=f28e66]: We found this business — is it you?
+          - generic [ref=f28e68]:
+            - generic [ref=f28e69]: Ziggy's Diner
+            - generic [ref=f28e70]: "town/area: Lock Haven"
+          - generic [ref=f28e71]:
+            - button "Not this business — let me fix it" [ref=f28e72] [cursor=pointer]
+            - button "Yes — that's us ✅" [ref=f28e73]
+      - button "Convene the Swarm →" [active] [ref=f28e74] [cursor=pointer]:
+        - generic [ref=f28e75]: Convene the Swarm
+        - generic [ref=f28e76]: →
+      - generic [ref=f28e77]: Everything runs live on this page — scouts read the web, fifty customer agents debate in real time. Want a rehearsal without a live scrape? Add ?mock=1 to this page's address.

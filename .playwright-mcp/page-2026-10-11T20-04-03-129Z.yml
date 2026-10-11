@@ -1,0 +1,100 @@
+- generic [ref=f32e78]:
+  - generic [ref=f32e79]:
+    - generic [ref=f32e80]:
+      - button "Back" [ref=f32e81] [cursor=pointer]: ←
+      - link "CallCrowd" [ref=f32e82] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f32e87]: Step 1/5 · Scout
+    - generic [ref=f32e88]:
+      - generic [ref=f32e89]: running
+      - generic [ref=f32e92]: Cafe 210 West
+  - generic [ref=f32e93]:
+    - complementary [ref=f32e94]:
+      - generic [ref=f32e95]:
+        - button "01 Name-only intake" [ref=f32e96] [cursor=pointer]:
+          - generic [ref=f32e97]: "01"
+          - generic [ref=f32e98]: Name-only intake
+        - button "02 Evidence & personas" [ref=f32e99] [cursor=pointer]:
+          - generic [ref=f32e100]: "02"
+          - generic [ref=f32e101]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f32e102] [cursor=pointer]:
+          - generic [ref=f32e103]: "03"
+          - generic [ref=f32e104]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f32e105] [cursor=pointer]:
+          - generic [ref=f32e106]: "04"
+          - generic [ref=f32e107]: Aggregated judge
+        - button "05 Loop · agents · drafts" [ref=f32e108] [cursor=pointer]:
+          - generic [ref=f32e109]: "05"
+          - generic [ref=f32e110]: Loop · agents · drafts
+      - generic [ref=f32e111]:
+        - text: Agent Thread
+        - generic [ref=f32e112]: 4 events
+      - generic [ref=f32e113]:
+        - region "Agent thread · Scout" [ref=f32e114]:
+          - button "01 Scout" [expanded] [ref=f32e115] [cursor=pointer]:
+            - generic [ref=f32e116]: "01"
+            - generic [ref=f32e117]: Scout
+            - generic [aria-hidden] [ref=f32e118]: ▾
+          - generic [ref=f32e119]:
+            - generic [ref=f32e120]:
+              - generic [ref=f32e121]: 16:04:01
+              - generic [ref=f32e122]: "business confirmed: convening on Cafe 210 West · State College (recorded replay)"
+            - generic [ref=f32e123]:
+              - generic [ref=f32e124]: 16:04:02
+              - generic [ref=f32e125]: session opened · Cafe 210 West
+            - generic [ref=f32e126]:
+              - generic [ref=f32e127]: 16:04:02
+              - generic [ref=f32e128]: Mock · mock fixture replay
+            - generic [ref=f32e129]:
+              - generic [ref=f32e130]: 16:04:02
+              - generic [ref=f32e131]: 1 reviews streamed
+        - region "Agent thread · Swarm" [ref=f32e132]:
+          - button "02 Swarm" [expanded] [ref=f32e133] [cursor=pointer]:
+            - generic [ref=f32e134]: "02"
+            - generic [ref=f32e135]: Swarm
+            - generic [aria-hidden] [ref=f32e137]: ▾
+          - generic [ref=f32e139]:
+            - generic [ref=f32e140]: 16:04:02
+            - generic [ref=f32e141]: card e1 · Weekend footfall peaks after 10 PM and regulars complain abou…
+      - generic [ref=f32e142]:
+        - generic [ref=f32e143]:
+          - generic [ref=f32e144]: 1/7
+          - text: sources
+        - generic [ref=f32e145]:
+          - generic [ref=f32e146]: "1"
+          - text: evidence
+        - generic [ref=f32e147]:
+          - generic [ref=f32e148]: "0"
+          - text: agents
+        - generic [ref=f32e149]:
+          - generic [ref=f32e150]: 0/2
+          - text: round
+    - main [ref=f32e151]:
+      - generic [ref=f32e152]:
+        - generic [ref=f32e153]:
+          - generic [ref=f32e154]:
+            - generic [ref=f32e155]: 01 · Scout — Name-only intake
+            - generic [ref=f32e156]: Scouts reading the internet on Cafe 210 West
+          - generic [ref=f32e157]: streaming
+        - generic [ref=f32e158]:
+          - generic [ref=f32e160]:
+            - generic [ref=f32e161]:
+              - text: ◇ source sweep
+              - generic [ref=f32e162]: 1/7
+            - generic [ref=f32e165]:
+              - generic [ref=f32e166]: 1 of 7 sources
+              - generic [ref=f32e167]: name-only intake
+            - generic [ref=f32e169]:
+              - generic [ref=f32e170]:
+                - generic [ref=f32e171]: Mock
+                - generic [ref=f32e172]: ok
+              - generic [ref=f32e173]: mock fixture replay
+          - generic [ref=f32e175]:
+            - generic [ref=f32e176]:
+              - text: ◇ reviews streaming
+              - generic [ref=f32e177]: 1 in
+            - generic [ref=f32e179]:
+              - text: "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\""
+              - generic [ref=f32e180]:
+                - generic [ref=f32e181]: Google review
+                - generic [ref=f32e182]: review 1

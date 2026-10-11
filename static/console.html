@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>CallCrowd — Console</title>
+<meta name="description" content="Fifty AI customer agents debate your business decision and hand you a verdict." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@100..800&family=Caveat:wght@400..700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/tokens.css?v=13" />
+<link rel="stylesheet" href="assets/css/console.css?v=21" />
+<link rel="stylesheet" href="assets/css/steps-swarm.css?v=13" />
+<link rel="stylesheet" href="assets/css/steps-debate.css?v=13" />
+<link rel="stylesheet" href="assets/css/steps-verdict.css?v=13" />
+<link rel="stylesheet" href="assets/css/steps-learn.css?v=18" />
+<link rel="stylesheet" href="assets/css/agent-thread.css?v=19" />
+<link rel="stylesheet" href="assets/css/graph.css?v=15" />
+<link rel="icon" href="assets/logo.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/logo.png" type="image/png" />
+<style>body{background:#000}</style>
+</head>
+<body>
+<div id="app" class="console-app">
+
+  <!-- ===================== LAUNCHER (name-only intake) ===================== -->
+  <section id="launcher">
+    <nav class="console-nav">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/logo-wordmark.png" alt="CallCrowd" height="26">
+      </a>
+      <span class="nav-note">no signup · the swarm debates in real time</span>
+    </nav>
+
+    <div class="launcher-main">
+      <div class="launcher-left">
+        <div class="sys-status"><span class="sq"></span> System Status</div>
+        <h1>Swarm Ready</h1>
+        <p class="lede">Paste your business link, or give the name and town. Scouts read what the internet already says about you; fifty customer agents are built from it and debate your decision.</p>
+        <div class="workflow-box">
+          <div class="wf-head">◇ Workflow Steps</div>
+          <ol>
+            <li><b>01</b><div><b>Scout</b><span>Link or name+town intake — you confirm the business we find. Reviews, menu, hours, competitors, news.<br>CAPTCHA in the live browser? A human solves it — that's the product.</span></div></li>
+            <li><b>02</b><div><b>Swarm</b><span>Evidence cards + customer personas emerge from your own segments.</span></div></li>
+            <li><b>03</b><div><b>Debate</b><span>Two rounds. Camps cluster; round 2 reads the other camp's strongest points.</span></div></li>
+            <li><b>04</b><div><b>Verdict</b><span>Aggregated by a stronger judge model. Recommendation + confidence, free.</span></div></li>
+            <li><b>05</b><div><b>Learn</b><span>A calibrated mock market tests the swarm; the loop rewrites beliefs. Then chat with any agent.</span></div></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="launcher-right console-box">
+        <div class="box-sec">
+          <div class="box-head"><span>01 / your business</span><span>LINK OR NAME</span></div>
+          <input id="biz-link" class="code-input" type="text" placeholder="Paste your business link — Google Maps, Yelp, or your website" autocomplete="off" spellcheck="false" />
+          <div class="hint-row" style="margin:6px 0 10px">— or —</div>
+          <input id="biz-name" class="code-input" type="text" placeholder="e.g. Cafe 210 West" autocomplete="off" spellcheck="false" style="margin-bottom:8px" />
+          <input id="biz-town" class="code-input" type="text" placeholder="e.g. State College — or &quot;Online&quot; for online-only" autocomplete="off" spellcheck="false" />
+          <div class="hint-row">we confirm the business we find with you before scouting · manual paste sharpens results</div>
+        </div>
+        <div class="divider-label"><span></span>decision under test<span></span></div>
+        <div class="box-sec">
+          <div class="box-head"><span>02 / the real question</span><span>OWNERS ONLY</span></div>
+          <textarea id="biz-question" class="code-input" rows="4" placeholder="e.g. Should we stay open until 2 AM on weekends and spend $400/month on a blanket delivery promo?"></textarea>
+          <div class="box-badge">strong judge model · 50 customer agents · live debate</div>
+          <div class="hint-row" id="launcher-err" style="color:#B45309;min-height:16px"></div>
+        </div>
+        <button id="start-btn" class="start-btn"><span>Convene the Swarm</span><i>→</i></button>
+        <div class="demo-notice">Everything runs live on this page — scouts read the web, fifty customer agents debate in real time. Want a rehearsal without a live scrape? Add <b>?mock=1</b> to this page's address.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RUNVIEW (driven by bridge.js) ===================== -->
+  <section id="runview" hidden>
+    <header class="run-head">
+      <div class="rh-left">
+        <button id="back-btn" class="back-btn" title="Back" aria-label="Back">←</button>
+        <a class="brand" href="index.html">
+          <img class="brand-mark" src="assets/logo-wordmark.png" alt="CallCrowd" height="26">
+        </a>
+      </div>
+      <div class="rh-center" id="step-indicator">Step 1/5 · Scout</div>
+      <div class="rh-right">
+        <div class="status-ind"><span class="dot proc" id="run-dot"></span><span id="run-status">running</span></div>
+        <div class="biz-tag" id="biz-tag"></div>
+      </div>
+    </header>
+
+    <div class="run-panes">
+
+      <!-- MIDDLE — graph canvas + step rail + stat chips + run-log strip -->
+      <main class="graph-pane">
+        <div class="graph-toprail" id="graph-toprail">
+      <div class="step-rail" id="step-rail"></div>
+      <div class="view-toggle" id="view-toggle" aria-label="Canvas view">
+        <button class="vt-btn" data-mode="graph" type="button" aria-pressed="false">Graph</button>
+        <button class="vt-btn is-on" data-mode="split" type="button" aria-pressed="true">Split</button>
+        <button class="vt-btn" data-mode="workbench" type="button" aria-pressed="false">Workbench</button>
+      </div>
+      </div>
+        <div class="graph-host">
+          <div id="graph-mount"></div>
+          <div class="graph-hint mono" id="graph-hint" hidden>graph module loading…</div>
+        </div>
+        
+        <section class="step-overlay" id="step-overlay" hidden aria-label="Step detail">
+          <header class="so-head">
+            <b id="so-title">Step</b>
+            <button class="so-close" id="so-close" type="button" aria-label="Dismiss step panel">✕</button>
+          </header>
+          <div class="so-body" id="step-mount"></div>
+        </section>
+      </main>
+
+      <!-- RIGHT — chat station: verdict card + chatbot share one scroll -->
+      <aside class="chat-pane" id="chat-pane">
+        <header class="pane-head chat-head">
+          <span class="pane-title">chat</span>
+          <div class="view-toggle view-toggle-chat" id="view-toggle-chat" aria-label="Canvas view">
+            <button class="vt-btn" data-mode="graph" type="button" aria-pressed="false">Graph</button>
+            <button class="vt-btn is-on" data-mode="split" type="button" aria-pressed="true">Split</button>
+            <button class="vt-btn" data-mode="workbench" type="button" aria-pressed="false">Workbench</button>
+          </div>
+          <button class="act-btn" id="act-button" type="button" hidden>Act on it</button>
+          <button class="pay-pill" id="pay-pill" type="button" hidden>🔒 unlock — $19</button>
+          <button class="pane-toggle" id="chat-toggle" type="button" aria-label="Collapse chat panel">›</button>
+        </header>
+        <div class="chat-banners" id="chat-banners"></div>
+        <div class="chat-scroll" id="chat-scroll">
+          <section class="verdict-card" id="verdict-card" hidden>
+            <button class="vc-head" id="vc-head" type="button" aria-expanded="true">
+              <span class="vc-title">Act on the verdict</span>
+              <span class="vc-mini" id="vc-mini"></span>
+              <span class="act-chev" aria-hidden="true">▾</span>
+            </button>
+            <div class="vc-body" id="vc-body" hidden></div>
+          </section>
+          <section class="runlog" id="runlog">
+          <button class="runlog-head" id="runlog-toggle" type="button" aria-expanded="false">
+            <span>run log</span><span class="runlog-n" id="runlog-count">0</span><span class="runlog-chev" aria-hidden="true">▾</span>
+          </button>
+          <div class="runlog-body" id="feed-log" hidden></div>
+        </section>
+        <section class="chat-station">
+            <div class="ad-head chat-peer" id="chat-peer">
+              <span class="ad-av" id="ad-av"></span>
+              <div class="ad-who">
+                <b id="ad-name">Pick an agent</b>
+                <span class="mono" id="ad-sub">click a node in the graph</span>
+              </div>
+              <button class="ad-close" type="button" id="chat-clear" aria-label="Clear this conversation" hidden>✕</button>
+            </div>
+            <div class="ad-body" id="ad-body">
+              <div class="ad-msgs" id="ad-msgs" aria-live="polite"></div>
+            </div>
+            <footer class="ad-foot" id="ad-foot">
+              <textarea class="ad-input mono" id="ad-input" rows="2"
+                placeholder="pick an agent…" aria-label="Message"></textarea>
+              <button class="ad-send" id="ad-send" type="button">Send →</button>
+            </footer>
+          </section>
+        </div>
+      </aside>
+    </div>
+  </section>
+</div>
+
+<script>
+  /* ---- integrator config ----
+     CS_API_BASE ""  = same origin (the page is served from :8000/demo/)
+     CS_STRIPE_LINK  = Stripe Payment Link ($19 deep-dive); empty = demo unlock (mark-paid) */
+  window.CS_STRIPE_LINK = "";
+  window.CS_API_BASE  = "http://127.0.0.1:8000";
+</script>
+<script src="assets/js/effects.js?v=13"></script>
+<script src="assets/js/bridge.js?v=15"></script>
+<script src="assets/js/graph.js?v=15"></script>
+<script src="assets/js/console.js?v=21"></script>
+<script src="assets/js/steps/scout.js?v=13"></script>
+<script src="assets/js/steps/swarm.js?v=13"></script>
+<script src="assets/js/steps/debate.js?v=13"></script>
+<script src="assets/js/steps/verdict.js?v=13"></script>
+<script src="assets/js/steps/learn.js?v=18"></script>
+</body>
+</html>

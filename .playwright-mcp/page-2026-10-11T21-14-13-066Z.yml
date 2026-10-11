@@ -1,0 +1,66 @@
+- generic [active] [ref=f9e1]:
+  - generic:
+    - text: stage
+    - generic: full
+    - text: · nodes
+    - generic: "37"
+    - text: · pairs
+    - generic: "85"
+    - text: · edges
+    - generic: "107"
+    - text: · alpha
+    - generic: "0.722"
+    - text: · dec
+    - generic: "0.02"
+    - text: · sim
+    - generic: "on"
+    - text: · arcs
+    - generic: "0"
+    - text: · pend 0/0 · phase
+    - generic: done
+    - text: · toast
+    - generic: done
+  - generic: "<- debate:stance {\"round\":2,\"persona_id\":\"p2\",\"persona_name\":\"Tom\",\"segment\":\"students\" · <- debate:camp {\"round\":2,\"camp\":\"Split hours\",\"member_ids\":[\"p1\",\"p2\",\"p4\",\"p8\"]} · <- verdict {\"verdict\":\"OPEN LATER\",\"confidence\":0.82} · <- stream:done {}"
+  - generic [ref=f9e3]:
+    - generic [ref=f9e15]:
+      - generic [ref=f9e22]: still processing some content…
+      - button "Dismiss" [ref=f9e23] [cursor=pointer]: ×
+    - generic [ref=f9e13]:
+      - generic [ref=f9e24]: ENTITY TYPES
+      - generic [ref=f9e25]:
+        - generic [ref=f9e26]:
+          - generic [ref=f9e28]: review
+          - generic [ref=f9e29]: "6"
+        - generic [ref=f9e30]:
+          - generic [ref=f9e32]: entity
+          - generic [ref=f9e33]: "15"
+        - generic [ref=f9e34]:
+          - generic [ref=f9e36]: news
+          - generic [ref=f9e37]: "3"
+        - generic [ref=f9e38]:
+          - generic [ref=f9e40]: competitor
+          - generic [ref=f9e41]: "2"
+        - generic [ref=f9e42]:
+          - generic [ref=f9e44]: menu
+          - generic [ref=f9e45]: "1"
+      - generic [ref=f9e46]: AGENT SEGMENTS
+      - generic [ref=f9e47]:
+        - generic [ref=f9e48]:
+          - generic [ref=f9e50]: regulars
+          - generic [ref=f9e51]: "3"
+        - generic [ref=f9e52]:
+          - generic [ref=f9e54]: students
+          - generic [ref=f9e55]: "2"
+        - generic [ref=f9e56]:
+          - generic [ref=f9e58]: office-workers
+          - generic [ref=f9e59]: "1"
+        - generic [ref=f9e60]:
+          - generic [ref=f9e62]: tourists
+          - generic [ref=f9e63]: "1"
+        - generic [ref=f9e64]:
+          - generic [ref=f9e66]: families
+          - generic [ref=f9e67]: "2"
+        - generic [ref=f9e68]:
+          - generic [ref=f9e70]: staff
+          - generic [ref=f9e71]: "1"
+    - button "Toggle legend" [ref=f9e14] [cursor=pointer]: legend

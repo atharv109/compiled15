@@ -1,0 +1,3 @@
+[  108892ms] TypeError: Cannot read properties of null (reading 'append')
+    at paintChat (http://127.0.0.1:8000/demo/assets/js/steps/learn.js:662:12)
+    at HTMLButtonElement.<anonymous> (http://127.0.0.1:8000/demo/assets/js/steps/learn.js:599:11)

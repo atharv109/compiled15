@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- CallCrowd placeholder mark: amber tile, white speech-bubble outline, three crowd dots -->
+  <rect width="64" height="64" rx="14" fill="#B45309"/>
+  <rect x="12" y="15" width="40" height="26" rx="9" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <path d="M24 41.5 20 51l11-8" fill="#B45309" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="22" cy="28" r="2.5" fill="#FFFFFF"/>
+  <circle cx="32" cy="28" r="3.5" fill="#FFFFFF"/>
+  <circle cx="42" cy="28" r="4.5" fill="#FFFFFF"/>
+</svg>

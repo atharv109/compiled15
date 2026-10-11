@@ -1,0 +1,26 @@
+[    3605ms] ReferenceError: logHost is not defined
+    at pushLog (http://127.0.0.1:9000/assets/js/console.js?v=17:313:17)
+    at appendFeed (http://127.0.0.1:9000/assets/js/console.js?v=17:341:5)
+    at launch (http://127.0.0.1:9000/assets/js/console.js?v=17:1033:7)
+    at http://127.0.0.1:9000/assets/js/console.js?v=17:1020:61
+    at HTMLButtonElement.<anonymous> (http://127.0.0.1:9000/assets/js/console.js?v=17:128:7)
+    at eval (eval at <anonymous> (eval at evaluate (:368:30)), <anonymous>:8:14)
+    at async eval (eval at evaluate (:368:30), <anonymous>:4:30)
+    at async <anonymous>:394:30
+[  101761ms] ReferenceError: logHost is not defined
+    at pushLog (http://127.0.0.1:9000/assets/js/console.js?v=17:313:17)
+    at appendFeed (http://127.0.0.1:9000/assets/js/console.js?v=17:341:5)
+    at launch (http://127.0.0.1:9000/assets/js/console.js?v=17:1033:7)
+    at HTMLButtonElement.go (http://127.0.0.1:9000/assets/js/console.js?v=17:1017:52)
+    at eval (eval at <anonymous> (eval at evaluate (:368:30)), <anonymous>:7:40)
+    at eval (eval at evaluate (:368:30), <anonymous>:4:50)
+    at UtilityScript.evaluate (<anonymous>:370:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[  102472ms] ReferenceError: logHost is not defined
+    at pushLog (http://127.0.0.1:9000/assets/js/console.js?v=17:313:17)
+    at appendFeed (http://127.0.0.1:9000/assets/js/console.js?v=17:341:5)
+    at launch (http://127.0.0.1:9000/assets/js/console.js?v=17:1033:7)
+    at HTMLButtonElement.go (http://127.0.0.1:9000/assets/js/console.js?v=17:1017:52)
+    at eval (eval at <anonymous> (eval at evaluate (:368:30)), <anonymous>:14:40)
+    at async eval (eval at evaluate (:368:30), <anonymous>:4:30)
+    at async <anonymous>:394:30

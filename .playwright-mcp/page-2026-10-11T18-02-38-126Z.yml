@@ -1,0 +1,74 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]: Customer Swarm
+    - generic [ref=f3e4]: Ask your customers before you spend the money.
+    - generic [ref=f3e5]:
+      - checkbox "Demo mode (recorded)" [ref=f3e6]
+      - text: Demo mode (recorded)
+  - navigation [ref=f3e7]:
+    - button "Run" [ref=f3e8] [cursor=pointer]
+    - button "Learning loop" [ref=f3e9] [cursor=pointer]
+    - button "About" [ref=f3e10] [cursor=pointer]
+  - generic [ref=f3e1694]:
+    - generic [ref=f3e1695]:
+      - heading "Learning loop (Track 1A)" [level=2] [ref=f3e1696]
+      - paragraph [ref=f3e1697]: Re-rolls the market truth, runs the belief-learning loop and evaluates regret vs. baseline. Runs a real training pass — expect about 2–4 minutes.
+      - button "Run learning loop" [ref=f3e1698] [cursor=pointer]
+      - generic [ref=f3e1699]: done.
+    - generic [ref=f3e1700]:
+      - heading "Regret per round (train)" [level=3] [ref=f3e1701]
+      - img [ref=f3e1717]:
+        - generic [ref=f3e1718]: regret (max 0.874)
+        - generic [ref=f3e1721]: r0
+        - generic [ref=f3e1723]: r1
+        - generic [ref=f3e1725]: r2
+        - generic [ref=f3e1727]: r3
+        - generic [ref=f3e1729]: r4
+        - generic [ref=f3e1731]: r5
+      - heading "Baseline vs final vs test" [level=3] [ref=f3e1704]
+      - img [ref=f3e1732]:
+        - generic [ref=f3e1734]: baseline
+        - generic [ref=f3e1735]: "0.874"
+        - generic [ref=f3e1737]: final
+        - generic [ref=f3e1738]: "0.703"
+        - generic [ref=f3e1740]: test
+        - generic [ref=f3e1741]: "0.751"
+        - generic [ref=f3e1743]: shifted
+        - generic [ref=f3e1744]: "0.778"
+      - heading "Beliefs per segment" [level=3] [ref=f3e1707]
+      - generic [ref=f3e1745]:
+        - generic [ref=f3e1746]:
+          - generic [ref=f3e1747]: students
+          - generic [ref=f3e1748]: The student segment exhibits a severe negative response to service quality, particularly intoxication policies, as evidenced by a predicted outcome of 44.0 versus an actual of 3.4, indicating a significant error of 40.6. A -2% price adjustment did not yield positive results, suggesting that pricing strategies may not be effective. The closing hour of 24 is likely inadequate for this demographic. Future strategies should focus on reducing closing hours to 22, enhancing service consistency, and addressing concerns about bouncer behavior. Additionally, implementing targeted promotions, such as drink specials during peak hours, may help improve engagement and retention.
+        - generic [ref=f3e1749]:
+          - generic [ref=f3e1750]: regulars
+          - generic [ref=f3e1751]: The regulars segment continues to react negatively to service quality, particularly regarding bouncers and waitstaff treatment. Despite a price decrease of -2% and a closing hour adjustment to 24, the predicted outcome of 30.9 was surpassed with an actual outcome of 39.7, indicating some improvement. However, issues with service persist, as evidenced by reviews highlighting poor treatment and inconsistent service. To further enhance satisfaction, focus on staff training, particularly for bouncers, and consider extending closing hours to 26 again. Implementing targeted promotions could also help rebuild trust and attract repeat visits.
+        - generic [ref=f3e1752]:
+          - generic [ref=f3e1753]: families
+          - generic [ref=f3e1754]: Families are extremely sensitive to service quality, with negative experiences leading to strong aversion. Recent reviews highlight significant issues with bouncers and service, impacting their willingness to return. A price increase of +2% is unlikely to offset these negative perceptions. The closing hour of 24 is not favorable; earlier hours may better suit families. Game day specials could attract them, but must be coupled with improved service to ensure satisfaction. Focus on enhancing staff training and addressing service issues, particularly with bouncers, to improve retention. Consider a price decrease of -2% and implementing an earlier closing time to better align with family preferences.
+        - generic [ref=f3e1755]:
+          - generic [ref=f3e1756]: tourists
+          - generic [ref=f3e1757]: The tourist segment remains highly sensitive to service quality, particularly regarding bouncer behavior and wait times. Despite a 2% price decrease, the actual outcome (35.3) exceeded predictions (18.7), indicating potential for improvement. However, negative reviews highlight ongoing dissatisfaction, especially with closing hours set at 24, which may not meet tourist expectations. The promo strategy requires reassessment, as no effective promotions were utilized. Next steps should include enhancing staff training focused on service quality and reconsidering closing hours to 26. A targeted promotion could also be developed to attract tourists, aiming for a more favorable outcome in future assessments.
+        - generic [ref=f3e1758]:
+          - generic [ref=f3e1759]: staff-adjacent loyalists
+          - generic [ref=f3e1760]: The staff-adjacent loyalists segment remains highly sensitive to service quality, especially regarding bouncers and waitstaff treatment. Previous negative experiences have led to a significant satisfaction decline, with a predicted outcome of 9.1 versus an actual of 21.8 (error 12.6). A price decrease of 2% did not alleviate dissatisfaction, indicating that pricing strategies are ineffective. Extending hours to 24 may not address service issues. The game day special promo should be re-evaluated to focus on enhancing positive experiences. Immediate actions include improving staff training and customer service, with a focus on ensuring fair treatment of patrons to rebuild trust and loyalty.
+        - generic [ref=f3e1761]:
+          - generic [ref=f3e1762]: walk-ins
+          - generic [ref=f3e1763]: The walk-in segment has a strong negative response to service quality, particularly regarding intoxication handling and customer treatment. Despite a 2% price decrease, the actual outcome of 75.6 significantly surpassed the predicted 23.2, indicating a potential disconnect in expectations. Future strategies should prioritize enhancing staff training to improve customer interactions, especially with intoxicated patrons. Consider extending closing hours by 1 hour and implementing targeted promotions that create a more welcoming atmosphere during peak times. Aim for a 15% increase in customer satisfaction to boost retention and mitigate negative reviews.
+      - generic [ref=f3e1708]:
+        - generic [ref=f3e1709]: Reroll market (seed)
+        - spinbutton [ref=f3e1710]: "42"
+        - button "Reroll" [ref=f3e1711] [cursor=pointer]
+  - generic [ref=f3e1680]:
+    - button "✕" [ref=f3e1681] [cursor=pointer]
+    - heading "Emily the Student" [level=3] [ref=f3e1682]
+    - generic [ref=f3e1683]: students
+    - generic [ref=f3e1684]:
+      - generic [ref=f3e1685]: Why should we stay open until 2 AM on football Saturdays?
+      - generic [ref=f3e1686]: Staying open until 2 AM on football Saturdays would really boost the vibe around here! After a game, students like me want a fun spot to hang out with friends, grab some good food, and celebrate. It would definitely attract more of us looking for a lively atmosphere. Plus, with the right deals, it could become a go-to place for late-night eats. There’s a demand for this, and it could enhance everyone's experience on those exciting game days!
+      - generic [ref=f3e1687]:
+        - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1688] [cursor=pointer]: e21
+        - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1689] [cursor=pointer]: e22
+    - generic [ref=f3e1691]:
+      - textbox "Ask in conversation…" [ref=f3e1692]
+      - button "Send" [ref=f3e1693] [cursor=pointer]

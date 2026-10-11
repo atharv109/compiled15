@@ -1,0 +1,59 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e114]:
+    - generic [ref=f8e115]:
+      - button "Back" [ref=f8e116] [cursor=pointer]: ←
+      - link [ref=f8e117] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f8e118]
+    - generic [ref=f8e119]: Step 3/5 · Debate
+    - generic [ref=f8e120]:
+      - generic [ref=f8e121]: running
+      - generic [ref=f8e124]: Cafe 210 West
+  - generic [ref=f8e66]:
+    - main [ref=f8e67]:
+      - generic [ref=f8e68]:
+        - generic [ref=f8e69]:
+          - button "01 Name-only intake" [ref=f8e139] [cursor=pointer]:
+            - generic [ref=f8e140]: "01"
+            - generic [ref=f8e141]: Name-only intake
+          - button "02 Evidence & personas" [ref=f8e142] [cursor=pointer]:
+            - generic [ref=f8e143]: "02"
+            - generic [ref=f8e144]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f8e145] [cursor=pointer]:
+            - generic [ref=f8e146]: "03"
+            - generic [ref=f8e147]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f8e148] [cursor=pointer]:
+            - generic [ref=f8e149]: "04"
+            - generic [ref=f8e150]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f8e151] [cursor=pointer]:
+            - generic [ref=f8e152]: "05"
+            - generic [ref=f8e153]: Loop · agents · drafts
+        - generic "Run stats" [ref=f8e125]:
+          - generic [ref=f8e154]: 2/7sources
+          - generic [ref=f8e155]: 3evidence
+          - generic [ref=f8e156]: 50agents
+          - generic [ref=f8e157]: 1/2round
+        - generic "Canvas view" [ref=f8e85]:
+          - button "Graph" [ref=f8e86] [cursor=pointer]
+          - button "Split" [pressed] [ref=f8e87] [cursor=pointer]
+          - button "Workbench" [ref=f8e88] [cursor=pointer]
+      - generic [ref=f8e110]:
+        - generic [ref=f8e130]: memory updating in real-time
+        - button "Toggle legend" [ref=f8e112] [cursor=pointer]: legend
+    - complementary [ref=f8e91]:
+      - generic [ref=f8e92]:
+        - generic [ref=f8e93]: chat
+        - button "Collapse chat panel" [ref=f8e94] [cursor=pointer]: ›
+      - generic [ref=f8e95]:
+        - button "run log 12" [ref=f8e158] [cursor=pointer]:
+          - generic [ref=f8e98]: run log
+          - generic [ref=f8e99]: "12"
+          - generic [aria-hidden] [ref=f8e100]: ▾
+        - generic [ref=f8e101]:
+          - generic [ref=f8e103]:
+            - generic [ref=f8e104]: Pick an agent
+            - generic [ref=f8e105]: click a node in the graph
+          - generic [ref=f8e107]:
+            - textbox "Message" [ref=f8e108]:
+              - /placeholder: pick an agent…
+            - button "Send →" [ref=f8e109] [cursor=pointer]

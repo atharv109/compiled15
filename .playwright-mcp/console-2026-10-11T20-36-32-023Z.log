@@ -1,0 +1,249 @@
+[     345ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[     634ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[     935ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    1234ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    1534ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    1836ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    2135ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    2440ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    2738ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    3036ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    3343ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    3637ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    3936ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    4235ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    4535ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    4836ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    5139ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    5438ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    5734ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    6038ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    6335ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    6637ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    6934ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    7237ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    7534ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    7833ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    8134ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    8433ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    8734ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    9034ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    9333ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    9637ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[    9934ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   10234ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   10534ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   10838ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   11134ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   11433ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   11735ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   12036ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   12336ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   12633ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   12946ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   13242ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   13540ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   13841ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   14137ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   14435ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   14734ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   15045ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   15342ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   15641ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   15939ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   16236ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   16548ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   16844ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   17140ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   17438ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   17735ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   18048ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   18340ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   18634ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   18938ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   19243ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   19543ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   19841ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   20135ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   20436ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   20749ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   21045ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   21344ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   21641ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   21937ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   22237ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   22534ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   22838ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   23135ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   23446ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   23749ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   24037ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   24345ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   24644ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40
+[   24935ms] ReferenceError: i is not defined
+    at window.__csgDebug (http://127.0.0.1:9000/assets/js/graph.js:765:14)
+    at http://127.0.0.1:9000/graph-selftest.html?stage=debate&f=8:196:40

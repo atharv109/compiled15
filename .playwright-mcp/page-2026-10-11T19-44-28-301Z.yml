@@ -1,0 +1,89 @@
+- generic [ref=f28e78]:
+  - generic [ref=f28e79]:
+    - generic [ref=f28e80]:
+      - button "Back" [ref=f28e81] [cursor=pointer]: ←
+      - link "CustomerSwarm" [ref=f28e82] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=f28e87]: Step 1/5 · Scout
+    - generic [ref=f28e88]:
+      - generic [ref=f28e89]: running
+      - generic [ref=f28e92]: Ziggy's Diner
+  - generic [ref=f28e93]:
+    - status "Business identified" [ref=f28e94]:
+      - generic [ref=f28e95]: The swarm identified your business as Ziggy's Diner · Lock Haven — classified as consumers (local_consumer).
+      - generic [ref=f28e96]:
+        - button "Right — keep scouting" [ref=f28e97] [cursor=pointer]
+        - button "Wrong business — re-scout" [ref=f28e98]
+    - complementary [ref=f28e99]:
+      - generic [ref=f28e100]:
+        - button "01 Name-only intake" [ref=f28e101] [cursor=pointer]:
+          - generic [ref=f28e102]: "01"
+          - generic [ref=f28e103]: Name-only intake
+        - button "02 Evidence & personas" [ref=f28e104] [cursor=pointer]:
+          - generic [ref=f28e105]: "02"
+          - generic [ref=f28e106]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=f28e107] [cursor=pointer]:
+          - generic [ref=f28e108]: "03"
+          - generic [ref=f28e109]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=f28e110] [cursor=pointer]:
+          - generic [ref=f28e111]: "04"
+          - generic [ref=f28e112]: Aggregated judge
+        - button "05 Loop · agents · drafts" [ref=f28e113] [cursor=pointer]:
+          - generic [ref=f28e114]: "05"
+          - generic [ref=f28e115]: Loop · agents · drafts
+      - generic [ref=f28e116]:
+        - text: Live Feed
+        - generic [ref=f28e117]: 3 events
+      - generic [ref=f28e118]:
+        - generic [ref=f28e119]:
+          - generic [ref=f28e120]: 15:44:27.165
+          - generic [ref=f28e121]: console
+          - generic [ref=f28e122]: "business confirmed: convening on Ziggy's Diner · Lock Haven"
+        - generic [ref=f28e123]:
+          - generic [ref=f28e124]: 15:44:27.244
+          - generic [ref=f28e125]: session:start
+          - generic [ref=f28e126]: session opened · Ziggy's Diner
+        - generic [ref=f28e127]:
+          - generic [ref=f28e128]: 15:44:28.007
+          - generic [ref=f28e129]: scout:status
+          - generic [ref=f28e130]: "business_class: local_consumer — persona family: consumers"
+        - generic [ref=f28e131]:
+          - generic [ref=f28e132]: 15:44:28.010
+          - generic [ref=f28e133]: scout:source
+          - generic [ref=f28e134]: Classified · ok
+      - generic [ref=f28e135]:
+        - generic [ref=f28e136]:
+          - generic [ref=f28e137]: 1/7
+          - text: sources
+        - generic [ref=f28e138]:
+          - generic [ref=f28e139]: "0"
+          - text: evidence
+        - generic [ref=f28e140]:
+          - generic [ref=f28e141]: "0"
+          - text: agents
+        - generic [ref=f28e142]:
+          - generic [ref=f28e143]: 0/2
+          - text: round
+    - main [ref=f28e144]:
+      - generic [ref=f28e145]:
+        - generic [ref=f28e146]:
+          - generic [ref=f28e147]:
+            - generic [ref=f28e148]: 01 · Scout — Name-only intake
+            - generic [ref=f28e149]: Scouts reading the internet on Ziggy's Diner
+          - generic [ref=f28e150]: streaming
+        - generic [ref=f28e151]:
+          - generic [ref=f28e153]:
+            - generic [ref=f28e154]:
+              - text: ◇ source sweep
+              - generic [ref=f28e155]: 1/7
+            - generic [ref=f28e158]:
+              - generic [ref=f28e159]: 1 of 7 sources
+              - generic [ref=f28e160]: name-only intake
+            - generic [ref=f28e163]:
+              - generic [ref=f28e164]: Classified
+              - generic [ref=f28e165]: ok
+          - generic [ref=f28e167]:
+            - generic [ref=f28e168]:
+              - text: ◇ reviews streaming
+              - generic [ref=f28e169]: 0 in
+            - generic [ref=f28e170]: …waiting for reviews

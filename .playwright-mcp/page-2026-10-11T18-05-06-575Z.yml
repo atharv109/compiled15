@@ -1,0 +1,60 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]: Customer Swarm
+    - generic [ref=f4e4]: Ask your customers before you spend the money.
+    - generic [ref=f4e5]:
+      - checkbox "Demo mode (recorded)" [ref=f4e6]
+      - text: Demo mode (recorded)
+  - navigation [ref=f4e7]:
+    - button "Run" [ref=f4e8] [cursor=pointer]
+    - button "Learning loop" [ref=f4e9] [cursor=pointer]
+    - button "About" [ref=f4e10] [cursor=pointer]
+  - generic [ref=f4e30]:
+    - generic [ref=f4e31]:
+      - heading "Learning loop (Track 1A)" [level=2] [ref=f4e32]
+      - paragraph [ref=f4e33]: Re-rolls the market truth, runs the belief-learning loop and evaluates regret vs. baseline. Runs a real training pass — expect about 2–4 minutes.
+      - button "Run learning loop" [ref=f4e34] [cursor=pointer]
+    - generic [ref=f4e41]:
+      - heading "Regret per round (train)" [level=3] [ref=f4e42]
+      - img [ref=f4e53]:
+        - generic [ref=f4e54]: regret (max 0.931)
+        - generic [ref=f4e57]: r0
+        - generic [ref=f4e59]: r1
+        - generic [ref=f4e61]: r2
+        - generic [ref=f4e63]: r3
+        - generic [ref=f4e65]: r4
+        - generic [ref=f4e67]: r5
+      - heading "Baseline vs final vs test" [level=3] [ref=f4e45]
+      - img [ref=f4e68]:
+        - generic [ref=f4e70]: baseline
+        - generic [ref=f4e71]: "0.931"
+        - generic [ref=f4e73]: final
+        - generic [ref=f4e74]: "0.546"
+        - generic [ref=f4e76]: test
+        - generic [ref=f4e77]: "0.575"
+        - generic [ref=f4e79]: shifted
+        - generic [ref=f4e80]: "0.591"
+      - heading "Beliefs per segment" [level=3] [ref=f4e48]
+      - generic [ref=f4e81]:
+        - generic [ref=f4e82]:
+          - generic [ref=f4e83]: students
+          - generic [ref=f4e84]: The student segment exhibits a strong positive response to a -9% price change, with an actual outcome of 61.7 surpassing the predicted 47.1. This indicates a robust price sensitivity, suggesting further reductions could be beneficial. However, the current closing hour of 25 remains misaligned with student preferences, necessitating an extension to at least 28. Complaints about service quality and bouncer behavior are prevalent, highlighting the need for immediate improvements in these areas. Promotional strategies require a complete overhaul, as previous efforts failed to resonate. Focus on creating a welcoming environment and enhancing service quality to rebuild trust and engagement among students.
+        - generic [ref=f4e85]:
+          - generic [ref=f4e86]: regulars
+          - generic [ref=f4e87]: The regulars segment shows a strong negative reaction to service quality, particularly bouncer conduct and drink service, which overshadows any pricing strategies. Despite a price decrease of -9%, the actual outcome (268.8) significantly exceeded the predicted (52.1), highlighting that service perception is paramount. Closing hours at 25 are still unattractive due to poor customer experiences. Current promotional efforts are ineffective. Future strategies must focus on intensive service training for staff and bouncers, rather than pricing adjustments or promotions, to enhance customer satisfaction and retention.
+        - generic [ref=f4e88]:
+          - generic [ref=f4e89]: families
+          - generic [ref=f4e90]: Families are highly sensitive to staff interactions, with negative experiences drastically affecting their return likelihood. The significant error (predicted 22.9 vs. actual 244.9) indicates that families are even more tolerant of higher prices when they feel safe and welcomed. To enhance appeal, reduce cover charges by 30% and adjust closing hours to 9 PM. Current promotions are ineffective; prioritize staff training to improve customer service. Addressing perceived staff behavior is essential, as families need to feel comfortable. Implementing family-friendly events or themed nights could further attract and retain this segment.
+        - generic [ref=f4e91]:
+          - generic [ref=f4e92]: tourists
+          - generic [ref=f4e93]: The tourist segment shows a significant negative response to service quality, particularly regarding bouncer behavior and wait times, despite positive food feedback. The recent price decrease of 9% did not align with expectations, resulting in a predicted score of 28.5 versus an actual score of 80.2, indicating a strong disconnect in perceived value. Closing at 25 hours is insufficient for this segment's preferences. Future strategies should focus on enhancing service quality and staff training, especially for bouncers. Consider extending closing hours to 28 and implementing targeted promotions, such as happy hour specials, to improve appeal and customer satisfaction.
+        - generic [ref=f4e94]:
+          - generic [ref=f4e95]: staff-adjacent loyalists
+          - generic [ref=f4e96]: The staff-adjacent loyalists segment shows a remarkable resilience to service quality issues, as indicated by a predicted outcome of 25.6 versus an actual of 163.5. A 9% price decrease may not be effective, given their strong loyalty. Maintaining a closing hour of 25 is favorable, but extending it to 26 could further enhance satisfaction. To boost retention, focus on comprehensive staff training, particularly for bouncers, and consider implementing a service guarantee. A targeted promo offering incentives for repeat visits could strengthen loyalty. Addressing negative perceptions of bouncer behavior is essential for improving the overall experience.
+        - generic [ref=f4e97]:
+          - generic [ref=f4e98]: walk-ins
+          - generic [ref=f4e99]: The walk-in segment shows extreme sensitivity to service quality, particularly regarding bouncer behavior and drink service. A price decrease of -9% significantly failed to improve outcomes, with a predicted score of 9.1 versus an actual of only 1.1, resulting in an error of 8.0. This suggests that pricing strategies are ineffective when service issues prevail. Future focus should be on enhancing bouncer training and ensuring prompt drink service. Implementing targeted promotions, such as 'first drink free' for designated drivers, is crucial. Adjusting closing hours may also be necessary to better accommodate customer preferences. Immediate improvements in service quality are essential for restoring customer trust and satisfaction.
+      - generic [ref=f4e49]:
+        - generic [ref=f4e50]: Reroll market (seed)
+        - spinbutton [ref=f4e51]: "7"
+        - button "Reroll" [ref=f4e52] [cursor=pointer]

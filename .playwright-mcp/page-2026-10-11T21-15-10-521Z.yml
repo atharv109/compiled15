@@ -1,0 +1,9 @@
+- generic [active] [ref=f2e1]:
+  - generic: loading…
+  - generic: "<- session:start {\"business\":\"Cafe Aurora\",\"town\":\"State College\",\"mock\":true}"
+  - generic [ref=f2e3]:
+    - generic [aria-hidden]:
+      - generic: ❖
+      - generic: waiting for the swarm to convene
+    - generic [ref=f2e5]: real-time updating
+    - button "Toggle legend" [ref=f2e14] [cursor=pointer]: legend

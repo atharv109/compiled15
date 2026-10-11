@@ -1,0 +1,1328 @@
+- generic [ref=f37e2]:
+  - generic [ref=f37e3]:
+    - generic [ref=f37e4]:
+      - generic [ref=f37e5]:
+        - button "Back" [ref=f37e6] [cursor=pointer]: ←
+        - link "CallCrowd" [ref=f37e7] [cursor=pointer]:
+          - /url: index.html
+      - generic [ref=f37e12]: Step 4/5 · Verdict
+      - generic [ref=f37e13]:
+        - generic [ref=f37e14]: complete
+        - generic [ref=f37e17]: Cafe 210 West
+    - generic [ref=f37e18]:
+      - complementary [ref=f37e19]:
+        - generic [ref=f37e20]:
+          - button "01 Name-only intake" [ref=f37e21] [cursor=pointer]:
+            - generic [ref=f37e22]: "01"
+            - generic [ref=f37e23]: Name-only intake
+          - button "02 Evidence & personas" [ref=f37e24] [cursor=pointer]:
+            - generic [ref=f37e25]: "02"
+            - generic [ref=f37e26]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f37e27] [cursor=pointer]:
+            - generic [ref=f37e28]: "03"
+            - generic [ref=f37e29]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f37e30] [cursor=pointer]:
+            - generic [ref=f37e31]: "04"
+            - generic [ref=f37e32]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f37e33] [cursor=pointer]:
+            - generic [ref=f37e34]: "05"
+            - generic [ref=f37e35]: Loop · agents · drafts
+        - generic [ref=f37e36]:
+          - text: Agent Thread
+          - generic [ref=f37e37]: 171 events
+        - generic [ref=f37e38]:
+          - region "Agent thread · Scout" [ref=f37e39]:
+            - button "01 Scout" [expanded] [ref=f37e40] [cursor=pointer]:
+              - generic [ref=f37e41]: "01"
+              - generic [ref=f37e42]: Scout
+              - generic [aria-hidden] [ref=f37e43]: ▾
+            - generic [ref=f37e44]:
+              - generic [ref=f37e45]:
+                - generic [ref=f37e46]: 16:06:59
+                - generic [ref=f37e47]: "business confirmed: convening on Cafe 210 West · State College (recorded replay)"
+              - generic [ref=f37e48]:
+                - generic [ref=f37e49]: 16:06:59
+                - generic [ref=f37e50]: session opened · Cafe 210 West
+              - generic [ref=f37e51]:
+                - generic [ref=f37e52]: 16:07:00
+                - generic [ref=f37e53]: Mock · mock fixture replay
+              - generic [ref=f37e54]:
+                - generic [ref=f37e55]: 16:07:00
+                - generic [ref=f37e56]: 1 reviews streamed
+              - generic [ref=f37e57]:
+                - generic [ref=f37e58]: 16:07:01
+                - generic [ref=f37e59]: scout complete · evidence base ready
+              - generic [ref=f37e60]:
+                - generic [ref=f37e61]: 16:07:02
+                - generic [ref=f37e62]: Debate lane · round 0
+          - region "Agent thread · Swarm" [ref=f37e63]:
+            - button "02 Swarm" [expanded] [ref=f37e64] [cursor=pointer]:
+              - generic [ref=f37e65]: "02"
+              - generic [ref=f37e66]: Swarm
+              - generic [aria-hidden] [ref=f37e67]: ▾
+            - generic [ref=f37e68]:
+              - button "↑ show 13 earlier" [ref=f37e69] [cursor=pointer]
+              - button "Cross-question Sam the junior" [ref=f37e70] [cursor=pointer]:
+                - generic [ref=f37e81]:
+                  - generic [ref=f37e82]:
+                    - generic [ref=f37e83]: Sam the junior
+                    - generic [ref=f37e84]: students
+                  - generic [ref=f37e85]: joined the swarm
+                - generic [ref=f37e86]: ask ↗
+              - button "Cross-question Mia the regular" [ref=f37e87] [cursor=pointer]:
+                - generic [ref=f37e98]:
+                  - generic [ref=f37e99]:
+                    - generic [ref=f37e100]: Mia the regular
+                    - generic [ref=f37e101]: regulars
+                  - generic [ref=f37e102]: joined the swarm
+                - generic [ref=f37e103]: ask ↗
+              - button "Cross-question Tom the tourist" [ref=f37e104] [cursor=pointer]:
+                - generic [ref=f37e115]:
+                  - generic [ref=f37e116]:
+                    - generic [ref=f37e117]: Tom the tourist
+                    - generic [ref=f37e118]: tourists
+                  - generic [ref=f37e119]: joined the swarm
+                - generic [ref=f37e120]: ask ↗
+              - button "Cross-question Linda the mom" [ref=f37e121] [cursor=pointer]:
+                - generic [ref=f37e133]:
+                  - generic [ref=f37e134]:
+                    - generic [ref=f37e135]: Linda the mom
+                    - generic [ref=f37e136]: families
+                  - generic [ref=f37e137]: joined the swarm
+                - generic [ref=f37e138]: ask ↗
+              - button "Cross-question Jake the night-shift worker" [ref=f37e139] [cursor=pointer]:
+                - generic [ref=f37e150]:
+                  - generic [ref=f37e151]:
+                    - generic [ref=f37e152]: Jake the night-shift worker
+                    - generic [ref=f37e153]: staff-adjacent loyalists
+                  - generic [ref=f37e154]: joined the swarm
+                - generic [ref=f37e155]: ask ↗
+              - button "Cross-question Rachel the graduate" [ref=f37e156] [cursor=pointer]:
+                - generic [ref=f37e167]:
+                  - generic [ref=f37e168]:
+                    - generic [ref=f37e169]: Rachel the graduate
+                    - generic [ref=f37e170]: students
+                  - generic [ref=f37e171]: joined the swarm
+                - generic [ref=f37e172]: ask ↗
+              - button "Cross-question Kevin the local artist" [ref=f37e173] [cursor=pointer]:
+                - generic [ref=f37e185]:
+                  - generic [ref=f37e186]:
+                    - generic [ref=f37e187]: Kevin the local artist
+                    - generic [ref=f37e188]: regulars
+                  - generic [ref=f37e189]: joined the swarm
+                - generic [ref=f37e190]: ask ↗
+              - button "Cross-question Diane the event planner" [ref=f37e191] [cursor=pointer]:
+                - generic [ref=f37e201]:
+                  - generic [ref=f37e202]:
+                    - generic [ref=f37e203]: Diane the event planner
+                    - generic [ref=f37e204]: tourists
+                  - generic [ref=f37e205]: joined the swarm
+                - generic [ref=f37e206]: ask ↗
+              - button "Cross-question Henry the food truck owner" [ref=f37e207] [cursor=pointer]:
+                - generic [ref=f37e217]:
+                  - generic [ref=f37e218]:
+                    - generic [ref=f37e219]: Henry the food truck owner
+                    - generic [ref=f37e220]: staff-adjacent loyalists
+                  - generic [ref=f37e221]: joined the swarm
+                - generic [ref=f37e222]: ask ↗
+              - button "Cross-question Ella the nightlife enthusiast" [ref=f37e223] [cursor=pointer]:
+                - generic [ref=f37e235]:
+                  - generic [ref=f37e236]:
+                    - generic [ref=f37e237]: Ella the nightlife enthusiast
+                    - generic [ref=f37e238]: regulars
+                  - generic [ref=f37e239]: joined the swarm
+                - generic [ref=f37e240]: ask ↗
+              - button "Cross-question Alex the late-night foodie" [ref=f37e241] [cursor=pointer]:
+                - generic [ref=f37e251]:
+                  - generic [ref=f37e252]:
+                    - generic [ref=f37e253]: Alex the late-night foodie
+                    - generic [ref=f37e254]: walk-ins
+                  - generic [ref=f37e255]: joined the swarm
+                - generic [ref=f37e256]: ask ↗
+              - button "Cross-question Jordan the college student" [ref=f37e257] [cursor=pointer]:
+                - generic [ref=f37e267]:
+                  - generic [ref=f37e268]:
+                    - generic [ref=f37e269]: Jordan the college student
+                    - generic [ref=f37e270]: students
+                  - generic [ref=f37e271]: joined the swarm
+                - generic [ref=f37e272]: ask ↗
+              - button "Cross-question Sofia the family planner" [ref=f37e273] [cursor=pointer]:
+                - generic [ref=f37e284]:
+                  - generic [ref=f37e285]:
+                    - generic [ref=f37e286]: Sofia the family planner
+                    - generic [ref=f37e287]: families
+                  - generic [ref=f37e288]: joined the swarm
+                - generic [ref=f37e289]: ask ↗
+              - button "Cross-question Mike the regular bartender" [ref=f37e290] [cursor=pointer]:
+                - generic [ref=f37e300]:
+                  - generic [ref=f37e301]:
+                    - generic [ref=f37e302]: Mike the regular bartender
+                    - generic [ref=f37e303]: staff-adjacent loyalists
+                  - generic [ref=f37e304]: joined the swarm
+                - generic [ref=f37e305]: ask ↗
+              - button "Cross-question Emma the weekend warrior" [ref=f37e306] [cursor=pointer]:
+                - generic [ref=f37e316]:
+                  - generic [ref=f37e317]:
+                    - generic [ref=f37e318]: Emma the weekend warrior
+                    - generic [ref=f37e319]: walk-ins
+                  - generic [ref=f37e320]: joined the swarm
+                - generic [ref=f37e321]: ask ↗
+              - button "Cross-question Jack the game-day enthusiast" [ref=f37e322] [cursor=pointer]:
+                - generic [ref=f37e333]:
+                  - generic [ref=f37e334]:
+                    - generic [ref=f37e335]: Jack the game-day enthusiast
+                    - generic [ref=f37e336]: students
+                  - generic [ref=f37e337]: joined the swarm
+                - generic [ref=f37e338]: ask ↗
+              - button "Cross-question Lily the neighborhood mom" [ref=f37e339] [cursor=pointer]:
+                - generic [ref=f37e350]:
+                  - generic [ref=f37e351]:
+                    - generic [ref=f37e352]: Lily the neighborhood mom
+                    - generic [ref=f37e353]: families
+                  - generic [ref=f37e354]: joined the swarm
+                - generic [ref=f37e355]: ask ↗
+              - button "Cross-question Oscar the night owl" [ref=f37e356] [cursor=pointer]:
+                - generic [ref=f37e367]:
+                  - generic [ref=f37e368]:
+                    - generic [ref=f37e369]: Oscar the night owl
+                    - generic [ref=f37e370]: walk-ins
+                  - generic [ref=f37e371]: joined the swarm
+                - generic [ref=f37e372]: ask ↗
+              - button "Cross-question Sharon the loyal supporter" [ref=f37e373] [cursor=pointer]:
+                - generic [ref=f37e385]:
+                  - generic [ref=f37e386]:
+                    - generic [ref=f37e387]: Sharon the loyal supporter
+                    - generic [ref=f37e388]: staff-adjacent loyalists
+                  - generic [ref=f37e389]: joined the swarm
+                - generic [ref=f37e390]: ask ↗
+              - button "Cross-question Ryan the adventurous tourist" [ref=f37e391] [cursor=pointer]:
+                - generic [ref=f37e402]:
+                  - generic [ref=f37e403]:
+                    - generic [ref=f37e404]: Ryan the adventurous tourist
+                    - generic [ref=f37e405]: tourists
+                  - generic [ref=f37e406]: joined the swarm
+                - generic [ref=f37e407]: ask ↗
+              - button "Cross-question Sam the junior 2" [ref=f37e408] [cursor=pointer]:
+                - generic [ref=f37e419]:
+                  - generic [ref=f37e420]:
+                    - generic [ref=f37e421]: Sam the junior 2
+                    - generic [ref=f37e422]: students
+                  - generic [ref=f37e423]: joined the swarm
+                - generic [ref=f37e424]: ask ↗
+              - button "Cross-question Megan the mom" [ref=f37e425] [cursor=pointer]:
+                - generic [ref=f37e437]:
+                  - generic [ref=f37e438]:
+                    - generic [ref=f37e439]: Megan the mom
+                    - generic [ref=f37e440]: families
+                  - generic [ref=f37e441]: joined the swarm
+                - generic [ref=f37e442]: ask ↗
+              - button "Cross-question Tommy the tourist" [ref=f37e443] [cursor=pointer]:
+                - generic [ref=f37e454]:
+                  - generic [ref=f37e455]:
+                    - generic [ref=f37e456]: Tommy the tourist
+                    - generic [ref=f37e457]: tourists
+                  - generic [ref=f37e458]: joined the swarm
+                - generic [ref=f37e459]: ask ↗
+              - button "Cross-question Jenny the regular" [ref=f37e460] [cursor=pointer]:
+                - generic [ref=f37e471]:
+                  - generic [ref=f37e472]:
+                    - generic [ref=f37e473]: Jenny the regular
+                    - generic [ref=f37e474]: regulars
+                  - generic [ref=f37e475]: joined the swarm
+                - generic [ref=f37e476]: ask ↗
+              - button "Cross-question Mark the staff-member" [ref=f37e477] [cursor=pointer]:
+                - generic [ref=f37e489]:
+                  - generic [ref=f37e490]:
+                    - generic [ref=f37e491]: Mark the staff-member
+                    - generic [ref=f37e492]: staff-adjacent loyalists
+                  - generic [ref=f37e493]: joined the swarm
+                - generic [ref=f37e494]: ask ↗
+              - button "Cross-question Lisa the late-night eater" [ref=f37e495] [cursor=pointer]:
+                - generic [ref=f37e505]:
+                  - generic [ref=f37e506]:
+                    - generic [ref=f37e507]: Lisa the late-night eater
+                    - generic [ref=f37e508]: regulars
+                  - generic [ref=f37e509]: joined the swarm
+                - generic [ref=f37e510]: ask ↗
+              - button "Cross-question David the dad" [ref=f37e511] [cursor=pointer]:
+                - generic [ref=f37e521]:
+                  - generic [ref=f37e522]:
+                    - generic [ref=f37e523]: David the dad
+                    - generic [ref=f37e524]: families
+                  - generic [ref=f37e525]: joined the swarm
+                - generic [ref=f37e526]: ask ↗
+              - button "Cross-question Rachel the grad student" [ref=f37e527] [cursor=pointer]:
+                - generic [ref=f37e538]:
+                  - generic [ref=f37e539]:
+                    - generic [ref=f37e540]: Rachel the grad student
+                    - generic [ref=f37e541]: students
+                  - generic [ref=f37e542]: joined the swarm
+                - generic [ref=f37e543]: ask ↗
+              - button "Cross-question George the nightlife lover" [ref=f37e544] [cursor=pointer]:
+                - generic [ref=f37e554]:
+                  - generic [ref=f37e555]:
+                    - generic [ref=f37e556]: George the nightlife lover
+                    - generic [ref=f37e557]: tourists
+                  - generic [ref=f37e558]: joined the swarm
+                - generic [ref=f37e559]: ask ↗
+              - button "Cross-question Sophie the game day fan" [ref=f37e560] [cursor=pointer]:
+                - generic [ref=f37e570]:
+                  - generic [ref=f37e571]:
+                    - generic [ref=f37e572]: Sophie the game day fan
+                    - generic [ref=f37e573]: students
+                  - generic [ref=f37e574]: joined the swarm
+                - generic [ref=f37e575]: ask ↗
+              - button "Cross-question Sam the junior 2 2" [ref=f37e576] [cursor=pointer]:
+                - generic [ref=f37e587]:
+                  - generic [ref=f37e588]:
+                    - generic [ref=f37e589]: Sam the junior 2 2
+                    - generic [ref=f37e590]: students
+                  - generic [ref=f37e591]: joined the swarm
+                - generic [ref=f37e592]: ask ↗
+              - button "Cross-question Lucy the late-night local" [ref=f37e593] [cursor=pointer]:
+                - generic [ref=f37e603]:
+                  - generic [ref=f37e604]:
+                    - generic [ref=f37e605]: Lucy the late-night local
+                    - generic [ref=f37e606]: walk-ins
+                  - generic [ref=f37e607]: joined the swarm
+                - generic [ref=f37e608]: ask ↗
+              - button "Cross-question Tom the game-day tourist" [ref=f37e609] [cursor=pointer]:
+                - generic [ref=f37e619]:
+                  - generic [ref=f37e620]:
+                    - generic [ref=f37e621]: Tom the game-day tourist
+                    - generic [ref=f37e622]: tourists
+                  - generic [ref=f37e623]: joined the swarm
+                - generic [ref=f37e624]: ask ↗
+              - button "Cross-question The Martinez family" [ref=f37e625] [cursor=pointer]:
+                - generic [ref=f37e636]:
+                  - generic [ref=f37e637]:
+                    - generic [ref=f37e638]: The Martinez family
+                    - generic [ref=f37e639]: families
+                  - generic [ref=f37e640]: joined the swarm
+                - generic [ref=f37e641]: ask ↗
+              - button "Cross-question Evelyn the regular" [ref=f37e642] [cursor=pointer]:
+                - generic [ref=f37e653]:
+                  - generic [ref=f37e654]:
+                    - generic [ref=f37e655]: Evelyn the regular
+                    - generic [ref=f37e656]: regulars
+                  - generic [ref=f37e657]: joined the swarm
+                - generic [ref=f37e658]: ask ↗
+              - button "Cross-question Dave the staff supporter" [ref=f37e659] [cursor=pointer]:
+                - generic [ref=f37e670]:
+                  - generic [ref=f37e671]:
+                    - generic [ref=f37e672]: Dave the staff supporter
+                    - generic [ref=f37e673]: staff-adjacent loyalists
+                  - generic [ref=f37e674]: joined the swarm
+                - generic [ref=f37e675]: ask ↗
+              - button "Cross-question Nina the night owl" [ref=f37e676] [cursor=pointer]:
+                - generic [ref=f37e688]:
+                  - generic [ref=f37e689]:
+                    - generic [ref=f37e690]: Nina the night owl
+                    - generic [ref=f37e691]: walk-ins
+                  - generic [ref=f37e692]: joined the swarm
+                - generic [ref=f37e693]: ask ↗
+              - button "Cross-question Jake the campus athlete" [ref=f37e694] [cursor=pointer]:
+                - generic [ref=f37e705]:
+                  - generic [ref=f37e706]:
+                    - generic [ref=f37e707]: Jake the campus athlete
+                    - generic [ref=f37e708]: students
+                  - generic [ref=f37e709]: joined the swarm
+                - generic [ref=f37e710]: ask ↗
+              - button "Cross-question Clara the foodie explorer" [ref=f37e711] [cursor=pointer]:
+                - generic [ref=f37e722]:
+                  - generic [ref=f37e723]:
+                    - generic [ref=f37e724]: Clara the foodie explorer
+                    - generic [ref=f37e725]: tourists
+                  - generic [ref=f37e726]: joined the swarm
+                - generic [ref=f37e727]: ask ↗
+              - button "Cross-question Ryan the weekend warrior" [ref=f37e728] [cursor=pointer]:
+                - generic [ref=f37e740]:
+                  - generic [ref=f37e741]:
+                    - generic [ref=f37e742]: Ryan the weekend warrior
+                    - generic [ref=f37e743]: regulars
+                  - generic [ref=f37e744]: joined the swarm
+                - generic [ref=f37e745]: ask ↗
+              - button "Cross-question Sam the Junior" [ref=f37e746] [cursor=pointer]:
+                - generic [ref=f37e757]:
+                  - generic [ref=f37e758]:
+                    - generic [ref=f37e759]: Sam the Junior
+                    - generic [ref=f37e760]: students
+                  - generic [ref=f37e761]: joined the swarm
+                - generic [ref=f37e762]: ask ↗
+              - button "Cross-question Lisa the Local Artist" [ref=f37e763] [cursor=pointer]:
+                - generic [ref=f37e774]:
+                  - generic [ref=f37e775]:
+                    - generic [ref=f37e776]: Lisa the Local Artist
+                    - generic [ref=f37e777]: regulars
+                  - generic [ref=f37e778]: joined the swarm
+                - generic [ref=f37e779]: ask ↗
+              - button "Cross-question Mike the Weekend Warrior" [ref=f37e780] [cursor=pointer]:
+                - generic [ref=f37e792]:
+                  - generic [ref=f37e793]:
+                    - generic [ref=f37e794]: Mike the Weekend Warrior
+                    - generic [ref=f37e795]: tourists
+                  - generic [ref=f37e796]: joined the swarm
+                - generic [ref=f37e797]: ask ↗
+              - button "Cross-question Emily the Family Planner" [ref=f37e798] [cursor=pointer]:
+                - generic [ref=f37e808]:
+                  - generic [ref=f37e809]:
+                    - generic [ref=f37e810]: Emily the Family Planner
+                    - generic [ref=f37e811]: families
+                  - generic [ref=f37e812]: joined the swarm
+                - generic [ref=f37e813]: ask ↗
+              - button "Cross-question Brian the Bartender" [ref=f37e814] [cursor=pointer]:
+                - generic [ref=f37e824]:
+                  - generic [ref=f37e825]:
+                    - generic [ref=f37e826]: Brian the Bartender
+                    - generic [ref=f37e827]: staff-adjacent loyalists
+                  - generic [ref=f37e828]: joined the swarm
+                - generic [ref=f37e829]: ask ↗
+              - button "Cross-question Chloe the Grad Student" [ref=f37e830] [cursor=pointer]:
+                - generic [ref=f37e841]:
+                  - generic [ref=f37e842]:
+                    - generic [ref=f37e843]: Chloe the Grad Student
+                    - generic [ref=f37e844]: students
+                  - generic [ref=f37e845]: joined the swarm
+                - generic [ref=f37e846]: ask ↗
+              - button "Cross-question Tom the Family Man" [ref=f37e847] [cursor=pointer]:
+                - generic [ref=f37e857]:
+                  - generic [ref=f37e858]:
+                    - generic [ref=f37e859]: Tom the Family Man
+                    - generic [ref=f37e860]: families
+                  - generic [ref=f37e861]: joined the swarm
+                - generic [ref=f37e862]: ask ↗
+              - button "Cross-question Rachel the Sports Fan" [ref=f37e863] [cursor=pointer]:
+                - generic [ref=f37e873]:
+                  - generic [ref=f37e874]:
+                    - generic [ref=f37e875]: Rachel the Sports Fan
+                    - generic [ref=f37e876]: tourists
+                  - generic [ref=f37e877]: joined the swarm
+                - generic [ref=f37e878]: ask ↗
+              - button "Cross-question Nick the Night Owl" [ref=f37e879] [cursor=pointer]:
+                - generic [ref=f37e890]:
+                  - generic [ref=f37e891]:
+                    - generic [ref=f37e892]: Nick the Night Owl
+                    - generic [ref=f37e893]: regulars
+                  - generic [ref=f37e894]: joined the swarm
+                - generic [ref=f37e895]: ask ↗
+              - button "Cross-question Olivia the Newcomer" [ref=f37e896] [cursor=pointer]:
+                - generic [ref=f37e906]:
+                  - generic [ref=f37e907]:
+                    - generic [ref=f37e908]: Olivia the Newcomer
+                    - generic [ref=f37e909]: tourists
+                  - generic [ref=f37e910]: joined the swarm
+                - generic [ref=f37e911]: ask ↗
+          - region "Agent thread · Debate" [ref=f37e912]:
+            - button "03 Debate" [expanded] [ref=f37e913] [cursor=pointer]:
+              - generic [ref=f37e914]: "03"
+              - generic [ref=f37e915]: Debate
+              - generic [aria-hidden] [ref=f37e916]: ▾
+            - generic [ref=f37e917]:
+              - button "↑ show 71 earlier" [ref=f37e918] [cursor=pointer]
+              - button "Cross-question Sam the junior" [ref=f37e919] [cursor=pointer]:
+                - generic [ref=f37e930]:
+                  - generic [ref=f37e931]:
+                    - generic [ref=f37e932]: Sam the junior
+                    - generic [ref=f37e933]: students
+                    - generic [ref=f37e934]: for
+                  - generic [ref=f37e935]: Extending hours to 2 AM would definitely cater to the late-night crowd, especially since food options are lim…
+                - generic [ref=f37e936]: ask ↗
+              - button "Cross-question Mia the regular" [ref=f37e937] [cursor=pointer]:
+                - generic [ref=f37e948]:
+                  - generic [ref=f37e949]:
+                    - generic [ref=f37e950]: Mia the regular
+                    - generic [ref=f37e951]: regulars
+                    - generic [ref=f37e952]: for
+                  - generic [ref=f37e953]: Extending the hours to 2 AM would really benefit regulars like me who enjoy hanging out later, especially sin…
+                - generic [ref=f37e954]: ask ↗
+              - button "Cross-question Tom the tourist" [ref=f37e955] [cursor=pointer]:
+                - generic [ref=f37e966]:
+                  - generic [ref=f37e967]:
+                    - generic [ref=f37e968]: Tom the tourist
+                    - generic [ref=f37e969]: tourists
+                    - generic [ref=f37e970]: for
+                  - generic [ref=f37e971]: Extending the hours to 2 AM would cater to the late-night crowd that is looking for dining options after 10 P…
+                - generic [ref=f37e972]: ask ↗
+              - button "Cross-question Linda the mom" [ref=f37e973] [cursor=pointer]:
+                - generic [ref=f37e985]:
+                  - generic [ref=f37e986]:
+                    - generic [ref=f37e987]: Linda the mom
+                    - generic [ref=f37e988]: families
+                    - generic [ref=f37e989]: for
+                  - generic [ref=f37e990]: As a busy mom, I often look for convenient dining options for my kids after their evening activities, and ext…
+                - generic [ref=f37e991]: ask ↗
+              - button "Cross-question Jake the night-shift worker" [ref=f37e992] [cursor=pointer]:
+                - generic [ref=f37e1003]:
+                  - generic [ref=f37e1004]:
+                    - generic [ref=f37e1005]: Jake the night-shift worker
+                    - generic [ref=f37e1006]: staff-adjacent loyalists
+                    - generic [ref=f37e1007]: for
+                  - generic [ref=f37e1008]: Extending weekend hours to 2 AM would really help night-shift workers like me, especially since weekend footf…
+                - generic [ref=f37e1009]: ask ↗
+              - button "Cross-question Rachel the graduate" [ref=f37e1010] [cursor=pointer]:
+                - generic [ref=f37e1021]:
+                  - generic [ref=f37e1022]:
+                    - generic [ref=f37e1023]: Rachel the graduate
+                    - generic [ref=f37e1024]: students
+                    - generic [ref=f37e1025]: for
+                  - generic [ref=f37e1026]: Extending hours to 2 AM would cater to students like me who need a late-night study space, especially since r…
+                - generic [ref=f37e1027]: ask ↗
+              - button "Cross-question Kevin the local artist" [ref=f37e1028] [cursor=pointer]:
+                - generic [ref=f37e1040]:
+                  - generic [ref=f37e1041]:
+                    - generic [ref=f37e1042]: Kevin the local artist
+                    - generic [ref=f37e1043]: regulars
+                    - generic [ref=f37e1044]: for
+                  - generic [ref=f37e1045]: As a regular, I often wish the café stayed open later, especially on weekends when I want to sketch and enjoy…
+                - generic [ref=f37e1046]: ask ↗
+              - button "Cross-question Diane the event planner" [ref=f37e1047] [cursor=pointer]:
+                - generic [ref=f37e1057]:
+                  - generic [ref=f37e1058]:
+                    - generic [ref=f37e1059]: Diane the event planner
+                    - generic [ref=f37e1060]: tourists
+                    - generic [ref=f37e1061]: for
+                  - generic [ref=f37e1062]: Extending weekend hours to 2 AM would cater to the late-night crowd, especially since foot traffic peaks afte…
+                - generic [ref=f37e1063]: ask ↗
+              - button "Cross-question Henry the food truck owner" [ref=f37e1064] [cursor=pointer]:
+                - generic [ref=f37e1074]:
+                  - generic [ref=f37e1075]:
+                    - generic [ref=f37e1076]: Henry the food truck owner
+                    - generic [ref=f37e1077]: staff-adjacent loyalists
+                    - generic [ref=f37e1078]: for
+                  - generic [ref=f37e1079]: Extending weekend hours to 2 AM would cater to the late-night crowd, especially since regulars are already co…
+                - generic [ref=f37e1080]: ask ↗
+              - button "Cross-question Ella the nightlife enthusiast" [ref=f37e1081] [cursor=pointer]:
+                - generic [ref=f37e1093]:
+                  - generic [ref=f37e1094]:
+                    - generic [ref=f37e1095]: Ella the nightlife enthusiast
+                    - generic [ref=f37e1096]: regulars
+                    - generic [ref=f37e1097]: for
+                  - generic [ref=f37e1098]: Extending hours to 2 AM would definitely cater to the late-night crowd, especially since foot traffic peaks a…
+                - generic [ref=f37e1099]: ask ↗
+              - button "Cross-question Alex the late-night foodie" [ref=f37e1100] [cursor=pointer]:
+                - generic [ref=f37e1110]:
+                  - generic [ref=f37e1111]:
+                    - generic [ref=f37e1112]: Alex the late-night foodie
+                    - generic [ref=f37e1113]: walk-ins
+                    - generic [ref=f37e1114]: for
+                  - generic [ref=f37e1115]: Extending weekend hours to 2 AM would definitely cater to late-night foodies like me who are looking for a bi…
+                - generic [ref=f37e1116]: ask ↗
+              - button "Cross-question Jordan the college student" [ref=f37e1117] [cursor=pointer]:
+                - generic [ref=f37e1127]:
+                  - generic [ref=f37e1128]:
+                    - generic [ref=f37e1129]: Jordan the college student
+                    - generic [ref=f37e1130]: students
+                    - generic [ref=f37e1131]: for
+                  - generic [ref=f37e1132]: Extending hours to 2 AM would definitely help capture the late-night crowd, especially since options thin out…
+                - generic [ref=f37e1133]: ask ↗
+              - button "Cross-question Sofia the family planner" [ref=f37e1134] [cursor=pointer]:
+                - generic [ref=f37e1145]:
+                  - generic [ref=f37e1146]:
+                    - generic [ref=f37e1147]: Sofia the family planner
+                    - generic [ref=f37e1148]: families
+                    - generic [ref=f37e1149]: for
+                  - generic [ref=f37e1150]: Extending weekend hours to 2 AM would cater to families like mine who often dine out later, especially post-g…
+                - generic [ref=f37e1151]: ask ↗
+              - button "Cross-question Mike the regular bartender" [ref=f37e1152] [cursor=pointer]:
+                - generic [ref=f37e1162]:
+                  - generic [ref=f37e1163]:
+                    - generic [ref=f37e1164]: Mike the regular bartender
+                    - generic [ref=f37e1165]: staff-adjacent loyalists
+                    - generic [ref=f37e1166]: for
+                  - generic [ref=f37e1167]: Extending hours to 2 AM would cater to the late-night crowd, especially since regulars have mentioned wanting…
+                - generic [ref=f37e1168]: ask ↗
+              - button "Cross-question Emma the weekend warrior" [ref=f37e1169] [cursor=pointer]:
+                - generic [ref=f37e1179]:
+                  - generic [ref=f37e1180]:
+                    - generic [ref=f37e1181]: Emma the weekend warrior
+                    - generic [ref=f37e1182]: walk-ins
+                    - generic [ref=f37e1183]: for
+                  - generic [ref=f37e1184]: Extending hours to 2 AM would definitely cater to my friends and me, especially since we often feel limited b…
+                - generic [ref=f37e1185]: ask ↗
+              - button "Cross-question Jack the game-day enthusiast" [ref=f37e1186] [cursor=pointer]:
+                - generic [ref=f37e1197]:
+                  - generic [ref=f37e1198]:
+                    - generic [ref=f37e1199]: Jack the game-day enthusiast
+                    - generic [ref=f37e1200]: students
+                    - generic [ref=f37e1201]: for
+                  - generic [ref=f37e1202]: As a game-day enthusiast, I often look for food options after a match, and extending hours to 2 AM would cate…
+                - generic [ref=f37e1203]: ask ↗
+              - button "Cross-question Lily the neighborhood mom" [ref=f37e1204] [cursor=pointer]:
+                - generic [ref=f37e1215]:
+                  - generic [ref=f37e1216]:
+                    - generic [ref=f37e1217]: Lily the neighborhood mom
+                    - generic [ref=f37e1218]: families
+                    - generic [ref=f37e1219]: for
+                  - generic [ref=f37e1220]: Extending hours to 2 AM would definitely cater to families like mine who enjoy late-night treats, especially …
+                - generic [ref=f37e1221]: ask ↗
+              - button "Cross-question Oscar the night owl" [ref=f37e1222] [cursor=pointer]:
+                - generic [ref=f37e1233]:
+                  - generic [ref=f37e1234]:
+                    - generic [ref=f37e1235]: Oscar the night owl
+                    - generic [ref=f37e1236]: walk-ins
+                    - generic [ref=f37e1237]: for
+                  - generic [ref=f37e1238]: Extending hours to 2 AM would cater to the late-night crowd like me, especially since footfall peaks after 10…
+                - generic [ref=f37e1239]: ask ↗
+              - button "Cross-question Sharon the loyal supporter" [ref=f37e1240] [cursor=pointer]:
+                - generic [ref=f37e1252]:
+                  - generic [ref=f37e1253]:
+                    - generic [ref=f37e1254]: Sharon the loyal supporter
+                    - generic [ref=f37e1255]: staff-adjacent loyalists
+                    - generic [ref=f37e1256]: for
+                  - generic [ref=f37e1257]: Extending weekend hours to 2 AM would cater to the late-night crowd and give us a solid post-shift spot. Plus…
+                - generic [ref=f37e1258]: ask ↗
+              - button "Cross-question Ryan the adventurous tourist" [ref=f37e1259] [cursor=pointer]:
+                - generic [ref=f37e1270]:
+                  - generic [ref=f37e1271]:
+                    - generic [ref=f37e1272]: Ryan the adventurous tourist
+                    - generic [ref=f37e1273]: tourists
+                    - generic [ref=f37e1274]: for
+                  - generic [ref=f37e1275]: Extending weekend hours to 2 AM would cater to late-night diners like me and help fill the gap left by dwindl…
+                - generic [ref=f37e1276]: ask ↗
+              - button "Cross-question Sam the junior 2" [ref=f37e1277] [cursor=pointer]:
+                - generic [ref=f37e1288]:
+                  - generic [ref=f37e1289]:
+                    - generic [ref=f37e1290]: Sam the junior 2
+                    - generic [ref=f37e1291]: students
+                    - generic [ref=f37e1292]: for
+                  - generic [ref=f37e1293]: Extending weekend hours to 2 AM would cater to students like me who study late and often want food after the …
+                - generic [ref=f37e1294]: ask ↗
+              - button "Cross-question Megan the mom" [ref=f37e1295] [cursor=pointer]:
+                - generic [ref=f37e1307]:
+                  - generic [ref=f37e1308]:
+                    - generic [ref=f37e1309]: Megan the mom
+                    - generic [ref=f37e1310]: families
+                    - generic [ref=f37e1311]: for
+                  - generic [ref=f37e1312]: As a busy mom, I often look for dining options late at night, especially on weekends when we're out with the …
+                - generic [ref=f37e1313]: ask ↗
+              - button "Cross-question Tommy the tourist" [ref=f37e1314] [cursor=pointer]:
+                - generic [ref=f37e1325]:
+                  - generic [ref=f37e1326]:
+                    - generic [ref=f37e1327]: Tommy the tourist
+                    - generic [ref=f37e1328]: tourists
+                    - generic [ref=f37e1329]: for
+                  - generic [ref=f37e1330]: As a first-time visitor, I often look for late-night dining options after events, and extending hours to 2 AM…
+                - generic [ref=f37e1331]: ask ↗
+              - button "Cross-question Jenny the regular" [ref=f37e1332] [cursor=pointer]:
+                - generic [ref=f37e1343]:
+                  - generic [ref=f37e1344]:
+                    - generic [ref=f37e1345]: Jenny the regular
+                    - generic [ref=f37e1346]: regulars
+                    - generic [ref=f37e1347]: for
+                  - generic [ref=f37e1348]: Extending the hours to 2 AM would cater to regulars like me who enjoy late-night socializing with friends, es…
+                - generic [ref=f37e1349]: ask ↗
+              - button "Cross-question Mark the staff-member" [ref=f37e1350] [cursor=pointer]:
+                - generic [ref=f37e1362]:
+                  - generic [ref=f37e1363]:
+                    - generic [ref=f37e1364]: Mark the staff-member
+                    - generic [ref=f37e1365]: staff-adjacent loyalists
+                    - generic [ref=f37e1366]: for
+                  - generic [ref=f37e1367]: Extending weekend hours to 2 AM would definitely cater to the late-night crowd, especially since regulars hav…
+                - generic [ref=f37e1368]: ask ↗
+              - button "Cross-question Lisa the late-night eater" [ref=f37e1369] [cursor=pointer]:
+                - generic [ref=f37e1379]:
+                  - generic [ref=f37e1380]:
+                    - generic [ref=f37e1381]: Lisa the late-night eater
+                    - generic [ref=f37e1382]: regulars
+                    - generic [ref=f37e1383]: for
+                  - generic [ref=f37e1384]: Extending weekend hours to 2 AM would definitely cater to our late-night cravings, especially since footfall …
+                - generic [ref=f37e1385]: ask ↗
+              - button "Cross-question David the dad" [ref=f37e1386] [cursor=pointer]:
+                - generic [ref=f37e1396]:
+                  - generic [ref=f37e1397]:
+                    - generic [ref=f37e1398]: David the dad
+                    - generic [ref=f37e1399]: families
+                    - generic [ref=f37e1400]: for
+                  - generic [ref=f37e1401]: Extending hours to 2 AM would really help families like mine who are looking for late-night dining options af…
+                - generic [ref=f37e1402]: ask ↗
+              - button "Cross-question Rachel the grad student" [ref=f37e1403] [cursor=pointer]:
+                - generic [ref=f37e1414]:
+                  - generic [ref=f37e1415]:
+                    - generic [ref=f37e1416]: Rachel the grad student
+                    - generic [ref=f37e1417]: students
+                    - generic [ref=f37e1418]: for
+                  - generic [ref=f37e1419]: Extending weekend hours to 2 AM would cater to students like me who often need food and study space late at n…
+                - generic [ref=f37e1420]: ask ↗
+              - button "Cross-question George the nightlife lover" [ref=f37e1421] [cursor=pointer]:
+                - generic [ref=f37e1431]:
+                  - generic [ref=f37e1432]:
+                    - generic [ref=f37e1433]: George the nightlife lover
+                    - generic [ref=f37e1434]: tourists
+                    - generic [ref=f37e1435]: for
+                  - generic [ref=f37e1436]: Extending hours to 2 AM would cater to the peak weekend footfall after 10 PM, giving nightlife lovers more op…
+                - generic [ref=f37e1437]: ask ↗
+              - button "Cross-question Sophie the game day fan" [ref=f37e1438] [cursor=pointer]:
+                - generic [ref=f37e1448]:
+                  - generic [ref=f37e1449]:
+                    - generic [ref=f37e1450]: Sophie the game day fan
+                    - generic [ref=f37e1451]: students
+                    - generic [ref=f37e1452]: for
+                  - generic [ref=f37e1453]: Extending hours to 2 AM would definitely cater to the late-night crowd, especially since many of us are looki…
+                - generic [ref=f37e1454]: ask ↗
+              - button "Cross-question Sam the junior 2 2" [ref=f37e1455] [cursor=pointer]:
+                - generic [ref=f37e1466]:
+                  - generic [ref=f37e1467]:
+                    - generic [ref=f37e1468]: Sam the junior 2 2
+                    - generic [ref=f37e1469]: students
+                    - generic [ref=f37e1470]: for
+                  - generic [ref=f37e1471]: Extending weekend hours to 2 AM would really help us night owls who need food after late-night study sessions…
+                - generic [ref=f37e1472]: ask ↗
+              - button "Cross-question Lucy the late-night local" [ref=f37e1473] [cursor=pointer]:
+                - generic [ref=f37e1483]:
+                  - generic [ref=f37e1484]:
+                    - generic [ref=f37e1485]: Lucy the late-night local
+                    - generic [ref=f37e1486]: walk-ins
+                    - generic [ref=f37e1487]: for
+                  - generic [ref=f37e1488]: Extending weekend hours to 2 AM would cater to the late-night crowd and address the complaints about the 11 P…
+                - generic [ref=f37e1489]: ask ↗
+              - button "Cross-question Tom the game-day tourist" [ref=f37e1490] [cursor=pointer]:
+                - generic [ref=f37e1500]:
+                  - generic [ref=f37e1501]:
+                    - generic [ref=f37e1502]: Tom the game-day tourist
+                    - generic [ref=f37e1503]: tourists
+                    - generic [ref=f37e1504]: for
+                  - generic [ref=f37e1505]: Extending hours to 2 AM would cater to the late-night crowd, especially since options thin out after midnight…
+                - generic [ref=f37e1506]: ask ↗
+              - button "Cross-question The Martinez family" [ref=f37e1507] [cursor=pointer]:
+                - generic [ref=f37e1518]:
+                  - generic [ref=f37e1519]:
+                    - generic [ref=f37e1520]: The Martinez family
+                    - generic [ref=f37e1521]: families
+                    - generic [ref=f37e1522]: for
+                  - generic [ref=f37e1523]: As a family that enjoys weekend outings, having more late-night dining options would be beneficial, especiall…
+                - generic [ref=f37e1524]: ask ↗
+              - button "Cross-question Evelyn the regular" [ref=f37e1525] [cursor=pointer]:
+                - generic [ref=f37e1536]:
+                  - generic [ref=f37e1537]:
+                    - generic [ref=f37e1538]: Evelyn the regular
+                    - generic [ref=f37e1539]: regulars
+                    - generic [ref=f37e1540]: for
+                  - generic [ref=f37e1541]: Extending weekend hours to 2 AM would cater to the late-night crowd, especially since regulars often complain…
+                - generic [ref=f37e1542]: ask ↗
+              - button "Cross-question Dave the staff supporter" [ref=f37e1543] [cursor=pointer]:
+                - generic [ref=f37e1554]:
+                  - generic [ref=f37e1555]:
+                    - generic [ref=f37e1556]: Dave the staff supporter
+                    - generic [ref=f37e1557]: staff-adjacent loyalists
+                    - generic [ref=f37e1558]: for
+                  - generic [ref=f37e1559]: Extending weekend hours to 2 AM would cater to the high footfall after 10 PM and address complaints about the…
+                - generic [ref=f37e1560]: ask ↗
+              - button "Cross-question Nina the night owl" [ref=f37e1561] [cursor=pointer]:
+                - generic [ref=f37e1573]:
+                  - generic [ref=f37e1574]:
+                    - generic [ref=f37e1575]: Nina the night owl
+                    - generic [ref=f37e1576]: walk-ins
+                    - generic [ref=f37e1577]: for
+                  - generic [ref=f37e1578]: As a night-shift worker, I often crave late-night food after my shifts, especially on weekends when options a…
+                - generic [ref=f37e1579]: ask ↗
+              - button "Cross-question Jake the campus athlete" [ref=f37e1580] [cursor=pointer]:
+                - generic [ref=f37e1591]:
+                  - generic [ref=f37e1592]:
+                    - generic [ref=f37e1593]: Jake the campus athlete
+                    - generic [ref=f37e1594]: students
+                    - generic [ref=f37e1595]: for
+                  - generic [ref=f37e1596]: As a student athlete, I often need late-night snacks, especially after games when regular options are limited…
+                - generic [ref=f37e1597]: ask ↗
+              - button "Cross-question Clara the foodie explorer" [ref=f37e1598] [cursor=pointer]:
+                - generic [ref=f37e1609]:
+                  - generic [ref=f37e1610]:
+                    - generic [ref=f37e1611]: Clara the foodie explorer
+                    - generic [ref=f37e1612]: tourists
+                    - generic [ref=f37e1613]: for
+                  - generic [ref=f37e1614]: As a foodie explorer, I love discovering late-night dining options, especially when the regular options thin …
+                - generic [ref=f37e1615]: ask ↗
+              - button "Cross-question Ryan the weekend warrior" [ref=f37e1616] [cursor=pointer]:
+                - generic [ref=f37e1628]:
+                  - generic [ref=f37e1629]:
+                    - generic [ref=f37e1630]: Ryan the weekend warrior
+                    - generic [ref=f37e1631]: regulars
+                    - generic [ref=f37e1632]: for
+                  - generic [ref=f37e1633]: Extending hours to 2 AM would definitely cater to the late-night crowd that wants more options after 10 PM, e…
+                - generic [ref=f37e1634]: ask ↗
+              - button "Cross-question Sam the Junior" [ref=f37e1635] [cursor=pointer]:
+                - generic [ref=f37e1646]:
+                  - generic [ref=f37e1647]:
+                    - generic [ref=f37e1648]: Sam the Junior
+                    - generic [ref=f37e1649]: students
+                    - generic [ref=f37e1650]: for
+                  - generic [ref=f37e1651]: Extending hours to 2 AM would really help students like me who want food after late-night study sessions, esp…
+                - generic [ref=f37e1652]: ask ↗
+              - button "Cross-question Lisa the Local Artist" [ref=f37e1653] [cursor=pointer]:
+                - generic [ref=f37e1664]:
+                  - generic [ref=f37e1665]:
+                    - generic [ref=f37e1666]: Lisa the Local Artist
+                    - generic [ref=f37e1667]: regulars
+                    - generic [ref=f37e1668]: for
+                  - generic [ref=f37e1669]: Extending weekend hours to 2 AM would really benefit artists like me after our shows, especially since we've …
+                - generic [ref=f37e1670]: ask ↗
+              - button "Cross-question Mike the Weekend Warrior" [ref=f37e1671] [cursor=pointer]:
+                - generic [ref=f37e1683]:
+                  - generic [ref=f37e1684]:
+                    - generic [ref=f37e1685]: Mike the Weekend Warrior
+                    - generic [ref=f37e1686]: tourists
+                    - generic [ref=f37e1687]: for
+                  - generic [ref=f37e1688]: Extending hours to 2 AM would meet the demand from late-night tourists like me who struggle to find food afte…
+                - generic [ref=f37e1689]: ask ↗
+              - button "Cross-question Emily the Family Planner" [ref=f37e1690] [cursor=pointer]:
+                - generic [ref=f37e1700]:
+                  - generic [ref=f37e1701]:
+                    - generic [ref=f37e1702]: Emily the Family Planner
+                    - generic [ref=f37e1703]: families
+                    - generic [ref=f37e1704]: for
+                  - generic [ref=f37e1705]: Extending hours to 2 AM would cater to families like mine who enjoy late-night meals, especially since we oft…
+                - generic [ref=f37e1706]: ask ↗
+              - button "Cross-question Brian the Bartender" [ref=f37e1707] [cursor=pointer]:
+                - generic [ref=f37e1717]:
+                  - generic [ref=f37e1718]:
+                    - generic [ref=f37e1719]: Brian the Bartender
+                    - generic [ref=f37e1720]: staff-adjacent loyalists
+                    - generic [ref=f37e1721]: for
+                  - generic [ref=f37e1722]: Extending weekend hours to 2 AM could capture the late-night crowd that is currently underserved, especially …
+                - generic [ref=f37e1723]: ask ↗
+              - button "Cross-question Chloe the Grad Student" [ref=f37e1724] [cursor=pointer]:
+                - generic [ref=f37e1735]:
+                  - generic [ref=f37e1736]:
+                    - generic [ref=f37e1737]: Chloe the Grad Student
+                    - generic [ref=f37e1738]: students
+                    - generic [ref=f37e1739]: for
+                  - generic [ref=f37e1740]: As a grad student, I often study late and would love more food options after midnight, especially on game day…
+                - generic [ref=f37e1741]: ask ↗
+              - button "Cross-question Tom the Family Man" [ref=f37e1742] [cursor=pointer]:
+                - generic [ref=f37e1752]:
+                  - generic [ref=f37e1753]:
+                    - generic [ref=f37e1754]: Tom the Family Man
+                    - generic [ref=f37e1755]: families
+                    - generic [ref=f37e1756]: for
+                  - generic [ref=f37e1757]: Extending weekend hours to 2 AM would cater to families like mine who often miss out on meals due to early cl…
+                - generic [ref=f37e1758]: ask ↗
+              - button "Cross-question Rachel the Sports Fan" [ref=f37e1759] [cursor=pointer]:
+                - generic [ref=f37e1769]:
+                  - generic [ref=f37e1770]:
+                    - generic [ref=f37e1771]: Rachel the Sports Fan
+                    - generic [ref=f37e1772]: tourists
+                    - generic [ref=f37e1773]: for
+                  - generic [ref=f37e1774]: As a sports fan visiting for a big game, I often find limited food options after midnight, especially on game…
+                - generic [ref=f37e1775]: ask ↗
+              - button "Cross-question Nick the Night Owl" [ref=f37e1776] [cursor=pointer]:
+                - generic [ref=f37e1787]:
+                  - generic [ref=f37e1788]:
+                    - generic [ref=f37e1789]: Nick the Night Owl
+                    - generic [ref=f37e1790]: regulars
+                    - generic [ref=f37e1791]: for
+                  - generic [ref=f37e1792]: Extending hours to 2 AM would definitely cater to those of us who enjoy late-night socializing, especially si…
+                - generic [ref=f37e1793]: ask ↗
+              - button "Cross-question Olivia the Newcomer" [ref=f37e1794] [cursor=pointer]:
+                - generic [ref=f37e1804]:
+                  - generic [ref=f37e1805]:
+                    - generic [ref=f37e1806]: Olivia the Newcomer
+                    - generic [ref=f37e1807]: tourists
+                    - generic [ref=f37e1808]: for
+                  - generic [ref=f37e1809]: As a newcomer, I often find myself looking for food options late at night, especially after exploring the are…
+                - generic [ref=f37e1810]: ask ↗
+              - button "Cross-question Sam the junior" [ref=f37e1811] [cursor=pointer]:
+                - generic [ref=f37e1822]:
+                  - generic [ref=f37e1823]:
+                    - generic [ref=f37e1824]: Sam the junior
+                    - generic [ref=f37e1825]: students
+                    - generic [ref=f37e1826]: for
+                  - generic [ref=f37e1827]: Extending hours to 2 AM would really help us students, especially on game days when food options are scarce a…
+                - generic [ref=f37e1828]: ask ↗
+              - button "Cross-question Mia the regular" [ref=f37e1829] [cursor=pointer]:
+                - generic [ref=f37e1840]:
+                  - generic [ref=f37e1841]:
+                    - generic [ref=f37e1842]: Mia the regular
+                    - generic [ref=f37e1843]: regulars
+                    - generic [ref=f37e1844]: for
+                  - generic [ref=f37e1845]: Extending the weekend hours to 2 AM would really cater to those of us who enjoy social outings later in the e…
+                - generic [ref=f37e1846]: ask ↗
+              - button "Cross-question Tom the tourist" [ref=f37e1847] [cursor=pointer]:
+                - generic [ref=f37e1858]:
+                  - generic [ref=f37e1859]:
+                    - generic [ref=f37e1860]: Tom the tourist
+                    - generic [ref=f37e1861]: tourists
+                    - generic [ref=f37e1862]: for
+                  - generic [ref=f37e1863]: As a tourist looking for late-night dining and nightlife, extending hours to 2 AM would be a huge benefit for…
+                - generic [ref=f37e1864]: ask ↗
+              - button "Cross-question Linda the mom" [ref=f37e1865] [cursor=pointer]:
+                - generic [ref=f37e1877]:
+                  - generic [ref=f37e1878]:
+                    - generic [ref=f37e1879]: Linda the mom
+                    - generic [ref=f37e1880]: families
+                    - generic [ref=f37e1881]: neutral
+                  - generic [ref=f37e1882]: As a busy mom, I prioritize kid-friendly dining options and convenience over late-night hours. Extending hour…
+                - generic [ref=f37e1883]: ask ↗
+              - button "Cross-question Jake the night-shift worker" [ref=f37e1884] [cursor=pointer]:
+                - generic [ref=f37e1895]:
+                  - generic [ref=f37e1896]:
+                    - generic [ref=f37e1897]: Jake the night-shift worker
+                    - generic [ref=f37e1898]: staff-adjacent loyalists
+                    - generic [ref=f37e1899]: for
+                  - generic [ref=f37e1900]: Extending hours to 2 AM would help accommodate workers like me who need a meal after late shifts, and with fo…
+                - generic [ref=f37e1901]: ask ↗
+              - button "Cross-question Rachel the graduate" [ref=f37e1902] [cursor=pointer]:
+                - generic [ref=f37e1913]:
+                  - generic [ref=f37e1914]:
+                    - generic [ref=f37e1915]: Rachel the graduate
+                    - generic [ref=f37e1916]: students
+                    - generic [ref=f37e1917]: for
+                  - generic [ref=f37e1918]: Extending weekend hours to 2 AM would greatly benefit students like me who rely on coffee shops for late-nigh…
+                - generic [ref=f37e1919]: ask ↗
+              - button "Cross-question Kevin the local artist" [ref=f37e1920] [cursor=pointer]:
+                - generic [ref=f37e1932]:
+                  - generic [ref=f37e1933]:
+                    - generic [ref=f37e1934]: Kevin the local artist
+                    - generic [ref=f37e1935]: regulars
+                    - generic [ref=f37e1936]: for
+                  - generic [ref=f37e1937]: Extending the hours to 2 AM would really help regulars like me who enjoy sketching late at night, especially …
+                - generic [ref=f37e1938]: ask ↗
+              - button "Cross-question Diane the event planner" [ref=f37e1939] [cursor=pointer]:
+                - generic [ref=f37e1949]:
+                  - generic [ref=f37e1950]:
+                    - generic [ref=f37e1951]: Diane the event planner
+                    - generic [ref=f37e1952]: tourists
+                    - generic [ref=f37e1953]: for
+                  - generic [ref=f37e1954]: Extending weekend hours to 2 AM would greatly benefit tourists like me looking for late-night catering option…
+                - generic [ref=f37e1955]: ask ↗
+              - button "Cross-question Henry the food truck owner" [ref=f37e1956] [cursor=pointer]:
+                - generic [ref=f37e1966]:
+                  - generic [ref=f37e1967]:
+                    - generic [ref=f37e1968]: Henry the food truck owner
+                    - generic [ref=f37e1969]: staff-adjacent loyalists
+                    - generic [ref=f37e1970]: for
+                  - generic [ref=f37e1971]: Extending weekend hours to 2 AM would definitely cater to the late-night crowd and address complaints about t…
+                - generic [ref=f37e1972]: ask ↗
+              - button "Cross-question Ella the nightlife enthusiast" [ref=f37e1973] [cursor=pointer]:
+                - generic [ref=f37e1985]:
+                  - generic [ref=f37e1986]:
+                    - generic [ref=f37e1987]: Ella the nightlife enthusiast
+                    - generic [ref=f37e1988]: regulars
+                    - generic [ref=f37e1989]: for
+                  - generic [ref=f37e1990]: Extending the hours to 2 AM would definitely cater to the late-night crowd, especially since many of us feel …
+                - generic [ref=f37e1991]: ask ↗
+              - button "Cross-question Alex the late-night foodie" [ref=f37e1992] [cursor=pointer]:
+                - generic [ref=f37e2002]:
+                  - generic [ref=f37e2003]:
+                    - generic [ref=f37e2004]: Alex the late-night foodie
+                    - generic [ref=f37e2005]: walk-ins
+                    - generic [ref=f37e2006]: for
+                  - generic [ref=f37e2007]: Extending the hours to 2 AM would definitely cater to late-night crowds like me who want food after a night o…
+                - generic [ref=f37e2008]: ask ↗
+              - button "Cross-question Jordan the college student" [ref=f37e2009] [cursor=pointer]:
+                - generic [ref=f37e2019]:
+                  - generic [ref=f37e2020]:
+                    - generic [ref=f37e2021]: Jordan the college student
+                    - generic [ref=f37e2022]: students
+                    - generic [ref=f37e2023]: for
+                  - generic [ref=f37e2024]: Extending hours to 2 AM would meet the high demand for late-night food, especially on game days, and address …
+                - generic [ref=f37e2025]: ask ↗
+              - button "Cross-question Sofia the family planner" [ref=f37e2026] [cursor=pointer]:
+                - generic [ref=f37e2037]:
+                  - generic [ref=f37e2038]:
+                    - generic [ref=f37e2039]: Sofia the family planner
+                    - generic [ref=f37e2040]: families
+                    - generic [ref=f37e2041]: neutral
+                  - generic [ref=f37e2042]: As a family planner, I prioritize family-friendly dining experiences during earlier hours, and late-night opt…
+                - generic [ref=f37e2043]: ask ↗
+              - button "Cross-question Mike the regular bartender" [ref=f37e2044] [cursor=pointer]:
+                - generic [ref=f37e2054]:
+                  - generic [ref=f37e2055]:
+                    - generic [ref=f37e2056]: Mike the regular bartender
+                    - generic [ref=f37e2057]: staff-adjacent loyalists
+                    - generic [ref=f37e2058]: for
+                  - generic [ref=f37e2059]: Extending weekend hours to 2 AM would cater to the late-night crowd that often complains about the 11 PM clos…
+                - generic [ref=f37e2060]: ask ↗
+              - button "Cross-question Emma the weekend warrior" [ref=f37e2061] [cursor=pointer]:
+                - generic [ref=f37e2071]:
+                  - generic [ref=f37e2072]:
+                    - generic [ref=f37e2073]: Emma the weekend warrior
+                    - generic [ref=f37e2074]: walk-ins
+                    - generic [ref=f37e2075]: for
+                  - generic [ref=f37e2076]: Extending hours to 2 AM would definitely cater to late-night diners like me who are frustrated with the early…
+                - generic [ref=f37e2077]: ask ↗
+              - button "Cross-question Jack the game-day enthusiast" [ref=f37e2078] [cursor=pointer]:
+                - generic [ref=f37e2089]:
+                  - generic [ref=f37e2090]:
+                    - generic [ref=f37e2091]: Jack the game-day enthusiast
+                    - generic [ref=f37e2092]: students
+                    - generic [ref=f37e2093]: for
+                  - generic [ref=f37e2094]: Extending weekend hours to 2 AM would cater to the late-night crowd, especially after games when we often loo…
+                - generic [ref=f37e2095]: ask ↗
+              - button "Cross-question Lily the neighborhood mom" [ref=f37e2096] [cursor=pointer]:
+                - generic [ref=f37e2107]:
+                  - generic [ref=f37e2108]:
+                    - generic [ref=f37e2109]: Lily the neighborhood mom
+                    - generic [ref=f37e2110]: families
+                    - generic [ref=f37e2111]: for
+                  - generic [ref=f37e2112]: Extending weekend hours to 2 AM would be fantastic for families like mine who enjoy late-night treats, especi…
+                - generic [ref=f37e2113]: ask ↗
+              - button "Cross-question Oscar the night owl" [ref=f37e2114] [cursor=pointer]:
+                - generic [ref=f37e2125]:
+                  - generic [ref=f37e2126]:
+                    - generic [ref=f37e2127]: Oscar the night owl
+                    - generic [ref=f37e2128]: walk-ins
+                    - generic [ref=f37e2129]: for
+                  - generic [ref=f37e2130]: Extending hours to 2 AM would definitely cater to night owls like me who crave diverse food options after mid…
+                - generic [ref=f37e2131]: ask ↗
+              - button "Cross-question Sharon the loyal supporter" [ref=f37e2132] [cursor=pointer]:
+                - generic [ref=f37e2144]:
+                  - generic [ref=f37e2145]:
+                    - generic [ref=f37e2146]: Sharon the loyal supporter
+                    - generic [ref=f37e2147]: staff-adjacent loyalists
+                    - generic [ref=f37e2148]: for
+                  - generic [ref=f37e2149]: Extending weekend hours to 2 AM would greatly benefit late-night workers like me and our customers, who often…
+                - generic [ref=f37e2150]: ask ↗
+              - button "Cross-question Ryan the adventurous tourist" [ref=f37e2151] [cursor=pointer]:
+                - generic [ref=f37e2162]:
+                  - generic [ref=f37e2163]:
+                    - generic [ref=f37e2164]: Ryan the adventurous tourist
+                    - generic [ref=f37e2165]: tourists
+                    - generic [ref=f37e2166]: for
+                  - generic [ref=f37e2167]: Extending weekend hours to 2 AM would cater to the late-night crowd and address the complaints about the 11 P…
+                - generic [ref=f37e2168]: ask ↗
+              - button "Cross-question Sam the junior 2" [ref=f37e2169] [cursor=pointer]:
+                - generic [ref=f37e2180]:
+                  - generic [ref=f37e2181]:
+                    - generic [ref=f37e2182]: Sam the junior 2
+                    - generic [ref=f37e2183]: students
+                    - generic [ref=f37e2184]: for
+                  - generic [ref=f37e2185]: Extending weekend hours to 2 AM would really help students like me who need food and study spaces late at nig…
+                - generic [ref=f37e2186]: ask ↗
+              - button "Cross-question Megan the mom" [ref=f37e2187] [cursor=pointer]:
+                - generic [ref=f37e2199]:
+                  - generic [ref=f37e2200]:
+                    - generic [ref=f37e2201]: Megan the mom
+                    - generic [ref=f37e2202]: families
+                    - generic [ref=f37e2203]: for
+                  - generic [ref=f37e2204]: Extending the hours to 2 AM would be great for families like mine who enjoy late-night dining options, especi…
+                - generic [ref=f37e2205]: ask ↗
+              - button "Cross-question Tommy the tourist" [ref=f37e2206] [cursor=pointer]:
+                - generic [ref=f37e2217]:
+                  - generic [ref=f37e2218]:
+                    - generic [ref=f37e2219]: Tommy the tourist
+                    - generic [ref=f37e2220]: tourists
+                    - generic [ref=f37e2221]: for
+                  - generic [ref=f37e2222]: Extending the hours to 2 AM would be fantastic for me as a tourist who loves late-night dining after events. …
+                - generic [ref=f37e2223]: ask ↗
+              - button "Cross-question Jenny the regular" [ref=f37e2224] [cursor=pointer]:
+                - generic [ref=f37e2235]:
+                  - generic [ref=f37e2236]:
+                    - generic [ref=f37e2237]: Jenny the regular
+                    - generic [ref=f37e2238]: regulars
+                    - generic [ref=f37e2239]: for
+                  - generic [ref=f37e2240]: Extending the hours to 2 AM would really help late-night socializers like me who are frustrated with the curr…
+                - generic [ref=f37e2241]: ask ↗
+              - button "Cross-question Mark the staff-member" [ref=f37e2242] [cursor=pointer]:
+                - generic [ref=f37e2254]:
+                  - generic [ref=f37e2255]:
+                    - generic [ref=f37e2256]: Mark the staff-member
+                    - generic [ref=f37e2257]: staff-adjacent loyalists
+                    - generic [ref=f37e2258]: for
+                  - generic [ref=f37e2259]: Extending weekend hours to 2 AM would directly address the complaints about the 11 PM close and cater to the …
+                - generic [ref=f37e2260]: ask ↗
+              - button "Cross-question Lisa the late-night eater" [ref=f37e2261] [cursor=pointer]:
+                - generic [ref=f37e2271]:
+                  - generic [ref=f37e2272]:
+                    - generic [ref=f37e2273]: Lisa the late-night eater
+                    - generic [ref=f37e2274]: regulars
+                    - generic [ref=f37e2275]: for
+                  - generic [ref=f37e2276]: Extending weekend hours to 2 AM would definitely cater to late-night eaters like me who often struggle to fin…
+                - generic [ref=f37e2277]: ask ↗
+              - button "Cross-question David the dad" [ref=f37e2278] [cursor=pointer]:
+                - generic [ref=f37e2288]:
+                  - generic [ref=f37e2289]:
+                    - generic [ref=f37e2290]: David the dad
+                    - generic [ref=f37e2291]: families
+                    - generic [ref=f37e2292]: for
+                  - generic [ref=f37e2293]: Extending weekend hours to 2 AM would greatly enhance family-friendly dining options after our weekend sports…
+                - generic [ref=f37e2294]: ask ↗
+              - button "Cross-question Rachel the grad student" [ref=f37e2295] [cursor=pointer]:
+                - generic [ref=f37e2306]:
+                  - generic [ref=f37e2307]:
+                    - generic [ref=f37e2308]: Rachel the grad student
+                    - generic [ref=f37e2309]: students
+                    - generic [ref=f37e2310]: for
+                  - generic [ref=f37e2311]: As a grad student, I often need late-night study spots and food options after midnight, especially during fin…
+                - generic [ref=f37e2312]: ask ↗
+              - button "Cross-question George the nightlife lover" [ref=f37e2313] [cursor=pointer]:
+                - generic [ref=f37e2323]:
+                  - generic [ref=f37e2324]:
+                    - generic [ref=f37e2325]: George the nightlife lover
+                    - generic [ref=f37e2326]: tourists
+                    - generic [ref=f37e2327]: for
+                  - generic [ref=f37e2328]: Extending weekend hours to 2 AM would definitely cater to the late-night crowd like me, who are looking for f…
+                - generic [ref=f37e2329]: ask ↗
+              - button "Cross-question Sophie the game day fan" [ref=f37e2330] [cursor=pointer]:
+                - generic [ref=f37e2340]:
+                  - generic [ref=f37e2341]:
+                    - generic [ref=f37e2342]: Sophie the game day fan
+                    - generic [ref=f37e2343]: students
+                    - generic [ref=f37e2344]: for
+                  - generic [ref=f37e2345]: Extending hours to 2 AM would really help since many of us are looking for late-night food options after game…
+                - generic [ref=f37e2346]: ask ↗
+              - button "Cross-question Sam the junior 2 2" [ref=f37e2347] [cursor=pointer]:
+                - generic [ref=f37e2358]:
+                  - generic [ref=f37e2359]:
+                    - generic [ref=f37e2360]: Sam the junior 2 2
+                    - generic [ref=f37e2361]: students
+                    - generic [ref=f37e2362]: for
+                  - generic [ref=f37e2363]: Extending hours to 2 AM would really help us late-night studiers and gamers, especially since many of us are …
+                - generic [ref=f37e2364]: ask ↗
+              - button "Cross-question Lucy the late-night local" [ref=f37e2365] [cursor=pointer]:
+                - generic [ref=f37e2375]:
+                  - generic [ref=f37e2376]:
+                    - generic [ref=f37e2377]: Lucy the late-night local
+                    - generic [ref=f37e2378]: walk-ins
+                    - generic [ref=f37e2379]: for
+                  - generic [ref=f37e2380]: Extending weekend hours to 2 AM would definitely satisfy the late-night crowd and address the complaints abou…
+                - generic [ref=f37e2381]: ask ↗
+              - button "Cross-question Tom the game-day tourist" [ref=f37e2382] [cursor=pointer]:
+                - generic [ref=f37e2392]:
+                  - generic [ref=f37e2393]:
+                    - generic [ref=f37e2394]: Tom the game-day tourist
+                    - generic [ref=f37e2395]: tourists
+                    - generic [ref=f37e2396]: for
+                  - generic [ref=f37e2397]: Extending the hours to 2 AM would cater to the late-night crowd, particularly since foot traffic peaks after …
+                - generic [ref=f37e2398]: ask ↗
+              - button "Cross-question The Martinez family" [ref=f37e2399] [cursor=pointer]:
+                - generic [ref=f37e2410]:
+                  - generic [ref=f37e2411]:
+                    - generic [ref=f37e2412]: The Martinez family
+                    - generic [ref=f37e2413]: families
+                    - generic [ref=f37e2414]: for
+                  - generic [ref=f37e2415]: As a family that enjoys weekend outings, having the option for late-night dining would enhance our experience…
+                - generic [ref=f37e2416]: ask ↗
+              - button "Cross-question Evelyn the regular" [ref=f37e2417] [cursor=pointer]:
+                - generic [ref=f37e2428]:
+                  - generic [ref=f37e2429]:
+                    - generic [ref=f37e2430]: Evelyn the regular
+                    - generic [ref=f37e2431]: regulars
+                    - generic [ref=f37e2432]: for
+                  - generic [ref=f37e2433]: Extending the hours to 2 AM would definitely cater to the late-night crowd and address the complaints about t…
+                - generic [ref=f37e2434]: ask ↗
+              - button "Cross-question Dave the staff supporter" [ref=f37e2435] [cursor=pointer]:
+                - generic [ref=f37e2446]:
+                  - generic [ref=f37e2447]:
+                    - generic [ref=f37e2448]: Dave the staff supporter
+                    - generic [ref=f37e2449]: staff-adjacent loyalists
+                    - generic [ref=f37e2450]: for
+                  - generic [ref=f37e2451]: Extending hours to 2 AM would meet the demand from regulars and late-night patrons, particularly since many h…
+                - generic [ref=f37e2452]: ask ↗
+              - button "Cross-question Nina the night owl" [ref=f37e2453] [cursor=pointer]:
+                - generic [ref=f37e2465]:
+                  - generic [ref=f37e2466]:
+                    - generic [ref=f37e2467]: Nina the night owl
+                    - generic [ref=f37e2468]: walk-ins
+                    - generic [ref=f37e2469]: for
+                  - generic [ref=f37e2470]: Extending hours to 2 AM would definitely cater to late-night workers like me who are looking for food options…
+                - generic [ref=f37e2471]: ask ↗
+              - button "Cross-question Jake the campus athlete" [ref=f37e2472] [cursor=pointer]:
+                - generic [ref=f37e2483]:
+                  - generic [ref=f37e2484]:
+                    - generic [ref=f37e2485]: Jake the campus athlete
+                    - generic [ref=f37e2486]: students
+                    - generic [ref=f37e2487]: for
+                  - generic [ref=f37e2488]: As a busy athlete, having food options available after midnight is crucial, especially after games or practic…
+                - generic [ref=f37e2489]: ask ↗
+              - button "Cross-question Clara the foodie explorer" [ref=f37e2490] [cursor=pointer]:
+                - generic [ref=f37e2501]:
+                  - generic [ref=f37e2502]:
+                    - generic [ref=f37e2503]: Clara the foodie explorer
+                    - generic [ref=f37e2504]: tourists
+                    - generic [ref=f37e2505]: for
+                  - generic [ref=f37e2506]: Extending hours to 2 AM would cater to the late-night crowd and address the complaints about the 11 PM closin…
+                - generic [ref=f37e2507]: ask ↗
+              - button "Cross-question Ryan the weekend warrior" [ref=f37e2508] [cursor=pointer]:
+                - generic [ref=f37e2520]:
+                  - generic [ref=f37e2521]:
+                    - generic [ref=f37e2522]: Ryan the weekend warrior
+                    - generic [ref=f37e2523]: regulars
+                    - generic [ref=f37e2524]: for
+                  - generic [ref=f37e2525]: Extending hours to 2 AM would definitely cater to the late-night crowd and address the complaints about the 1…
+                - generic [ref=f37e2526]: ask ↗
+              - button "Cross-question Sam the Junior" [ref=f37e2527] [cursor=pointer]:
+                - generic [ref=f37e2538]:
+                  - generic [ref=f37e2539]:
+                    - generic [ref=f37e2540]: Sam the Junior
+                    - generic [ref=f37e2541]: students
+                    - generic [ref=f37e2542]: for
+                  - generic [ref=f37e2543]: There's a clear need for food options after 11 PM, especially on weekends when many students are out late. Ex…
+                - generic [ref=f37e2544]: ask ↗
+              - button "Cross-question Lisa the Local Artist" [ref=f37e2545] [cursor=pointer]:
+                - generic [ref=f37e2556]:
+                  - generic [ref=f37e2557]:
+                    - generic [ref=f37e2558]: Lisa the Local Artist
+                    - generic [ref=f37e2559]: regulars
+                    - generic [ref=f37e2560]: for
+                  - generic [ref=f37e2561]: Extending weekend hours to 2 AM would greatly benefit artists and night owls like myself, as we often seek la…
+                - generic [ref=f37e2562]: ask ↗
+              - button "Cross-question Mike the Weekend Warrior" [ref=f37e2563] [cursor=pointer]:
+                - generic [ref=f37e2575]:
+                  - generic [ref=f37e2576]:
+                    - generic [ref=f37e2577]: Mike the Weekend Warrior
+                    - generic [ref=f37e2578]: tourists
+                    - generic [ref=f37e2579]: for
+                  - generic [ref=f37e2580]: Extending the hours to 2 AM would definitely cater to the late-night crowd and address the complaints about t…
+                - generic [ref=f37e2581]: ask ↗
+              - button "Cross-question Emily the Family Planner" [ref=f37e2582] [cursor=pointer]:
+                - generic [ref=f37e2592]:
+                  - generic [ref=f37e2593]:
+                    - generic [ref=f37e2594]: Emily the Family Planner
+                    - generic [ref=f37e2595]: families
+                    - generic [ref=f37e2596]: for
+                  - generic [ref=f37e2597]: Extending weekend hours to 2 AM would greatly benefit families like mine who enjoy late-night meals, especial…
+                - generic [ref=f37e2598]: ask ↗
+              - button "Cross-question Brian the Bartender" [ref=f37e2599] [cursor=pointer]:
+                - generic [ref=f37e2609]:
+                  - generic [ref=f37e2610]:
+                    - generic [ref=f37e2611]: Brian the Bartender
+                    - generic [ref=f37e2612]: staff-adjacent loyalists
+                    - generic [ref=f37e2613]: for
+                  - generic [ref=f37e2614]: Extending the hours to 2 AM would definitely cater to the late-night crowd who are looking for food options a…
+                - generic [ref=f37e2615]: ask ↗
+              - button "Cross-question Chloe the Grad Student" [ref=f37e2616] [cursor=pointer]:
+                - generic [ref=f37e2627]:
+                  - generic [ref=f37e2628]:
+                    - generic [ref=f37e2629]: Chloe the Grad Student
+                    - generic [ref=f37e2630]: students
+                    - generic [ref=f37e2631]: for
+                  - generic [ref=f37e2632]: As a grad student, I often study late and need food options after midnight, especially on game days. Extendin…
+                - generic [ref=f37e2633]: ask ↗
+              - button "Cross-question Tom the Family Man" [ref=f37e2634] [cursor=pointer]:
+                - generic [ref=f37e2644]:
+                  - generic [ref=f37e2645]:
+                    - generic [ref=f37e2646]: Tom the Family Man
+                    - generic [ref=f37e2647]: families
+                    - generic [ref=f37e2648]: for
+                  - generic [ref=f37e2649]: Extending the hours to 2 AM would allow my family to enjoy late-night meals after events without worrying abo…
+                - generic [ref=f37e2650]: ask ↗
+              - button "Cross-question Rachel the Sports Fan" [ref=f37e2651] [cursor=pointer]:
+                - generic [ref=f37e2661]:
+                  - generic [ref=f37e2662]:
+                    - generic [ref=f37e2663]: Rachel the Sports Fan
+                    - generic [ref=f37e2664]: tourists
+                    - generic [ref=f37e2665]: for
+                  - generic [ref=f37e2666]: As a sports fan visiting for games, I often find limited late-night food options, especially after midnight. …
+                - generic [ref=f37e2667]: ask ↗
+              - button "Cross-question Nick the Night Owl" [ref=f37e2668] [cursor=pointer]:
+                - generic [ref=f37e2679]:
+                  - generic [ref=f37e2680]:
+                    - generic [ref=f37e2681]: Nick the Night Owl
+                    - generic [ref=f37e2682]: regulars
+                    - generic [ref=f37e2683]: for
+                  - generic [ref=f37e2684]: Extending weekend hours to 2 AM would definitely cater to my late-night cravings and those of others like me,…
+                - generic [ref=f37e2685]: ask ↗
+              - button "Cross-question Olivia the Newcomer" [ref=f37e2686] [cursor=pointer]:
+                - generic [ref=f37e2696]:
+                  - generic [ref=f37e2697]:
+                    - generic [ref=f37e2698]: Olivia the Newcomer
+                    - generic [ref=f37e2699]: tourists
+                    - generic [ref=f37e2700]: for
+                  - generic [ref=f37e2701]: Extending the hours to 2 AM would definitely satisfy my late-night cravings and those of many others looking …
+                - generic [ref=f37e2702]: ask ↗
+              - generic [ref=f37e2703]:
+                - generic [ref=f37e2704]: 16:07:25
+                - generic [ref=f37e2705]: camp “Late-Night Supporters” · 11 agents
+              - generic [ref=f37e2706]:
+                - generic [ref=f37e2707]: 16:07:25
+                - generic [ref=f37e2708]: camp “Late-night advocates” · 37 agents
+              - generic [ref=f37e2709]:
+                - generic [ref=f37e2710]: 16:07:25
+                - generic [ref=f37e2711]: camp “Undecided” · 2 agents
+              - generic [ref=f37e2712]:
+                - generic [ref=f37e2713]: 16:07:25
+                - generic [ref=f37e2714]: round 1 closed
+              - generic [ref=f37e2715]:
+                - generic [ref=f37e2716]: 16:07:25
+                - generic [ref=f37e2717]: round 2 closed
+              - generic [ref=f37e2718]:
+                - generic [ref=f37e2719]: 16:07:26
+                - generic [ref=f37e2720]: session complete — all 5 steps shown
+          - region "Agent thread · Verdict" [ref=f37e2721]:
+            - button "04 Verdict" [expanded] [ref=f37e2722] [cursor=pointer]:
+              - generic [ref=f37e2723]: "04"
+              - generic [ref=f37e2724]: Verdict
+              - generic [aria-hidden] [ref=f37e2726]: ▾
+            - generic [ref=f37e2727]:
+              - generic [ref=f37e2728]:
+                - generic [ref=f37e2729]: 16:07:25
+                - generic [ref=f37e2730]: verdict in · confidence 100% · 50/50 agent votes in support
+              - generic [ref=f37e2731]:
+                - generic [ref=f37e2732]: 16:08:03
+                - generic [ref=f37e2733]: deep-dive unlocked (paid)
+        - generic [ref=f37e2734]:
+          - generic [ref=f37e2735]:
+            - generic [ref=f37e2736]: 2/7
+            - text: sources
+          - generic [ref=f37e2737]:
+            - generic [ref=f37e2738]: "3"
+            - text: evidence
+          - generic [ref=f37e2739]:
+            - generic [ref=f37e2740]: "50"
+            - text: agents
+          - generic [ref=f37e2741]:
+            - generic [ref=f37e2742]: 2/2
+            - text: round
+      - main [ref=f37e2743]:
+        - generic [ref=f37e2744]:
+          - generic [ref=f37e2745]: JUDGE VERDICT · 50 AGENT VOTES AGGREGATED
+          - generic [ref=f37e2746]: Extend weekend hours to 2 AM and run the late-night delivery promo, because all 50 customer agents support the change and weekend footfall peaks after 10 PM. The extension also addresses regulars’ complaints about the 11 PM close and limited post-midnight food options on College Ave, though the roughly $180 nightly incremental cost should be monitored.
+          - generic [ref=f37e2747]:
+            - generic [ref=f37e2748]:
+              - generic [ref=f37e2749]: AGENT SPLIT
+              - generic [ref=f37e2750]: "50"
+              - generic [ref=f37e2755]:
+                - generic [ref=f37e2756]: ■ support 50
+                - generic [ref=f37e2757]: ■ oppose 0
+                - generic [ref=f37e2758]: ■ neutral 0
+            - generic [ref=f37e2759]:
+              - generic [ref=f37e2764]:
+                - generic [ref=f37e2765]: 100%
+                - generic [ref=f37e2766]: confidence
+              - paragraph [ref=f37e2767]: borderline split = lower confidence — that's honesty, not weakness
+          - generic [ref=f37e2768]:
+            - generic [ref=f37e2769]: DEEP-DIVE · SEGMENT IMPACT · OBJECTIONS
+            - generic [ref=f37e2770]:
+              - generic [ref=f37e2771]: SEGMENT-BY-SEGMENT IMPACT
+              - generic [ref=f37e2772]:
+                - generic [ref=f37e2773]:
+                  - generic [ref=f37e2774]: regulars
+                  - generic [ref=f37e2775]: Regulars would gain weekend access beyond the current 11 PM closing time they have complained about.
+                  - generic [ref=f37e2776]: e1
+                - generic [ref=f37e2777]:
+                  - generic [ref=f37e2778]: students
+                  - generic [ref=f37e2779]: Students would have another late-night food option after midnight on College Ave, particularly on game days.
+                  - generic [ref=f37e2780]: e2
+                - generic [ref=f37e2781]:
+                  - generic [ref=f37e2782]: families
+                  - generic [ref=f37e2783]: Families seeking later weekend dining would have service available until 2 AM.
+              - generic [ref=f37e2785]:
+                - generic [ref=f37e2786]: TOP OBJECTIONS
+                - list [ref=f37e2787]:
+                  - listitem [ref=f37e2788]:
+                    - generic [ref=f37e2789]: "01"
+                    - generic [ref=f37e2790]: Each extended-close night adds roughly $180 in staffing and utility costs.
+                  - listitem [ref=f37e2791]:
+                    - generic [ref=f37e2792]: "02"
+                    - generic [ref=f37e2793]: The evidence establishes peak footfall after 10 PM but does not show that demand remains strong through 2 AM.
+                  - listitem [ref=f37e2794]:
+                    - generic [ref=f37e2795]: "03"
+                    - generic [ref=f37e2796]: The clearest evidence of limited post-midnight competition is specific to game days, so demand may be weaker on other weekends.
+  - dialog "Cross-question an agent" [ref=f37e2798]:
+    - banner [ref=f37e2799]:
+      - generic [ref=f37e2810]:
+        - generic [ref=f37e2811]: Ask the room
+        - generic [ref=f37e2812]: tourists · Clara the foodie explorer
+      - button "Close" [ref=f37e2813] [cursor=pointer]: ✕
+    - generic [ref=f37e2814]:
+      - button "This agent" [ref=f37e2815] [cursor=pointer]
+      - button "Ask the room" [pressed] [ref=f37e2816] [cursor=pointer]
+    - generic [ref=f37e2818]:
+      - generic [ref=f37e2819]: Why do you think students will actually show up after midnight?
+      - generic [ref=f37e2822]:
+        - generic [ref=f37e2823]: Well, students are often out late after events, and many are looking for food options when places close down. Plus, I've noticed that late-night food options on College Ave really thin out after midnight, which leaves a gap for hungry patrons. Extending hours to 2 AM would definitely attract more late-night diners who are looking for unique experiences. It seems like a win-win!
+        - generic [ref=f37e2824]: answered by Clara the foodie explorer · tourists
+        - generic "Only three kitchens on the block keep the lights on past midnight during home games." [ref=f37e2826]: e2 · Local restaurant guide
+    - contentinfo [ref=f37e2827]:
+      - textbox "Message" [ref=f37e2828]:
+        - /placeholder: cross-question this agent…
+      - button "Send →" [ref=f37e2829] [cursor=pointer]

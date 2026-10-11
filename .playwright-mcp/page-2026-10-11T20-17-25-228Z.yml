@@ -1,0 +1,100 @@
+- generic [ref=e78]:
+  - generic [ref=e79]:
+    - generic [ref=e80]:
+      - button "Back" [ref=e81] [cursor=pointer]: ←
+      - link "CallCrowd" [ref=e82] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=e87]: Step 1/5 · Scout
+    - generic [ref=e88]:
+      - generic [ref=e89]: running
+      - generic [ref=e92]: Cafe 210
+  - generic [ref=e93]:
+    - complementary [ref=e94]:
+      - generic [ref=e95]:
+        - button "01 Name-only intake" [ref=e96] [cursor=pointer]:
+          - generic [ref=e97]: "01"
+          - generic [ref=e98]: Name-only intake
+        - button "02 Evidence & personas" [ref=e99] [cursor=pointer]:
+          - generic [ref=e100]: "02"
+          - generic [ref=e101]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=e102] [cursor=pointer]:
+          - generic [ref=e103]: "03"
+          - generic [ref=e104]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]: "04"
+          - generic [ref=e107]: Aggregated judge
+        - button "05 Loop · agents · drafts" [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]: "05"
+          - generic [ref=e110]: Loop · agents · drafts
+      - generic [ref=e111]:
+        - text: Agent Thread
+        - generic [ref=e112]: 4 events
+      - generic [ref=e113]:
+        - region "Agent thread · Scout" [ref=e114]:
+          - button "01 Scout" [expanded] [ref=e115] [cursor=pointer]:
+            - generic [ref=e116]: "01"
+            - generic [ref=e117]: Scout
+            - generic [aria-hidden] [ref=e118]: ▾
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: 16:17:24
+              - generic [ref=e122]: "business confirmed: convening on Cafe 210 · State College (recorded replay)"
+            - generic [ref=e123]:
+              - generic [ref=e124]: 16:17:24
+              - generic [ref=e125]: session opened · Cafe 210
+            - generic [ref=e126]:
+              - generic [ref=e127]: 16:17:24
+              - generic [ref=e128]: Mock · mock fixture replay
+            - generic [ref=e129]:
+              - generic [ref=e130]: 16:17:24
+              - generic [ref=e131]: 1 reviews streamed
+        - region "Agent thread · Swarm" [ref=e132]:
+          - button "02 Swarm" [expanded] [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: "02"
+            - generic [ref=e135]: Swarm
+            - generic [aria-hidden] [ref=e137]: ▾
+          - generic [ref=e139]:
+            - generic [ref=e140]: 16:17:24
+            - generic [ref=e141]: card e1 · Weekend footfall peaks after 10 PM and regulars complain abou…
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]: 1/7
+          - text: sources
+        - generic [ref=e145]:
+          - generic [ref=e146]: "1"
+          - text: evidence
+        - generic [ref=e147]:
+          - generic [ref=e148]: "0"
+          - text: agents
+        - generic [ref=e149]:
+          - generic [ref=e150]: 0/2
+          - text: round
+    - main [ref=e151]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]: 01 · Scout — Name-only intake
+            - generic [ref=e156]: Scouts reading the internet on Cafe 210
+          - generic [ref=e157]: streaming
+        - generic [ref=e158]:
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - text: ◇ source sweep
+              - generic [ref=e162]: 1/7
+            - generic [ref=e166]:
+              - generic [ref=e167]: 1 of 7 sources
+              - generic [ref=e168]: name-only intake
+            - generic [ref=e170]:
+              - generic [ref=e171]:
+                - generic [ref=e172]: Mock
+                - generic [ref=e173]: ok
+              - generic [ref=e174]: mock fixture replay
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - text: ◇ reviews streaming
+              - generic [ref=e178]: 1 in
+            - generic [ref=e180]:
+              - text: "\"Wish they stayed open later on football Saturdays — the whole line was turned away at 11.\""
+              - generic [ref=e181]:
+                - generic [ref=e182]: Google review
+                - generic [ref=e183]: review 1

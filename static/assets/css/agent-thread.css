@@ -1,0 +1,246 @@
+/* ============================================================
+   Customer Swarm — agent-thread.css
+   Runview = graph canvas (agents live as nodes, graph.js owns the
+   visuals) + RIGHT chat station (ex slide-over drawer; the .ad-*
+   classes are kept for the JS). Tokens from tokens.css.
+   ============================================================ */
+
+/* avatar sizing inside the chat (cs-avatar must be inline-flex or
+   its inline width/height are ignored) */
+.ad-av .cs-avatar,
+.ad-msg .cs-avatar {
+  display: inline-flex;
+  flex: none;
+  overflow: hidden;
+  border-radius: 50%;
+  line-height: 0;
+}
+.ad-av .cs-avatar svg,
+.ad-msg .cs-avatar svg { width: 78%; height: 78%; margin: 11%; }
+
+/* ============================================================
+   CHAT STATION — permanent right pane (was a right slide-over;
+   the .ad-* classes are kept for the JS, now scoped in-pane)
+   ============================================================ */
+.chat-station {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.ad-head {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 12px 10px 13px;
+  border-bottom: 1px solid var(--line-08);
+}
+.ad-av .cs-avatar { border-radius: 50%; overflow: hidden; }
+.ad-av svg { width: 80%; height: 80%; margin: 10%; }
+.ad-who .mono {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--c-ter);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ad-close {
+  flex: none;
+  width: 28px; height: 28px;
+  border: 1px solid var(--c-line-2);
+  border-radius: 9px;
+  background: transparent;
+  color: var(--c-sec);
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.ad-close:hover {
+  background: var(--accent-tint);
+  border-color: rgba(245, 158, 11, 0.4);
+  color: var(--accent-deep);
+}
+.ad-close:focus-visible { outline: 2px solid var(--accent-deep); outline-offset: 1px; }
+.ad-who { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.ad-who b { font-size: 1.06rem; font-weight: 600; letter-spacing: -0.01em; color: var(--c-ink); }
+
+.ad-body {
+  flex: 1;
+  padding: 16px 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ad-msgs { display: flex; flex-direction: column; gap: 10px; }
+.ad-quote {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--c-body);
+  border-left: 3px solid var(--accent-deep);
+  padding: 4px 0 4px 12px;
+  margin-bottom: 8px;
+}
+.ad-quote .mono,
+.ad-quote span {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--c-faint);
+  margin-top: 4px;
+}
+.ad-msg { display: flex; align-items: flex-end; gap: 8px; }
+.ad-msg.me { justify-content: flex-end; }
+.ad-bubblewrap {
+  min-width: 0;
+  max-width: 86%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ad-bubble {
+  max-width: 86%;
+  padding: 11px 15px;
+  font-size: 1rem;
+  line-height: 1.55;
+  border-radius: 14px;
+}
+.ad-msg.me .ad-bubble {
+  background: var(--accent-deep);
+  color: #1a130a;
+  border-bottom-right-radius: 4px;
+}
+.ad-msg.them .ad-bubble {
+  background: var(--glass-06);
+  border: 1px solid var(--line-08);
+  color: var(--c-body);
+  border-bottom-left-radius: 4px;
+}
+.ad-msg .cs-avatar { flex: none; border-radius: 50%; overflow: hidden; }
+.ad-note {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--c-faint);
+  text-align: center;
+}
+.ad-typing { padding: 10px 14px; }
+.ad-typing i {
+  display: inline-block;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--c-ter);
+  margin-right: 4px;
+  animation: cs-dot-pulse 0.9s infinite;
+}
+.ad-typing i:nth-child(2) { animation-delay: 0.15s; }
+.ad-typing i:nth-child(3) { animation-delay: 0.3s; }
+
+/* evidence citation chips */
+.ad-cites { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.ad-cite {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--accent-deep);
+  background: var(--accent-tint);
+  border: 1px solid rgba(255, 178, 36, 0.35);
+  border-radius: 999px;
+  padding: 3px 9px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* locked / waiting inline card */
+.ad-lock {
+  margin: auto 4px;
+  padding: 26px 20px;
+  text-align: center;
+  border: 1px solid var(--line-12);
+  border-radius: 14px;
+  background: var(--glass-04);
+  box-shadow: 0 12px 30px -24px rgba(17, 17, 17, 0.3);
+}
+.ad-lock-k {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--c-ter);
+}
+.ad-lock-t { font-size: 1.08rem; font-weight: 600; margin: 8px 0 6px; color: var(--c-ink); }
+.ad-lock-p { font-size: 0.82rem; line-height: 1.6; color: var(--c-sec); margin: 0 0 14px; }
+
+/* composer */
+.ad-foot[hidden] { display: none !important; }
+.ad-foot {
+  flex: none;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 12px 14px;
+  border-top: 1px solid var(--line-08);
+  background: var(--glass-04);
+}
+.ad-input {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-landing);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--c-ink);
+  background: var(--glass-06);
+  border: 1px solid var(--line-12);
+  border-radius: 10px;
+  padding: 10px 12px;
+  resize: none;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.ad-input:focus {
+  border-color: var(--accent-deep);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+.ad-input::placeholder { color: #BBB; }
+.ad-send {
+  flex: none;
+  border: 0;
+  border-radius: 10px;
+  background: var(--accent-deep);
+  color: #1a130a;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 12px 18px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s, opacity 0.2s;
+}
+.ad-send:hover { background: var(--accent-deep); transform: translateY(-1px); }
+.ad-send:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+.ad-send:focus-visible { outline: 2px solid var(--accent-deep); outline-offset: 2px; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 900px) {
+  /* console.css stacks the panes; the chat station keeps its height */
+  .chat-station { min-height: 480px; }
+}
+
+/* ============================================================
+   DARK THEME — appended (console-app tokens are redefined in
+   console.css; these catch the classes that still hard-code
+   light values).
+   ============================================================ */
+.console-app .ad-send { background: var(--accent-deep); color: #1a130a; }
+.console-app .ad-send:hover { background: var(--accent); transform: translateY(-1px); }
+.console-app .ad-msg.them .ad-bubble { background: var(--c-bg); }
+.console-app .ad-msg.me .ad-bubble { background: var(--accent-deep); color: #1a130a; }
+.console-app .ad-input { background: var(--c-bg); }
+.console-app .ad-quote { color: var(--c-body); }
+.console-app .ad-lock { background: var(--c-bg); }
+.console-app .ad-typing i { background: var(--c-ter); }
+.console-app .cs-avatar { /* avatars carry their own inline colors */ }

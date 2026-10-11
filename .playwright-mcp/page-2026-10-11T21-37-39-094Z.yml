@@ -1,0 +1,139 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CallCrowd home" [ref=e5] [cursor=pointer]:
+        - /url: "#hero"
+        - generic [ref=e9]: CallCrowd
+      - navigation "Primary" [ref=e10]:
+        - link "How it works" [ref=e11] [cursor=pointer]:
+          - /url: "#how"
+        - link "Scenarios" [ref=e12] [cursor=pointer]:
+          - /url: "#scenarios"
+        - link "Why it works" [ref=e13] [cursor=pointer]:
+          - /url: "#why"
+        - link "Demo" [ref=e14] [cursor=pointer]:
+          - /url: console.html
+      - generic [ref=e15]:
+        - link "See it run" [ref=e16] [cursor=pointer]:
+          - /url: console.html
+        - link "Ask the Swarm" [ref=e17] [cursor=pointer]:
+          - /url: console.html
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading [level=1] [ref=e21]:
+          - text: Ask Your
+          - generic [ref=e22]: Customers
+        - paragraph [ref=e25]: Fifty AI customer agents, built entirely from what the internet says about your business, debate your next big decision — and a judge hands you a verdict.
+        - generic [ref=e26]:
+          - link "Run a Live Session" [ref=e27] [cursor=pointer]:
+            - /url: console.html
+          - link "See how it works" [ref=e28] [cursor=pointer]:
+            - /url: "#how"
+        - paragraph [ref=e29]: Ask your customers before you spend the money.
+      - button "Scroll to how it works" [ref=e30] [cursor=pointer]
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - heading "How it works" [level=2] [ref=e36]
+        - paragraph [ref=e37]: Name-only intake to a cited verdict, in five steps.The crowd never hardcodes your industry.
+      - generic [ref=e38]:
+        - article [ref=e39]:
+          - generic [ref=e40]: "01"
+          - heading "Scout" [level=3] [ref=e47]
+          - paragraph [ref=e48]: Give us just the name — reviews, menu, hours, competitors, news.
+        - article [ref=e49]:
+          - generic [ref=e50]: "02"
+          - heading "Swarm" [level=3] [ref=e57]
+          - paragraph [ref=e58]: Evidence cards + personas emerge from your own data.
+        - article [ref=e59]:
+          - generic [ref=e60]: "03"
+          - heading "Debate" [level=3] [ref=e65]
+          - paragraph [ref=e66]: Two rounds; round 2 reads the opposition's strongest points.
+        - article [ref=e67]:
+          - generic [ref=e68]: "04"
+          - heading "Verdict" [level=3] [ref=e74]
+          - paragraph [ref=e75]: "A stronger judge aggregates 50 votes: recommendation + confidence."
+        - article [ref=e76]:
+          - generic [ref=e77]: "05"
+          - heading "Learn" [level=3] [ref=e84]
+          - paragraph [ref=e85]: A seeded mock market tests every proposal; the loop keeps what predicts reality.
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - heading "Scenarios" [level=2] [ref=e89]
+        - paragraph [ref=e90]: One router class per kind of business — the personas change with it.
+      - generic [ref=e91]:
+        - article [ref=e92]:
+          - paragraph [ref=e94]: Local · Food
+          - heading "Cafés & Restaurants" [level=3] [ref=e95]
+          - paragraph [ref=e96]: "\"Should we add a second location, or double the pastry case and stay put?\" — answered by the regulars who review you at 8 a.m."
+        - article [ref=e97]:
+          - paragraph [ref=e99]: Local · Retail
+          - heading "Retail & Boutiques" [level=3] [ref=e100]
+          - paragraph [ref=e101]: "\"Is the weekend vinyl pop-up worth the floor space, or do my shoppers only come for the sale rack?\""
+        - article [ref=e102]:
+          - paragraph [ref=e104]: Local · Services
+          - heading "Salons & Local Services" [level=3] [ref=e105]
+          - paragraph [ref=e106]: "\"Do we raise the men's cut by $8, or hold price and add a 20-minute scalp treatment instead?\""
+        - article [ref=e107]:
+          - paragraph [ref=e109]: Startup
+          - heading "Startups — pricing & positioning" [level=3] [ref=e110]
+          - paragraph [ref=e111]: "\"Usage-based or flat seats for launch — and do we lead with the API story or the dashboard?\""
+        - article [ref=e112]:
+          - paragraph [ref=e114]: B2B
+          - heading "B2B Services — retainer & scope" [level=3] [ref=e115]
+          - paragraph [ref=e116]: "\"Move the retainer to a monthly subscription, or keep hourly billing and add a fixed-fee discovery sprint?\""
+        - article [ref=e117]:
+          - paragraph [ref=e119]: Regulated
+          - heading "Regulated — clinics & studios" [level=3] [ref=e120]
+          - paragraph [ref=e121]: "\"Extend evening hours for working patients, or use the budget for a second receptionist and shorter waits?\""
+    - generic [ref=e123]:
+      - heading "Why it works Built for the decision, not the deck." [level=2] [ref=e124]:
+        - generic [ref=e125]: Why it works
+        - text: Built for the decision, not the deck.
+      - paragraph [ref=e126]: The owner types a business name. Nothing else. Scout adapters read every public trace they can reach, and the swarm's personas and segments emerge from that evidence — nothing about a café, a clinic, or a startup is hardcoded. The pipeline is generic; the content is yours.
+      - heading "The debate is grounded" [level=3] [ref=e127]
+      - list [ref=e128]:
+        - listitem [ref=e129]:
+          - generic [ref=e130]: —
+          - generic [ref=e131]: Evidence cited from real sources — every persona argues from what the internet actually says
+        - listitem [ref=e132]:
+          - generic [ref=e133]: —
+          - generic [ref=e134]: Camps read each other's strongest points before their second turn
+        - listitem [ref=e135]:
+          - generic [ref=e136]: —
+          - generic [ref=e137]: Fabricated evidence is demoted to neutral, so bluffing can't win a vote
+        - listitem [ref=e138]:
+          - generic [ref=e139]: —
+          - generic [ref=e140]: Borderline tallies become low-confidence verdicts — that's honesty, a feature
+      - heading "And the swarm keeps getting better" [level=3] [ref=e141]
+      - paragraph [ref=e142]: Every proposal is tested against a calibrated mock market — seeded truth hidden from the agents, beliefs rewritten by outcomes, keep-if-better. When the loop stops improving a plan, the verdict says so.
+      - list [ref=e143]:
+        - listitem [ref=e144]:
+          - generic [ref=e145]: —
+          - generic [ref=e146]: Calibration proposes ranges from reviews; truth is sampled inside them
+        - listitem [ref=e147]:
+          - generic [ref=e148]: —
+          - generic [ref=e149]: Train/test splits with shifted contexts — no memorizing one market
+        - listitem [ref=e150]:
+          - generic [ref=e151]: —
+          - generic [ref=e152]: The naive plan ("open till 2 AM + promo everywhere") fails on most seeds
+        - listitem [ref=e153]:
+          - generic [ref=e154]: —
+          - generic [ref=e155]: "In production: owners log real outcomes, and the swarm learns from those"
+      - paragraph [ref=e156]: Your customers already told the internet.We bring the internet to the decision.
+  - contentinfo [ref=e157]:
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - link "CallCrowd" [ref=e160] [cursor=pointer]:
+          - /url: "#hero"
+        - generic [aria-hidden] [ref=e165]: "|"
+        - generic [ref=e166]: Ask your customers before you spend the money.
+      - generic [ref=e167]:
+        - link "Discord (placeholder)" [ref=e168] [cursor=pointer]:
+          - /url: "#"
+        - link "X (placeholder)" [ref=e171] [cursor=pointer]:
+          - /url: "#"
+        - link "Instagram (placeholder)" [ref=e174] [cursor=pointer]:
+          - /url: "#"
+      - link "Open Console" [ref=e179] [cursor=pointer]:
+        - /url: console.html

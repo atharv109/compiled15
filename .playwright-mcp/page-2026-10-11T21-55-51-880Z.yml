@@ -1,0 +1,102 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e3]:
+    - navigation [ref=f7e4]:
+      - link [ref=f7e5] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f7e6]
+      - generic [ref=f7e7]: no signup · the swarm debates in real time
+    - generic [ref=f7e8]:
+      - generic [ref=f7e9]:
+        - generic [ref=f7e10]: System Status
+        - heading "Swarm Ready" [level=1] [ref=f7e12]
+        - paragraph [ref=f7e13]: Paste your business link, or give the name and town. Scouts read what the internet already says about you; fifty customer agents are built from it and debate your decision.
+        - generic [ref=f7e14]:
+          - generic [ref=f7e15]: ◇ Workflow Steps
+          - list [ref=f7e16]:
+            - listitem [ref=f7e17]:
+              - generic [ref=f7e18]: "01"
+              - generic [ref=f7e19]:
+                - generic [ref=f7e20]: Scout
+                - generic [ref=f7e21]: Link or name+town intake — you confirm the business we find. Reviews, menu, hours, competitors, news.CAPTCHA in the live browser? A human solves it — that's the product.
+            - listitem [ref=f7e22]:
+              - generic [ref=f7e23]: "02"
+              - generic [ref=f7e24]:
+                - generic [ref=f7e25]: Swarm
+                - generic [ref=f7e26]: Evidence cards + customer personas emerge from your own segments.
+            - listitem [ref=f7e27]:
+              - generic [ref=f7e28]: "03"
+              - generic [ref=f7e29]:
+                - generic [ref=f7e30]: Debate
+                - generic [ref=f7e31]: Two rounds. Camps cluster; round 2 reads the other camp's strongest points.
+            - listitem [ref=f7e32]:
+              - generic [ref=f7e33]: "04"
+              - generic [ref=f7e34]:
+                - generic [ref=f7e35]: Verdict
+                - generic [ref=f7e36]: Aggregated by a stronger judge model. Recommendation + confidence, free.
+            - listitem [ref=f7e37]:
+              - generic [ref=f7e38]: "05"
+              - generic [ref=f7e39]:
+                - generic [ref=f7e40]: Learn
+                - generic [ref=f7e41]: A calibrated mock market tests the swarm; the loop rewrites beliefs. Then chat with any agent.
+      - generic [ref=f7e42]:
+        - generic [ref=f7e43]:
+          - generic [ref=f7e44]:
+            - generic [ref=f7e45]: 01 / your business
+            - generic [ref=f7e46]: LINK OR NAME
+          - textbox "Paste your business link — Google Maps, Yelp, or your website" [ref=f7e47]
+          - generic [ref=f7e48]: — or —
+          - textbox "e.g. Cafe 210 West" [ref=f7e49]
+          - textbox "e.g. State College — or \"Online\" for online-only" [ref=f7e50]
+          - generic [ref=f7e51]: we confirm the business we find with you before scouting · manual paste sharpens results
+        - generic [ref=f7e52]: decision under test
+        - generic [ref=f7e55]:
+          - generic [ref=f7e56]:
+            - generic [ref=f7e57]: 02 / the real question
+            - generic [ref=f7e58]: OWNERS ONLY
+          - textbox "e.g. Should we stay open until 2 AM on weekends and spend $400/month on a blanket delivery promo?" [ref=f7e59]
+          - generic [ref=f7e60]: strong judge model · 50 customer agents · live debate
+        - button "Convene the Swarm →" [ref=f7e62] [cursor=pointer]:
+          - generic [ref=f7e63]: Convene the Swarm
+          - generic [ref=f7e64]: →
+        - generic [ref=f7e65]: Everything runs live on this page — scouts read the web, fifty customer agents debate in real time. Want a rehearsal without a live scrape? Add ?mock=1 to this page's address.
+  - generic [ref=f7e66]:
+    - main [ref=f7e67]:
+      - generic [ref=f7e68]:
+        - generic [ref=f7e69]:
+          - button "01 Name-only intake" [ref=f7e70] [cursor=pointer]:
+            - generic [ref=f7e71]: "01"
+            - generic [ref=f7e72]: Name-only intake
+          - button "02 Evidence & personas" [ref=f7e73] [cursor=pointer]:
+            - generic [ref=f7e74]: "02"
+            - generic [ref=f7e75]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f7e76] [cursor=pointer]:
+            - generic [ref=f7e77]: "03"
+            - generic [ref=f7e78]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f7e79] [cursor=pointer]:
+            - generic [ref=f7e80]: "04"
+            - generic [ref=f7e81]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f7e82] [cursor=pointer]:
+            - generic [ref=f7e83]: "05"
+            - generic [ref=f7e84]: Loop · agents · drafts
+        - generic "Run stats"
+        - generic "Canvas view" [ref=f7e85]:
+          - button "Graph" [ref=f7e86] [cursor=pointer]
+          - button "Split" [pressed] [ref=f7e87] [cursor=pointer]
+          - button "Workbench" [ref=f7e88] [cursor=pointer]
+    - complementary [ref=f7e89]:
+      - generic [ref=f7e90]:
+        - generic [ref=f7e91]: chat
+        - button "Collapse chat panel" [ref=f7e92] [cursor=pointer]: ›
+      - generic [ref=f7e93]:
+        - button "run log 0" [ref=f7e95] [cursor=pointer]:
+          - generic [ref=f7e96]: run log
+          - generic [ref=f7e97]: "0"
+          - generic [aria-hidden] [ref=f7e98]: ▾
+        - generic [ref=f7e99]:
+          - generic [ref=f7e101]:
+            - generic [ref=f7e102]: Pick an agent
+            - generic [ref=f7e103]: click a node in the graph
+          - generic [ref=f7e105]:
+            - textbox "Message" [ref=f7e106]:
+              - /placeholder: pick an agent…
+            - button "Send →" [ref=f7e107] [cursor=pointer]

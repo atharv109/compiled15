@@ -1,0 +1,73 @@
+- generic [ref=e75]:
+  - generic [ref=e76]:
+    - generic [ref=e77]:
+      - button "Back" [ref=e78] [cursor=pointer]: ←
+      - link "CallCrowd" [ref=e79] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=e81]: Step 1/5 · Scout
+    - generic [ref=e82]:
+      - generic [ref=e83]: running
+      - generic [ref=e86]: Cafe 210 West
+  - generic [ref=e87]:
+    - complementary [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]: Agents
+        - generic [ref=e91]: 0 agents · 0 camps
+        - button "Collapse agents panel" [ref=e92] [cursor=pointer]: ‹
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: 1/7
+          - text: sources
+        - generic [ref=e97]:
+          - generic [ref=e98]: "1"
+          - text: evidence
+        - generic [ref=e99]:
+          - generic [ref=e100]: "0"
+          - text: agents
+        - generic [ref=e101]:
+          - generic [ref=e102]: 0/2
+          - text: round
+      - button "run log 5" [ref=e104] [cursor=pointer]:
+        - generic [ref=e105]: run log
+        - generic [ref=e106]: "5"
+        - generic [aria-hidden] [ref=e107]: ▾
+    - main [ref=e108]:
+      - generic [ref=e109]:
+        - button "01 Name-only intake" [ref=e110] [cursor=pointer]:
+          - generic [ref=e111]: "01"
+          - generic [ref=e112]: Name-only intake
+        - button "02 Evidence & personas" [ref=e113] [cursor=pointer]:
+          - generic [ref=e114]: "02"
+          - generic [ref=e115]: Evidence & personas
+        - button "03 2 rounds, camps" [ref=e116] [cursor=pointer]:
+          - generic [ref=e117]: "03"
+          - generic [ref=e118]: 2 rounds, camps
+        - button "04 Aggregated judge" [ref=e119] [cursor=pointer]:
+          - generic [ref=e120]: "04"
+          - generic [ref=e121]: Aggregated judge
+        - button "05 Loop · agents · drafts" [ref=e122] [cursor=pointer]:
+          - generic [ref=e123]: "05"
+          - generic [ref=e124]: Loop · agents · drafts
+      - generic [ref=e127]:
+        - generic [aria-hidden]:
+          - generic: ❖
+          - generic: waiting for the swarm to convene
+        - generic [ref=e129]: real-time updating
+    - complementary [ref=e137]:
+      - generic [ref=e138]:
+        - generic [ref=e139]: Chat
+        - generic [ref=e140]: cross-question the swarm
+        - button "Collapse chat panel" [ref=e141] [cursor=pointer]: ›
+      - button "Act on the verdict" [ref=e143] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e145]: ▾
+      - generic [ref=e146]:
+        - generic [ref=e148]:
+          - generic [ref=e149]: Pick an agent
+          - generic [ref=e150]: select an agent on the left rail
+        - generic [ref=e151]:
+          - button "This agent" [pressed] [ref=e152] [cursor=pointer]
+          - button "Ask the room" [ref=e153] [cursor=pointer]
+        - generic [ref=e156]:
+          - generic [ref=e157]: verdict pending
+          - generic [ref=e158]: The verdict isn’t in yet
+          - generic [ref=e159]: Agents open up to questions once the debate closes at a verdict.

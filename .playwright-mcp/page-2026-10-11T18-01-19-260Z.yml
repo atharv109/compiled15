@@ -1,0 +1,42 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]: Customer Swarm
+    - generic [ref=f3e4]: Ask your customers before you spend the money.
+    - generic [ref=f3e5]:
+      - checkbox "Demo mode (recorded)" [ref=f3e6]
+      - text: Demo mode (recorded)
+  - navigation [ref=f3e7]:
+    - button "Run" [ref=f3e8] [cursor=pointer]
+    - button "Learning loop" [ref=f3e9] [cursor=pointer]
+    - button "About" [ref=f3e10] [cursor=pointer]
+  - generic [ref=f3e1694]:
+    - generic [ref=f3e1695]:
+      - heading "Learning loop (Track 1A)" [level=2] [ref=f3e1696]
+      - paragraph [ref=f3e1697]: Re-rolls the market truth, runs the belief-learning loop and evaluates regret vs. baseline. Runs a real training pass — expect about 2–4 minutes.
+      - button "Run learning loop" [disabled] [ref=f3e1698]
+      - generic [ref=f3e1713]:
+        - generic [ref=f3e1715]: running…
+        - generic [ref=f3e1716]: 0:06
+    - generic [ref=f3e1700]:
+      - heading "Regret per round (train)" [level=3] [ref=f3e1701]
+      - generic [ref=f3e1702]: not run yet.
+      - heading "Baseline vs final vs test" [level=3] [ref=f3e1704]
+      - generic [ref=f3e1705]: not run yet.
+      - heading "Beliefs per segment" [level=3] [ref=f3e1707]
+      - generic [ref=f3e1708]:
+        - generic [ref=f3e1709]: Reroll market (seed)
+        - spinbutton [ref=f3e1710]: "42"
+        - button "Reroll" [ref=f3e1711] [cursor=pointer]
+  - generic [ref=f3e1680]:
+    - button "✕" [ref=f3e1681] [cursor=pointer]
+    - heading "Emily the Student" [level=3] [ref=f3e1682]
+    - generic [ref=f3e1683]: students
+    - generic [ref=f3e1684]:
+      - generic [ref=f3e1685]: Why should we stay open until 2 AM on football Saturdays?
+      - generic [ref=f3e1686]: Staying open until 2 AM on football Saturdays would really boost the vibe around here! After a game, students like me want a fun spot to hang out with friends, grab some good food, and celebrate. It would definitely attract more of us looking for a lively atmosphere. Plus, with the right deals, it could become a go-to place for late-night eats. There’s a demand for this, and it could enhance everyone's experience on those exciting game days!
+      - generic [ref=f3e1687]:
+        - generic "Love stopping at Cafe 210 West for lunch! Best to go around lunchtime- relaxed vibe with delicious, hearty options. The Reuben sandwich, Philly cheesesteak wrap, and soup & salad c" [ref=f3e1688] [cursor=pointer]: e21
+        - generic "We have been multiple times and never had a problem. The bar itself is fun. Its a fun hang out and could be loud. There's games to play and you can get a pitcher. Usually the barte" [ref=f3e1689] [cursor=pointer]: e22
+    - generic [ref=f3e1691]:
+      - textbox "Ask in conversation…" [ref=f3e1692]
+      - button "Send" [ref=f3e1693] [cursor=pointer]
