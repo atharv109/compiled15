@@ -1,0 +1,61 @@
+- generic [ref=f26e85]:
+  - generic [ref=f26e86]:
+    - generic [ref=f26e87]:
+      - button "Back" [ref=f26e88] [cursor=pointer]: ←
+      - link [ref=f26e89] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f26e90]
+    - generic [ref=f26e91]: Step 1/5 · Step 1
+    - generic [ref=f26e92]:
+      - generic [ref=f26e93]: running
+      - generic [ref=f26e96]: Luminal
+  - generic [ref=f26e97]:
+    - main [ref=f26e98]:
+      - generic [ref=f26e99]:
+        - generic [ref=f26e100]:
+          - button "01 Name-only intake" [ref=f26e101] [cursor=pointer]:
+            - generic [ref=f26e102]: "01"
+            - generic [ref=f26e103]: Name-only intake
+          - button "02 Evidence & personas" [ref=f26e104] [cursor=pointer]:
+            - generic [ref=f26e105]: "02"
+            - generic [ref=f26e106]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f26e107] [cursor=pointer]:
+            - generic [ref=f26e108]: "03"
+            - generic [ref=f26e109]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f26e110] [cursor=pointer]:
+            - generic [ref=f26e111]: "04"
+            - generic [ref=f26e112]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f26e113] [cursor=pointer]:
+            - generic [ref=f26e114]: "05"
+            - generic [ref=f26e115]: Loop · agents · drafts
+        - generic "Canvas view" [ref=f26e116]:
+          - button "Graph" [ref=f26e117] [cursor=pointer]
+          - button "Split" [pressed] [ref=f26e118] [cursor=pointer]
+          - button "Workbench" [ref=f26e119] [cursor=pointer]
+      - generic [ref=f26e122]:
+        - generic [aria-hidden]:
+          - generic: ❖
+          - generic: waiting for the swarm to convene
+        - generic [ref=f26e124]: real-time updating
+        - button "Toggle legend" [ref=f26e133] [cursor=pointer]: legend
+    - complementary [ref=f26e134]:
+      - generic [ref=f26e135]:
+        - generic [ref=f26e136]: chat
+        - generic "Canvas view" [ref=f26e137]:
+          - button "Graph" [ref=f26e138] [cursor=pointer]
+          - button "Split" [pressed] [ref=f26e139] [cursor=pointer]
+          - button "Workbench" [ref=f26e140] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f26e141] [cursor=pointer]: ›
+      - generic [ref=f26e142]:
+        - button "run log 2" [ref=f26e144] [cursor=pointer]:
+          - generic [ref=f26e145]: run log
+          - generic [ref=f26e146]: "2"
+          - generic [aria-hidden] [ref=f26e147]: ▾
+        - generic [ref=f26e148]:
+          - generic [ref=f26e150]:
+            - generic [ref=f26e151]: Pick an agent
+            - generic [ref=f26e152]: click a node in the graph
+          - generic [ref=f26e154]:
+            - textbox "Message" [ref=f26e155]:
+              - /placeholder: pick an agent…
+            - button "Send →" [ref=f26e156] [cursor=pointer]

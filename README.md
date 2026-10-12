@@ -64,7 +64,7 @@ Full API surface is pinned in [`docs/api-contract.md`](docs/api-contract.md) —
         │
         ▼
  [1] ENTITY RESOLVE ── app/entity.py
-     Google/Tavily identity+address anchor; console banner asks the owner to confirm
+     Google/Tavily identity+address anchor; ambiguous matches get a confirm card at the launcher (intake), never mid-run
         │
         ▼
  [2] SCOUT ADAPTERS (7, parallel) ── app/adapters.py · app/adapters_ext.py
@@ -168,7 +168,7 @@ Seeded-market loop: **calibrate → hide truth → learn from outcomes → keep 
 
 ### Act drafts + flyer PDF (the "then let them draft it" step)
 
-The same winning-camp arguments seed 3 drafts, the strong judge scores them against the session's evidence (`app/llm/act.py`, 14 tests), and the flyer variant renders to a **reportlab PDF** served from `GET /api/sessions/{id}/flyer.pdf` (`app/flyer.py`, 8 tests) with a "why the swarm says so" evidence panel baked into the document.
+The same winning-camp arguments seed 3 drafts, the strong judge scores them against the session's evidence (`app/llm/act.py`), and the flyer variant renders to a **reportlab PDF** served from `GET /api/sessions/{id}/flyer.pdf` (`app/flyer.py`, 8 tests) with a "why the swarm says so" evidence panel baked into the document.
 
 ![Act drafts flow and generated flyer PDF with evidence panel](flyer-pdf-open.png)
 
@@ -190,7 +190,7 @@ The same winning-camp arguments seed 3 drafts, the strong judge scores them agai
 | Contexts | Tavily search + Open-Meteo + date.nager.at + entity web fetch | `app/entity.py`, `app/adapters_ext.py` |
 | Frontend | **Vanilla JS + SSE + inline-SVG charts** (no framework, no build step), full offline mock replay | `static/console.html`, `static/index.html` |
 | Documents | **reportlab** flyer PDF | `app/flyer.py` |
-| Tests | **pytest — 100 collected** (94 green out of the box; see note below) | `tests/` |
+| Tests | **pytest — 106 tests passing** in one clean run (~50 s) | `tests/` |
 
 ## Engineering notes
 
@@ -217,4 +217,4 @@ The same winning-camp arguments seed 3 drafts, the strong judge scores them agai
 | `test_sim.py` (11) | range calibration, sampled truth, keep-gate, regret eval |
 | `test_llm_core.py`, `test_loop_api.py`, `test_sim_contexts.py`, `test_storage_persist.py`, `test_flyer.py` | lane failover, loop endpoints, shifted contexts, storage dual-write + file floor, PDF render |
 
-**Status: 94 green / 6 red at submission.** The 6 failures are all `test_billing.py` entitlement-cache test-isolation cases — the production 60 s entitlement TTL cache carries a result between successive in-test assertions, so the deny-case assertion sees the earlier allow's cached verdict. No product-path failure is behind them, but they are red and we'd rather ship the README with that on the record than a quietly trimmed suite.
+**Status: 106/106 green.** The six `test_billing.py` reds in the draft were test-env isolation (the live demo flag `UNLOCK_FREE=1` leaked into pay-gate tests); the suite now pins `UNLOCK_FREE=0` in its `_env` fixture and passes clean in one run.

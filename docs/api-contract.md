@@ -106,3 +106,7 @@ Response (real link configured): `{ "payment_url": "<stripe/payment link>", "pri
 Response (no real link): `{ "payment_url": null, "price": 19, "provider": "stripe", "demo": true, "note": "no real payment link configured — unlock via mark-paid for the demo" }`
 - Backend returns `payment_url: null` + `demo: true` rather than any placeholder domain. `STRIPE_LINK` (or `PAY_LINK`) env = the real link; demo flow = `POST .../pay/mark-paid` then refresh.
 - The P2 /act contract above still applies (402 unpaid, 409 `run debate first`, 404 unknown session; payload stored as session `act`).
+### `POST /api/resolve` — intake-time business resolution (v4; no session created)
+Request: `{ "business_name": "Luminal", "town": "(optional)", "anchor_url": "(optional Maps/website)" }`
+Response: `{ "display_name", "business_kind": "local|company|unknown", "confidence": "high|low", "location", "candidates": [{label, kind, why}], "maps_url", "website", "used_anchor": bool }`
+Any resolver failure → 200 `{ "business_kind": "unknown", "confidence": "low", "candidates": [] }` (never 500); 422 on blank name. The owner's "is that you?" confirm happens at INTAKE (launcher card on ambiguous name-only resolves); anchored links + high-confidence convene without asking; mid-run shows only the quiet "anchored on: X · verified at intake" chip with a re-scout escape.
