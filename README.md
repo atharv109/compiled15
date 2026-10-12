@@ -170,7 +170,7 @@ Seeded-market loop: **calibrate → hide truth → learn from outcomes → keep 
 
 The same winning-camp arguments seed 3 drafts, the strong judge scores them against the session's evidence (`app/llm/act.py`), and the flyer variant renders to a **reportlab PDF** served from `GET /api/sessions/{id}/flyer.pdf` (`app/flyer.py`, 8 tests) with a "why the swarm says so" evidence panel baked into the document.
 
-![Act drafts flow and generated flyer PDF with evidence panel](flyer-pdf-open.png)
+![Act drafts flow and generated flyer PDF with evidence panel](docs/img/flyer-pdf-open.png)
 
 ### On-site selling form factor
 
