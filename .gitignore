@@ -14,3 +14,5 @@ static/mock-data.js
 data/sessions.json
 *.png
 .playwright-mcp/
+!docs/img/
+!docs/img/**/*.png

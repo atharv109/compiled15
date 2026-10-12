@@ -4,7 +4,7 @@
 
 A business owner types **only the name of their business**. Scout adapters hit every public source they can reach, 50 customer agents built from that real record debate the owner's actual decision in two cited rounds, and an aggregation-first judge returns a verdict with a confidence the owners can audit. On top of the pipeline sits a self-improving loop trained against a seeded market calibrated from the same real reviews.
 
-![CallCrowd landing](docs/screenshots/shot23-landing-fullbleed.png)
+![CallCrowd landing](docs/img/shot23-landing-fullbleed.png)
 
 *Team of 2 · Penn State Hackathon · Oct 11, 2026 · standing demo business: Cafe 210 West, State College (150 real Google reviews scraped live that day). Early build screenshots show the pre-rename "CustomerSwarm" light theme; the shipped product is the CallCrowd dark console.*
 
@@ -99,7 +99,7 @@ Full API surface is pinned in [`docs/api-contract.md`](docs/api-contract.md) —
 
 **[1] Resolve.** The swarm anchors on a verified entity before spending a single scout call.
 
-![Entity identified banner + knowledge graph](docs/screenshots/v3-found-banner.png)
+![Entity identified banner + knowledge graph](docs/img/v3-found-banner.png)
 
 **[2] Evidence.** Live cards stream over SSE — every claim carries its source, and the console shows the full run log (sessions stat below: 2–7 sources, 3–105 evidence cards).
 
@@ -107,11 +107,11 @@ Full API surface is pinned in [`docs/api-contract.md`](docs/api-contract.md) —
 
 **[4] Debate.** Camps form and reform across rounds; round 2 argues against the other camp's best material.
 
-![Round-2 camps with live camp sizes](docs/screenshots/shot12-console-live-found-banner.png)
+![Round-2 camps with live camp sizes](docs/img/shot12-console-live-found-banner.png)
 
 **[5] Verdict.** The tally is math, the prose is one pinned-model call. "Borderline split = lower confidence — that's honesty, not weakness."
 
-![Live judge verdict, 37-11-2 tally, 54% confidence](docs/screenshots/v2-verdict.png)
+![Live judge verdict, 37-11-2 tally, 54% confidence](docs/img/v2-verdict.png)
 
 **[5b] Act.** Verdict → executable artifact ("Ask your customers, *then let them draft it*"), with the flyer PDF one click away (see [Act + flyer PDF](#track-2--build--sell)).
 
@@ -128,7 +128,7 @@ Seeded-market loop: **calibrate → hide truth → learn from outcomes → keep 
 - **Keep-only-improving gate** (`app/sim/loop.py`, `_keep_gate`): worse rounds cannot rewrite beliefs — memory only moves toward lower regret.
 - **Measured result — held-out regret 0.707 → 0.294 (−58%)** on unseen scenarios, one full run ≈ 54 s (`docs/sales-pitch.md` §5, `docs/video-script.md` beat 8; earlier instrumented run: 0.895 → 0.743 with held-out 0.792). Endpoints: `run-loop`, `loop-chart`, `reroll` (`app/loop_api.py`).
 
-![Regret chart + per-segment beliefs](docs/screenshots/shot9-loop-charts-fixed.png)
+![Regret chart + per-segment beliefs](docs/img/shot9-loop-charts-fixed.png)
 
 *One real run: baseline 0.931 → final 0.546, test 0.575, shifted-context 0.591 — plus the per-segment beliefs the loop wrote (students: "pricing cuts work; extended hours misaligned; promos need a rebuild").*
 
@@ -137,7 +137,7 @@ Seeded-market loop: **calibrate → hide truth → learn from outcomes → keep 
 - **Product is a purchase flow, not a slide.** Free tier = verdict + confidence; $19 one-time deep dive = segment-by-segment impact + top objections + per-agent chat + Act drafts. The gate is enforced server-side (`app/main.py` `_unlocked`, teaser-only snapshot payload) — not a CSS trick.
 - **Teaser-gate UX captured mid-purchase:** the $19 unlock card sits next to a locked verdict section.
 
-![Locked deep-dive tease with $19 demo unlock](docs/screenshots/final-drawer.png)
+![Locked deep-dive tease with $19 demo unlock](docs/img/final-drawer.png)
 
 - **Live on-site selling plan** — a full walk-up script for local business owners, with demo choreography, 5 predictable objections with answers, proof points, and follow-up capture: [`docs/sales-pitch.md`](docs/sales-pitch.md). Designed so the *owner* types the two inputs while the agent browses visibly.
 - **Mobile is the selling form factor** — the whole verdict/gate/chat flow is phone-usable (screenshot in the sales section below).
@@ -174,7 +174,7 @@ The same winning-camp arguments seed 3 drafts, the strong judge scores them agai
 
 ### On-site selling form factor
 
-![Phone: verdict → learn → agent rail](docs/screenshots/v3-phone.png)
+![Phone: verdict → learn → agent rail](docs/img/v3-phone.png)
 
 ---
 
