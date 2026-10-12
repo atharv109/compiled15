@@ -12,4 +12,4 @@ docs/screenshots/
 static/mock-data.js
 .monetize/
 data/sessions.json
-*.png
+*.png.playwright-mcp/
