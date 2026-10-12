@@ -12,11 +12,33 @@ A business owner types **only the name of their business**. Scout adapters hit e
 
 ## 2-minute judge demo
 
+### Setup (one-time, any machine)
+
+```bash
+# 1) Python 3.10+ required. Then, from the repo root:
+python -m venv venv
+venv\Scripts\python -m pip install -r requirements.txt     # Windows
+# (Linux/mac: python3 -m venv venv && venv/bin/python -m pip install -r requirements.txt)
+
+# 2) Keys: copy .env.example -> .env and fill
+#    (OPENAI_API_KEY / GROQ_API_KEY / TAVILY_API_KEY required for live runs;
+#     MONGO_URI optional — Atlas semantic corpus; AWS_* optional — DynamoDB + billing)
+
+# 3) (optional, live Google reviews) set up the scraper sidecar:
+git clone https://github.com/georgekhananaev/google-reviews-scraper-pro.git \
+    services/google-reviews-scraper-pro
+#    then: create its venv + `pip install -r requirements.txt`, copy config.sample.yaml to
+#    config.yaml, set headless:false, and point MongoDB off (backend reads SQLite/API).
+#    Without it the backend degrades gracefully: pasted/manual reviews still work.
+```
+
+### Run
+
 ```cmd
 scripts\start-all.cmd
 ```
 
-That spawns three windows — idempotent, safe to re-run:
+Portable — resolves python from the repo `venv` (or PATH), no hardcoded paths; spawns three windows — idempotent, safe to re-run:
 
 | Port | Service | What it is |
 |---|---|---|
