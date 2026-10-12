@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@100..800&family=Caveat:wght@400..700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/css/tokens.css?v=13" />
-<link rel="stylesheet" href="assets/css/console.css?v=22" />
+<link rel="stylesheet" href="assets/css/console.css?v=23" />
 <link rel="stylesheet" href="assets/css/steps-swarm.css?v=13" />
 <link rel="stylesheet" href="assets/css/steps-debate.css?v=13" />
 <link rel="stylesheet" href="assets/css/steps-verdict.css?v=13" />
@@ -59,6 +59,9 @@
           <input id="biz-email" class="code-input" type="email" placeholder="Your email — re-finds your sessions (optional)" autocomplete="email" spellcheck="false" />
           <div class="hint-row">we confirm the business we find with you before scouting · manual paste sharpens results</div>
         </div>
+        <!-- intake confirm card: /api/resolve at intake surfaces "is that
+             your business?" HERE (ambiguous name-only), never mid-run -->
+        <div id="biz-confirm" class="biz-confirm" hidden></div>
         <div class="divider-label"><span></span>decision under test<span></span></div>
         <div class="box-sec">
           <div class="box-head"><span>02 / the real question</span><span>OWNERS ONLY</span></div>
@@ -170,14 +173,16 @@
 <script>
   /* ---- integrator config ----
      CS_API_BASE ""  = same origin (the page is served from :8000/demo/)
+     ?api=<base>     = override, e.g. ?api=http://127.0.0.1:8100 (test backend)
      CS_STRIPE_LINK  = Stripe Payment Link ($19 deep-dive); empty = demo unlock (mark-paid) */
   window.CS_STRIPE_LINK = "";
-  window.CS_API_BASE  = "http://127.0.0.1:8000";
+  window.CS_API_BASE  = (new URLSearchParams(location.search).get("api") || "")
+    .replace(/\/+$/, "") || "http://127.0.0.1:8000";
 </script>
 <script src="assets/js/effects.js?v=13"></script>
-<script src="assets/js/bridge.js?v=16"></script>
+<script src="assets/js/bridge.js?v=17"></script>
 <script src="assets/js/graph.js?v=15"></script>
-<script src="assets/js/console.js?v=22"></script>
+<script src="assets/js/console.js?v=23"></script>
 <script src="assets/js/steps/scout.js?v=13"></script>
 <script src="assets/js/steps/swarm.js?v=14"></script>
 <script src="assets/js/steps/debate.js?v=13"></script>

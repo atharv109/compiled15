@@ -64,7 +64,10 @@ class FakeBilling:
 
 
 @pytest.fixture(autouse=True)
-def _env():
+def _env(monkeypatch):
+    """Pay-gate tests must see the paywall: UNLOCK_FREE=1 is a LIVE .env demo
+    flag — pin it off for the suite."""
+    monkeypatch.setenv("UNLOCK_FREE", "0")
     billing.clear_cache()
     return None
 

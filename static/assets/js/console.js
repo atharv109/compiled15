@@ -98,13 +98,9 @@
     })() };
   }
 
-  /* intake ask — resolved listing, AFTER the entity arrives (addendum
-     #5): a pasted link is authoritative (no ask); name+town intake
-     answers once per page-load against the REAL listing. */
-  let confirmedOnce = false;
-  let intakeViaLink = false;
-
-  /* slim non-interactive status line: "anchored on: name · town · link" */
+  /* slim confirmation chip (non-interactive): "anchored on: X · verified at
+     intake" + a quiet wrong-business escape. The ASK itself moved to the
+     LAUNCHER (POST /api/resolve runs at intake) — nothing is asked mid-run. */
   function anchoredLine(en) {
     document.querySelectorAll(".cs-anchored").forEach((el) => el.remove());
     const link = en.maps_url || en.anchor_url || en.url || "";
@@ -113,82 +109,44 @@
       '<div class="cs-anchored" role="status">' +
         '<img src="assets/logo.png" alt="" width="14" height="14" aria-hidden="true">' +
         '<span>anchored on: <b>' + CS.esc(en.display_name || "") + "</b>" +
-          (en.location ? " · " + CS.esc(en.location) : "") + "</span>" +
+          (en.location ? " · " + CS.esc(en.location) : "") + " · verified at intake</span>" +
         (link ? '<a href="' + CS.esc(link) + '" target="_blank" rel="noopener" class="anch-link">' + CS.esc(shown) + "</a>" : "") +
+        '<button class="anch-rescout" type="button">not us? re-scout</button>' +
         '<button class="fb-x" type="button" aria-label="Dismiss">✕</button>' +
       "</div>");
     line.querySelector(".fb-x").addEventListener("click", () => { line.remove(); });
+    line.querySelector(".anch-rescout").addEventListener("click", () => {
+      line.remove();
+      appendFeed("console", "wrong business requested — back to the launcher", "fl-warn");
+      backToLauncher();
+    });
     const host = document.getElementById("chat-banners");
     if (host) host.prepend(line);
   }
 
-  /* the one-time "is that us?" ask, with the real Google listing */
-  function resolveAsk(en) {
-    if (confirmedOnce) { anchoredLine(en); return; }
-    document.querySelectorAll(".cs-resolve").forEach((el) => el.remove());
-    const mapsUrl = en.maps_url || en.anchor_url || en.url || "";
-    const site = en.website || en.site || "";
-    const openUrl = mapsUrl || site;
-    const card = CS.el(
-      '<div class="cs-found resolve-banner cs-resolve" role="dialog" aria-label="Is this your business?">' +
-        '<div class="fb-copy">The swarm resolved your business as <b>' + CS.esc(en.display_name || "") + "</b>" +
-          (en.location ? " · " + CS.esc(en.location) : "") + "." +
-          (openUrl ? ' <a class="fb-link" href="' + CS.esc(openUrl) + '" target="_blank" rel="noopener">Open listing ↗</a>' : "") +
-        "</div>" +
-        '<div class="fb-actions">' +
-          '<button class="fb-yes" type="button">Yes — that&rsquo;s us</button>' +
-          '<button class="fb-no" type="button">Not us — re-scout</button>' +
-        "</div>" +
-        '<button class="fb-x" type="button" aria-label="Dismiss">✕</button>' +
-      "</div>"
-    );
-    card.querySelector(".fb-x").addEventListener("click", () => { card.remove(); });
-    card.querySelector(".fb-yes").addEventListener("click", () => {
-      confirmedOnce = true;
-      card.remove();
-      anchoredLine(en);
-    });
-    card.querySelector(".fb-no").addEventListener("click", () => {
-      card.remove();
-      backToLauncher();
-    });
-    const host = document.getElementById("chat-banners");
-    if (host) host.prepend(card);
-  }
-
-  /* after the scouts classify: one-tap "right business / re-scout" —
-     slim line at the top of the chat pane (typed-values fallback
-     when entity resolution produced no listing) */
-  function foundBanner(headNode, cls) {
-    document.querySelectorAll(".cs-found").forEach((el) => el.remove());
-    const s = CS.session;
-    if (!s) return;
-    const card = CS.el(
-      '<div class="cs-found found-banner" role="status" aria-label="Business identified">' +
-        '<div class="fb-copy">' + headNode +
-          (cls ? " — classified as <b>" + CS.esc(familyOf(cls)) + "</b> (" + CS.esc(cls || "unknown") + ")." : ".") +
-        "</div>" +
-        '<div class="fb-actions">' +
-          '<button class="fb-yes" type="button">Right — keep scouting</button>' +
-          '<button class="fb-no" type="button">Wrong business — re-scout</button>' +
-        "</div>" +
-        '<button class="fb-x" type="button" aria-label="Dismiss">✕</button>' +
-      "</div>"
-    );
-    card.querySelector(".fb-x").addEventListener("click", () => { card.remove(); });
-    card.querySelector(".fb-yes").addEventListener("click", () => { card.remove(); });
-    card.querySelector(".fb-no").addEventListener("click", () => {
-      card.remove(); backToLauncher();
-    });
-    const host = document.getElementById("chat-banners");
-    if (host) host.prepend(card);
-  }
+  /* after the scouts classify, when entity resolution produced no listing
+     (typed-value fallback): quiet chip in the same style — no ask, just the
+     classification + the re-scout escape */
   function showFoundBanner(cls) {
     const s = CS.session;
     if (!s) return;
-    foundBanner(
-      "The swarm identified your business as <b>" + CS.esc(s.business.name) + "</b>" +
-      (s.business.town ? " · " + CS.esc(s.business.town) : ""), cls);
+    document.querySelectorAll(".cs-found").forEach((el) => el.remove());
+    const line = CS.el(
+      '<div class="cs-anchored cs-found found-banner" role="status" aria-label="Business identified">' +
+        '<span>scouting on: <b>' + CS.esc(s.business.name) + "</b>" +
+          (s.business.town ? " · " + CS.esc(s.business.town) : "") +
+          (cls ? " · classified as <b>" + CS.esc(familyOf(cls)) + "</b> (" + CS.esc(cls || "unknown") + ")" : "") + "</span>" +
+        '<button class="anch-rescout" type="button">wrong business? re-scout</button>' +
+        '<button class="fb-x" type="button" aria-label="Dismiss">✕</button>' +
+      "</div>"
+    );
+    line.querySelector(".fb-x").addEventListener("click", () => { line.remove(); });
+    line.querySelector(".anch-rescout").addEventListener("click", () => {
+      line.remove();
+      backToLauncher();
+    });
+    const host = document.getElementById("chat-banners");
+    if (host) host.prepend(line);
   }
   /* runview is an app shell — lock the page scroll while it's live */
   function setRunActive(on) {
@@ -263,6 +221,7 @@
     CS.state = "idle";
     CS.session = null;
     document.querySelectorAll(".cs-found").forEach((el) => el.remove());
+    document.querySelectorAll(".cs-anchored").forEach((el) => el.remove());
     const name = $("#biz-name"); if (name) name.focus();
   }
 
@@ -342,6 +301,7 @@
     if (n) n.textContent = "0";
     if (runlogOpen) toggleRunlog(false);
     document.querySelectorAll(".cs-found").forEach((el) => el.remove());
+    document.querySelectorAll(".cs-anchored").forEach((el) => el.remove());
     const card = $("#verdict-card"), vcBody = $("#vc-body");
     if (card) { card.hidden = true; card.classList.remove("is-closed"); }
     if (vcBody) vcBody.hidden = true;
@@ -1074,10 +1034,9 @@
       const en = (d.entity || {});
       const listing = !!(en.display_name && !(en.candidates || []).length);
       if (listing) {
-        /* link intake = authoritative (no ask); name+town asks once,
-           then every later session this page-load just anchors */
-        if (intakeViaLink || confirmedOnce) anchoredLine(en);
-        else resolveAsk(en);
+        /* intake (launcher /api/resolve) already confirmed the business —
+           downgrade to the quiet "verified at intake" chip, never an ask */
+        anchoredLine(en);
       }
       if (en.display_name) {
         const tag = $("#biz-tag");
@@ -1107,9 +1066,25 @@
   }
 
   /* ============================================================
-     Launcher — link OR name+town; the listing ask happens after
-     the scouts resolve (chat pane), never pre-session.
+     Launcher — link OR name+town. The "is that you?" confirm now
+     happens HERE, at intake: name-only resolves via POST /api/resolve
+     before any session is created; the confirm card (when the name is
+     ambiguous) surfaces under these fields, never mid-run.
      ============================================================ */
+  function candidateLabel(c) {
+    return String(c.label || c.title || c.name || "").trim();
+  }
+
+  function resolveHintEl() {
+    let h = $("#resolve-hint");
+    if (!h) {
+      h = CS.el('<div id="resolve-hint" class="hint-row resolve-hint" hidden></div>');
+      const btn = $("#start-btn");
+      if (btn && btn.parentNode) btn.parentNode.insertBefore(h, btn);
+      else document.querySelector(".launcher-right").appendChild(h);
+    }
+    return h;
+  }
 
   function planFromInputs() {
     const link = ($("#biz-link") && $("#biz-link").value.trim()) || "";
@@ -1136,10 +1111,12 @@
         if (err) err.textContent = "Paste your business link, or give the business name and town — that's what the scouts search for.";
         return;
       }
-      if (!plan.town && !plan.link) {
+      if (!plan.town && !plan.link && liveOpts().mock) {
         if (err) err.textContent = "Add the town (or \"Online\" for an online-only business).";
         return;
       }
+      /* live name-only intake without a town is allowed now: the pre-resolve
+         (POST /api/resolve) places it, or the scouts' own resolver does */
       if (!question) {
         if (err) err.textContent = "Add the real decision you'd like your customers to weigh in on.";
         return;
@@ -1151,19 +1128,128 @@
         return;
       }
       if (err) err.textContent = "";
-      if (!plan.town) plan.town = "Online";   /* link-only, no slug hint */
+      /* link-only with no slug hint: mark Online; name-only keeps the empty
+         town — the resolve (or the scouts' own resolver) places it */
+      if (!plan.town && plan.link) plan.town = "Online";
 
-      /* straight through for both intake paths (addendum #5): a pasted
-         link is authoritative; name+town is asked once POST-resolution
-         (the "is that us?" ask lands in the chat pane when the
-         scouts produce the listing) */
-      intakeViaLink = !!plan.link;
       /* login-lite: remember the owner email for re-finding sessions */
       const emailEl = $("#biz-email");
       const email = (emailEl && emailEl.value.trim()) || "";
       if (email) { try { localStorage.setItem("cc.email", email); } catch (e) {} }
+
+      /* intake confirm happens HERE on the launcher (addendum: intake-time
+         resolve): a pasted link is authoritative → straight through; a
+         name-only intake pre-resolves via POST /api/resolve so the confirm
+         card, when the name is ambiguous, lands in THIS pane — mid-run the
+         resolved business only shows as a quiet chip. Recorded replay skips
+         the resolve (the fixture has no intake stage). */
+      if (!plan.link && !liveOpts().mock) {
+        preResolve(plan, question, email);
+        return;
+      }
       launch(plan, question, email);
     };
+
+    /* ---------- intake pre-resolve + confirm card (launcher-side) ---------- */
+
+    function preResolve(plan, question, email) {
+      if (CS._resolving) return;
+      CS._resolving = true;
+      if (btn) btn.disabled = true;
+      const hint = resolveHintEl();
+      hint.textContent = "checking “" + plan.name + "…”";
+      hint.hidden = false;
+      const finish = () => {
+        CS._resolving = false;
+        if (btn) btn.disabled = false;
+        hint.hidden = true;
+      };
+      CS.resolve(plan.name, plan.town).then((res) => {
+        finish();
+        decideAfterResolve(plan, question, email, res || {});
+      }).catch(() => {
+        /* resolver unreachable (old backend / offline) → walk-in convene,
+           unchanged legacy speed */
+        finish();
+        launch(plan, question, email);
+      });
+    }
+
+    function decideAfterResolve(plan, question, email, res) {
+      const cands = Array.isArray(res.candidates) ? res.candidates : [];
+      if (!plan.town && res.location) plan.town = res.location;
+      if (cands.length) {                     /* ambiguous name-only → card */
+        showIntakeConfirm(plan, res, question, email, cands);
+        return;
+      }
+      /* anchored or clean high-confidence resolve → convene, no confirm */
+      launch(plan, question, email);
+    }
+
+    function showIntakeConfirm(plan, res, question, email, cands) {
+      const host = $("#biz-confirm");
+      if (!host) {
+        launch(plan, question, email);        /* no mount point — degraded */
+        return;
+      }
+      host.innerHTML = "";
+      const card = CS.el(
+        '<div class="bc-inner" role="dialog" aria-label="Confirm your business">' +
+          '<div class="bc-title">A few businesses fit &ldquo;' + CS.esc(plan.name) +
+            '&rdquo; — is one of these yours?</div>' +
+          '<div class="bc-list"></div>' +
+          '<div class="bc-actions">' +
+            '<button class="bc-go" type="button">Yes — that&rsquo;s my business</button>' +
+            '<button class="bc-fix" type="button">Not mine — fix it</button>' +
+            '<button class="bc-anyway" type="button">Continue with &ldquo;' +
+              CS.esc(plan.name) + '&rdquo; anyway</button>' +
+          "</div>" +
+        "</div>"
+      );
+      const list = card.querySelector(".bc-list");
+      let picked = 0;
+      const tiles = cands.map((c, i) => {
+        const b = CS.el(
+          '<button class="bc-opt' + (i === 0 ? " is-on" : "") + '" type="button">' +
+            "<b>" + CS.esc(candidateLabel(c)) + "</b>" +
+            (c.why ? "<span>" + CS.esc(c.why) + "</span>" : "") +
+          "</button>");
+        b.addEventListener("click", () => {
+          picked = i;
+          tiles.forEach((t) => t.classList.toggle("is-on", t === b));
+        });
+        list.appendChild(b);
+        return b;
+      });
+      card.querySelector(".bc-go").addEventListener("click", () => {
+        host.hidden = true;
+        const chosen = cands[picked] || {};
+        const label = candidateLabel(chosen) || plan.name;
+        /* anchor the scouts on the chosen listing when its Maps URL is known:
+           a candidate-carried one wins; the primary's resolved URL only
+           belongs to the conversation when the primary label is the pick */
+        const choiceLabel = candidateLabel(chosen);
+        const maps = (chosen.maps_url || chosen.anchor_url || "")
+          || ((choiceLabel && choiceLabel === (res.display_name || "")
+               && res.maps_url) ? res.maps_url : "");
+        const nextPlan = { link: maps, name: label,
+          town: plan.town || res.location || "",
+          host: maps ? "google.com/maps" : "" };
+        appendFeed("console", "confirmed \"" + CS.esc(label) + "\" at intake", "fl-hi");
+        launch(nextPlan, question, email);
+      });
+      card.querySelector(".bc-fix").addEventListener("click", () => {
+        host.hidden = true;
+        const name = $("#biz-name");
+        if (name) name.focus();               /* fields kept for edits */
+      });
+      card.querySelector(".bc-anyway").addEventListener("click", () => {
+        host.hidden = true;
+        launch(plan, question, email);
+      });
+      host.appendChild(card);
+      host.hidden = false;
+    }
 
     function launch(plan, question, email) {
       const launcher = $("#launcher"), run = $("#runview");

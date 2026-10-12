@@ -1601,3 +1601,112 @@ body.run-active { overflow: hidden; height: 100dvh; }
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* ============================================================
+   ADDENDUM (intake-time resolve) — launcher confirm card + the
+   resolving hint + the quiet "verified at intake" chip escape
+   ============================================================ */
+#resolve-hint.resolve-hint {
+  min-height: 0;
+  margin-bottom: 10px;
+  color: var(--c-sec);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+#resolve-hint[hidden] { display: none !important; }
+
+.biz-confirm { margin-top: 14px; }
+.biz-confirm[hidden] { display: none !important; }
+.biz-confirm .bc-inner {
+  border: 1px solid var(--line-08);
+  background: var(--glass-06);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  backdrop-filter: blur(16px) saturate(1.2);
+  border-radius: 15px;
+  padding: 14px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 14px 40px -14px rgba(0, 0, 0, 0.65);
+  animation: cs-fl-in 0.3s var(--ease-out) both;
+}
+.biz-confirm .bc-title {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--c-ink);
+  line-height: 1.45;
+  margin-bottom: 11px;
+}
+.biz-confirm .bc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.biz-confirm .bc-opt {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-radius: 11px;
+  padding: 9px 12px;
+  cursor: pointer;
+  color: var(--c-sec);
+}
+.biz-confirm .bc-opt b { display: block; color: var(--c-ink); font-size: 0.82rem; }
+.biz-confirm .bc-opt span {
+  display: block;
+  margin-top: 2px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--c-faint);
+}
+.biz-confirm .bc-opt.is-on { border-color: var(--accent-deep); background: var(--accent-tint); }
+.biz-confirm .bc-opt:hover { border-color: var(--accent-deep); }
+.biz-confirm .bc-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.biz-confirm .bc-go {
+  border: 0;
+  border-radius: 10px;
+  background: var(--accent-deep);
+  color: #1a130a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 9px 14px;
+  cursor: pointer;
+}
+.biz-confirm .bc-go:hover { transform: translateY(-1px); }
+.biz-confirm .bc-fix {
+  border: 1px solid var(--c-line-2);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--c-sec);
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 9px 14px;
+  cursor: pointer;
+}
+.biz-confirm .bc-fix:hover { color: var(--c-ink); border-color: var(--c-ter); }
+.biz-confirm .bc-anyway {
+  border: 0;
+  background: none;
+  color: var(--c-faint);
+  font-size: 0.72rem;
+  padding: 4px 2px;
+  cursor: pointer;
+  text-decoration: underline dotted;
+}
+.biz-confirm .bc-anyway:hover { color: var(--c-ink); }
+
+/* quiet chip escape link (the mid-run ask is gone; this stays) */
+.cs-anchored .anch-rescout {
+  border: 0;
+  background: none;
+  color: var(--c-faint);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 2px 4px;
+  cursor: pointer;
+  text-decoration: underline dotted;
+}
+.cs-anchored .anch-rescout:hover { color: var(--warn); background: none; transform: none; }

@@ -1,0 +1,80 @@
+- generic [ref=f23e67]:
+  - generic [ref=f23e68]:
+    - generic [ref=f23e69]:
+      - button "Back" [ref=f23e70] [cursor=pointer]: ←
+      - link [ref=f23e71] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f23e72]
+    - generic [ref=f23e73]: Step 2/5 · Swarm
+    - generic [ref=f23e74]:
+      - generic [ref=f23e75]: running
+      - generic [ref=f23e78]: Cafe 210 West
+  - generic [ref=f23e79]:
+    - main [ref=f23e80]:
+      - generic [ref=f23e81]:
+        - generic [ref=f23e82]:
+          - button "01 Name-only intake" [ref=f23e83] [cursor=pointer]:
+            - generic [ref=f23e84]: "01"
+            - generic [ref=f23e85]: Name-only intake
+          - button "02 Evidence & personas" [ref=f23e86] [cursor=pointer]:
+            - generic [ref=f23e87]: "02"
+            - generic [ref=f23e88]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f23e89] [cursor=pointer]:
+            - generic [ref=f23e90]: "03"
+            - generic [ref=f23e91]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f23e92] [cursor=pointer]:
+            - generic [ref=f23e93]: "04"
+            - generic [ref=f23e94]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f23e95] [cursor=pointer]:
+            - generic [ref=f23e96]: "05"
+            - generic [ref=f23e97]: Loop · agents · drafts
+        - generic "Canvas view" [ref=f23e98]:
+          - button "Graph" [ref=f23e99] [cursor=pointer]
+          - button "Split" [pressed] [ref=f23e100] [cursor=pointer]
+          - button "Workbench" [ref=f23e101] [cursor=pointer]
+      - generic [ref=f23e104]:
+        - generic [ref=f23e106]: real-time updating
+        - generic [ref=f23e114]:
+          - generic [ref=f23e115]: ENTITY TYPES
+          - generic [ref=f23e116]:
+            - generic [ref=f23e117]:
+              - generic [ref=f23e119]: price
+              - generic [ref=f23e120]: "3"
+            - generic [ref=f23e121]:
+              - generic [ref=f23e123]: entity
+              - generic [ref=f23e124]: "48"
+            - generic [ref=f23e125]:
+              - generic [ref=f23e127]: public_info
+              - generic [ref=f23e128]: "2"
+            - generic [ref=f23e129]:
+              - generic [ref=f23e131]: competitor
+              - generic [ref=f23e132]: "3"
+            - generic [ref=f23e133]:
+              - generic [ref=f23e135]: review
+              - generic [ref=f23e136]: "19"
+        - button "Toggle legend" [ref=f23e137] [cursor=pointer]: legend
+    - complementary [ref=f23e138]:
+      - generic [ref=f23e139]:
+        - generic [ref=f23e140]: chat
+        - generic "Canvas view" [ref=f23e141]:
+          - button "Graph" [ref=f23e142] [cursor=pointer]
+          - button "Split" [pressed] [ref=f23e143] [cursor=pointer]
+          - button "Workbench" [ref=f23e144] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f23e145] [cursor=pointer]: ›
+      - status "Business identified" [ref=f23e147]:
+        - generic [ref=f23e148]: "scouting on: Cafe 210 West · State College · classified as consumers (local_consumer)"
+        - button "wrong business? re-scout" [ref=f23e149] [cursor=pointer]
+        - button "Dismiss" [ref=f23e150] [cursor=pointer]: ✕
+      - generic [ref=f23e151]:
+        - button "run log 216" [ref=f23e153] [cursor=pointer]:
+          - generic [ref=f23e154]: run log
+          - generic [ref=f23e155]: "216"
+          - generic [aria-hidden] [ref=f23e156]: ▾
+        - generic [ref=f23e157]:
+          - generic [ref=f23e159]:
+            - generic [ref=f23e160]: Pick an agent
+            - generic [ref=f23e161]: click a node in the graph
+          - generic [ref=f23e163]:
+            - textbox "Message" [ref=f23e164]:
+              - /placeholder: pick an agent…
+            - button "Send →" [ref=f23e165] [cursor=pointer]

@@ -105,6 +105,21 @@
   const apiPost = (path, body) =>
     apiFetch(path, { method: "POST", body: JSON.stringify(body || {}) });
 
+  /* ============================================================
+     Intake resolve — pre-launch, on the LAUNCHER (no session made):
+     POST /api/resolve → { display_name, business_kind, confidence,
+     location, candidates, maps_url, website, used_anchor }.
+     Any failure (old backend 404, network down, resolver error)
+     throws → the caller convenes straight away (degraded walk-in).
+     ============================================================ */
+  CS.resolve = async function (businessName, town, anchorUrl) {
+    return apiPost("/api/resolve", {
+      business_name: businessName,
+      town: town || null,
+      anchor_url: anchorUrl || null,
+    });
+  };
+
   const SOURCE_LABEL = {
     classify: "Business classifier", tavily_web: "Tavily web (menu · news)",
     google_reviews: "Google reviews", manual_paste: "Owner-pasted reviews",

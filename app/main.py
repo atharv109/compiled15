@@ -376,6 +376,47 @@ class CreateReq(BaseModel):
     mock: bool = False  # frontend dev mode: replay the recorded fixture
 
 
+class _ResolveReq(BaseModel):
+    business_name: str
+    town: str | None = None
+    anchor_url: str | None = None     # owner pasted a Maps/website link — authoritative
+
+
+# ---------------------------------------------------------------- resolve (intake)
+
+
+@app.post("/api/resolve")
+async def resolve_business(req: _ResolveReq):
+    """Intake-time entity resolution WITHOUT creating a session: the launcher
+    (not the run pane) hosts the 'is that your business?' confirm card, so it
+    calls this before POST /api/sessions. Thin wrapper over
+    app.entity.resolve_entity, guarded end to end — any failure degrades to
+    {business_kind: 'unknown', confidence: 'low'} with 200, never 500."""
+    name = (req.business_name or "").strip()
+    if not name:
+        raise HTTPException(status_code=422, detail="business_name is required")
+    anchor = (req.anchor_url or "").strip() or None
+    town = (req.town or "").strip() or None
+    try:
+        from app.entity import resolve_entity  # optional/degradable by design
+        entity = await resolve_entity(name, anchor, town)
+        if not isinstance(entity, dict):
+            entity = {}
+    except Exception as e:  # noqa: BLE001 — degrade, never 500
+        log.warning("intake resolve failed for %r: %s", name[:60], e)
+        entity = {}
+    return {
+        "display_name": entity.get("display_name") or name,
+        "business_kind": entity.get("business_kind") or "unknown",
+        "confidence": entity.get("confidence") or "low",
+        "location": entity.get("location") or town,
+        "candidates": entity.get("candidates") or [],
+        "maps_url": entity.get("maps_url"),
+        "website": entity.get("website"),
+        "used_anchor": bool(anchor),
+    }
+
+
 class QuestionReq(BaseModel):
     text: str
 

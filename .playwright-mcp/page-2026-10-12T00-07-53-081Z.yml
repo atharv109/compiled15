@@ -1,0 +1,65 @@
+- generic [ref=f24e67]:
+  - generic [ref=f24e68]:
+    - generic [ref=f24e69]:
+      - button "Back" [ref=f24e70] [cursor=pointer]: ←
+      - link [ref=f24e71] [cursor=pointer]:
+        - /url: index.html
+        - img "CallCrowd" [ref=f24e72]
+    - generic [ref=f24e73]: Step 1/5 · Step 1
+    - generic [ref=f24e74]:
+      - generic [ref=f24e75]: running
+      - generic [ref=f24e78]: Cafe 210 West · Online
+  - generic [ref=f24e79]:
+    - main [ref=f24e80]:
+      - generic [ref=f24e81]:
+        - generic [ref=f24e82]:
+          - button "01 Name-only intake" [ref=f24e83] [cursor=pointer]:
+            - generic [ref=f24e84]: "01"
+            - generic [ref=f24e85]: Name-only intake
+          - button "02 Evidence & personas" [ref=f24e86] [cursor=pointer]:
+            - generic [ref=f24e87]: "02"
+            - generic [ref=f24e88]: Evidence & personas
+          - button "03 2 rounds, camps" [ref=f24e89] [cursor=pointer]:
+            - generic [ref=f24e90]: "03"
+            - generic [ref=f24e91]: 2 rounds, camps
+          - button "04 Aggregated judge" [ref=f24e92] [cursor=pointer]:
+            - generic [ref=f24e93]: "04"
+            - generic [ref=f24e94]: Aggregated judge
+          - button "05 Loop · agents · drafts" [ref=f24e95] [cursor=pointer]:
+            - generic [ref=f24e96]: "05"
+            - generic [ref=f24e97]: Loop · agents · drafts
+        - generic "Canvas view" [ref=f24e98]:
+          - button "Graph" [ref=f24e99] [cursor=pointer]
+          - button "Split" [pressed] [ref=f24e100] [cursor=pointer]
+          - button "Workbench" [ref=f24e101] [cursor=pointer]
+      - generic [ref=f24e104]:
+        - generic [aria-hidden]:
+          - generic: ❖
+          - generic: waiting for the swarm to convene
+        - generic [ref=f24e106]: real-time updating
+        - button "Toggle legend" [ref=f24e115] [cursor=pointer]: legend
+    - complementary [ref=f24e116]:
+      - generic [ref=f24e117]:
+        - generic [ref=f24e118]: chat
+        - generic "Canvas view" [ref=f24e119]:
+          - button "Graph" [ref=f24e120] [cursor=pointer]
+          - button "Split" [pressed] [ref=f24e121] [cursor=pointer]
+          - button "Workbench" [ref=f24e122] [cursor=pointer]
+        - button "Collapse chat panel" [ref=f24e123] [cursor=pointer]: ›
+      - status [ref=f24e125]:
+        - generic [ref=f24e127]: "anchored on: Cafe 210 West · Online · verified at intake"
+        - button "not us? re-scout" [ref=f24e128] [cursor=pointer]
+        - button "Dismiss" [ref=f24e129] [cursor=pointer]: ✕
+      - generic [ref=f24e130]:
+        - button "run log 3" [ref=f24e132] [cursor=pointer]:
+          - generic [ref=f24e133]: run log
+          - generic [ref=f24e134]: "3"
+          - generic [aria-hidden] [ref=f24e135]: ▾
+        - generic [ref=f24e136]:
+          - generic [ref=f24e138]:
+            - generic [ref=f24e139]: Pick an agent
+            - generic [ref=f24e140]: click a node in the graph
+          - generic [ref=f24e142]:
+            - textbox "Message" [ref=f24e143]:
+              - /placeholder: pick an agent…
+            - button "Send →" [ref=f24e144] [cursor=pointer]
